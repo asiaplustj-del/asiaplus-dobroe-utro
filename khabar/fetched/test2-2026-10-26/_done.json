@@ -1,0 +1,44 @@
+[
+ {
+  "name": "sputnik-tj-rss",
+  "ok": true,
+  "file": "sputnik-tj-rss.html",
+  "bytes": 120794
+ },
+ {
+  "name": "sputnik-ru-rss",
+  "ok": true,
+  "file": "sputnik-ru-rss.html",
+  "bytes": 121424
+ },
+ {
+  "name": "avesta-rss",
+  "ok": true,
+  "file": "avesta-rss.html",
+  "bytes": 55728
+ },
+ {
+  "name": "migration-rss",
+  "ok": true,
+  "file": "migration-rss.html",
+  "bytes": 48139
+ },
+ {
+  "name": "dushanbe",
+  "ok": true,
+  "file": "dushanbe.html",
+  "bytes": 54180
+ },
+ {
+  "name": "prezident-ru",
+  "ok": true,
+  "file": "prezident-ru.html",
+  "bytes": 1900
+ },
+ {
+  "name": "president-old",
+  "ok": true,
+  "file": "president-old.html",
+  "bytes": 1900
+ }
+]
