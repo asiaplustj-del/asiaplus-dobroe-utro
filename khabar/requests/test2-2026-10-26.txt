@@ -1,0 +1,7 @@
+page sputnik-tj-rss https://sputnik.tj/export/rss2/archive/index.xml
+page sputnik-ru-rss https://tj.sputniknews.ru/export/rss2/archive/index.xml
+page avesta-rss https://avesta.tj/feed/
+page migration-rss https://migration.tj/feed/
+page dushanbe https://dushanbe.tj/
+page prezident-ru https://prezident.tj/ru/
+page president-old http://www.president.tj/
