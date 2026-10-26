@@ -68,7 +68,7 @@ with wave.open(str(sfx), "wb") as w:
 
 if music:
     inputs = ["-i", str(video), "-stream_loop", "-1", "-i", str(music), "-i", str(sfx)]
-    fc = (f"[1:a]atrim=0:{DUR},afade=t=in:d=0.6,afade=t=out:st={DUR - 1.5}:d=1.5,volume=0.85[m];"
+    fc = (f"[1:a]silenceremove=start_periods=1:start_threshold=-50dB:start_silence=0.02,atrim=0:{DUR},afade=t=in:d=0.15,afade=t=out:st={DUR - 1.5}:d=1.5,volume=0.85[m];"
           f"[2:a]aformat=channel_layouts=stereo[s];[m][s]amix=inputs=2:normalize=0,loudnorm=I=-14:TP=-1.5:LRA=11[a]")
 else:
     inputs = ["-i", str(video), "-i", str(sfx)]
