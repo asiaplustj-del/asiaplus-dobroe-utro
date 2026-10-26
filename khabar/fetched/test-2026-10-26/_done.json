@@ -1,0 +1,92 @@
+[
+ {
+  "name": "n1",
+  "ok": true,
+  "file": "n1.jpg",
+  "src": "https://asiaplus.news/wp-content/uploads/2026/10/belarus-glav.jpg",
+  "bytes": 191513
+ },
+ {
+  "name": "n2",
+  "ok": true,
+  "file": "n2.jpg",
+  "src": "https://asiaplus.news/wp-content/uploads/2026/10/photo_2026-10-26_10-14-56.jpg",
+  "bytes": 67849
+ },
+ {
+  "name": "n3",
+  "ok": true,
+  "file": "n3.jpg",
+  "src": "https://asiaplus.news/wp-content/uploads/2026/10/mycollages-2026-10-26_15-57-04.jpg",
+  "bytes": 175855
+ },
+ {
+  "name": "n4",
+  "ok": true,
+  "file": "n4.jpg",
+  "src": "https://asiaplus.news/wp-content/uploads/2026/10/rogunges.jpg",
+  "bytes": 342706
+ },
+ {
+  "name": "n5",
+  "ok": true,
+  "file": "n5.jpg",
+  "src": "https://khovar.tj/wp-content/uploads/2026/10/images-5.jpg",
+  "bytes": 12047
+ },
+ {
+  "name": "n6",
+  "ok": true,
+  "file": "n6.jpg",
+  "src": "https://asiaplus.news/wp-content/uploads/2026/10/img_20261024_220445_692.jpg",
+  "bytes": 175873
+ },
+ {
+  "name": "tg-asiaplus",
+  "ok": true,
+  "file": "tg-asiaplus.html",
+  "bytes": 121156
+ },
+ {
+  "name": "tg-asiaplustj",
+  "ok": true,
+  "file": "tg-asiaplustj.html",
+  "bytes": 113874
+ },
+ {
+  "name": "tg-sputniktj",
+  "ok": true,
+  "file": "tg-sputniktj.html",
+  "bytes": 9729
+ },
+ {
+  "name": "tg-radioozodi",
+  "ok": true,
+  "file": "tg-radioozodi.html",
+  "bytes": 104131
+ },
+ {
+  "name": "prezident",
+  "ok": true,
+  "file": "prezident.html",
+  "bytes": 1900
+ },
+ {
+  "name": "migration",
+  "ok": true,
+  "file": "migration.html",
+  "bytes": 488403
+ },
+ {
+  "name": "khovar-feed",
+  "ok": true,
+  "file": "khovar-feed.html",
+  "bytes": 74598
+ },
+ {
+  "name": "ozodi-rss",
+  "ok": true,
+  "file": "ozodi-rss.html",
+  "bytes": 29352
+ }
+]
