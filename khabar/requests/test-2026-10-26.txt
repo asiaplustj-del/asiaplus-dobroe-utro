@@ -1,0 +1,15 @@
+# пробный запрос: фото к пилоту + ленты, которые не читаются напрямую
+og n1 https://asiaplus.news/2026/10/26/v-belarusi-tadzhikskim-migrantam-predlozhili-zarplatu-do-1200-i-zhile/
+og n2 https://asiaplus.news/2026/10/26/v-afganistane-proizoshlo-zemletryasenie-magnitudoj-52-tolchki-oshhutili-v-tadzhikistane/
+og n3 https://asiaplus.news/tg/2026/10/26/anvar-safarzoda-ba-joi-zarif-alizoda-nomzadii-alizoda-ba-joi-hudoyorzoda-ba-maqomi-raisi-kmirt-peshnihod-shudaast/
+og n4 https://asiaplus.news/tg/2026/10/26/az-manzil-to-jubronpuly-dar-qoidaho-baroi-kormandoni-nbo-roghun-chy-taghjir-yoft/
+og n5 https://khovar.tj/2026/10/dar-to-ikiston-r-z-oi-immunizatsiyai-ilovag-bar-ziddi-bemori-oi-surhcha-va-gulafshon-o-oz-gardid-2/
+og n6 https://asiaplus.news/2026/10/26/pervoe-porazhenie-tadzhikskogo-orla-chto-sluchilos-s-nurullo-alievym-na-ufc-333/
+page tg-asiaplus https://t.me/s/asiaplus
+page tg-asiaplustj https://t.me/s/asiaplustj
+page tg-sputniktj https://t.me/s/SputnikTj
+page tg-radioozodi https://t.me/s/radioozodi
+page prezident https://prezident.tj/
+page migration https://migration.tj/category/habar%d2%b3o/
+page khovar-feed https://khovar.tj/feed/
+page ozodi-rss https://www.ozodi.org/api/
