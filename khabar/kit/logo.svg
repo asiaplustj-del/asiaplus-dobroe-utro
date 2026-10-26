@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" fill="none">
+  <!-- «Хабарҳои шаб»: 24-часовой циферблат. Ночная половина (18:00 → 06:00) — красная,
+       в ней полумесяц; стрелка смотрит на 06:00 — утро, время выпуска -->
+  <defs><mask id="hs-moon"><rect width="120" height="120" fill="#fff"/><circle cx="50" cy="35" r="12" fill="#000"/></mask></defs>
+  <path d="M10 60a50 50 0 0 0 100 0" stroke="#FFFFFF" stroke-opacity=".35" stroke-width="8" stroke-linecap="round"/>
+  <path d="M10 60a50 50 0 0 1 100 0" stroke="#E3232C" stroke-width="8" stroke-linecap="round"/>
+  <path d="M60 94v7" stroke="#FFFFFF" stroke-opacity=".6" stroke-width="5" stroke-linecap="round"/>
+  <circle cx="42" cy="42" r="14" fill="#FFFFFF" mask="url(#hs-moon)"/>
+  <g class="hand"><path d="M60 60h30" stroke="#FFFFFF" stroke-width="6" stroke-linecap="round"/></g>
+  <circle cx="60" cy="60" r="7" fill="#E3232C" stroke="#FFFFFF" stroke-width="3"/>
+</svg>

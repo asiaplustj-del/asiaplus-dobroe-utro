@@ -69,10 +69,10 @@ with wave.open(str(sfx), "wb") as w:
 if music:
     inputs = ["-i", str(video), "-stream_loop", "-1", "-i", str(music), "-i", str(sfx)]
     fc = (f"[1:a]atrim=0:{DUR},afade=t=in:d=0.6,afade=t=out:st={DUR - 1.5}:d=1.5,volume=0.85[m];"
-          f"[2:a]aformat=channel_layouts=stereo[s];[m][s]amix=inputs=2:normalize=0[a]")
+          f"[2:a]aformat=channel_layouts=stereo[s];[m][s]amix=inputs=2:normalize=0,loudnorm=I=-14:TP=-1.5:LRA=11[a]")
 else:
     inputs = ["-i", str(video), "-i", str(sfx)]
-    fc = "[1:a]aformat=channel_layouts=stereo[a]"
+    fc = "[1:a]aformat=channel_layouts=stereo,volume=2.5[a]"
 subprocess.run(["ffmpeg", "-y", "-loglevel", "error", *inputs, "-filter_complex", fc, "-map", "0:v", "-map", "[a]",
                 "-c:v", "copy", "-c:a", "aac", "-b:a", "192k", "-t", str(DUR), "-movflags", "+faststart", str(out)], check=True)
 video.unlink(); sfx.unlink()
