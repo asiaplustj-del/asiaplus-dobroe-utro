@@ -1,0 +1,61 @@
+[
+ {
+  "name": "rogun",
+  "ok": true,
+  "file": "rogun.html",
+  "bytes": 191117
+ },
+ {
+  "name": "vkd",
+  "ok": true,
+  "file": "vkd.html",
+  "bytes": 120945
+ },
+ {
+  "name": "meat",
+  "ok": true,
+  "file": "meat.html",
+  "bytes": 97539
+ },
+ {
+  "name": "tgpost",
+  "ok": true,
+  "file": "tgpost.html",
+  "bytes": 18367
+ },
+ {
+  "name": "n1",
+  "ok": true,
+  "file": "n1.jpg",
+  "src": "https://gdb.rferl.org/da8559a3-2e6f-49a8-482b-08df13a884cb_tv_w1200_h630.jpg",
+  "bytes": 115235
+ },
+ {
+  "name": "n2",
+  "ok": true,
+  "file": "n2.jpg",
+  "src": "https://gdb.rferl.org/EDC70B5E-6A72-4D04-B6A0-3112ACB5EEEA.jpg",
+  "bytes": 136247
+ },
+ {
+  "name": "n4",
+  "ok": true,
+  "file": "n4.jpg",
+  "src": "https://asiaplus.news/wp-content/uploads/2026/10/ekologicheskij-kodeks-glav.jpg",
+  "bytes": 220484
+ },
+ {
+  "name": "n5",
+  "ok": true,
+  "file": "n5.jpg",
+  "src": "https://cdnn1.img.sputnik.tj/img/07ea/05/02/1077234106_0:0:3052:1717_2072x0_60_0_0_37c5023a9b4804bbfd6e7366e9b0b21d.jpg",
+  "bytes": 168346
+ },
+ {
+  "name": "n6",
+  "ok": true,
+  "file": "n6.jpg",
+  "src": "https://cdnn1.img.sputnik.tj/img/07e9/01/09/1065803061_0:79:3072:1807_2072x0_60_0_0_f5306ecf14b17b44f4980ab5cabc331f.jpg",
+  "bytes": 127972
+ }
+]
