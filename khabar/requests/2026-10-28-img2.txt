@@ -1,0 +1,10 @@
+og r1 https://www1.ru/news/2026/10/06/440491-v-tadzikistane-stroiat-samuiu-vysokuiu-v-mire-335-metrovuiu-plotinu-s-ucastiem-rusgidro-rogunskaia-ges-dostigla-190-metrov.amp.html
+og r2 https://eurasianet.org/after-financing-doubts-last-year-rogun-is-on-rise-again
+og r3 https://www.gem.wiki/Rogun_hydroelectric_plant
+og v1 https://expert.ru/news/mvd-tadzhikistana-sozdalo-bazu-gadalok-koldunov-i-prostitutok
+og v2 https://rtvi.com/news/vse-zlo-sobrali-milonov-pohvalil-tadzhikistan-za-bazu-gadalok-koldunov-i-narkozavisimyh/
+og v3 https://bes.media/amp/reestr-koldunov-gadalok-i-ih-klientov-vedut-v-tadzhikistane/
+og g1 https://24.kg/obschestvo/350824_lotereya_Green_Card_2027_gosdep_ssha_predupredil_olojnyih_obyyavleniyah/
+og g2 https://bes.media/news/gosdep-ssha-obyavil-ob-izmeneniyah-v-srokah-podachi-zayavok-na-lotereyu-grin-kart-2027-6ee5b0/
+og g3 https://kun.uz/en/news/2025/12/04/us-embassy-warns-against-false-services-claiming-early-green-card-registration/
+og g4 https://myfin.by/article/zhizn/sud-obazal-ssa-provesti-lotereu-green-card-smogut-li-ucastvovat-belorusy-49192
