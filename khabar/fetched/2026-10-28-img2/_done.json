@@ -1,0 +1,70 @@
+[
+ {
+  "name": "r1",
+  "ok": true,
+  "file": "r1.jpg",
+  "src": "https://media.ixbt.site/1600x900/smart/jpeg/ixbt-data/1381011/media-eda8ff1ae3f198b0e915c1c8d4d662504cdb71d260de9388b7587f4a48fcaefd.png",
+  "bytes": 128482
+ },
+ {
+  "name": "r2",
+  "ok": false,
+  "url": "https://eurasianet.org/after-financing-doubts-last-year-rogun-is-on-rise-again",
+  "error": "og:image not found"
+ },
+ {
+  "name": "r3",
+  "ok": true,
+  "file": "r3.png",
+  "src": "https://www.gem.wiki/w/public_assets/main/GEMWIKIlogo_V2.png",
+  "bytes": 7038
+ },
+ {
+  "name": "v1",
+  "ok": true,
+  "file": "v1.jpg",
+  "src": "https://expert.ru/storage/2026/10/21/dca17f3d6d719d7803bffd0192fbc05d176490b2.jpeg",
+  "bytes": 638104
+ },
+ {
+  "name": "v2",
+  "ok": false,
+  "url": "https://rtvi.com/news/vse-zlo-sobrali-milonov-pohvalil-tadzhikistan-za-bazu-gadalok-koldunov-i-narkozavisimyh/",
+  "error": "og:image not found"
+ },
+ {
+  "name": "v3",
+  "ok": true,
+  "file": "v3.webp",
+  "src": "https://img.bes.media/besmedia-photobank/media/2026-10-21/1bf5d729-643d-4ff6-ac30-6b6695c6b8a9.webp",
+  "bytes": 75404
+ },
+ {
+  "name": "g1",
+  "ok": true,
+  "file": "g1.jpg",
+  "src": "https://24kgr2.bemint.pro/files/media/408/408852.jpg",
+  "bytes": 161255
+ },
+ {
+  "name": "g2",
+  "ok": true,
+  "file": "g2.webp",
+  "src": "https://img.bes.media/besmedia-photobank/media/2025-11-07/755a5382-1759-40d6-86e9-85251acc497e.webp",
+  "bytes": 29348
+ },
+ {
+  "name": "g3",
+  "ok": true,
+  "file": "g3.jpg",
+  "src": "https://storage.kun.uz/source/11/z2KgGyCXBW1GKAMI_v06McuE8DUtVsYW.jpg",
+  "bytes": 43890
+ },
+ {
+  "name": "g4",
+  "ok": true,
+  "file": "g4.png",
+  "src": "https://myfin.by/source/2/R-YnCfmuJzPNu2VSlOqUPWsHDWvUHkEp.png",
+  "bytes": 390986
+ }
+]
