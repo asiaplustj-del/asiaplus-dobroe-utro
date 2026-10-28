@@ -1,0 +1,9 @@
+page rogun https://www.ozodi.org/a/jarohati-korgaron-dar-roghun-akhbori-ozodi-27-10-2026-%d8%a7%d8%ae%d8%a8%d8%a7%d8%b1-%d8%aa%d8%a7%d8%ac%db%8c%da%a9%d8%b3%d8%aa%d8%a7%d9%86/33885236.html
+page vkd https://www.ozodi.org/a/ruykhati-makhsus-dar-tojikiston/33885382.html
+page meat https://tj.sputniknews.ru/20261027/tajikistan-proizvodstvo-myasa-moloko-yaitsa-1081570838.html
+page tgpost https://t.me/asiaplustj/55047?embed=1
+og n1 https://www.ozodi.org/a/jarohati-korgaron-dar-roghun-akhbori-ozodi-27-10-2026-%d8%a7%d8%ae%d8%a8%d8%a7%d8%b1-%d8%aa%d8%a7%d8%ac%db%8c%da%a9%d8%b3%d8%aa%d8%a7%d9%86/33885236.html
+og n2 https://www.ozodi.org/a/ruykhati-makhsus-dar-tojikiston/33885382.html
+og n4 https://asiaplus.news/2026/10/27/tadzhikistan-prinyal-novyj-ekologicheskij-kodeks-chto-izmenitsya-dlya-predpriyatij-i-grazhdan/
+og n5 https://tj.sputniknews.ru/20261027/tajikistan-proizvodstvo-myasa-moloko-yaitsa-1081570838.html
+og n6 https://sputnik.tj/20261027/putin-vaz-ukraina-arzyobi-1081573294.html
