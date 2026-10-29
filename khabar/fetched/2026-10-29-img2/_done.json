@@ -1,0 +1,36 @@
+[
+ {
+  "name": "n5a",
+  "ok": true,
+  "file": "n5a.webp",
+  "src": "https://www.zakon.kz/pbi/WEBP/2024-04-11/file-c0badcab-50df-4537-9206-4c2ce231a7e3/800x450.webp",
+  "bytes": 8690
+ },
+ {
+  "name": "n5b",
+  "ok": true,
+  "file": "n5b.webp",
+  "src": "https://www.kupibilet.ru/blog-static/blog/images/1206/cover.webp",
+  "bytes": 33006
+ },
+ {
+  "name": "n5c",
+  "ok": false,
+  "url": "https://www.nur.kz/nurfin/personal/1907399-kakoy-shtraf-grozit-za-nezakonnyy-zapusk-kvadrokopterov-i-drugih-dronov-v-kazahstane/",
+  "error": "og:image not found"
+ },
+ {
+  "name": "n5d",
+  "ok": true,
+  "file": "n5d.jpg",
+  "src": "https://asiaplus.news/wp-content/uploads/2024/07/img_1657.jpg",
+  "bytes": 273223
+ },
+ {
+  "name": "n5e",
+  "ok": true,
+  "file": "n5e.jpg",
+  "src": "https://habrastorage.org/getpro/habr/upload_files/fec/89c/15f/fec89c15f7b9baf4399b11d93d5c270f.jpg",
+  "bytes": 183249
+ }
+]
