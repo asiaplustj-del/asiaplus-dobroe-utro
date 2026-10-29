@@ -1,0 +1,72 @@
+[
+ {
+  "name": "n1a",
+  "ok": true,
+  "file": "n1a.jpg",
+  "src": "https://jamestown.org/wp-content/uploads/goble-1.jpg",
+  "bytes": 265579
+ },
+ {
+  "name": "n1b",
+  "ok": true,
+  "file": "n1b.jpg",
+  "src": "https://ru.themoscowtimes.com/image/og/b1/176743__b139682e774c2ac542a0e08ce5c65bef.jpg",
+  "bytes": 122097
+ },
+ {
+  "name": "n1c",
+  "ok": true,
+  "file": "n1c.png",
+  "src": "https://asiaplus.news/wp-content/uploads/2026/03/logo-ap-1536x531.png",
+  "bytes": 40588
+ },
+ {
+  "name": "n2",
+  "ok": true,
+  "file": "n2.jpg",
+  "src": "https://gdb.rferl.org/863E9055-5B1D-462B-95AD-8F271709A2EB.jpg",
+  "bytes": 167488
+ },
+ {
+  "name": "n2b",
+  "ok": true,
+  "file": "n2b.jpg",
+  "src": "https://gdb.rferl.org/2bab9258-3121-433a-e99a-08df13a87301_cx0_cy6_cw0_w800_h450.jpg",
+  "bytes": 103826
+ },
+ {
+  "name": "n3",
+  "ok": true,
+  "file": "n3.jpg",
+  "src": "https://asiaplus.news/wp-content/uploads/2026/10/muzhchina.jpg",
+  "bytes": 152176
+ },
+ {
+  "name": "n4",
+  "ok": true,
+  "file": "n4.jpg",
+  "src": "https://cdn4.telesco.pe/file/gEVklSoL4rvSimwT237vUK64_yRvPlzRQ8eqSvEzT0V-ERXc5bpwNRTH3171SE8uSETJqoOyspRQ3leU0wyCq8lDLWmiAUBxfzJwiD2akKDFr8bI_lh_wYPcsCKlhkqHWkS-c2WtnkAzsCg8bfvTz-LWb3ZgrX7lw2abcpFVTtZhRBdS9qJituStriFdw9F79zOvDXH-7H-r2roTZNqk2T6hv5bN18vyP6Pd1qjGYskVhxUyb-nwbiSirM9P3txGFKKi9n-ESOb56jcefDWthaNJ0-DMnP-7Y1ibnhLzDYWcslhiAlyXJd4a-x9cNz8h4ybhUWx7nmMPQAc8o1zR2Q.jpg",
+  "bytes": 103825
+ },
+ {
+  "name": "n5",
+  "ok": true,
+  "file": "n5.jpg",
+  "src": "https://cdn4.telesco.pe/file/UZBSJvqAHY1MeiJonofhA45UkqGERFoXzA9gf6ro3_8VCPvQWolYAdcr8yciUsubm8orASGy4ytf0YQ-XZDEntDaWjx6lSAPlGnwsVIeyHD0Kv24bEItLwNZQ8oUjuhgyz3x-hgE7ER7BmeUM5OIBhjtG5aHPMI0IioSPc70LfZXrpvs9t1leqyfo8FiVsR12r4Fq-pSu3V_ItnIa6xJo_xkaTo0_SvDV7OinNZQv-H1duBcaURMjQzEhWz3AoelG4droGGOWdOvQEyGiT-fXeMkQnXmIaBSgL8jqU-5g9gpP80kTccc0VcskmWBtaABztRHKZMaOyV9wbvtb75g2w",
+  "bytes": 12621
+ },
+ {
+  "name": "n5b",
+  "ok": true,
+  "file": "n5b.jpg",
+  "src": "https://cdn4.telesco.pe/file/FmJ_h1QQd6eE761RRolBIiNqsKC3xKzg5aaC65dcC_iiiYHi06yuoEBWK-DB_pN1GCdKq7oG--shZCo1a4dUSGrn8nbLtsjWKfoeuQNmBEzyXTMKAuxJ9mWVQKzMDj8dldBw2DU0kdvNRwEEKlE71QXtVLLxGToNZwlT2eYAEO3wJCwyXvcRUptGku_yUIXdeVJx8Usr_M0goCcSskTsQgrIwtfNniWtuKiwMDKw0ru8ewAnmMZSb34MXenuqAetkb7iqoLUB6fIfaM9hBzOlJskLRFMA50lHW3JfxSCWGZllBAXHcf6oEsE_bm39XhHxstcORllEs8imfAepv0MXg",
+  "bytes": 12621
+ },
+ {
+  "name": "n6",
+  "ok": true,
+  "file": "n6.jpg",
+  "src": "https://gdb.rferl.org/d737b7cb-64b5-4350-803b-bbb5de3c599a_cx0_cy6_cw0_w800_h450.jpg",
+  "bytes": 44808
+ }
+]
