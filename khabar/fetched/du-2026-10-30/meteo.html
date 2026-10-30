@@ -1,0 +1,2324 @@
+<!DOCTYPE html>
+<html lang="tj">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="csrf-token" content="JxP4HnjCVI4uKNUk6SdGWuotlTQGMqUyVrN7HpKk">
+    <title>Пешгӯии обу ҳаво</title>
+    <meta name="title" content="Агентии обуҳавошиносии Кумитаи ҳифзи муҳити зисти назди Ҳукумати Ҷумҳурии Тоҷикистон">
+    <meta name="description"
+        content="Агентии обуҳавошиносӣ дар доираи ваколатҳои худ сохторҳои гуногуни хоҷагии халқи ҷумҳурӣ ва аҳолиро бо пешгӯиҳои обу ҳаво, огоҳӣ оид ба амал омадани зуҳуроти табиӣ, инчунин маълумот дар бораи вазъи ҳозира ва ояндаи муҳити табииро сари вақт ва боэътимод таъмин менамояд.">
+    <link rel="icon" type="image/x-icon" href="https://www.meteo.tj/images/nav-logo-1.png">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://www.meteo.tj">
+    <meta property="og:title"
+        content="Агентии обуҳавошиносии Кумитаи ҳифзи муҳити зисти назди Ҳукумати Ҷумҳурии Тоҷикистон">
+    <meta property="og:description"
+        content="Агентии обуҳавошиносӣ дар доираи ваколатҳои худ сохторҳои гуногуни хоҷагии халқи ҷумҳурӣ ва аҳолиро бо пешгӯиҳои обу ҳаво, огоҳӣ оид ба амал омадани зуҳуроти табиӣ, инчунин маълумот дар бораи вазъи ҳозира ва ояндаи муҳити табииро сари вақт ва боэътимод таъмин менамояд.">
+    <meta property="og:image" content="https://www.meteo.tj/images/metatag-image.png">
+    <meta name="google-site-verification" content="6weGZCt0Kpb0X0fbajkfe6mS37CtQoMyHR3F5icS5Ps" />
+    <link rel="preload" as="style" href="https://www.meteo.tj/build/assets/styles-ac84dade.css" /><link rel="stylesheet" href="https://www.meteo.tj/build/assets/styles-ac84dade.css" />        <style>
+        [x-cloak] {
+            display: none !important;
+        }
+    </style>
+</head>
+
+<body>
+    <header class="header sm:sticky sm:top-0 z-50">
+    <div class="">
+        <div x-data="{ isSearchOpen: false }"
+            class="bg-[#0C39D7] text-white px-2 md:px-16 flex items-center justify-center lg:justify-between flex-wrap">
+            <div class="py-2 flex items-center justify-center md:justify-start flex-wrap gap-4">
+                <div class="flex items-center justify-center flex-wrap gap-x-4 gap-y-2 sm:shrink-0">
+                    <a href="/tj" class="flex gap-4">
+                        <img class="w-20" src="https://www.meteo.tj/images/national-emblem.png" alt="national-emblem-logo">
+                        <img class="w-20" src="https://www.meteo.tj/images/nav-logo-1.png" alt="logo">
+                        <img class="w-20" src="https://www.meteo.tj/images/nav-logo-2.png" alt="logo">
+                    </a>
+                </div>
+
+                <div class="h-10 bg-white w-[1px]"></div>
+
+                <div>
+                    <h6 class="text-sm sm:text-lg md:text-xl lg:text-2xl leading-2 font-roboto font-semibold">
+                        Агентии обуҳавошиносии                        <br>
+                        Кумитаи ҳифзи муҳити зисти назди                        <br>
+                        Ҳукумати Ҷумҳурии Тоҷикистон                    </h6>
+                </div>
+            </div>
+
+
+            <div class="flex items-center justify-center flex-wrap mt-1 sm:mt-0">
+                <div @click.outside="isSearchOpen = false"
+                    class="py-1 pr-2 md:pr-6 border-r shrink-0 flex items-center">
+                    <form x-show="isSearchOpen" x-cloak action="https://www.meteo.tj/tj/search" method="post"
+                        class="flex items-center gap-2">
+                        <input type="hidden" name="_token" value="JxP4HnjCVI4uKNUk6SdGWuotlTQGMqUyVrN7HpKk">                        <input type="text" required placeholder="Кофтан" name="query"
+                            class="rounded-lg py-1 px-2.5 focus:outline-none focus:outline-blue-500 border-gray-200 text-black" />
+
+                        <button type="submit">
+                            <img class="cursor-pointer w-7" src="https://www.meteo.tj/icons/search.svg" alt="search-icon">
+                        </button>
+                    </form>
+
+                    <button x-show="!isSearchOpen" aria-controls="search" @click="isSearchOpen = true">
+                        <img class="cursor-pointer w-7" src="https://www.meteo.tj/icons/search.svg" alt="search-icon">
+                    </button>
+                </div>
+
+                <div x-show="!isSearchOpen"
+                    class="py-2.5 px-2 sm:px-5 flex gap-x-1 text-gray-400 border-r cursor-pointer">
+                                            <a href="/tj/weather-forecast">
+                            <span
+                                class="text-gray-100 border-b">TJ
+                            </span>
+                        </a>
+
+                                                    /
+                                                                    <a href="/ru/weather-forecast">
+                            <span
+                                class="">RU
+                            </span>
+                        </a>
+
+                                                    /
+                                                                    <a href="/en/weather-forecast">
+                            <span
+                                class="">EN
+                            </span>
+                        </a>
+
+                                                                    
+                </div>
+
+                <div x-show="!isSearchOpen" class="py-2.5 pl-2 md:pl-5 flex flex-col gap-y-2 shrink-0">
+                    <p class="inline-flex gap-x-1">
+                        <img src="https://www.meteo.tj/icons/call.svg" alt="call-icon">
+                        <a href="tel:+992372320216" class="font-bold text-sm md:text-base">(+992 37) 2320216
+                        </a>
+                    </p>
+
+                    <div class="flex justify-between">
+                        <a href="https://www.youtube.com/@user-wj6rl4sm6v" target="_blank">
+                            <img class="cursor-pointer" src="https://www.meteo.tj/icons/youtube.svg" alt="youtube-icon">
+                        </a>
+                        <a href="https://www.facebook.com/tajhydromet" target="_blank">
+                            <img class="cursor-pointer" src="https://www.meteo.tj/icons/facebook.svg" alt="facebook-icon">
+                        </a>
+                        <a href="https://www.t.me/tajhydromet" target="_blank">
+                            <img class="cursor-pointer" src="https://www.meteo.tj/icons/telegram.svg" alt="telegram-icon">
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="px-6 md:px-16 py-2 bg-blue-600">
+            <ul
+                class="flex lg:justify-between items-center flex-wrap gap-x-6 gap-y-2 text-white font-medium text-base sm:text-lg">
+                <li>
+                    <a href="/tj">Асосӣ</a>
+                </li>
+
+                <li x-data="{ open: false }" class="relative" @click.outside='open = false' @mouseleave="open = false">
+                    <p @mouseenter='open = !open' class="cursor-pointer">Агентӣ</p>
+
+                    <div x-show='open' x-cloak x-transition
+                        class="px-10 py-5 rounded-lg bg-blue-600 absolute -left-10 font-light leading-5 z-20">
+                        <div class="flex justify-between gap-6">
+                            <ul class="leading-6 flex flex-col gap-2">
+                                <li class="hover:font-semibold">
+                                    <a href="/tj/agency/about-us">Дар бораи мо</a>
+                                </li>
+                                <li class="hover:font-semibold">
+                                    <a href="/tj/agency/management">Роҳбарият</a>
+                                </li>
+                                <li class="hover:font-semibold">
+                                    <a href="/tj/agency/structure">Сохтор</a>
+                                </li>
+                                <li class="hover:font-semibold">
+                                    <a href="/tj/agency/documents">Ҳуҷҷатҳо</a>
+                                </li>
+                                <li class="hover:font-semibold">
+                                    <a
+                                        href="/tj/agency/international-cooperation">Ҳамкории байналмилалӣ</a>
+                                </li>
+                                <li class="hover:font-semibold">
+                                    <a href="/tj/agency/galleries">Нигористон</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </li>
+
+                <li x-data="{ open: false }" class="relative" @click.outside='open = false' @mouseleave="open = false">
+                    <p @mouseenter='open = !open' class="cursor-pointer">Обу ҳаво</p>
+
+                    <div x-show='open' x-cloak x-transition
+                        class="px-10 py-5 rounded-lg bg-blue-600 absolute -left-10 font-light leading-5 z-20 w-[250px]">
+                        <div class="flex justify-between gap-6">
+                            <ul class="leading-6 flex flex-col gap-2">
+                                <li class="hover:font-semibold">
+                                    <a href="/tj/weather-forecast">Пешгӯии обу ҳаво</a>
+                                </li>
+                                <li class="hover:font-semibold">
+                                    <a href="/tj/weather-map">Харитаи обу ҳаво</a>
+                                </li>
+                                <li class="hover:font-semibold">
+                                    <a href="/tj/meteo-alert">Метео алерт</a>
+                                </li>
+                                <li class="hover:font-semibold">
+                                    <a href="/tj/satellites-pictures">Аксҳои моҳворагӣ</a>
+                                </li>
+                                <li class="hover:font-semibold">
+                                    <a href="/tj/agency/synoptic">Пешгӯии обу ҳаво</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </li>
+
+                <li x-data="{ open: false }" class="relative" @click.outside='open = false'
+                    @mouseleave="open = false">
+                    <p @mouseover='open = !open' class="cursor-pointer">Фаъолият</p>
+
+                    <div x-data="{ selected: '' }" x-show='open' x-cloak x-transition
+                        class="px-10 py-5 rounded-lg bg-blue-600 absolute -left-10 font-light leading-6 z-20 text-lg">
+                        <div
+                            :class="selected ? 'flex justify-between gap-6 w-[300px] lg:w-[500px] flex-wrap lg:flex-nowrap' :
+                                'flex justify-between gap-6 w-[250px]'">
+                            <ul class="leading-6 flex flex-col gap-2">
+                                <li class="hover:font-semibold cursor-pointer transition">
+                                    <a href="/tj/climate">
+                                        Иқлим                                    </a>
+                                </li>
+                                <li class="hover:font-semibold cursor-pointer transition">
+                                    <a href="/tj/glaciology">
+                                        Яхшиносӣ                                    </a>
+                                </li>
+                                <li class="hover:font-semibold cursor-pointer transition">
+                                    <a href="/tj/environmental-monitoring">
+                                        Мониторинги муҳити зист                                    </a>
+                                    </a>
+                                <li class="hover:font-semibold cursor-pointer transition">
+                                    <a href="/tj/agrometeorology">
+
+                                        Агрометеорология                                    </a>
+                                </li>
+                                <li class="hover:font-semibold cursor-pointer transition">
+                                    <a href="/tj/hydrology">Гидрология</a>
+                                </li>
+
+                                <li class="hover:font-semibold cursor-pointer transition">
+                                    <a href="/tj/departments">Шӯъбаҳо ва Марказҳо</a>
+                                </li>
+
+                                <li class="hover:font-semibold cursor-pointer transition">
+                                    <a href="/tj/projects">Соли 2025 - Соли байналмиллалии ҳифзи пиряхҳо</a>
+                                </li>
+
+                            </ul>
+                        </div>
+                    </div>
+                </li>
+
+                <li>
+                    <a href="/tj/services">Хизматрасониҳо</a>
+                </li>
+
+                <li x-data="{ open: false }" class="relative" @click.outside='open = false'
+                    @mouseleave="open = false">
+                    <p @mouseenter='open = !open' class="cursor-pointer">Маълумоти муфид</p>
+
+                    <div x-show='open' x-cloak x-transition
+                        class="px-10 py-5 rounded-lg bg-blue-600 absolute -left-10 font-light leading-5 z-20 w-[250px]">
+                        <div class="flex justify-between gap-6">
+                            <ul class="leading-6 flex flex-col gap-2">
+                                <li class="hover:font-semibold">
+                                    <a href="/tj/publications">Нашрияҳо</a>
+                                </li>
+                                <li class="hover:font-semibold">
+                                    <a href="/tj/useful-links">Истинодҳои муфид</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </li>
+
+                <li x-data="{ open: false }" class="relative" @click.outside='open = false'
+                    @mouseleave="open = false">
+                    <p @mouseenter='open = !open' class="cursor-pointer">Ахбор</p>
+
+                    <div x-show='open' x-cloak x-transition
+                        class="px-10 py-5 rounded-lg bg-blue-600 absolute -left-10 font-light leading-5 z-20 w-[250px]">
+                        <div class="flex justify-between gap-6">
+                            <ul class="leading-6 flex flex-col gap-2">
+                                <li class="hover:font-semibold">
+                                    <a href="/tj/news">Чорабиниҳо</a>
+                                </li>
+                                <li class="hover:font-semibold">
+                                    <a href="/tj/contests">Озмунҳо</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </li>
+
+                <li>
+                    <a href="/tj/contacts">Тамос</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</header>
+
+    <main>
+            
+    <div x-data="{ selectedRegion: null ?? '\u041d\u043e\u04b3\u0438\u044f\u04b3\u043e\u0438 \u0442\u043e\u0431\u0435\u044a\u0438 \u04b7\u0443\u043c\u04b3\u0443\u0440\u04e3' }">
+        <div class="mx-6 md:mx-16 py-8 bg-white flex flex-col gap-y-2">
+            <div class="flex items-center flex-wrap gap-2 text-sm font-light lg:text-lg text-gray-400">
+                <a href="/tj">Асосӣ</a>
+                <span>/</span>
+                <p class="text-blue-600">Пешгӯии обу ҳаво</p>
+            </div>
+
+            <div class="flex items-center justify-between flex-wrap lg:flex-nowrap gap-x-12 gap-y-4">
+                <h1 x-data="{ weatherIn: '\u041e\u0431\u0443 \u04b3\u0430\u0432\u043e \u0434\u0430\u0440 ', regions: JSON.parse('[{\u0022id\u0022:1,\u0022name_ru\u0022:\u0022\\u0420\\u0430\\u0439\\u043e\\u043d\\u044b \\u0440\\u0435\\u0441\\u043f\\u0443\\u0431\\u043b\\u0438\\u043a\\u0430\\u043d\\u0441\\u043a\\u043e\\u0433\\u043e \\u043f\\u043e\\u0434\\u0447\\u0438\\u043d\\u0435\\u043d\\u0438\\u044f\u0022,\u0022name_tj\u0022:\u0022\\u041d\\u043e\\u04b3\\u0438\\u044f\\u04b3\\u043e\\u0438 \\u0442\\u043e\\u0431\\u0435\\u044a\\u0438 \\u04b7\\u0443\\u043c\\u04b3\\u0443\\u0440\\u04e3\u0022,\u0022name_en\u0022:\u0022Districts of Republican Subordination\u0022,\u0022created_at\u0022:\u00222023-04-18 05:34:14\u0022,\u0022updated_at\u0022:\u00222023-04-18 05:34:14\u0022,\u0022deleted_at\u0022:null},{\u0022id\u0022:2,\u0022name_ru\u0022:\u0022\\u0421\\u043e\\u0433\\u0434\\u0438\\u0439\\u0441\\u043a\\u0430\\u044f \\u043e\\u0431\\u043b\\u0430\\u0441\\u0442\\u044c\u0022,\u0022name_tj\u0022:\u0022\\u0412\\u0438\\u043b\\u043e\\u044f\\u0442\\u0438 \\u0421\\u0443\\u0493\\u0434\u0022,\u0022name_en\u0022:\u0022Sughd region\u0022,\u0022created_at\u0022:\u00222023-04-18 05:34:14\u0022,\u0022updated_at\u0022:\u00222023-05-10 15:22:47\u0022,\u0022deleted_at\u0022:null},{\u0022id\u0022:3,\u0022name_ru\u0022:\u0022\\u0425\\u0430\\u0442\\u043b\\u043e\\u043d\\u0441\\u043a\\u0430\\u044f \\u043e\\u0431\\u043b\\u0430\\u0441\\u0442\\u044c\u0022,\u0022name_tj\u0022:\u0022\\u0412\\u0438\\u043b\\u043e\\u044f\\u0442\\u0438 \\u0425\\u0430\\u0442\\u043b\\u043e\\u043d\u0022,\u0022name_en\u0022:\u0022Khatlon region\u0022,\u0022created_at\u0022:\u00222023-04-18 05:34:14\u0022,\u0022updated_at\u0022:\u00222023-05-10 15:22:54\u0022,\u0022deleted_at\u0022:null},{\u0022id\u0022:4,\u0022name_ru\u0022:\u0022\\u0413\\u043e\\u0440\\u043d\\u043e \\u0411\\u0430\\u0434\\u0430\\u0445\\u0448\\u0430\\u043d\\u0441\\u043a\\u043e\\u0439 \\u0410\\u0432\\u0442\\u043e\\u043d\\u043e\\u043c\\u043d\\u043e\\u0439 \\u041e\\u0431\\u043b\\u0430\\u0441\\u0442\\u0438\u0022,\u0022name_tj\u0022:\u0022\\u0412\\u0438\\u043b\\u043e\\u044f\\u0442\\u0438 \\u041c\\u0443\\u0445\\u0442\\u043e\\u0440\\u0438 \\u041a\\u04ef\\u04b3\\u0438\\u0441\\u0442\\u043e\\u043d\\u0438 \\u0411\\u0430\\u0434\\u0430\\u0445\\u0448\\u043e\\u043d\u0022,\u0022name_en\u0022:\u0022Badakhshan Autonomous Region\u0022,\u0022created_at\u0022:\u00222023-04-18 05:34:14\u0022,\u0022updated_at\u0022:\u00222023-05-12 11:38:31\u0022,\u0022deleted_at\u0022:null}]') }" x-init="console.log(regions)" class="text-2xl lg:text-3xl"
+                    x-text="weatherIn + (('tj' === 'ru') && selectedRegion === regions[0]['name_ru'] ? 'weather-in-center' : selectedRegion === regions[1]['name_ru'] 
+                    ? 'weather-in-sugd' : selectedRegion === regions[2]['name_ru'] 
+                    ? 'weather-in-bokhtar' : selectedRegion === regions[3]['name_ru'] 
+                    ? 'weather-in-khorog' : selectedRegion )">
+                </h1>
+
+                <select @change="e => selectedRegion = e.target.value" name="region-select"
+                    class="bg-white w-full sm:w-auto shrink form-select rounded-lg border focus:outline-none focus:border-blue-600 text-gray-500 border-gray-400">
+                    <option selected disabled value="">Минтақаро интихоб кунед</option>
+
+                                            <option :selected="'\u041d\u043e\u04b3\u0438\u044f\u04b3\u043e\u0438 \u0442\u043e\u0431\u0435\u044a\u0438 \u04b7\u0443\u043c\u04b3\u0443\u0440\u04e3' == selectedRegion"
+                            value="Ноҳияҳои тобеъи ҷумҳурӣ">
+                            Ноҳияҳои тобеъи ҷумҳурӣ</option>
+                                            <option :selected="'\u0412\u0438\u043b\u043e\u044f\u0442\u0438 \u0421\u0443\u0493\u0434' == selectedRegion"
+                            value="Вилояти Суғд">
+                            Вилояти Суғд</option>
+                                            <option :selected="'\u0412\u0438\u043b\u043e\u044f\u0442\u0438 \u0425\u0430\u0442\u043b\u043e\u043d' == selectedRegion"
+                            value="Вилояти Хатлон">
+                            Вилояти Хатлон</option>
+                                            <option :selected="'\u0412\u0438\u043b\u043e\u044f\u0442\u0438 \u041c\u0443\u0445\u0442\u043e\u0440\u0438 \u041a\u04ef\u04b3\u0438\u0441\u0442\u043e\u043d\u0438 \u0411\u0430\u0434\u0430\u0445\u0448\u043e\u043d' == selectedRegion"
+                            value="Вилояти Мухтори Кӯҳистони Бадахшон">
+                            Вилояти Мухтори Кӯҳистони Бадахшон</option>
+                                    </select>
+            </div>
+        </div>
+
+        <div x-data="{
+            windDirectionObj: {
+                en: {
+                    'nw': 'North-West',
+                    'n': 'North',
+                    'ne': 'North-East',
+                    'e': 'East',
+                    'ew': 'East-West',
+                    'se': 'South-East',
+                    's': 'South',
+                    'sw': 'South-West',
+                    'w': 'West',
+                    'we': 'West-East',
+                },
+        
+                ru: {
+                    'nw': 'Северо-западный',
+                    'n': 'Северный',
+                    'ne': 'Северо-восточный',
+                    'e': 'Восточный',
+                    'ew': 'Восточно-западный',
+                    'se': 'Юго-восточный',
+                    's': 'Южный',
+                    'sw': 'Юго-западный',
+                    'w': 'Западный',
+                    'we': 'Западно-восточный',
+                },
+        
+                tj: {
+                    'nw': 'Шимолу-ғарбӣ',
+                    'n': 'Шимолӣ',
+                    'ne': 'Шимолу-шарқӣ',
+                    'e': 'Шарқӣ',
+                    'ew': 'Шарқу-ғарбӣ',
+                    'se': 'Ҷанубу-шарқӣ',
+                    's': 'Ҷанубӣ',
+                    'sw': 'Ҷанубу-ғарбӣ',
+                    'w': 'Ғарбӣ',
+                    'we': 'Шарқу-ғарбӣ',
+                }
+            },
+        }" class="mx-6 md:mx-16 mb-24 flex flex-col gap-16">
+                            
+                <div x-show="'\u041d\u043e\u04b3\u0438\u044f\u04b3\u043e\u0438 \u0442\u043e\u0431\u0435\u044a\u0438 \u04b7\u0443\u043c\u04b3\u0443\u0440\u04e3' === selectedRegion">
+                    <div x-data="{ lang: 'tj' == 'tj' ? 'tg' : 'tj' }">
+                        <h3 x-data="{ date: dayjs(JSON.parse('\u00222026-10-30T00:00:00.000000Z\u0022')).locale(String(lang)).format('dddd, D MMMM') }" x-text="date.slice(0, 1).toUpperCase() + date.slice(1)"
+                            class="text-2xl text-blue-800 font-medium">
+                        </h3>
+
+                        <div class="mt-5 grid grid-cols-1 lg:grid-cols-2 2xl:grid-cols-3 gap-5 md:gap-8">
+                            <div class="flex flex-col gap-3 md:gap-6">
+                                <div style="background: rgba(0, 40, 184, 0.75);"
+                                    class="flex justify-center items-center flex-wrap sm:flex-nowrap xl:text-lg gap-6 md:gap-14 px-10 py-5 rounded-2xl">
+                                    <div class="flex flex-col items-center md:w-1/3">
+                                        <h3 class="text-3xl text-white font-medium">Шабона</h3>
+                                        <div class="w-24 md:w-32">
+                                            <img class="object-cover"
+                                                src="/storage/weather/f50644f03af706913b093d6a76c07827eeae4a82.svg"
+                                                loading="lazy" alt="weather-icon">
+                                        </div>
+                                    </div>
+
+                                    <div class="flex flex-col gap-1.5 h-full text-white md:w-2/3">
+                                        <h3 class="text-3xl mb-4 flex items-center">
+                                            <span
+                                                class="text-lg lg:text-2xl font-bold">+</span>
+                                            <span>7...</span>
+
+                                            <span
+                                                class="text-lg lg:text-2xl font-bold">+</span>
+                                            <span>9°</span>C
+                                        </h3>
+                                        <p class="font-light">
+                                            Ҳавои тағйирёбанда,
+                                        </p>
+                                        <p class="font-light">
+                                                                                            Бебориш                                                                                    </p>
+                                        <p class="font-light"><span class="font-medium">Шамол</span>:
+                                            <span x-data="{ windDirectiion: 'w' }"
+                                                x-text="windDirectionObj['tj'][windDirectiion]">
+                                            </span>
+                                            5-10
+                                            м/c                                        </p>
+                                    </div>
+                                </div>
+
+                                <div
+                                    class="bg-[#CCEDFF] flex justify-center items-center flex-wrap sm:flex-nowrap gap-6 xl:text-lg md:gap-14 px-10 py-5 rounded-2xl">
+                                    <div class="flex flex-col items-center md:w-1/3">
+                                        <h3 class="text-3xl text-blue-800 font-medium">Рӯзона</h3>
+                                        <div class="w-24 md:w-32">
+                                            <img class="object-cover"
+                                                src="/storage/weather/a14322cb85ba8d86075ec1671f2f33ab1ebb9202.svg"
+                                                loading="lazy" alt="weather-icon">
+                                        </div>
+                                    </div>
+
+                                    <div class="flex flex-col gap-1.5 h-full md:w-2/3">
+                                        <h3 class="text-3xl mb-4 flex items-center">
+                                            <span
+                                                class="text-xl lg:text-2xl font-bold">+</span>
+                                            <span>21...</span>
+
+                                            <span
+                                                class="text-xl lg:text-2xl font-bold">+</span>
+                                            <span>23°</span>C
+                                        </h3>
+                                        <p class="font-light">
+                                            Ҳавои тағйирёбанда,
+                                        </p>
+                                        <p class="font-light">
+                                                                                            Бебориш                                                                                    </p>
+                                        <p class="font-light"><span class="font-medium">Шамол</span>:
+                                            <span x-data="{ windDirectiion: 'w' }"
+                                                x-text="windDirectionObj['tj'][windDirectiion]">
+                                            </span>
+                                            5-10
+                                            м/c                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div
+                                class="xl:text-lg 2xl:col-span-2 flex flex-col gap-5 p-2 sm:p-4 border-2 border-gray-100 rounded-2xl font-light">
+                                <div class="flex flex-col prose max-w-none">
+                                    <p class="ql-align-justify"><strong style="background-color: transparent;">Дар шаҳри Душанбе </strong><span style="background-color: transparent;">- </span>Ҳавои тағйирёбандаи бебориш пешгӯӣ мешавад. Шамол аз самти ғарб бо суръати 5-10м/с мевазад. Ҳарорати ҳаво шабона 7+9º гарм, рӯзона 21+23º гарм мешавад. </p><p class="ql-align-justify"><strong>Дар ноҳияи Рашт </strong>– Ҳавои тағйирёбанда, асосан бебориш (0,0-0,5мм) пешгӯӣ мешавад. Шамол аз самти ғарб бо суръати 5-10м/с мевазад. Ҳарорати ҳаво шабона 2+4º гарм, рӯзона 14+16º гарм мешавад. &nbsp;&nbsp;</p><p class="ql-align-justify"><strong style="background-color: transparent; color: rgb(0, 0, 0);">Дар Ноҳияҳои тобеъи ҷумҳурӣ </strong><span style="background-color: transparent; color: rgb(0, 0, 0);">- </span>Ҳавои тағйирёбанда, дар водиҳо бебориш, дар ноҳияҳои алоҳидаи кӯҳӣ асосан бебориш (0,0-0,5мм) пешгӯӣ шуда, тормеғ мефарояд. Шамол аз самти ғарб бо суръати 5-10м/с мевазад. Ҳарорати ҳаво дар водиҳо шабона 4+9º гарм, рӯзона 18+23º гарм, дар ноҳияҳои кӯҳӣ шабона -1+4º, рӯзона 11+16º гарм мешавад.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                            
+                <div x-show="'\u0412\u0438\u043b\u043e\u044f\u0442\u0438 \u0421\u0443\u0493\u0434' === selectedRegion">
+                    <div x-data="{ lang: 'tj' == 'tj' ? 'tg' : 'tj' }">
+                        <h3 x-data="{ date: dayjs(JSON.parse('\u00222026-10-30T00:00:00.000000Z\u0022')).locale(String(lang)).format('dddd, D MMMM') }" x-text="date.slice(0, 1).toUpperCase() + date.slice(1)"
+                            class="text-2xl text-blue-800 font-medium">
+                        </h3>
+
+                        <div class="mt-5 grid grid-cols-1 lg:grid-cols-2 2xl:grid-cols-3 gap-5 md:gap-8">
+                            <div class="flex flex-col gap-3 md:gap-6">
+                                <div style="background: rgba(0, 40, 184, 0.75);"
+                                    class="flex justify-center items-center flex-wrap sm:flex-nowrap xl:text-lg gap-6 md:gap-14 px-10 py-5 rounded-2xl">
+                                    <div class="flex flex-col items-center md:w-1/3">
+                                        <h3 class="text-3xl text-white font-medium">Шабона</h3>
+                                        <div class="w-24 md:w-32">
+                                            <img class="object-cover"
+                                                src="/storage/weather/dd88a3f536fb4bcf192c602365576eaf0c2511c7.svg"
+                                                loading="lazy" alt="weather-icon">
+                                        </div>
+                                    </div>
+
+                                    <div class="flex flex-col gap-1.5 h-full text-white md:w-2/3">
+                                        <h3 class="text-3xl mb-4 flex items-center">
+                                            <span
+                                                class="text-lg lg:text-2xl font-bold">+</span>
+                                            <span>5...</span>
+
+                                            <span
+                                                class="text-lg lg:text-2xl font-bold">+</span>
+                                            <span>7°</span>C
+                                        </h3>
+                                        <p class="font-light">
+                                            Ҳавои камабр,
+                                        </p>
+                                        <p class="font-light">
+                                                                                            Бебориш.                                                                                            Тормеғ                                                                                    </p>
+                                        <p class="font-light"><span class="font-medium">Шамол</span>:
+                                            <span x-data="{ windDirectiion: 'w' }"
+                                                x-text="windDirectionObj['tj'][windDirectiion]">
+                                            </span>
+                                            2-7
+                                            м/c                                        </p>
+                                    </div>
+                                </div>
+
+                                <div
+                                    class="bg-[#CCEDFF] flex justify-center items-center flex-wrap sm:flex-nowrap gap-6 xl:text-lg md:gap-14 px-10 py-5 rounded-2xl">
+                                    <div class="flex flex-col items-center md:w-1/3">
+                                        <h3 class="text-3xl text-blue-800 font-medium">Рӯзона</h3>
+                                        <div class="w-24 md:w-32">
+                                            <img class="object-cover"
+                                                src="/storage/weather/6aed7ed371067ac9058f51408cb284dd150bf886.svg"
+                                                loading="lazy" alt="weather-icon">
+                                        </div>
+                                    </div>
+
+                                    <div class="flex flex-col gap-1.5 h-full md:w-2/3">
+                                        <h3 class="text-3xl mb-4 flex items-center">
+                                            <span
+                                                class="text-xl lg:text-2xl font-bold">+</span>
+                                            <span>17...</span>
+
+                                            <span
+                                                class="text-xl lg:text-2xl font-bold">+</span>
+                                            <span>19°</span>C
+                                        </h3>
+                                        <p class="font-light">
+                                            Ҳавои камабр,
+                                        </p>
+                                        <p class="font-light">
+                                                                                            Бебориш.                                                                                            Тормеғ                                                                                    </p>
+                                        <p class="font-light"><span class="font-medium">Шамол</span>:
+                                            <span x-data="{ windDirectiion: 'w' }"
+                                                x-text="windDirectionObj['tj'][windDirectiion]">
+                                            </span>
+                                            2-7
+                                            м/c                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div
+                                class="xl:text-lg 2xl:col-span-2 flex flex-col gap-5 p-2 sm:p-4 border-2 border-gray-100 rounded-2xl font-light">
+                                <div class="flex flex-col prose max-w-none">
+                                    <p class="ql-align-justify"><strong style="background-color: transparent;">Дар шаҳри Хуҷанд. - </strong>Ҳавои камабри бебориш пешгӯӣ шуда, тормеғ мефарояд. Шамол аз самти ғарб бо суръати 2-7м/с, дар баъзе ҳолатҳо бо шиддатнокии то 7-12м/с мевазад. Ҳарорати ҳаво шабона 5+7º гарм, рӯзона 17+19º гарм мешавад.</p><p class="ql-align-justify"><strong style="background-color: transparent; color: rgb(0, 0, 0);">Дар вилояти Суғд. </strong><span style="background-color: transparent; color: rgb(0, 0, 0);">- </span>Ҳавои тағйирёбандаи бебориш пешгӯӣ шуда, дар баъзе ноҳияҳо тормеғ мефарояд. Шамол аз самти ғарб бо суръати 2-7м/с, дар баъзе ноҳияҳо бо шиддатнокии то 7-12м/с мевазад. Ҳарорати ҳаво дар водиҳо шабона 2+7º гарм, рӯзона 14+19º гарм, дар ноҳияҳои кӯҳӣ шабона -3+2º, рӯзона 5+10º гарм мешавад.&nbsp;</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                            
+                <div x-show="'\u0412\u0438\u043b\u043e\u044f\u0442\u0438 \u041c\u0443\u0445\u0442\u043e\u0440\u0438 \u041a\u04ef\u04b3\u0438\u0441\u0442\u043e\u043d\u0438 \u0411\u0430\u0434\u0430\u0445\u0448\u043e\u043d' === selectedRegion">
+                    <div x-data="{ lang: 'tj' == 'tj' ? 'tg' : 'tj' }">
+                        <h3 x-data="{ date: dayjs(JSON.parse('\u00222026-10-30T00:00:00.000000Z\u0022')).locale(String(lang)).format('dddd, D MMMM') }" x-text="date.slice(0, 1).toUpperCase() + date.slice(1)"
+                            class="text-2xl text-blue-800 font-medium">
+                        </h3>
+
+                        <div class="mt-5 grid grid-cols-1 lg:grid-cols-2 2xl:grid-cols-3 gap-5 md:gap-8">
+                            <div class="flex flex-col gap-3 md:gap-6">
+                                <div style="background: rgba(0, 40, 184, 0.75);"
+                                    class="flex justify-center items-center flex-wrap sm:flex-nowrap xl:text-lg gap-6 md:gap-14 px-10 py-5 rounded-2xl">
+                                    <div class="flex flex-col items-center md:w-1/3">
+                                        <h3 class="text-3xl text-white font-medium">Шабона</h3>
+                                        <div class="w-24 md:w-32">
+                                            <img class="object-cover"
+                                                src="/storage/weather/5e6a215077915805b60fd67648bc8d4f244f17dc.svg"
+                                                loading="lazy" alt="weather-icon">
+                                        </div>
+                                    </div>
+
+                                    <div class="flex flex-col gap-1.5 h-full text-white md:w-2/3">
+                                        <h3 class="text-3xl mb-4 flex items-center">
+                                            <span
+                                                class="text-lg lg:text-2xl font-bold">+</span>
+                                            <span>4...</span>
+
+                                            <span
+                                                class="text-lg lg:text-2xl font-bold">+</span>
+                                            <span>6°</span>C
+                                        </h3>
+                                        <p class="font-light">
+                                            Ҳавои тағйирёбанда,
+                                        </p>
+                                        <p class="font-light">
+                                                                                            Борони кӯтоҳмуддат                                                                                    </p>
+                                        <p class="font-light"><span class="font-medium">Шамол</span>:
+                                            <span x-data="{ windDirectiion: 'w' }"
+                                                x-text="windDirectionObj['tj'][windDirectiion]">
+                                            </span>
+                                            5-10
+                                            м/c                                        </p>
+                                    </div>
+                                </div>
+
+                                <div
+                                    class="bg-[#CCEDFF] flex justify-center items-center flex-wrap sm:flex-nowrap gap-6 xl:text-lg md:gap-14 px-10 py-5 rounded-2xl">
+                                    <div class="flex flex-col items-center md:w-1/3">
+                                        <h3 class="text-3xl text-blue-800 font-medium">Рӯзона</h3>
+                                        <div class="w-24 md:w-32">
+                                            <img class="object-cover"
+                                                src="/storage/weather/adec9266afc80846601a33bada313434e9082719.svg"
+                                                loading="lazy" alt="weather-icon">
+                                        </div>
+                                    </div>
+
+                                    <div class="flex flex-col gap-1.5 h-full md:w-2/3">
+                                        <h3 class="text-3xl mb-4 flex items-center">
+                                            <span
+                                                class="text-xl lg:text-2xl font-bold">+</span>
+                                            <span>15...</span>
+
+                                            <span
+                                                class="text-xl lg:text-2xl font-bold">+</span>
+                                            <span>17°</span>C
+                                        </h3>
+                                        <p class="font-light">
+                                            Ҳавои тағйирёбанда,
+                                        </p>
+                                        <p class="font-light">
+                                                                                            Борони кӯтоҳмуддат                                                                                    </p>
+                                        <p class="font-light"><span class="font-medium">Шамол</span>:
+                                            <span x-data="{ windDirectiion: 'w' }"
+                                                x-text="windDirectionObj['tj'][windDirectiion]">
+                                            </span>
+                                            5-10
+                                            м/c                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div
+                                class="xl:text-lg 2xl:col-span-2 flex flex-col gap-5 p-2 sm:p-4 border-2 border-gray-100 rounded-2xl font-light">
+                                <div class="flex flex-col prose max-w-none">
+                                    <p class="ql-align-justify"><strong style="background-color: transparent;">Дар шаҳри Хоруғ.</strong><span style="background-color: transparent;"> - </span>Ҳавои тағйирёбанда пешгӯӣ шуда, борони кӯтоҳмуддат меборад. Шамол аз самти ғарб бо суръати 5-10м/с мевазад. Ҳарорати ҳаво шабона 4+6º гарм, рӯзона 15+17º гарм мешавад.&nbsp;</p><p class="ql-align-justify"><strong style="background-color: transparent;">Дар ноҳияи Мурғоб.</strong><span style="background-color: transparent;"> - </span>Ҳавои тағйирёбанда, асосан бебориш (0,0-0,5мм) пешгӯӣ мешавад. Шамол аз самти ғарб бо суръати 4-9м/с, дар баъзе ҳолатҳо бо шиддатнокии то 10-15м/с мевазад. Ҳарорати ҳаво шабона 7-9º хунук, рӯзона 4+6º гарм&nbsp;мешавад.</p><p class="ql-align-justify"><strong>Дар ноҳияи Дарвоз </strong>– Ҳавои тағйирёбанда, асосан бебориш (0,0-0,5мм) пешгӯӣ мешавад. Шамол аз самти ғарб бо суръати 5-10м/с мевазад. Ҳарорати ҳаво шабона 8+10º гарм, рӯзона 16+18º гарм мешавад.&nbsp;</p><p class="ql-align-justify"><strong>Дар Вилояти Мухтори Кӯҳи</strong><strong style="background-color: transparent; color: rgb(0, 0, 0);">стони Бадахшон.</strong><span style="background-color: transparent; color: rgb(0, 0, 0);"> - </span>Ҳавои тағйирёбанда пешгӯӣ шуда, дар баъзе ноҳияҳо боришот (борон, барф) ба амал меояд. Шамол аз самти ғарб бо суръати 4-9м/с, дар баъзе ноҳияҳо бо шиддатнокии то 10-15м/с мевазад. Ҳарорати ҳаво дар ғарби вилоят шабона 1+6º гарм, дар баъзе ноҳияҳо то 8+10º гарм, рӯзона аз 8+13º гарм то 15+17º гарм, дар шарқи вилоят шабона 6-11º хунук, рӯзона 1+6º гарм&nbsp;мешавад.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                            
+                <div x-show="'\u0412\u0438\u043b\u043e\u044f\u0442\u0438 \u0425\u0430\u0442\u043b\u043e\u043d' === selectedRegion">
+                    <div x-data="{ lang: 'tj' == 'tj' ? 'tg' : 'tj' }">
+                        <h3 x-data="{ date: dayjs(JSON.parse('\u00222026-10-30T00:00:00.000000Z\u0022')).locale(String(lang)).format('dddd, D MMMM') }" x-text="date.slice(0, 1).toUpperCase() + date.slice(1)"
+                            class="text-2xl text-blue-800 font-medium">
+                        </h3>
+
+                        <div class="mt-5 grid grid-cols-1 lg:grid-cols-2 2xl:grid-cols-3 gap-5 md:gap-8">
+                            <div class="flex flex-col gap-3 md:gap-6">
+                                <div style="background: rgba(0, 40, 184, 0.75);"
+                                    class="flex justify-center items-center flex-wrap sm:flex-nowrap xl:text-lg gap-6 md:gap-14 px-10 py-5 rounded-2xl">
+                                    <div class="flex flex-col items-center md:w-1/3">
+                                        <h3 class="text-3xl text-white font-medium">Шабона</h3>
+                                        <div class="w-24 md:w-32">
+                                            <img class="object-cover"
+                                                src="/storage/weather/f50644f03af706913b093d6a76c07827eeae4a82.svg"
+                                                loading="lazy" alt="weather-icon">
+                                        </div>
+                                    </div>
+
+                                    <div class="flex flex-col gap-1.5 h-full text-white md:w-2/3">
+                                        <h3 class="text-3xl mb-4 flex items-center">
+                                            <span
+                                                class="text-lg lg:text-2xl font-bold">+</span>
+                                            <span>7...</span>
+
+                                            <span
+                                                class="text-lg lg:text-2xl font-bold">+</span>
+                                            <span>9°</span>C
+                                        </h3>
+                                        <p class="font-light">
+                                            Ҳавои тағйирёбанда,
+                                        </p>
+                                        <p class="font-light">
+                                                                                            Бебориш                                                                                    </p>
+                                        <p class="font-light"><span class="font-medium">Шамол</span>:
+                                            <span x-data="{ windDirectiion: 'w' }"
+                                                x-text="windDirectionObj['tj'][windDirectiion]">
+                                            </span>
+                                            5-10
+                                            м/c                                        </p>
+                                    </div>
+                                </div>
+
+                                <div
+                                    class="bg-[#CCEDFF] flex justify-center items-center flex-wrap sm:flex-nowrap gap-6 xl:text-lg md:gap-14 px-10 py-5 rounded-2xl">
+                                    <div class="flex flex-col items-center md:w-1/3">
+                                        <h3 class="text-3xl text-blue-800 font-medium">Рӯзона</h3>
+                                        <div class="w-24 md:w-32">
+                                            <img class="object-cover"
+                                                src="/storage/weather/a14322cb85ba8d86075ec1671f2f33ab1ebb9202.svg"
+                                                loading="lazy" alt="weather-icon">
+                                        </div>
+                                    </div>
+
+                                    <div class="flex flex-col gap-1.5 h-full md:w-2/3">
+                                        <h3 class="text-3xl mb-4 flex items-center">
+                                            <span
+                                                class="text-xl lg:text-2xl font-bold">+</span>
+                                            <span>20...</span>
+
+                                            <span
+                                                class="text-xl lg:text-2xl font-bold">+</span>
+                                            <span>22°</span>C
+                                        </h3>
+                                        <p class="font-light">
+                                            Ҳавои тағйирёбанда,
+                                        </p>
+                                        <p class="font-light">
+                                                                                            Бебориш                                                                                    </p>
+                                        <p class="font-light"><span class="font-medium">Шамол</span>:
+                                            <span x-data="{ windDirectiion: 'w' }"
+                                                x-text="windDirectionObj['tj'][windDirectiion]">
+                                            </span>
+                                            5-10
+                                            м/c                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div
+                                class="xl:text-lg 2xl:col-span-2 flex flex-col gap-5 p-2 sm:p-4 border-2 border-gray-100 rounded-2xl font-light">
+                                <div class="flex flex-col prose max-w-none">
+                                    <p class="ql-align-justify"><strong>ш.Бохтар</strong> – Ҳавои тағйирёбандаи бебориш пешгӯӣ мешавад. Шамол аз самти ғарб бо суръати 5-10м/с мевазад. Ҳарорати ҳаво шабона 7+9º гарм, рӯзона 20+22º гарм &nbsp;мешавад.&nbsp;&nbsp;&nbsp;&nbsp;</p><p class="ql-align-justify"><strong>ш.Кӯлоб </strong>– Ҳавои тағйирёбандаи бебориш пешгӯӣ мешавад. Шамол аз самти ғарб бо суръати 5-10м/с мевазад. Ҳарорати ҳаво шабона 7+9º гарм, рӯзона 20+22º гарм&nbsp;мешавад.&nbsp;&nbsp;&nbsp;&nbsp;</p><p class="ql-align-justify"><strong>Дар вилояти Хатлон </strong>– Ҳавои тағйирёбанда, дар водиҳо бебориш, дар ноҳияҳои доманакӯҳӣ асосан бебориш (0,0-0,5мм) пешгӯӣ шуда, дар ноҳияҳои алоҳида тормеғ мефарояд. Шамол аз самти ғарб бо суръати 5-10м/с мевазад. Ҳарорати ҳаво дар водиҳо шабона 5+10º гарм, рӯзона 19+24º гарм, дар доманакӯҳҳо шабона 4+9º гарм, рӯзона 14+19º гарм мешавад.&nbsp;</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                            
+                <div x-show="'\u041d\u043e\u04b3\u0438\u044f\u04b3\u043e\u0438 \u0442\u043e\u0431\u0435\u044a\u0438 \u04b7\u0443\u043c\u04b3\u0443\u0440\u04e3' === selectedRegion">
+                    <div x-data="{ lang: 'tj' == 'tj' ? 'tg' : 'tj' }">
+                        <h3 x-data="{ date: dayjs(JSON.parse('\u00222026-10-31T00:00:00.000000Z\u0022')).locale(String(lang)).format('dddd, D MMMM') }" x-text="date.slice(0, 1).toUpperCase() + date.slice(1)"
+                            class="text-2xl text-blue-800 font-medium">
+                        </h3>
+
+                        <div class="mt-5 grid grid-cols-1 lg:grid-cols-2 2xl:grid-cols-3 gap-5 md:gap-8">
+                            <div class="flex flex-col gap-3 md:gap-6">
+                                <div style="background: rgba(0, 40, 184, 0.75);"
+                                    class="flex justify-center items-center flex-wrap sm:flex-nowrap xl:text-lg gap-6 md:gap-14 px-10 py-5 rounded-2xl">
+                                    <div class="flex flex-col items-center md:w-1/3">
+                                        <h3 class="text-3xl text-white font-medium">Шабона</h3>
+                                        <div class="w-24 md:w-32">
+                                            <img class="object-cover"
+                                                src="/storage/weather/f50644f03af706913b093d6a76c07827eeae4a82.svg"
+                                                loading="lazy" alt="weather-icon">
+                                        </div>
+                                    </div>
+
+                                    <div class="flex flex-col gap-1.5 h-full text-white md:w-2/3">
+                                        <h3 class="text-3xl mb-4 flex items-center">
+                                            <span
+                                                class="text-lg lg:text-2xl font-bold">+</span>
+                                            <span>9...</span>
+
+                                            <span
+                                                class="text-lg lg:text-2xl font-bold">+</span>
+                                            <span>11°</span>C
+                                        </h3>
+                                        <p class="font-light">
+                                            Ҳавои тағйирёбанда,
+                                        </p>
+                                        <p class="font-light">
+                                                                                            Бебориш                                                                                    </p>
+                                        <p class="font-light"><span class="font-medium">Шамол</span>:
+                                            <span x-data="{ windDirectiion: 'w' }"
+                                                x-text="windDirectionObj['tj'][windDirectiion]">
+                                            </span>
+                                            2-7
+                                            м/c                                        </p>
+                                    </div>
+                                </div>
+
+                                <div
+                                    class="bg-[#CCEDFF] flex justify-center items-center flex-wrap sm:flex-nowrap gap-6 xl:text-lg md:gap-14 px-10 py-5 rounded-2xl">
+                                    <div class="flex flex-col items-center md:w-1/3">
+                                        <h3 class="text-3xl text-blue-800 font-medium">Рӯзона</h3>
+                                        <div class="w-24 md:w-32">
+                                            <img class="object-cover"
+                                                src="/storage/weather/fea86cbef0b57defebe3ddc86a18c1f22669894a.svg"
+                                                loading="lazy" alt="weather-icon">
+                                        </div>
+                                    </div>
+
+                                    <div class="flex flex-col gap-1.5 h-full md:w-2/3">
+                                        <h3 class="text-3xl mb-4 flex items-center">
+                                            <span
+                                                class="text-xl lg:text-2xl font-bold">+</span>
+                                            <span>17...</span>
+
+                                            <span
+                                                class="text-xl lg:text-2xl font-bold">+</span>
+                                            <span>19°</span>C
+                                        </h3>
+                                        <p class="font-light">
+                                            Ҳавои тағйирёбанда,
+                                        </p>
+                                        <p class="font-light">
+                                                                                            Дар баъзе ҳолатҳо боришоти сусти борон                                                                                    </p>
+                                        <p class="font-light"><span class="font-medium">Шамол</span>:
+                                            <span x-data="{ windDirectiion: 'w' }"
+                                                x-text="windDirectionObj['tj'][windDirectiion]">
+                                            </span>
+                                            2-7
+                                            м/c                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div
+                                class="xl:text-lg 2xl:col-span-2 flex flex-col gap-5 p-2 sm:p-4 border-2 border-gray-100 rounded-2xl font-light">
+                                <div class="flex flex-col prose max-w-none">
+                                    <p class="ql-align-justify"><strong style="background-color: transparent;">Дар шаҳри Душанбе </strong><span style="background-color: transparent;">- </span>Ҳавои тағйирёбанда, шабона бебориш пешгӯӣ шуда, рӯзона дар баъзе ҳолатҳо боришоти сусти борон ба амал меояд. Шамол аз самти ғарб бо суръати 2-7м/с, дар баъзк ҳолатҳо бо шиддатнокии то 7-12м/с мевазад. Ҳарорати ҳаво шабона 9+11º гарм, рӯзона 17+19º гарм мешавад.&nbsp;</p><p class="ql-align-justify"><strong style="background-color: transparent; color: rgb(0, 0, 0);">Дар Ноҳияҳои тобеъи ҷумҳурӣ </strong><span style="background-color: transparent; color: rgb(0, 0, 0);">- </span>Ҳавои тағйирёбанда пешгӯӣ шуда, дар водиҳо баъзан ҳолатҳо боришоти сусти борон ба амал меояд. Дар ноҳияҳои алоҳидаи кӯҳӣ борони кӯтоҳмуддат (дар баландиҳои зиёда аз 2000 метр аз сатҳи баҳр барф) меборад. Шамол аз самти ғарб бо суръати 2-7м/с, дар ноҳияҳои алоҳида бо шиддатнокии то 7-12м/с мевазад. Ҳарорати ҳаво дар водиҳо шабона 7+12º гарм, рӯзона 17+22º гарм, дар ноҳияҳои кӯҳӣ шабона 2+7º гарм, рӯзона 11+16º гарм мешавад. </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                            
+                <div x-show="'\u0412\u0438\u043b\u043e\u044f\u0442\u0438 \u0421\u0443\u0493\u0434' === selectedRegion">
+                    <div x-data="{ lang: 'tj' == 'tj' ? 'tg' : 'tj' }">
+                        <h3 x-data="{ date: dayjs(JSON.parse('\u00222026-10-31T00:00:00.000000Z\u0022')).locale(String(lang)).format('dddd, D MMMM') }" x-text="date.slice(0, 1).toUpperCase() + date.slice(1)"
+                            class="text-2xl text-blue-800 font-medium">
+                        </h3>
+
+                        <div class="mt-5 grid grid-cols-1 lg:grid-cols-2 2xl:grid-cols-3 gap-5 md:gap-8">
+                            <div class="flex flex-col gap-3 md:gap-6">
+                                <div style="background: rgba(0, 40, 184, 0.75);"
+                                    class="flex justify-center items-center flex-wrap sm:flex-nowrap xl:text-lg gap-6 md:gap-14 px-10 py-5 rounded-2xl">
+                                    <div class="flex flex-col items-center md:w-1/3">
+                                        <h3 class="text-3xl text-white font-medium">Шабона</h3>
+                                        <div class="w-24 md:w-32">
+                                            <img class="object-cover"
+                                                src="/storage/weather/f50644f03af706913b093d6a76c07827eeae4a82.svg"
+                                                loading="lazy" alt="weather-icon">
+                                        </div>
+                                    </div>
+
+                                    <div class="flex flex-col gap-1.5 h-full text-white md:w-2/3">
+                                        <h3 class="text-3xl mb-4 flex items-center">
+                                            <span
+                                                class="text-lg lg:text-2xl font-bold">+</span>
+                                            <span>7...</span>
+
+                                            <span
+                                                class="text-lg lg:text-2xl font-bold">+</span>
+                                            <span>9°</span>C
+                                        </h3>
+                                        <p class="font-light">
+                                            Ҳавои тағйирёбанда,
+                                        </p>
+                                        <p class="font-light">
+                                                                                            Бебориш                                                                                    </p>
+                                        <p class="font-light"><span class="font-medium">Шамол</span>:
+                                            <span x-data="{ windDirectiion: 'w' }"
+                                                x-text="windDirectionObj['tj'][windDirectiion]">
+                                            </span>
+                                            5-10
+                                            м/c                                        </p>
+                                    </div>
+                                </div>
+
+                                <div
+                                    class="bg-[#CCEDFF] flex justify-center items-center flex-wrap sm:flex-nowrap gap-6 xl:text-lg md:gap-14 px-10 py-5 rounded-2xl">
+                                    <div class="flex flex-col items-center md:w-1/3">
+                                        <h3 class="text-3xl text-blue-800 font-medium">Рӯзона</h3>
+                                        <div class="w-24 md:w-32">
+                                            <img class="object-cover"
+                                                src="/storage/weather/a14322cb85ba8d86075ec1671f2f33ab1ebb9202.svg"
+                                                loading="lazy" alt="weather-icon">
+                                        </div>
+                                    </div>
+
+                                    <div class="flex flex-col gap-1.5 h-full md:w-2/3">
+                                        <h3 class="text-3xl mb-4 flex items-center">
+                                            <span
+                                                class="text-xl lg:text-2xl font-bold">+</span>
+                                            <span>18...</span>
+
+                                            <span
+                                                class="text-xl lg:text-2xl font-bold">+</span>
+                                            <span>20°</span>C
+                                        </h3>
+                                        <p class="font-light">
+                                            Ҳавои тағйирёбанда,
+                                        </p>
+                                        <p class="font-light">
+                                                                                            Бебориш                                                                                    </p>
+                                        <p class="font-light"><span class="font-medium">Шамол</span>:
+                                            <span x-data="{ windDirectiion: 'w' }"
+                                                x-text="windDirectionObj['tj'][windDirectiion]">
+                                            </span>
+                                            5-10
+                                            м/c                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div
+                                class="xl:text-lg 2xl:col-span-2 flex flex-col gap-5 p-2 sm:p-4 border-2 border-gray-100 rounded-2xl font-light">
+                                <div class="flex flex-col prose max-w-none">
+                                    <p class="ql-align-justify"><strong style="background-color: transparent;">Дар шаҳри Хуҷанд. - </strong>Ҳавои тағйирёбандаи бебориш пешгӯӣ мешавад. Шамол аз самти ғарб бо суръати 5-10м/с, дар баъзе ҳолатҳо бо шиддатнокии то 10-15м/с мевазад. Ҳарорати ҳаво шабона 7+9º гарм, рӯзона 18+20º гарм мешавад.</p><p class="ql-align-justify"><strong style="background-color: transparent; color: rgb(0, 0, 0);">Дар вилояти Суғд. </strong><span style="background-color: transparent; color: rgb(0, 0, 0);">- </span>Ҳавои тағйирёбанда, дар водиҳо бебориш пешгӯӣ мешавад. Дар ноҳияҳои алоҳидаи кӯҳӣ баъзан ҳолатҳо боришоти сусти борон дар назар буда (дар баландиҳои зиёда аз 2000 метр аз сатҳи баҳр барф) меборад. Шамол аз самти ғарб бо суръати 2-7м/с, дар баъзе ноҳияҳо бо шиддатнокии то 7-12м/с мевазад. Ҳарорати ҳаво дар водиҳо шабона 6+11º гарм, рӯзона 15+20º гарм, дар ноҳияҳои кӯҳӣ шабона -1+4º, рӯзона 7+12º гарм мешавад.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                            
+                <div x-show="'\u0412\u0438\u043b\u043e\u044f\u0442\u0438 \u041c\u0443\u0445\u0442\u043e\u0440\u0438 \u041a\u04ef\u04b3\u0438\u0441\u0442\u043e\u043d\u0438 \u0411\u0430\u0434\u0430\u0445\u0448\u043e\u043d' === selectedRegion">
+                    <div x-data="{ lang: 'tj' == 'tj' ? 'tg' : 'tj' }">
+                        <h3 x-data="{ date: dayjs(JSON.parse('\u00222026-10-31T00:00:00.000000Z\u0022')).locale(String(lang)).format('dddd, D MMMM') }" x-text="date.slice(0, 1).toUpperCase() + date.slice(1)"
+                            class="text-2xl text-blue-800 font-medium">
+                        </h3>
+
+                        <div class="mt-5 grid grid-cols-1 lg:grid-cols-2 2xl:grid-cols-3 gap-5 md:gap-8">
+                            <div class="flex flex-col gap-3 md:gap-6">
+                                <div style="background: rgba(0, 40, 184, 0.75);"
+                                    class="flex justify-center items-center flex-wrap sm:flex-nowrap xl:text-lg gap-6 md:gap-14 px-10 py-5 rounded-2xl">
+                                    <div class="flex flex-col items-center md:w-1/3">
+                                        <h3 class="text-3xl text-white font-medium">Шабона</h3>
+                                        <div class="w-24 md:w-32">
+                                            <img class="object-cover"
+                                                src="/storage/weather/f50644f03af706913b093d6a76c07827eeae4a82.svg"
+                                                loading="lazy" alt="weather-icon">
+                                        </div>
+                                    </div>
+
+                                    <div class="flex flex-col gap-1.5 h-full text-white md:w-2/3">
+                                        <h3 class="text-3xl mb-4 flex items-center">
+                                            <span
+                                                class="text-lg lg:text-2xl font-bold">+</span>
+                                            <span>4...</span>
+
+                                            <span
+                                                class="text-lg lg:text-2xl font-bold">+</span>
+                                            <span>6°</span>C
+                                        </h3>
+                                        <p class="font-light">
+                                            Ҳавои тағйирёбанда,
+                                        </p>
+                                        <p class="font-light">
+                                                                                            Бебориш                                                                                    </p>
+                                        <p class="font-light"><span class="font-medium">Шамол</span>:
+                                            <span x-data="{ windDirectiion: 'w' }"
+                                                x-text="windDirectionObj['tj'][windDirectiion]">
+                                            </span>
+                                            5-10
+                                            м/c                                        </p>
+                                    </div>
+                                </div>
+
+                                <div
+                                    class="bg-[#CCEDFF] flex justify-center items-center flex-wrap sm:flex-nowrap gap-6 xl:text-lg md:gap-14 px-10 py-5 rounded-2xl">
+                                    <div class="flex flex-col items-center md:w-1/3">
+                                        <h3 class="text-3xl text-blue-800 font-medium">Рӯзона</h3>
+                                        <div class="w-24 md:w-32">
+                                            <img class="object-cover"
+                                                src="/storage/weather/fea86cbef0b57defebe3ddc86a18c1f22669894a.svg"
+                                                loading="lazy" alt="weather-icon">
+                                        </div>
+                                    </div>
+
+                                    <div class="flex flex-col gap-1.5 h-full md:w-2/3">
+                                        <h3 class="text-3xl mb-4 flex items-center">
+                                            <span
+                                                class="text-xl lg:text-2xl font-bold">+</span>
+                                            <span>13...</span>
+
+                                            <span
+                                                class="text-xl lg:text-2xl font-bold">+</span>
+                                            <span>15°</span>C
+                                        </h3>
+                                        <p class="font-light">
+                                            Ҳавои тағйирёбанда,
+                                        </p>
+                                        <p class="font-light">
+                                                                                            Боришоти сусти борон                                                                                    </p>
+                                        <p class="font-light"><span class="font-medium">Шамол</span>:
+                                            <span x-data="{ windDirectiion: 'w' }"
+                                                x-text="windDirectionObj['tj'][windDirectiion]">
+                                            </span>
+                                            5-10
+                                            м/c                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div
+                                class="xl:text-lg 2xl:col-span-2 flex flex-col gap-5 p-2 sm:p-4 border-2 border-gray-100 rounded-2xl font-light">
+                                <div class="flex flex-col prose max-w-none">
+                                    <p class="ql-align-justify"><strong style="background-color: transparent;">Дар шаҳри Хоруғ.</strong><span style="background-color: transparent;"> - </span>Ҳавои тағйирёбанда, шабона бебориш пешгӯӣ шуда, рӯзона боришоти сусти борон ба амал меояд. Шамол аз самти ғарб бо суръати 5-10 мевазад. Ҳарорати ҳаво шабона 4+6º гарм, рӯзона 13+15º гарм мешавад.&nbsp;&nbsp;</p><p class="ql-align-justify"><strong style="background-color: transparent;">Дар ноҳияи Мурғоб.</strong><span style="background-color: transparent;"> - </span>Ҳавои тағйирёбандаи бебориш пешгӯӣ мешавад. Шамол аз самти ғарб бо суръати 5-10м/с мевазад. Ҳарорати ҳаво шабона 7-9º хунук, рӯзона 4+6º гарм&nbsp;мешавад.</p><p class="ql-align-justify"><strong>Дар Вилояти Мухтори Кӯҳистони Бадахшон</strong><span style="background-color: transparent; color: rgb(0, 0, 0);"> - </span>Ҳавои тағйирёбанда пешгӯӣ шуда, дар баъзе ноҳияҳо боришот (борон, барф) ба амал меояд. Шамол аз самти ғарб бо суръати 4-9м/с, дар ноҳияҳои алоҳида бо шиддатнокии то 10-15м/с мевазад. Ҳарорати ҳаво дар ғарби вилоят шабона 2+7º гарм, дар баъзе ноҳияҳо то 9+11º гарм, рӯзона 10+15º гарм, дар баъзе ноҳияҳо то 17+19º гарм, дар шарқи вилоят шабона 6-11º хунук, рӯзона 1+6º гарм мешавад.&nbsp;&nbsp;&nbsp;</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                            
+                <div x-show="'\u0412\u0438\u043b\u043e\u044f\u0442\u0438 \u0425\u0430\u0442\u043b\u043e\u043d' === selectedRegion">
+                    <div x-data="{ lang: 'tj' == 'tj' ? 'tg' : 'tj' }">
+                        <h3 x-data="{ date: dayjs(JSON.parse('\u00222026-10-31T00:00:00.000000Z\u0022')).locale(String(lang)).format('dddd, D MMMM') }" x-text="date.slice(0, 1).toUpperCase() + date.slice(1)"
+                            class="text-2xl text-blue-800 font-medium">
+                        </h3>
+
+                        <div class="mt-5 grid grid-cols-1 lg:grid-cols-2 2xl:grid-cols-3 gap-5 md:gap-8">
+                            <div class="flex flex-col gap-3 md:gap-6">
+                                <div style="background: rgba(0, 40, 184, 0.75);"
+                                    class="flex justify-center items-center flex-wrap sm:flex-nowrap xl:text-lg gap-6 md:gap-14 px-10 py-5 rounded-2xl">
+                                    <div class="flex flex-col items-center md:w-1/3">
+                                        <h3 class="text-3xl text-white font-medium">Шабона</h3>
+                                        <div class="w-24 md:w-32">
+                                            <img class="object-cover"
+                                                src="/storage/weather/5aba983c48bfb64c652402726a2ec6a68b3cf383.svg"
+                                                loading="lazy" alt="weather-icon">
+                                        </div>
+                                    </div>
+
+                                    <div class="flex flex-col gap-1.5 h-full text-white md:w-2/3">
+                                        <h3 class="text-3xl mb-4 flex items-center">
+                                            <span
+                                                class="text-lg lg:text-2xl font-bold">+</span>
+                                            <span>10...</span>
+
+                                            <span
+                                                class="text-lg lg:text-2xl font-bold">+</span>
+                                            <span>12°</span>C
+                                        </h3>
+                                        <p class="font-light">
+                                            Ҳавои тағйирёбанда,
+                                        </p>
+                                        <p class="font-light">
+                                                                                            Асосан бебориш (0,0-0,5мм)                                                                                    </p>
+                                        <p class="font-light"><span class="font-medium">Шамол</span>:
+                                            <span x-data="{ windDirectiion: 'w' }"
+                                                x-text="windDirectionObj['tj'][windDirectiion]">
+                                            </span>
+                                            2-7
+                                            м/c                                        </p>
+                                    </div>
+                                </div>
+
+                                <div
+                                    class="bg-[#CCEDFF] flex justify-center items-center flex-wrap sm:flex-nowrap gap-6 xl:text-lg md:gap-14 px-10 py-5 rounded-2xl">
+                                    <div class="flex flex-col items-center md:w-1/3">
+                                        <h3 class="text-3xl text-blue-800 font-medium">Рӯзона</h3>
+                                        <div class="w-24 md:w-32">
+                                            <img class="object-cover"
+                                                src="/storage/weather/953523c3ae0b872b673853bb2897fb1bbf263694.svg"
+                                                loading="lazy" alt="weather-icon">
+                                        </div>
+                                    </div>
+
+                                    <div class="flex flex-col gap-1.5 h-full md:w-2/3">
+                                        <h3 class="text-3xl mb-4 flex items-center">
+                                            <span
+                                                class="text-xl lg:text-2xl font-bold">+</span>
+                                            <span>18...</span>
+
+                                            <span
+                                                class="text-xl lg:text-2xl font-bold">+</span>
+                                            <span>20°</span>C
+                                        </h3>
+                                        <p class="font-light">
+                                            Ҳавои тағйирёбанда,
+                                        </p>
+                                        <p class="font-light">
+                                                                                            Асосан бебориш (0,0-0,5мм)                                                                                    </p>
+                                        <p class="font-light"><span class="font-medium">Шамол</span>:
+                                            <span x-data="{ windDirectiion: 'w' }"
+                                                x-text="windDirectionObj['tj'][windDirectiion]">
+                                            </span>
+                                            2-7
+                                            м/c                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div
+                                class="xl:text-lg 2xl:col-span-2 flex flex-col gap-5 p-2 sm:p-4 border-2 border-gray-100 rounded-2xl font-light">
+                                <div class="flex flex-col prose max-w-none">
+                                    <p class="ql-align-justify"><strong>ш.Бохтар</strong> – Ҳавои тағйирёбанда, асосан бебориш (0,0-0,5мм) пешгӯӣ мешавад. Шамол аз самти ғарб бо суръати 2-7м/с, дар баъзе ҳолатҳо бо шиддатнокии то 7-12м/с мевазад. Ҳарорати ҳаво шабона 10+12º гарм, рӯзона 18+20º гарм&nbsp;мешавад.</p><p class="ql-align-justify"><strong>Дар вилояти Хатлон </strong>– Ҳавои тағйирёбанда пешгӯӣ шуда, дар гурӯҳи ноҳияҳои минтақаи Кӯлоб баъзан ҳолатҳо борон борида, дар гурӯҳи ноҳияҳои минтақаи Бохтар ҳавои бебориш дар назар аст. Шамол аз самти ғарб бо суръати 2-7м/с, дар баъзе ноҳияҳо бо шиддатнокии то 7-12м/с мевазад. Ҳарорати ҳаво дар водиҳо шабона 8+13º гарм, рӯзона 19+24º гарм, дар ноҳияҳои доманакӯҳӣ шабона 6+11º гарм, рӯзона 12+17º гарм мешавад.&nbsp;</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                            
+                <div x-show="'\u041d\u043e\u04b3\u0438\u044f\u04b3\u043e\u0438 \u0442\u043e\u0431\u0435\u044a\u0438 \u04b7\u0443\u043c\u04b3\u0443\u0440\u04e3' === selectedRegion">
+                    <div x-data="{ lang: 'tj' == 'tj' ? 'tg' : 'tj' }">
+                        <h3 x-data="{ date: dayjs(JSON.parse('\u00222026-11-01T00:00:00.000000Z\u0022')).locale(String(lang)).format('dddd, D MMMM') }" x-text="date.slice(0, 1).toUpperCase() + date.slice(1)"
+                            class="text-2xl text-blue-800 font-medium">
+                        </h3>
+
+                        <div class="mt-5 grid grid-cols-1 lg:grid-cols-2 2xl:grid-cols-3 gap-5 md:gap-8">
+                            <div class="flex flex-col gap-3 md:gap-6">
+                                <div style="background: rgba(0, 40, 184, 0.75);"
+                                    class="flex justify-center items-center flex-wrap sm:flex-nowrap xl:text-lg gap-6 md:gap-14 px-10 py-5 rounded-2xl">
+                                    <div class="flex flex-col items-center md:w-1/3">
+                                        <h3 class="text-3xl text-white font-medium">Шабона</h3>
+                                        <div class="w-24 md:w-32">
+                                            <img class="object-cover"
+                                                src="/storage/weather/f50644f03af706913b093d6a76c07827eeae4a82.svg"
+                                                loading="lazy" alt="weather-icon">
+                                        </div>
+                                    </div>
+
+                                    <div class="flex flex-col gap-1.5 h-full text-white md:w-2/3">
+                                        <h3 class="text-3xl mb-4 flex items-center">
+                                            <span
+                                                class="text-lg lg:text-2xl font-bold">+</span>
+                                            <span>10...</span>
+
+                                            <span
+                                                class="text-lg lg:text-2xl font-bold">+</span>
+                                            <span>12°</span>C
+                                        </h3>
+                                        <p class="font-light">
+                                            Ҳавои тағйирёбанда,
+                                        </p>
+                                        <p class="font-light">
+                                                                                            Бебориш                                                                                    </p>
+                                        <p class="font-light"><span class="font-medium">Шамол</span>:
+                                            <span x-data="{ windDirectiion: 'w' }"
+                                                x-text="windDirectionObj['tj'][windDirectiion]">
+                                            </span>
+                                            2-7
+                                            м/c                                        </p>
+                                    </div>
+                                </div>
+
+                                <div
+                                    class="bg-[#CCEDFF] flex justify-center items-center flex-wrap sm:flex-nowrap gap-6 xl:text-lg md:gap-14 px-10 py-5 rounded-2xl">
+                                    <div class="flex flex-col items-center md:w-1/3">
+                                        <h3 class="text-3xl text-blue-800 font-medium">Рӯзона</h3>
+                                        <div class="w-24 md:w-32">
+                                            <img class="object-cover"
+                                                src="/storage/weather/a14322cb85ba8d86075ec1671f2f33ab1ebb9202.svg"
+                                                loading="lazy" alt="weather-icon">
+                                        </div>
+                                    </div>
+
+                                    <div class="flex flex-col gap-1.5 h-full md:w-2/3">
+                                        <h3 class="text-3xl mb-4 flex items-center">
+                                            <span
+                                                class="text-xl lg:text-2xl font-bold">+</span>
+                                            <span>19...</span>
+
+                                            <span
+                                                class="text-xl lg:text-2xl font-bold">+</span>
+                                            <span>21°</span>C
+                                        </h3>
+                                        <p class="font-light">
+                                            Ҳавои тағйирёбанда,
+                                        </p>
+                                        <p class="font-light">
+                                                                                            Бебориш                                                                                    </p>
+                                        <p class="font-light"><span class="font-medium">Шамол</span>:
+                                            <span x-data="{ windDirectiion: 'w' }"
+                                                x-text="windDirectionObj['tj'][windDirectiion]">
+                                            </span>
+                                            2-7
+                                            м/c                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div
+                                class="xl:text-lg 2xl:col-span-2 flex flex-col gap-5 p-2 sm:p-4 border-2 border-gray-100 rounded-2xl font-light">
+                                <div class="flex flex-col prose max-w-none">
+                                    <p class="ql-align-justify"><strong style="background-color: transparent;">Дар шаҳри Душанбе </strong><span style="background-color: transparent;">- </span>Ҳавои тағйирёбандаи бебориш пешгӯӣ мешавад. Шамол аз самти ғарб бо суръати 2-7м/с, дар баъзк ҳолатҳо бо шиддатнокии то 7-12м/с мевазад. Ҳарорати ҳаво шабона 10+12º гарм, рӯзона 19+21º гарм мешавад.&nbsp;</p><p class="ql-align-justify"><strong style="background-color: transparent; color: rgb(0, 0, 0);">Дар Ноҳияҳои тобеъи ҷумҳурӣ </strong><span style="background-color: transparent; color: rgb(0, 0, 0);">- </span>Ҳавои тағйирёбанда, дар водиҳо бебориш пешгӯӣ шуда, дар ноҳияҳои алоҳидаи кӯҳӣ борони кӯтоҳмуддат (дар баландиҳои зиёда аз 2000 метр аз сатҳи баҳр барф) меборад. Шамол аз самти ғарб бо суръати 2-7м/с, дар ноҳияҳои алоҳида бо шиддатнокии то 7-12м/с мевазад. Ҳарорати ҳаво дар водиҳо шабона 7+12º гарм, рӯзона 17+22º гарм, дар ноҳияҳои кӯҳӣ шабона 2+7º гарм, рӯзона 11+16º гарм мешавад. </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                            
+                <div x-show="'\u0412\u0438\u043b\u043e\u044f\u0442\u0438 \u0421\u0443\u0493\u0434' === selectedRegion">
+                    <div x-data="{ lang: 'tj' == 'tj' ? 'tg' : 'tj' }">
+                        <h3 x-data="{ date: dayjs(JSON.parse('\u00222026-11-01T00:00:00.000000Z\u0022')).locale(String(lang)).format('dddd, D MMMM') }" x-text="date.slice(0, 1).toUpperCase() + date.slice(1)"
+                            class="text-2xl text-blue-800 font-medium">
+                        </h3>
+
+                        <div class="mt-5 grid grid-cols-1 lg:grid-cols-2 2xl:grid-cols-3 gap-5 md:gap-8">
+                            <div class="flex flex-col gap-3 md:gap-6">
+                                <div style="background: rgba(0, 40, 184, 0.75);"
+                                    class="flex justify-center items-center flex-wrap sm:flex-nowrap xl:text-lg gap-6 md:gap-14 px-10 py-5 rounded-2xl">
+                                    <div class="flex flex-col items-center md:w-1/3">
+                                        <h3 class="text-3xl text-white font-medium">Шабона</h3>
+                                        <div class="w-24 md:w-32">
+                                            <img class="object-cover"
+                                                src="/storage/weather/5aba983c48bfb64c652402726a2ec6a68b3cf383.svg"
+                                                loading="lazy" alt="weather-icon">
+                                        </div>
+                                    </div>
+
+                                    <div class="flex flex-col gap-1.5 h-full text-white md:w-2/3">
+                                        <h3 class="text-3xl mb-4 flex items-center">
+                                            <span
+                                                class="text-lg lg:text-2xl font-bold">+</span>
+                                            <span>8...</span>
+
+                                            <span
+                                                class="text-lg lg:text-2xl font-bold">+</span>
+                                            <span>10°</span>C
+                                        </h3>
+                                        <p class="font-light">
+                                            Ҳавои тағйирёбанда,
+                                        </p>
+                                        <p class="font-light">
+                                                                                            Асосан бебориш (0,0-0,5мм)                                                                                    </p>
+                                        <p class="font-light"><span class="font-medium">Шамол</span>:
+                                            <span x-data="{ windDirectiion: 'w' }"
+                                                x-text="windDirectionObj['tj'][windDirectiion]">
+                                            </span>
+                                            2-7
+                                            м/c                                        </p>
+                                    </div>
+                                </div>
+
+                                <div
+                                    class="bg-[#CCEDFF] flex justify-center items-center flex-wrap sm:flex-nowrap gap-6 xl:text-lg md:gap-14 px-10 py-5 rounded-2xl">
+                                    <div class="flex flex-col items-center md:w-1/3">
+                                        <h3 class="text-3xl text-blue-800 font-medium">Рӯзона</h3>
+                                        <div class="w-24 md:w-32">
+                                            <img class="object-cover"
+                                                src="/storage/weather/953523c3ae0b872b673853bb2897fb1bbf263694.svg"
+                                                loading="lazy" alt="weather-icon">
+                                        </div>
+                                    </div>
+
+                                    <div class="flex flex-col gap-1.5 h-full md:w-2/3">
+                                        <h3 class="text-3xl mb-4 flex items-center">
+                                            <span
+                                                class="text-xl lg:text-2xl font-bold">+</span>
+                                            <span>17...</span>
+
+                                            <span
+                                                class="text-xl lg:text-2xl font-bold">+</span>
+                                            <span>19°</span>C
+                                        </h3>
+                                        <p class="font-light">
+                                            Ҳавои тағйирёбанда,
+                                        </p>
+                                        <p class="font-light">
+                                                                                            Асосан бебориш (0,0-0,5мм)                                                                                    </p>
+                                        <p class="font-light"><span class="font-medium">Шамол</span>:
+                                            <span x-data="{ windDirectiion: 'w' }"
+                                                x-text="windDirectionObj['tj'][windDirectiion]">
+                                            </span>
+                                            2-7
+                                            м/c                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div
+                                class="xl:text-lg 2xl:col-span-2 flex flex-col gap-5 p-2 sm:p-4 border-2 border-gray-100 rounded-2xl font-light">
+                                <div class="flex flex-col prose max-w-none">
+                                    <p class="ql-align-justify"><strong style="background-color: transparent;">Дар шаҳри Хуҷанд. - </strong>Ҳавои тағйирёбанда, асосан бебориш (0,0-0,5мм) пешгӯӣ мешавад. Шамол аз самти ғарб бо суръати 2-7м/с, дар баъзе ҳолатҳо бо шиддатнокии то 7-12м/с мевазад. Ҳарорати ҳаво шабона 8+10º гарм, рӯзона 17+19º гарм мешавад.</p><p class="ql-align-justify"><strong style="background-color: transparent; color: rgb(0, 0, 0);">Дар вилояти Суғд. </strong><span style="background-color: transparent; color: rgb(0, 0, 0);">- </span>Ҳавои тағйирёбанда, дар водиҳо бебориш пешгӯӣ мешавад. Дар ноҳияҳои алоҳидаи кӯҳӣ баъзан ҳолатҳо боришоти сусти борон дар назар буда (дар баландиҳои зиёда аз 2000 метр аз сатҳи баҳр барф) меборад. Шамол аз самти ғарб бо суръати 2-7м/с, дар баъзе ноҳияҳо бо шиддатнокии то 7-12м/с мевазад. Ҳарорати ҳаво дар водиҳо шабона 6+11º гарм, рӯзона 15+20º гарм, дар ноҳияҳои кӯҳӣ шабона -1+4º, рӯзона 7+12º гарм мешавад.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                            
+                <div x-show="'\u0412\u0438\u043b\u043e\u044f\u0442\u0438 \u041c\u0443\u0445\u0442\u043e\u0440\u0438 \u041a\u04ef\u04b3\u0438\u0441\u0442\u043e\u043d\u0438 \u0411\u0430\u0434\u0430\u0445\u0448\u043e\u043d' === selectedRegion">
+                    <div x-data="{ lang: 'tj' == 'tj' ? 'tg' : 'tj' }">
+                        <h3 x-data="{ date: dayjs(JSON.parse('\u00222026-11-01T00:00:00.000000Z\u0022')).locale(String(lang)).format('dddd, D MMMM') }" x-text="date.slice(0, 1).toUpperCase() + date.slice(1)"
+                            class="text-2xl text-blue-800 font-medium">
+                        </h3>
+
+                        <div class="mt-5 grid grid-cols-1 lg:grid-cols-2 2xl:grid-cols-3 gap-5 md:gap-8">
+                            <div class="flex flex-col gap-3 md:gap-6">
+                                <div style="background: rgba(0, 40, 184, 0.75);"
+                                    class="flex justify-center items-center flex-wrap sm:flex-nowrap xl:text-lg gap-6 md:gap-14 px-10 py-5 rounded-2xl">
+                                    <div class="flex flex-col items-center md:w-1/3">
+                                        <h3 class="text-3xl text-white font-medium">Шабона</h3>
+                                        <div class="w-24 md:w-32">
+                                            <img class="object-cover"
+                                                src="/storage/weather/5e6a215077915805b60fd67648bc8d4f244f17dc.svg"
+                                                loading="lazy" alt="weather-icon">
+                                        </div>
+                                    </div>
+
+                                    <div class="flex flex-col gap-1.5 h-full text-white md:w-2/3">
+                                        <h3 class="text-3xl mb-4 flex items-center">
+                                            <span
+                                                class="text-lg lg:text-2xl font-bold">+</span>
+                                            <span>4...</span>
+
+                                            <span
+                                                class="text-lg lg:text-2xl font-bold">+</span>
+                                            <span>6°</span>C
+                                        </h3>
+                                        <p class="font-light">
+                                            Ҳавои тағйирёбанда,
+                                        </p>
+                                        <p class="font-light">
+                                                                                            Борони кӯтоҳмуддат                                                                                    </p>
+                                        <p class="font-light"><span class="font-medium">Шамол</span>:
+                                            <span x-data="{ windDirectiion: 'w' }"
+                                                x-text="windDirectionObj['tj'][windDirectiion]">
+                                            </span>
+                                            5-10
+                                            м/c                                        </p>
+                                    </div>
+                                </div>
+
+                                <div
+                                    class="bg-[#CCEDFF] flex justify-center items-center flex-wrap sm:flex-nowrap gap-6 xl:text-lg md:gap-14 px-10 py-5 rounded-2xl">
+                                    <div class="flex flex-col items-center md:w-1/3">
+                                        <h3 class="text-3xl text-blue-800 font-medium">Рӯзона</h3>
+                                        <div class="w-24 md:w-32">
+                                            <img class="object-cover"
+                                                src="/storage/weather/adec9266afc80846601a33bada313434e9082719.svg"
+                                                loading="lazy" alt="weather-icon">
+                                        </div>
+                                    </div>
+
+                                    <div class="flex flex-col gap-1.5 h-full md:w-2/3">
+                                        <h3 class="text-3xl mb-4 flex items-center">
+                                            <span
+                                                class="text-xl lg:text-2xl font-bold">+</span>
+                                            <span>12...</span>
+
+                                            <span
+                                                class="text-xl lg:text-2xl font-bold">+</span>
+                                            <span>14°</span>C
+                                        </h3>
+                                        <p class="font-light">
+                                            Ҳавои тағйирёбанда,
+                                        </p>
+                                        <p class="font-light">
+                                                                                            Борони кӯтоҳмуддат                                                                                    </p>
+                                        <p class="font-light"><span class="font-medium">Шамол</span>:
+                                            <span x-data="{ windDirectiion: 'w' }"
+                                                x-text="windDirectionObj['tj'][windDirectiion]">
+                                            </span>
+                                            5-10
+                                            м/c                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div
+                                class="xl:text-lg 2xl:col-span-2 flex flex-col gap-5 p-2 sm:p-4 border-2 border-gray-100 rounded-2xl font-light">
+                                <div class="flex flex-col prose max-w-none">
+                                    <p class="ql-align-justify"><strong style="background-color: transparent;">Дар шаҳри Хоруғ.</strong><span style="background-color: transparent;"> - </span>Ҳавои тағйирёбанда пешгӯӣ шуда, борони кӯтоҳмуддат меборад. Шамол аз самти ғарб бо суръати 5-10м/с, дар баъзе ҳолатҳо бо шиддатнокии то 10-15м/с мевазад. Ҳарорати ҳаво шабона 4+6º гарм, рӯзона 12+14º гарм мешавад.&nbsp;&nbsp;</p><p class="ql-align-justify"><strong style="background-color: transparent;">Дар ноҳияи Мурғоб.</strong><span style="background-color: transparent;"> - </span>Ҳавои тағйирёбанда, асосан бебориш (0,0-0,5мм) пешгӯӣ мешавад. Шамол аз самти ғарб бо суръати 5-10м/с, дар баъзе ҳолатҳо бо шиддатнокии то 10-15м/с мевазад. Ҳарорати ҳаво шабона 6-8º хунук, рӯзона 4+6º гарм&nbsp;мешавад.</p><p class="ql-align-justify"><strong>Дар Вилояти Мухтори Кӯҳистони Бадахшон</strong><span style="background-color: transparent; color: rgb(0, 0, 0);"> - </span>Ҳавои тағйирёбанда пешгӯӣ шуда, дар баъзе ноҳияҳо боришот (борон, барф) ба амал меояд. Шамол аз самти ғарб бо суръати 4-9м/с, дар ноҳияҳои алоҳида бо шиддатнокии то 10-15м/с мевазад. Ҳарорати ҳаво дар ғарби вилоят шабона 2+7º гарм, дар баъзе ноҳияҳо то 9+11º гарм, рӯзона 10+15º гарм, дар баъзе ноҳияҳо то 17+19º гарм, дар шарқи вилоят шабона 6-11º хунук, рӯзона 1+6º гарм мешавад.&nbsp;&nbsp;&nbsp;</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                            
+                <div x-show="'\u0412\u0438\u043b\u043e\u044f\u0442\u0438 \u0425\u0430\u0442\u043b\u043e\u043d' === selectedRegion">
+                    <div x-data="{ lang: 'tj' == 'tj' ? 'tg' : 'tj' }">
+                        <h3 x-data="{ date: dayjs(JSON.parse('\u00222026-11-01T00:00:00.000000Z\u0022')).locale(String(lang)).format('dddd, D MMMM') }" x-text="date.slice(0, 1).toUpperCase() + date.slice(1)"
+                            class="text-2xl text-blue-800 font-medium">
+                        </h3>
+
+                        <div class="mt-5 grid grid-cols-1 lg:grid-cols-2 2xl:grid-cols-3 gap-5 md:gap-8">
+                            <div class="flex flex-col gap-3 md:gap-6">
+                                <div style="background: rgba(0, 40, 184, 0.75);"
+                                    class="flex justify-center items-center flex-wrap sm:flex-nowrap xl:text-lg gap-6 md:gap-14 px-10 py-5 rounded-2xl">
+                                    <div class="flex flex-col items-center md:w-1/3">
+                                        <h3 class="text-3xl text-white font-medium">Шабона</h3>
+                                        <div class="w-24 md:w-32">
+                                            <img class="object-cover"
+                                                src="/storage/weather/5aba983c48bfb64c652402726a2ec6a68b3cf383.svg"
+                                                loading="lazy" alt="weather-icon">
+                                        </div>
+                                    </div>
+
+                                    <div class="flex flex-col gap-1.5 h-full text-white md:w-2/3">
+                                        <h3 class="text-3xl mb-4 flex items-center">
+                                            <span
+                                                class="text-lg lg:text-2xl font-bold">+</span>
+                                            <span>9...</span>
+
+                                            <span
+                                                class="text-lg lg:text-2xl font-bold">+</span>
+                                            <span>11°</span>C
+                                        </h3>
+                                        <p class="font-light">
+                                            Ҳавои тағйирёбанда,
+                                        </p>
+                                        <p class="font-light">
+                                                                                            Асосан бебориш (0,0-0,5мм)                                                                                    </p>
+                                        <p class="font-light"><span class="font-medium">Шамол</span>:
+                                            <span x-data="{ windDirectiion: 'w' }"
+                                                x-text="windDirectionObj['tj'][windDirectiion]">
+                                            </span>
+                                            5-10
+                                            м/c                                        </p>
+                                    </div>
+                                </div>
+
+                                <div
+                                    class="bg-[#CCEDFF] flex justify-center items-center flex-wrap sm:flex-nowrap gap-6 xl:text-lg md:gap-14 px-10 py-5 rounded-2xl">
+                                    <div class="flex flex-col items-center md:w-1/3">
+                                        <h3 class="text-3xl text-blue-800 font-medium">Рӯзона</h3>
+                                        <div class="w-24 md:w-32">
+                                            <img class="object-cover"
+                                                src="/storage/weather/953523c3ae0b872b673853bb2897fb1bbf263694.svg"
+                                                loading="lazy" alt="weather-icon">
+                                        </div>
+                                    </div>
+
+                                    <div class="flex flex-col gap-1.5 h-full md:w-2/3">
+                                        <h3 class="text-3xl mb-4 flex items-center">
+                                            <span
+                                                class="text-xl lg:text-2xl font-bold">+</span>
+                                            <span>21...</span>
+
+                                            <span
+                                                class="text-xl lg:text-2xl font-bold">+</span>
+                                            <span>23°</span>C
+                                        </h3>
+                                        <p class="font-light">
+                                            Ҳавои тағйирёбанда,
+                                        </p>
+                                        <p class="font-light">
+                                                                                            Асосан бебориш (0,0-0,5мм)                                                                                    </p>
+                                        <p class="font-light"><span class="font-medium">Шамол</span>:
+                                            <span x-data="{ windDirectiion: 'w' }"
+                                                x-text="windDirectionObj['tj'][windDirectiion]">
+                                            </span>
+                                            5-10
+                                            м/c                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div
+                                class="xl:text-lg 2xl:col-span-2 flex flex-col gap-5 p-2 sm:p-4 border-2 border-gray-100 rounded-2xl font-light">
+                                <div class="flex flex-col prose max-w-none">
+                                    <p class="ql-align-justify"><strong>ш.Бохтар</strong> – Ҳавои тағйирёбанда, асосан бебориш (0,0-0,5мм) пешгӯӣ мешавад. Шамол аз самти ғарб бо суръати 5-10м/с мевазад. Ҳарорати ҳаво шабона 9+11º гарм, рӯзона 21+23º гарм&nbsp;мешавад.</p><p class="ql-align-justify"><strong>Дар вилояти Хатлон </strong>– Ҳавои тағйирёбанда пешгӯӣ шуда, дар гурӯҳи ноҳияҳои минтақаи Кӯлоб баъзан ҳолатҳо борон борида, дар гурӯҳи ноҳияҳои минтақаи Бохтар ҳавои бебориш дар назар аст. Шамол аз самти ғарб бо суръати 2-7м/с, дар баъзе ноҳияҳо бо шиддатнокии то 7-12м/с мевазад. Ҳарорати ҳаво дар водиҳо шабона 8+13º гарм, рӯзона 19+24º гарм, дар ноҳияҳои доманакӯҳӣ шабона 6+11º гарм, рӯзона 12+17º гарм мешавад.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                            
+                <div x-show="'\u041d\u043e\u04b3\u0438\u044f\u04b3\u043e\u0438 \u0442\u043e\u0431\u0435\u044a\u0438 \u04b7\u0443\u043c\u04b3\u0443\u0440\u04e3' === selectedRegion">
+                    <div x-data="{ lang: 'tj' == 'tj' ? 'tg' : 'tj' }">
+                        <h3 x-data="{ date: dayjs(JSON.parse('\u00222026-11-02T00:00:00.000000Z\u0022')).locale(String(lang)).format('dddd, D MMMM') }" x-text="date.slice(0, 1).toUpperCase() + date.slice(1)"
+                            class="text-2xl text-blue-800 font-medium">
+                        </h3>
+
+                        <div class="mt-5 grid grid-cols-1 lg:grid-cols-2 2xl:grid-cols-3 gap-5 md:gap-8">
+                            <div class="flex flex-col gap-3 md:gap-6">
+                                <div style="background: rgba(0, 40, 184, 0.75);"
+                                    class="flex justify-center items-center flex-wrap sm:flex-nowrap xl:text-lg gap-6 md:gap-14 px-10 py-5 rounded-2xl">
+                                    <div class="flex flex-col items-center md:w-1/3">
+                                        <h3 class="text-3xl text-white font-medium">Шабона</h3>
+                                        <div class="w-24 md:w-32">
+                                            <img class="object-cover"
+                                                src="/storage/weather/f50644f03af706913b093d6a76c07827eeae4a82.svg"
+                                                loading="lazy" alt="weather-icon">
+                                        </div>
+                                    </div>
+
+                                    <div class="flex flex-col gap-1.5 h-full text-white md:w-2/3">
+                                        <h3 class="text-3xl mb-4 flex items-center">
+                                            <span
+                                                class="text-lg lg:text-2xl font-bold">+</span>
+                                            <span>9...</span>
+
+                                            <span
+                                                class="text-lg lg:text-2xl font-bold">+</span>
+                                            <span>11°</span>C
+                                        </h3>
+                                        <p class="font-light">
+                                            Ҳавои тағйирёбанда,
+                                        </p>
+                                        <p class="font-light">
+                                                                                            Бебориш                                                                                    </p>
+                                        <p class="font-light"><span class="font-medium">Шамол</span>:
+                                            <span x-data="{ windDirectiion: 'w' }"
+                                                x-text="windDirectionObj['tj'][windDirectiion]">
+                                            </span>
+                                            5-10
+                                            м/c                                        </p>
+                                    </div>
+                                </div>
+
+                                <div
+                                    class="bg-[#CCEDFF] flex justify-center items-center flex-wrap sm:flex-nowrap gap-6 xl:text-lg md:gap-14 px-10 py-5 rounded-2xl">
+                                    <div class="flex flex-col items-center md:w-1/3">
+                                        <h3 class="text-3xl text-blue-800 font-medium">Рӯзона</h3>
+                                        <div class="w-24 md:w-32">
+                                            <img class="object-cover"
+                                                src="/storage/weather/a14322cb85ba8d86075ec1671f2f33ab1ebb9202.svg"
+                                                loading="lazy" alt="weather-icon">
+                                        </div>
+                                    </div>
+
+                                    <div class="flex flex-col gap-1.5 h-full md:w-2/3">
+                                        <h3 class="text-3xl mb-4 flex items-center">
+                                            <span
+                                                class="text-xl lg:text-2xl font-bold">+</span>
+                                            <span>19...</span>
+
+                                            <span
+                                                class="text-xl lg:text-2xl font-bold">+</span>
+                                            <span>21°</span>C
+                                        </h3>
+                                        <p class="font-light">
+                                            Ҳавои тағйирёбанда,
+                                        </p>
+                                        <p class="font-light">
+                                                                                            Бебориш                                                                                    </p>
+                                        <p class="font-light"><span class="font-medium">Шамол</span>:
+                                            <span x-data="{ windDirectiion: 'w' }"
+                                                x-text="windDirectionObj['tj'][windDirectiion]">
+                                            </span>
+                                            5-10
+                                            м/c                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div
+                                class="xl:text-lg 2xl:col-span-2 flex flex-col gap-5 p-2 sm:p-4 border-2 border-gray-100 rounded-2xl font-light">
+                                <div class="flex flex-col prose max-w-none">
+                                    <p class="ql-align-justify"><strong style="background-color: transparent;">Дар шаҳри Душанбе </strong><span style="background-color: transparent;">- </span>Ҳавои тағйирёбандаи бебориш пешгӯӣ мешавад. Шамол аз самти ғарб бо суръати 5-10м/с мевазад. Ҳарорати ҳаво шабона 9+11º гарм, рӯзона 19+21º гарм мешавад.&nbsp;</p><p class="ql-align-justify"><strong style="background-color: transparent; color: rgb(0, 0, 0);">Дар Ноҳияҳои тобеъи ҷумҳурӣ </strong><span style="background-color: transparent; color: rgb(0, 0, 0);">- </span>Ҳавои тағйирёбанда, дар водиҳо бебориш пешгӯӣ шуда, дар ноҳияҳои алоҳидаи кӯҳӣ борони кӯтоҳмуддат (дар баландиҳои зиёда аз 2000 метр аз сатҳи баҳр барф) меборад. Шамол аз самти ғарб бо суръати 2-7м/с, дар ноҳияҳои алоҳида бо шиддатнокии то 7-12м/с мевазад. Ҳарорати ҳаво дар водиҳо шабона 7+12º гарм, рӯзона 17+22º гарм, дар ноҳияҳои кӯҳӣ шабона 2+7º гарм, рӯзона 11+16º гарм мешавад. </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                            
+                <div x-show="'\u0412\u0438\u043b\u043e\u044f\u0442\u0438 \u0421\u0443\u0493\u0434' === selectedRegion">
+                    <div x-data="{ lang: 'tj' == 'tj' ? 'tg' : 'tj' }">
+                        <h3 x-data="{ date: dayjs(JSON.parse('\u00222026-11-02T00:00:00.000000Z\u0022')).locale(String(lang)).format('dddd, D MMMM') }" x-text="date.slice(0, 1).toUpperCase() + date.slice(1)"
+                            class="text-2xl text-blue-800 font-medium">
+                        </h3>
+
+                        <div class="mt-5 grid grid-cols-1 lg:grid-cols-2 2xl:grid-cols-3 gap-5 md:gap-8">
+                            <div class="flex flex-col gap-3 md:gap-6">
+                                <div style="background: rgba(0, 40, 184, 0.75);"
+                                    class="flex justify-center items-center flex-wrap sm:flex-nowrap xl:text-lg gap-6 md:gap-14 px-10 py-5 rounded-2xl">
+                                    <div class="flex flex-col items-center md:w-1/3">
+                                        <h3 class="text-3xl text-white font-medium">Шабона</h3>
+                                        <div class="w-24 md:w-32">
+                                            <img class="object-cover"
+                                                src="/storage/weather/f50644f03af706913b093d6a76c07827eeae4a82.svg"
+                                                loading="lazy" alt="weather-icon">
+                                        </div>
+                                    </div>
+
+                                    <div class="flex flex-col gap-1.5 h-full text-white md:w-2/3">
+                                        <h3 class="text-3xl mb-4 flex items-center">
+                                            <span
+                                                class="text-lg lg:text-2xl font-bold">+</span>
+                                            <span>8...</span>
+
+                                            <span
+                                                class="text-lg lg:text-2xl font-bold">+</span>
+                                            <span>10°</span>C
+                                        </h3>
+                                        <p class="font-light">
+                                            Ҳавои тағйирёбанда,
+                                        </p>
+                                        <p class="font-light">
+                                                                                            Бебориш                                                                                    </p>
+                                        <p class="font-light"><span class="font-medium">Шамол</span>:
+                                            <span x-data="{ windDirectiion: 'w' }"
+                                                x-text="windDirectionObj['tj'][windDirectiion]">
+                                            </span>
+                                            5-10
+                                            м/c                                        </p>
+                                    </div>
+                                </div>
+
+                                <div
+                                    class="bg-[#CCEDFF] flex justify-center items-center flex-wrap sm:flex-nowrap gap-6 xl:text-lg md:gap-14 px-10 py-5 rounded-2xl">
+                                    <div class="flex flex-col items-center md:w-1/3">
+                                        <h3 class="text-3xl text-blue-800 font-medium">Рӯзона</h3>
+                                        <div class="w-24 md:w-32">
+                                            <img class="object-cover"
+                                                src="/storage/weather/a14322cb85ba8d86075ec1671f2f33ab1ebb9202.svg"
+                                                loading="lazy" alt="weather-icon">
+                                        </div>
+                                    </div>
+
+                                    <div class="flex flex-col gap-1.5 h-full md:w-2/3">
+                                        <h3 class="text-3xl mb-4 flex items-center">
+                                            <span
+                                                class="text-xl lg:text-2xl font-bold">+</span>
+                                            <span>18...</span>
+
+                                            <span
+                                                class="text-xl lg:text-2xl font-bold">+</span>
+                                            <span>20°</span>C
+                                        </h3>
+                                        <p class="font-light">
+                                            Ҳавои тағйирёбанда,
+                                        </p>
+                                        <p class="font-light">
+                                                                                            Бебориш                                                                                    </p>
+                                        <p class="font-light"><span class="font-medium">Шамол</span>:
+                                            <span x-data="{ windDirectiion: 'w' }"
+                                                x-text="windDirectionObj['tj'][windDirectiion]">
+                                            </span>
+                                            5-10
+                                            м/c                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div
+                                class="xl:text-lg 2xl:col-span-2 flex flex-col gap-5 p-2 sm:p-4 border-2 border-gray-100 rounded-2xl font-light">
+                                <div class="flex flex-col prose max-w-none">
+                                    <p class="ql-align-justify"><strong style="background-color: transparent;">Дар шаҳри Хуҷанд. - </strong>Ҳавои тағйирёбандаи бебориш пешгӯӣ мешавад. Шамол аз самти ғарб бо суръати 5-10м/с мевазад. Ҳарорати ҳаво шабона 8+10º гарм, рӯзона 18+20º гарм мешавад.</p><p class="ql-align-justify"><strong style="background-color: transparent; color: rgb(0, 0, 0);">Дар вилояти Суғд. </strong><span style="background-color: transparent; color: rgb(0, 0, 0);">- </span>Ҳавои тағйирёбанда, дар водиҳо бебориш пешгӯӣ мешавад. Дар ноҳияҳои алоҳидаи кӯҳӣ баъзан ҳолатҳо боришоти сусти борон дар назар буда (дар баландиҳои зиёда аз 2000 метр аз сатҳи баҳр барф) меборад. Шамол аз самти ғарб бо суръати 2-7м/с, дар баъзе ноҳияҳо бо шиддатнокии то 7-12м/с мевазад. Ҳарорати ҳаво дар водиҳо шабона 6+11º гарм, рӯзона 15+20º гарм, дар ноҳияҳои кӯҳӣ шабона -1+4º, рӯзона 7+12º гарм мешавад.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                            
+                <div x-show="'\u0412\u0438\u043b\u043e\u044f\u0442\u0438 \u041c\u0443\u0445\u0442\u043e\u0440\u0438 \u041a\u04ef\u04b3\u0438\u0441\u0442\u043e\u043d\u0438 \u0411\u0430\u0434\u0430\u0445\u0448\u043e\u043d' === selectedRegion">
+                    <div x-data="{ lang: 'tj' == 'tj' ? 'tg' : 'tj' }">
+                        <h3 x-data="{ date: dayjs(JSON.parse('\u00222026-11-02T00:00:00.000000Z\u0022')).locale(String(lang)).format('dddd, D MMMM') }" x-text="date.slice(0, 1).toUpperCase() + date.slice(1)"
+                            class="text-2xl text-blue-800 font-medium">
+                        </h3>
+
+                        <div class="mt-5 grid grid-cols-1 lg:grid-cols-2 2xl:grid-cols-3 gap-5 md:gap-8">
+                            <div class="flex flex-col gap-3 md:gap-6">
+                                <div style="background: rgba(0, 40, 184, 0.75);"
+                                    class="flex justify-center items-center flex-wrap sm:flex-nowrap xl:text-lg gap-6 md:gap-14 px-10 py-5 rounded-2xl">
+                                    <div class="flex flex-col items-center md:w-1/3">
+                                        <h3 class="text-3xl text-white font-medium">Шабона</h3>
+                                        <div class="w-24 md:w-32">
+                                            <img class="object-cover"
+                                                src="/storage/weather/5e6a215077915805b60fd67648bc8d4f244f17dc.svg"
+                                                loading="lazy" alt="weather-icon">
+                                        </div>
+                                    </div>
+
+                                    <div class="flex flex-col gap-1.5 h-full text-white md:w-2/3">
+                                        <h3 class="text-3xl mb-4 flex items-center">
+                                            <span
+                                                class="text-lg lg:text-2xl font-bold">+</span>
+                                            <span>4...</span>
+
+                                            <span
+                                                class="text-lg lg:text-2xl font-bold">+</span>
+                                            <span>6°</span>C
+                                        </h3>
+                                        <p class="font-light">
+                                            Ҳавои тағйирёбанда,
+                                        </p>
+                                        <p class="font-light">
+                                                                                            Борони кӯтоҳмуддат                                                                                    </p>
+                                        <p class="font-light"><span class="font-medium">Шамол</span>:
+                                            <span x-data="{ windDirectiion: 'w' }"
+                                                x-text="windDirectionObj['tj'][windDirectiion]">
+                                            </span>
+                                            5-10
+                                            м/c                                        </p>
+                                    </div>
+                                </div>
+
+                                <div
+                                    class="bg-[#CCEDFF] flex justify-center items-center flex-wrap sm:flex-nowrap gap-6 xl:text-lg md:gap-14 px-10 py-5 rounded-2xl">
+                                    <div class="flex flex-col items-center md:w-1/3">
+                                        <h3 class="text-3xl text-blue-800 font-medium">Рӯзона</h3>
+                                        <div class="w-24 md:w-32">
+                                            <img class="object-cover"
+                                                src="/storage/weather/adec9266afc80846601a33bada313434e9082719.svg"
+                                                loading="lazy" alt="weather-icon">
+                                        </div>
+                                    </div>
+
+                                    <div class="flex flex-col gap-1.5 h-full md:w-2/3">
+                                        <h3 class="text-3xl mb-4 flex items-center">
+                                            <span
+                                                class="text-xl lg:text-2xl font-bold">+</span>
+                                            <span>12...</span>
+
+                                            <span
+                                                class="text-xl lg:text-2xl font-bold">+</span>
+                                            <span>14°</span>C
+                                        </h3>
+                                        <p class="font-light">
+                                            Ҳавои тағйирёбанда,
+                                        </p>
+                                        <p class="font-light">
+                                                                                            Борони кӯтоҳмуддат                                                                                    </p>
+                                        <p class="font-light"><span class="font-medium">Шамол</span>:
+                                            <span x-data="{ windDirectiion: 'w' }"
+                                                x-text="windDirectionObj['tj'][windDirectiion]">
+                                            </span>
+                                            5-10
+                                            м/c                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div
+                                class="xl:text-lg 2xl:col-span-2 flex flex-col gap-5 p-2 sm:p-4 border-2 border-gray-100 rounded-2xl font-light">
+                                <div class="flex flex-col prose max-w-none">
+                                    <p class="ql-align-justify"><strong style="background-color: transparent;">Дар шаҳри Хоруғ.</strong><span style="background-color: transparent;"> - </span>Ҳавои тағйирёбанда пешгӯӣ шуда, борони кӯтоҳмуддат меборад. Шамол аз самти ғарб бо суръати 5-10м/с мевазад. Ҳарорати ҳаво шабона 4+6º гарм, рӯзона 12+14º гарм мешавад.&nbsp;&nbsp;</p><p class="ql-align-justify"><strong style="background-color: transparent;">Дар ноҳияи Мурғоб.</strong><span style="background-color: transparent;"> - </span>Ҳавои тағйирёбандаи бебориш пешгӯӣ мешавад. Шамол аз самти ғарб бо суръати 5-10м/с мевазад. Ҳарорати ҳаво шабона 11-13º хунук, рӯзона 3+5º гарм&nbsp;мешавад.</p><p class="ql-align-justify"><strong>Дар Вилояти Мухтори Кӯҳистони Бадахшон</strong><span style="background-color: transparent; color: rgb(0, 0, 0);"> - </span>Ҳавои тағйирёбанда пешгӯӣ шуда, дар баъзе ноҳияҳо боришот (борон, барф) ба амал меояд. Шамол аз самти ғарб бо суръати 4-9м/с, дар ноҳияҳои алоҳида бо шиддатнокии то 10-15м/с мевазад. Ҳарорати ҳаво дар ғарби вилоят шабона 2+7º гарм, дар баъзе ноҳияҳо то 9+11º гарм, рӯзона 10+15º гарм, дар баъзе ноҳияҳо то 17+19º гарм, дар шарқи вилоят шабона 6-11º хунук, рӯзона 1+6º гарм мешавад.&nbsp;&nbsp;&nbsp;</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                            
+                <div x-show="'\u0412\u0438\u043b\u043e\u044f\u0442\u0438 \u0425\u0430\u0442\u043b\u043e\u043d' === selectedRegion">
+                    <div x-data="{ lang: 'tj' == 'tj' ? 'tg' : 'tj' }">
+                        <h3 x-data="{ date: dayjs(JSON.parse('\u00222026-11-02T00:00:00.000000Z\u0022')).locale(String(lang)).format('dddd, D MMMM') }" x-text="date.slice(0, 1).toUpperCase() + date.slice(1)"
+                            class="text-2xl text-blue-800 font-medium">
+                        </h3>
+
+                        <div class="mt-5 grid grid-cols-1 lg:grid-cols-2 2xl:grid-cols-3 gap-5 md:gap-8">
+                            <div class="flex flex-col gap-3 md:gap-6">
+                                <div style="background: rgba(0, 40, 184, 0.75);"
+                                    class="flex justify-center items-center flex-wrap sm:flex-nowrap xl:text-lg gap-6 md:gap-14 px-10 py-5 rounded-2xl">
+                                    <div class="flex flex-col items-center md:w-1/3">
+                                        <h3 class="text-3xl text-white font-medium">Шабона</h3>
+                                        <div class="w-24 md:w-32">
+                                            <img class="object-cover"
+                                                src="/storage/weather/5aba983c48bfb64c652402726a2ec6a68b3cf383.svg"
+                                                loading="lazy" alt="weather-icon">
+                                        </div>
+                                    </div>
+
+                                    <div class="flex flex-col gap-1.5 h-full text-white md:w-2/3">
+                                        <h3 class="text-3xl mb-4 flex items-center">
+                                            <span
+                                                class="text-lg lg:text-2xl font-bold">+</span>
+                                            <span>10...</span>
+
+                                            <span
+                                                class="text-lg lg:text-2xl font-bold">+</span>
+                                            <span>12°</span>C
+                                        </h3>
+                                        <p class="font-light">
+                                            Ҳавои тағйирёбанда,
+                                        </p>
+                                        <p class="font-light">
+                                                                                            Асосан бебориш (0,0-0,5мм)                                                                                    </p>
+                                        <p class="font-light"><span class="font-medium">Шамол</span>:
+                                            <span x-data="{ windDirectiion: 'w' }"
+                                                x-text="windDirectionObj['tj'][windDirectiion]">
+                                            </span>
+                                            2-7
+                                            м/c                                        </p>
+                                    </div>
+                                </div>
+
+                                <div
+                                    class="bg-[#CCEDFF] flex justify-center items-center flex-wrap sm:flex-nowrap gap-6 xl:text-lg md:gap-14 px-10 py-5 rounded-2xl">
+                                    <div class="flex flex-col items-center md:w-1/3">
+                                        <h3 class="text-3xl text-blue-800 font-medium">Рӯзона</h3>
+                                        <div class="w-24 md:w-32">
+                                            <img class="object-cover"
+                                                src="/storage/weather/953523c3ae0b872b673853bb2897fb1bbf263694.svg"
+                                                loading="lazy" alt="weather-icon">
+                                        </div>
+                                    </div>
+
+                                    <div class="flex flex-col gap-1.5 h-full md:w-2/3">
+                                        <h3 class="text-3xl mb-4 flex items-center">
+                                            <span
+                                                class="text-xl lg:text-2xl font-bold">+</span>
+                                            <span>21...</span>
+
+                                            <span
+                                                class="text-xl lg:text-2xl font-bold">+</span>
+                                            <span>23°</span>C
+                                        </h3>
+                                        <p class="font-light">
+                                            Ҳавои тағйирёбанда,
+                                        </p>
+                                        <p class="font-light">
+                                                                                            Асосан бебориш (0,0-0,5мм)                                                                                    </p>
+                                        <p class="font-light"><span class="font-medium">Шамол</span>:
+                                            <span x-data="{ windDirectiion: 'w' }"
+                                                x-text="windDirectionObj['tj'][windDirectiion]">
+                                            </span>
+                                            2-7
+                                            м/c                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div
+                                class="xl:text-lg 2xl:col-span-2 flex flex-col gap-5 p-2 sm:p-4 border-2 border-gray-100 rounded-2xl font-light">
+                                <div class="flex flex-col prose max-w-none">
+                                    <p class="ql-align-justify"><strong>ш.Бохтар</strong> – Ҳавои тағйирёбанда, асосан бебориш (0,0-0,5мм) пешгӯӣ мешавад. Шамол аз самти ғарб бо суръати 2-7м/с, дар баъзе ҳолатҳо бо шиддатнокии то 7-12м/с мевазад. Ҳарорати ҳаво шабона 10+12º гарм, рӯзона 21+23º гарм&nbsp;мешавад.</p><p class="ql-align-justify"><strong>Дар вилояти Хатлон </strong>– Ҳавои тағйирёбанда пешгӯӣ шуда, дар гурӯҳи ноҳияҳои минтақаи Кӯлоб баъзан ҳолатҳо борон борида, дар гурӯҳи ноҳияҳои минтақаи Бохтар ҳавои бебориш дар назар аст. Шамол аз самти ғарб бо суръати 2-7м/с, дар баъзе ноҳияҳо бо шиддатнокии то 7-12м/с мевазад. Ҳарорати ҳаво дар водиҳо шабона 8+13º гарм, рӯзона 19+24º гарм, дар ноҳияҳои доманакӯҳӣ шабона 6+11º гарм, рӯзона 12+17º гарм мешавад.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                            
+                <div x-show="'\u041d\u043e\u04b3\u0438\u044f\u04b3\u043e\u0438 \u0442\u043e\u0431\u0435\u044a\u0438 \u04b7\u0443\u043c\u04b3\u0443\u0440\u04e3' === selectedRegion">
+                    <div x-data="{ lang: 'tj' == 'tj' ? 'tg' : 'tj' }">
+                        <h3 x-data="{ date: dayjs(JSON.parse('\u00222026-11-03T00:00:00.000000Z\u0022')).locale(String(lang)).format('dddd, D MMMM') }" x-text="date.slice(0, 1).toUpperCase() + date.slice(1)"
+                            class="text-2xl text-blue-800 font-medium">
+                        </h3>
+
+                        <div class="mt-5 grid grid-cols-1 lg:grid-cols-2 2xl:grid-cols-3 gap-5 md:gap-8">
+                            <div class="flex flex-col gap-3 md:gap-6">
+                                <div style="background: rgba(0, 40, 184, 0.75);"
+                                    class="flex justify-center items-center flex-wrap sm:flex-nowrap xl:text-lg gap-6 md:gap-14 px-10 py-5 rounded-2xl">
+                                    <div class="flex flex-col items-center md:w-1/3">
+                                        <h3 class="text-3xl text-white font-medium">Шабона</h3>
+                                        <div class="w-24 md:w-32">
+                                            <img class="object-cover"
+                                                src="/storage/weather/f50644f03af706913b093d6a76c07827eeae4a82.svg"
+                                                loading="lazy" alt="weather-icon">
+                                        </div>
+                                    </div>
+
+                                    <div class="flex flex-col gap-1.5 h-full text-white md:w-2/3">
+                                        <h3 class="text-3xl mb-4 flex items-center">
+                                            <span
+                                                class="text-lg lg:text-2xl font-bold">+</span>
+                                            <span>8...</span>
+
+                                            <span
+                                                class="text-lg lg:text-2xl font-bold">+</span>
+                                            <span>10°</span>C
+                                        </h3>
+                                        <p class="font-light">
+                                            Ҳавои тағйирёбанда,
+                                        </p>
+                                        <p class="font-light">
+                                                                                            Бебориш                                                                                    </p>
+                                        <p class="font-light"><span class="font-medium">Шамол</span>:
+                                            <span x-data="{ windDirectiion: 'w' }"
+                                                x-text="windDirectionObj['tj'][windDirectiion]">
+                                            </span>
+                                            5-10
+                                            м/c                                        </p>
+                                    </div>
+                                </div>
+
+                                <div
+                                    class="bg-[#CCEDFF] flex justify-center items-center flex-wrap sm:flex-nowrap gap-6 xl:text-lg md:gap-14 px-10 py-5 rounded-2xl">
+                                    <div class="flex flex-col items-center md:w-1/3">
+                                        <h3 class="text-3xl text-blue-800 font-medium">Рӯзона</h3>
+                                        <div class="w-24 md:w-32">
+                                            <img class="object-cover"
+                                                src="/storage/weather/a14322cb85ba8d86075ec1671f2f33ab1ebb9202.svg"
+                                                loading="lazy" alt="weather-icon">
+                                        </div>
+                                    </div>
+
+                                    <div class="flex flex-col gap-1.5 h-full md:w-2/3">
+                                        <h3 class="text-3xl mb-4 flex items-center">
+                                            <span
+                                                class="text-xl lg:text-2xl font-bold">+</span>
+                                            <span>19...</span>
+
+                                            <span
+                                                class="text-xl lg:text-2xl font-bold">+</span>
+                                            <span>21°</span>C
+                                        </h3>
+                                        <p class="font-light">
+                                            Ҳавои тағйирёбанда,
+                                        </p>
+                                        <p class="font-light">
+                                                                                            Бебориш                                                                                    </p>
+                                        <p class="font-light"><span class="font-medium">Шамол</span>:
+                                            <span x-data="{ windDirectiion: 'w' }"
+                                                x-text="windDirectionObj['tj'][windDirectiion]">
+                                            </span>
+                                            5-10
+                                            м/c                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div
+                                class="xl:text-lg 2xl:col-span-2 flex flex-col gap-5 p-2 sm:p-4 border-2 border-gray-100 rounded-2xl font-light">
+                                <div class="flex flex-col prose max-w-none">
+                                    <p class="ql-align-justify"><strong style="background-color: transparent;">Дар шаҳри Душанбе </strong><span style="background-color: transparent;">- </span>Ҳавои тағйирёбандаи бебориш пешгӯӣ мешавад. Шамол аз самти ғарб бо суръати 5-10м/с мевазад. Ҳарорати ҳаво шабона 8+10º гарм, рӯзона 19+21º гарм мешавад.&nbsp;</p><p class="ql-align-justify"><strong style="background-color: transparent; color: rgb(0, 0, 0);">Дар Ноҳияҳои тобеъи ҷумҳурӣ </strong><span style="background-color: transparent; color: rgb(0, 0, 0);">- </span>Ҳавои тағйирёбандаи бебориш пешгӯӣ мешавад. Шамол аз самти ғарб бо суръати 2-7м/с, дар ноҳияҳои алоҳида бо шиддатнокии то 7-12м/с мевазад. Ҳарорати ҳаво дар водиҳо шабона 7+12º гарм, рӯзона 17+22º гарм, дар ноҳияҳои кӯҳӣ шабона 2+7º гарм, рӯзона 11+16º гарм мешавад. </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                            
+                <div x-show="'\u0412\u0438\u043b\u043e\u044f\u0442\u0438 \u0421\u0443\u0493\u0434' === selectedRegion">
+                    <div x-data="{ lang: 'tj' == 'tj' ? 'tg' : 'tj' }">
+                        <h3 x-data="{ date: dayjs(JSON.parse('\u00222026-11-03T00:00:00.000000Z\u0022')).locale(String(lang)).format('dddd, D MMMM') }" x-text="date.slice(0, 1).toUpperCase() + date.slice(1)"
+                            class="text-2xl text-blue-800 font-medium">
+                        </h3>
+
+                        <div class="mt-5 grid grid-cols-1 lg:grid-cols-2 2xl:grid-cols-3 gap-5 md:gap-8">
+                            <div class="flex flex-col gap-3 md:gap-6">
+                                <div style="background: rgba(0, 40, 184, 0.75);"
+                                    class="flex justify-center items-center flex-wrap sm:flex-nowrap xl:text-lg gap-6 md:gap-14 px-10 py-5 rounded-2xl">
+                                    <div class="flex flex-col items-center md:w-1/3">
+                                        <h3 class="text-3xl text-white font-medium">Шабона</h3>
+                                        <div class="w-24 md:w-32">
+                                            <img class="object-cover"
+                                                src="/storage/weather/f50644f03af706913b093d6a76c07827eeae4a82.svg"
+                                                loading="lazy" alt="weather-icon">
+                                        </div>
+                                    </div>
+
+                                    <div class="flex flex-col gap-1.5 h-full text-white md:w-2/3">
+                                        <h3 class="text-3xl mb-4 flex items-center">
+                                            <span
+                                                class="text-lg lg:text-2xl font-bold">+</span>
+                                            <span>9...</span>
+
+                                            <span
+                                                class="text-lg lg:text-2xl font-bold">+</span>
+                                            <span>11°</span>C
+                                        </h3>
+                                        <p class="font-light">
+                                            Ҳавои тағйирёбанда,
+                                        </p>
+                                        <p class="font-light">
+                                                                                            Бебориш                                                                                    </p>
+                                        <p class="font-light"><span class="font-medium">Шамол</span>:
+                                            <span x-data="{ windDirectiion: 'w' }"
+                                                x-text="windDirectionObj['tj'][windDirectiion]">
+                                            </span>
+                                            5-10
+                                            м/c                                        </p>
+                                    </div>
+                                </div>
+
+                                <div
+                                    class="bg-[#CCEDFF] flex justify-center items-center flex-wrap sm:flex-nowrap gap-6 xl:text-lg md:gap-14 px-10 py-5 rounded-2xl">
+                                    <div class="flex flex-col items-center md:w-1/3">
+                                        <h3 class="text-3xl text-blue-800 font-medium">Рӯзона</h3>
+                                        <div class="w-24 md:w-32">
+                                            <img class="object-cover"
+                                                src="/storage/weather/a14322cb85ba8d86075ec1671f2f33ab1ebb9202.svg"
+                                                loading="lazy" alt="weather-icon">
+                                        </div>
+                                    </div>
+
+                                    <div class="flex flex-col gap-1.5 h-full md:w-2/3">
+                                        <h3 class="text-3xl mb-4 flex items-center">
+                                            <span
+                                                class="text-xl lg:text-2xl font-bold">+</span>
+                                            <span>18...</span>
+
+                                            <span
+                                                class="text-xl lg:text-2xl font-bold">+</span>
+                                            <span>20°</span>C
+                                        </h3>
+                                        <p class="font-light">
+                                            Ҳавои тағйирёбанда,
+                                        </p>
+                                        <p class="font-light">
+                                                                                            Бебориш                                                                                    </p>
+                                        <p class="font-light"><span class="font-medium">Шамол</span>:
+                                            <span x-data="{ windDirectiion: 'w' }"
+                                                x-text="windDirectionObj['tj'][windDirectiion]">
+                                            </span>
+                                            5-10
+                                            м/c                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div
+                                class="xl:text-lg 2xl:col-span-2 flex flex-col gap-5 p-2 sm:p-4 border-2 border-gray-100 rounded-2xl font-light">
+                                <div class="flex flex-col prose max-w-none">
+                                    <p class="ql-align-justify"><strong style="background-color: transparent;">Дар шаҳри Хуҷанд. - </strong>Ҳавои тағйирёбандаи бебориш пешгӯӣ мешавад. Шамол аз самти ғарб бо суръати 5-10м/с мевазад. Ҳарорати ҳаво шабона 9+11º гарм, рӯзона 18+20º гарм мешавад.</p><p class="ql-align-justify"><strong style="background-color: transparent; color: rgb(0, 0, 0);">Дар вилояти Суғд. </strong><span style="background-color: transparent; color: rgb(0, 0, 0);">- </span>Ҳавои тағйирёбанда, дар водиҳо бебориш пешгӯӣ мешавад. Дар ноҳияҳои алоҳидаи кӯҳӣ баъзан ҳолатҳо боришоти сусти борон дар назар буда (дар баландиҳои зиёда аз 2000 метр аз сатҳи баҳр барф) меборад. Шамол аз самти ғарб бо суръати 2-7м/с, дар баъзе ноҳияҳо бо шиддатнокии то 7-12м/с мевазад. Ҳарорати ҳаво дар водиҳо шабона 6+11º гарм, рӯзона 15+20º гарм, дар ноҳияҳои кӯҳӣ шабона -1+4º, рӯзона 7+12º гарм мешавад.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                            
+                <div x-show="'\u0412\u0438\u043b\u043e\u044f\u0442\u0438 \u041c\u0443\u0445\u0442\u043e\u0440\u0438 \u041a\u04ef\u04b3\u0438\u0441\u0442\u043e\u043d\u0438 \u0411\u0430\u0434\u0430\u0445\u0448\u043e\u043d' === selectedRegion">
+                    <div x-data="{ lang: 'tj' == 'tj' ? 'tg' : 'tj' }">
+                        <h3 x-data="{ date: dayjs(JSON.parse('\u00222026-11-03T00:00:00.000000Z\u0022')).locale(String(lang)).format('dddd, D MMMM') }" x-text="date.slice(0, 1).toUpperCase() + date.slice(1)"
+                            class="text-2xl text-blue-800 font-medium">
+                        </h3>
+
+                        <div class="mt-5 grid grid-cols-1 lg:grid-cols-2 2xl:grid-cols-3 gap-5 md:gap-8">
+                            <div class="flex flex-col gap-3 md:gap-6">
+                                <div style="background: rgba(0, 40, 184, 0.75);"
+                                    class="flex justify-center items-center flex-wrap sm:flex-nowrap xl:text-lg gap-6 md:gap-14 px-10 py-5 rounded-2xl">
+                                    <div class="flex flex-col items-center md:w-1/3">
+                                        <h3 class="text-3xl text-white font-medium">Шабона</h3>
+                                        <div class="w-24 md:w-32">
+                                            <img class="object-cover"
+                                                src="/storage/weather/f50644f03af706913b093d6a76c07827eeae4a82.svg"
+                                                loading="lazy" alt="weather-icon">
+                                        </div>
+                                    </div>
+
+                                    <div class="flex flex-col gap-1.5 h-full text-white md:w-2/3">
+                                        <h3 class="text-3xl mb-4 flex items-center">
+                                            <span
+                                                class="text-lg lg:text-2xl font-bold">+</span>
+                                            <span>3...</span>
+
+                                            <span
+                                                class="text-lg lg:text-2xl font-bold">+</span>
+                                            <span>5°</span>C
+                                        </h3>
+                                        <p class="font-light">
+                                            Ҳавои тағйирёбанда,
+                                        </p>
+                                        <p class="font-light">
+                                                                                            Бебориш                                                                                    </p>
+                                        <p class="font-light"><span class="font-medium">Шамол</span>:
+                                            <span x-data="{ windDirectiion: 'w' }"
+                                                x-text="windDirectionObj['tj'][windDirectiion]">
+                                            </span>
+                                            5-10
+                                            м/c                                        </p>
+                                    </div>
+                                </div>
+
+                                <div
+                                    class="bg-[#CCEDFF] flex justify-center items-center flex-wrap sm:flex-nowrap gap-6 xl:text-lg md:gap-14 px-10 py-5 rounded-2xl">
+                                    <div class="flex flex-col items-center md:w-1/3">
+                                        <h3 class="text-3xl text-blue-800 font-medium">Рӯзона</h3>
+                                        <div class="w-24 md:w-32">
+                                            <img class="object-cover"
+                                                src="/storage/weather/a14322cb85ba8d86075ec1671f2f33ab1ebb9202.svg"
+                                                loading="lazy" alt="weather-icon">
+                                        </div>
+                                    </div>
+
+                                    <div class="flex flex-col gap-1.5 h-full md:w-2/3">
+                                        <h3 class="text-3xl mb-4 flex items-center">
+                                            <span
+                                                class="text-xl lg:text-2xl font-bold">+</span>
+                                            <span>13...</span>
+
+                                            <span
+                                                class="text-xl lg:text-2xl font-bold">+</span>
+                                            <span>15°</span>C
+                                        </h3>
+                                        <p class="font-light">
+                                            Ҳавои тағйирёбанда,
+                                        </p>
+                                        <p class="font-light">
+                                                                                            Бебориш                                                                                    </p>
+                                        <p class="font-light"><span class="font-medium">Шамол</span>:
+                                            <span x-data="{ windDirectiion: 'w' }"
+                                                x-text="windDirectionObj['tj'][windDirectiion]">
+                                            </span>
+                                            5-10
+                                            м/c                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div
+                                class="xl:text-lg 2xl:col-span-2 flex flex-col gap-5 p-2 sm:p-4 border-2 border-gray-100 rounded-2xl font-light">
+                                <div class="flex flex-col prose max-w-none">
+                                    <p class="ql-align-justify"><strong style="background-color: transparent;">Дар шаҳри Хоруғ.</strong><span style="background-color: transparent;"> - </span>Ҳавои тағйирёбандаи бебориш пешгӯӣ мешавад. Шамол аз самти ғарб бо суръати 5-10м/с мевазад. Ҳарорати ҳаво шабона 3+5º гарм, рӯзона 13+15º гарм мешавад.&nbsp;&nbsp;</p><p class="ql-align-justify"><strong style="background-color: transparent;">Дар ноҳияи Мурғоб.</strong><span style="background-color: transparent;"> - </span>Ҳавои тағйирёбандаи бебориш пешгӯӣ мешавад. Шамол аз самти ғарб бо суръати 5-10м/с мевазад. Ҳарорати ҳаво шабона 11-13º хунук, рӯзона 4+6º гарм&nbsp;мешавад.</p><p class="ql-align-justify"><strong>Дар Вилояти Мухтори Кӯҳистони Бадахшон</strong><span style="background-color: transparent; color: rgb(0, 0, 0);"> - </span>Ҳавои тағйирёбанда, асосан бебориш (0,0-0,5мм) пешгӯӣ мешавад. Шамол аз самти ғарб бо суръати 4-9м/с, дар ноҳияҳои алоҳида бо шиддатнокии то 10-15м/с мевазад. Ҳарорати ҳаво дар ғарби вилоят шабона 2+7º гарм, дар баъзе ноҳияҳо то 9+11º гарм, рӯзона 10+15º гарм, дар баъзе ноҳияҳо то 17+19º гарм, дар шарқи вилоят шабона 6-11º хунук, рӯзона 1+6º гарм мешавад.&nbsp;&nbsp;&nbsp;</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                            
+                <div x-show="'\u0412\u0438\u043b\u043e\u044f\u0442\u0438 \u0425\u0430\u0442\u043b\u043e\u043d' === selectedRegion">
+                    <div x-data="{ lang: 'tj' == 'tj' ? 'tg' : 'tj' }">
+                        <h3 x-data="{ date: dayjs(JSON.parse('\u00222026-11-03T00:00:00.000000Z\u0022')).locale(String(lang)).format('dddd, D MMMM') }" x-text="date.slice(0, 1).toUpperCase() + date.slice(1)"
+                            class="text-2xl text-blue-800 font-medium">
+                        </h3>
+
+                        <div class="mt-5 grid grid-cols-1 lg:grid-cols-2 2xl:grid-cols-3 gap-5 md:gap-8">
+                            <div class="flex flex-col gap-3 md:gap-6">
+                                <div style="background: rgba(0, 40, 184, 0.75);"
+                                    class="flex justify-center items-center flex-wrap sm:flex-nowrap xl:text-lg gap-6 md:gap-14 px-10 py-5 rounded-2xl">
+                                    <div class="flex flex-col items-center md:w-1/3">
+                                        <h3 class="text-3xl text-white font-medium">Шабона</h3>
+                                        <div class="w-24 md:w-32">
+                                            <img class="object-cover"
+                                                src="/storage/weather/f50644f03af706913b093d6a76c07827eeae4a82.svg"
+                                                loading="lazy" alt="weather-icon">
+                                        </div>
+                                    </div>
+
+                                    <div class="flex flex-col gap-1.5 h-full text-white md:w-2/3">
+                                        <h3 class="text-3xl mb-4 flex items-center">
+                                            <span
+                                                class="text-lg lg:text-2xl font-bold">+</span>
+                                            <span>10...</span>
+
+                                            <span
+                                                class="text-lg lg:text-2xl font-bold">+</span>
+                                            <span>12°</span>C
+                                        </h3>
+                                        <p class="font-light">
+                                            Ҳавои тағйирёбанда,
+                                        </p>
+                                        <p class="font-light">
+                                                                                            Бебориш                                                                                    </p>
+                                        <p class="font-light"><span class="font-medium">Шамол</span>:
+                                            <span x-data="{ windDirectiion: 'w' }"
+                                                x-text="windDirectionObj['tj'][windDirectiion]">
+                                            </span>
+                                            5-10
+                                            м/c                                        </p>
+                                    </div>
+                                </div>
+
+                                <div
+                                    class="bg-[#CCEDFF] flex justify-center items-center flex-wrap sm:flex-nowrap gap-6 xl:text-lg md:gap-14 px-10 py-5 rounded-2xl">
+                                    <div class="flex flex-col items-center md:w-1/3">
+                                        <h3 class="text-3xl text-blue-800 font-medium">Рӯзона</h3>
+                                        <div class="w-24 md:w-32">
+                                            <img class="object-cover"
+                                                src="/storage/weather/a14322cb85ba8d86075ec1671f2f33ab1ebb9202.svg"
+                                                loading="lazy" alt="weather-icon">
+                                        </div>
+                                    </div>
+
+                                    <div class="flex flex-col gap-1.5 h-full md:w-2/3">
+                                        <h3 class="text-3xl mb-4 flex items-center">
+                                            <span
+                                                class="text-xl lg:text-2xl font-bold">+</span>
+                                            <span>22...</span>
+
+                                            <span
+                                                class="text-xl lg:text-2xl font-bold">+</span>
+                                            <span>24°</span>C
+                                        </h3>
+                                        <p class="font-light">
+                                            Ҳавои тағйирёбанда,
+                                        </p>
+                                        <p class="font-light">
+                                                                                            Бебориш                                                                                    </p>
+                                        <p class="font-light"><span class="font-medium">Шамол</span>:
+                                            <span x-data="{ windDirectiion: 'w' }"
+                                                x-text="windDirectionObj['tj'][windDirectiion]">
+                                            </span>
+                                            5-10
+                                            м/c                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div
+                                class="xl:text-lg 2xl:col-span-2 flex flex-col gap-5 p-2 sm:p-4 border-2 border-gray-100 rounded-2xl font-light">
+                                <div class="flex flex-col prose max-w-none">
+                                    <p class="ql-align-justify"><strong>ш.Бохтар</strong> – Ҳавои тағйирёбандаи бебориш пешгӯӣ мешавад. Шамол аз самти ғарб бо суръати 5-10м/с мевазад. Ҳарорати ҳаво шабона 10+12º гарм, рӯзона 22+24º гарм&nbsp;мешавад.</p><p class="ql-align-justify"><strong>Дар вилояти Хатлон </strong>– Ҳавои тағйирёбандаи бебориш пешгӯӣ мешавад. Шамол аз самти ғарб бо суръати 2-7м/с, дар баъзе ноҳияҳо бо шиддатнокии то 7-12м/с мевазад. Ҳарорати ҳаво дар водиҳо шабона 8+13º гарм, рӯзона 19+24º гарм, дар ноҳияҳои доманакӯҳӣ шабона 6+11º гарм, рӯзона 12+17º гарм мешавад.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                    </div>
+    </div>
+    </main>
+
+    <footer class="footer">
+    <div class="bg-blue-600 text-white py-6">
+        <div class="px-6 md:px-16 flex items-center justify-between flex-wrap gap-2">
+            <div class="py-2 flex">
+                <div class="flex items-center gap-x-4 flex-wrap gap-2 sm:shrink-0">
+                    <div class="flex gap-3">
+                        <img class="w-20" src="https://www.meteo.tj/images/nav-logo-1.png" alt="logo">
+                        <img class="w-20" src="https://www.meteo.tj/images/nav-logo-2.png" alt="logo">
+                    </div>
+
+                    <div>
+                        <p class="text-sm sm:text-base font-semibold leading-5">
+                            Агентии обуҳавошиносии                            <br>
+                            Кумитаи ҳифзи муҳити зисти назди                            <br>
+                            Ҳукумати Ҷумҳурии Тоҷикистон                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="flex items-center">
+                <div class="py-2.5 flex flex-wrap lg:flex-col gap-5">
+                    <div class="flex flex-wrap gap-x-5 gap-y-2 text-base sm:text-lg">
+                        <p class="flex items-center gap-x-2">
+                            <img class="w-8" src="https://www.meteo.tj/icons/call-white.svg" alt="call-icon   ">
+                            <a href="tel:+992372320216">(+992 37) 2320216</a>
+                        </p>
+
+                        <p class="flex items-center gap-x-2">
+                            <img class="w-8" src="https://www.meteo.tj/icons/email.svg" alt="call-icon   ">
+                            <span>office@meteo.tj</span>
+                        </p>
+                    </div>
+
+                    <div class="flex justify-between self-end gap-x-6">
+                        <a href="https://www.youtube.com/@user-wj6rl4sm6v" target="_blank">
+                            <img class="w-8 cursor-pointer" src="https://www.meteo.tj/icons/youtube.svg"
+                                alt="youtube-icon">
+                        </a>
+                        <a href="https://www.facebook.com/tajhydromet" target="_blank">
+                            <img class="w-8 cursor-pointer" src="https://www.meteo.tj/icons/facebook.svg"
+                                alt="facebook-icon">
+                        </a>
+                        <a href="https://www.t.me/tajhydromet" target="_blank">
+                            <img class="w-8 cursor-pointer" src="https://www.meteo.tj/icons/telegram.svg"
+                                alt="telegram-icon">
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div
+            class="mt-12 px-6 md:px-16 text-base lg:text-lg flex xl:justify-between flex-wrap xl:flex-nowrap gap-x-16 gap-y-10">
+            <ul class="flex flex-col gap-y-1">
+                <li class="font-semibold">
+                    <p>Агентӣ</p>
+                </li>
+                <li>
+                    <a href="/tj/agency/about-us">Дар бораи мо</a>
+                </li>
+                <li>
+                    <a href="/tj/agency/management">Роҳбарият</a>
+                </li>
+                <li>
+                    <a href="/tj/agency/structure">Сохтор</a>
+                </li>
+                <li>
+                    <a href="/tj/agency/documents">Ҳуҷҷатҳо</a>
+                </li>
+                <li class="leading-5">
+                    <a href="/tj/agency/international-cooperation">Ҳамкории байналмилалӣ</a>
+                </li>
+                <li>
+                    <a href="/tj/agency/galleries">Нигористон</a>
+                </li>
+            </ul>
+
+            <ul class="flex flex-col gap-y-1 basis-52">
+                <li class="font-semibold">
+                    <p>Обу ҳаво</p>
+                </li>
+                <li>
+                    <a href="/tj/weather-forecast">Пешгӯии обу ҳаво</a>
+                </li>
+                <li>
+                    <a href="/tj/weather-map">Харитаи обу ҳаво</a>
+                </li>
+                <li>
+                    <a href="/tj/meteo-alert">Метео алерт</a>
+                </li>
+                <li>
+                    <a href="/tj/satellite-pictures">Аксҳои моҳворагӣ</a>
+                </li>
+                <li class="leading-5">
+                    <a href="/tj/agency/synoptic">Пешгӯии обу ҳаво</a>
+                </li>
+            </ul>
+
+            <ul class="flex flex-col gap-y-1">
+                <li class="font-semibold">
+                    <p>Фаъолият</p>
+                </li>
+                <li>
+                    <a href="/tj/climate">Иқлим</a>
+                </li>
+                <li>
+                    <a href="/tj/glaciology">Яхшиносӣ</a>
+                </li>
+                <li class="leading-5">
+                    <a href="/tj/environmental-monitoring">Мониторинги муҳити зист</a>
+                </li>
+                <li>
+                    <a href="/tj/hydrology">Гидрология</a>
+                </li>
+                <li>
+                    <a href="/tj/agrometeorology">Агрометеорология</a>
+                </li>
+                <li>
+                    <a href="/tj/departments">Шӯъбаҳо ва Марказҳо</a>
+                </li>
+                <li>
+                    <a href="/tj/projects">Соли 2025 - Соли байналмиллалии ҳифзи пиряхҳо</a>
+                </li>
+            </ul>
+
+            <div class="flex flex-col gap-y-14">
+                <ul class="flex flex-col gap-y-1">
+                    <li class="font-semibold">
+                        <a href="/tj/services">Хизматрасониҳо</a>
+                    </li>
+                </ul>
+
+                <ul class="flex flex-col gap-y-1">
+                    <li class="font-semibold">
+                        <p>Маълумоти муфид</p>
+                    </li>
+                    <li>
+                        <a href="/tj/publications">Нашрияҳо</a>
+                    </li>
+                    <li>
+                        <a href="/tj/useful-links">Истинодҳои муфид</a>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="flex flex-col gap-y-14">
+                <ul class="flex flex-col gap-y-1">
+                    <li class="font-semibold">
+                        <p>Ахбор</p>
+                    </li>
+                    <li>
+                        <a href="/tj/news">Чорабиниҳо</a>
+                    </li>
+                    <li>
+                        <a href="/tj/contests">Озмунҳо</a>
+                    </li>
+                </ul>
+
+                <ul class="flex flex-col gap-y-1">
+                    <li class="font-semibold leading-5">
+                        <a href="/tj/mobile-application">Замимаи мобилӣ</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="px-6 md:px-16 flex flex-wrap sm:flex-nowrap justify-center items-center gap-4 mt-5 xl:w-1/2">
+            <img src="https://www.meteo.tj/images/footer-logo.svg" alt="logo-image">
+            <p class="text-xs">
+                Ин вебсайт бо дастгирии молиявии Барномаи ҷаҳонии озуқаи СММ (WFP) таҳия шудааст. Мундариҷа ва мазмуни сайт ба Агентии обуҳавошиносии Кумитаи ҳифзи муҳити зисти назди Ҳукумати Ҷумҳурии Тоҷикистон тааллуқ дошта, нуқтаи назари Созмони ҷаҳонии озуқаро инъикос намекунад.            </p>
+        </div>
+    </div>
+</footer>
+
+        <script src="https://cdn.jsdelivr.net/npm/dayjs@1.10.7/dayjs.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/dayjs@1.10.7/locale/tg.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/dayjs@1.10.7/locale/ru.min.js"></script>
+    <script defer src="https://www.meteo.tj/vendor/alpinejs.min.js"></script>
+
+</body>
+
+</html>

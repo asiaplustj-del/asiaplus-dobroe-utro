@@ -1,0 +1,20 @@
+[
+ {
+  "name": "nbt-today",
+  "ok": true,
+  "file": "nbt-today.html",
+  "bytes": 5692
+ },
+ {
+  "name": "nbt-prev",
+  "ok": true,
+  "file": "nbt-prev.html",
+  "bytes": 5692
+ },
+ {
+  "name": "meteo",
+  "ok": true,
+  "file": "meteo.html",
+  "bytes": 186335
+ }
+]
