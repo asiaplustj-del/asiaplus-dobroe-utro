@@ -1,0 +1,14 @@
+[
+ {
+  "name": "n1f",
+  "ok": false,
+  "url": "https://www.sports.kz/news/pobedoy-terminatora-zakonchilsya-glavnyiy-boy-turnira-asa",
+  "error": "HTTP Error 404: Not Found"
+ },
+ {
+  "name": "n1fpage",
+  "ok": true,
+  "file": "n1fpage.html",
+  "bytes": 352722
+ }
+]
