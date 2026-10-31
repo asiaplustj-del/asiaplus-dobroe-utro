@@ -1,0 +1,3 @@
+page nbt-today https://nbt.tj/ru/kurs/export_xml.php?date=2026-10-31&export=xmlout
+page nbt-prev https://nbt.tj/ru/kurs/export_xml.php?date=2026-10-30&export=xmlout
+page meteo https://www.meteo.tj/tj/weather-forecast
