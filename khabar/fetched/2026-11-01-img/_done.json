@@ -1,0 +1,51 @@
+[
+ {
+  "name": "n1",
+  "ok": true,
+  "file": "n1.jpg",
+  "src": "https://asiaplus.news/wp-content/uploads/2026/10/zaklyuchennye.jpg",
+  "bytes": 145553
+ },
+ {
+  "name": "n2",
+  "ok": true,
+  "file": "n2.jpg",
+  "src": "https://cdnn1.img.sputnik.tj/img/07e5/02/11/1032842446_0:0:3000:1688_2072x0_60_0_0_ddccc4558f426ec6df585884c74f8fa2.jpg",
+  "bytes": 274760
+ },
+ {
+  "name": "n3",
+  "ok": true,
+  "file": "n3.jpg",
+  "src": "https://cdn4.telesco.pe/file/GrH_DXuGRT_gHn2NFUwVSlH-9qIoitqzhcWpg8atH3uSkY8MnoXexpSWO7iVlXFiwATB8028aVw_EWlLw16Vy7NZBWihCn0TilSYzcC1voxqC846YwNLAFBb-AcPNd2ZHhTFxM1DQWfT7Ezs9a-H-DUcCDXm4bNdLSEtuIuo8r8nO5ZuMC2XGxvMKrtCS7T_3wAH18UHkw6MjWHcSUBrZOBtWJJhXi_VkZqTpbFHzP3LoUCbBWMdrc7PEt_xgwvjcKi1HxZcNLFaLrGd8W8c3k4OT3e6ISI24h9qCTlbpHXyu-XtEt6zfd9Tzg6tZ6Ma0YtAxgU0Pwg3Xf92_iGhOQ.jpg",
+  "bytes": 135208
+ },
+ {
+  "name": "n3b",
+  "ok": true,
+  "file": "n3b.jpg",
+  "src": "https://cdn4.telesco.pe/file/vPr_UZLZ1F6SgkvDlshLdH1qANx2sVzfQH_CASJPKqgJTBhyCfqAu6kMWiqOsCu43EnkxJZGFjXd0fxaq_gVsW7NW4IIZ9Y09GazXojGc_0eI_YH-_r94VO1l3rje1qgtKtmezyMNA6KJA59x04q3sNLttybf4WNChiU9Q3Y2X0X1DWdp23d79xvGUM2LFEp_p9N7Pz4weuMkhirgR2roKpMg8jLx-MaL_xfEuxjWLHw9hCXT6hiPoYMdmdVQlbomKhuluxkxciidSozyXOkKcQdwuRCu0bsvfvAiLNUFmQERCcBG1s2hWTX7udWFB2-juGLpfow9gUThb-3X1UpYQ.jpg",
+  "bytes": 128889
+ },
+ {
+  "name": "n4",
+  "ok": true,
+  "file": "n4.jpg",
+  "src": "https://asiaplus.news/wp-content/uploads/2026/10/faridun-odilov-asa.jpg",
+  "bytes": 294513
+ },
+ {
+  "name": "n5",
+  "ok": true,
+  "file": "n5.jpg",
+  "src": "https://asiaplus.news/wp-content/uploads/2026/10/glavnaya.-sgenerirovannoe-izobrazhenie.jpg",
+  "bytes": 142028
+ },
+ {
+  "name": "n6",
+  "ok": true,
+  "file": "n6.jpg",
+  "src": "https://asiaplus.news/wp-content/uploads/2026/10/grin-kard.jpg",
+  "bytes": 90221
+ }
+]
