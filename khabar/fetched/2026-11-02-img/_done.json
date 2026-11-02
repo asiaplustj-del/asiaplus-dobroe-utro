@@ -1,0 +1,61 @@
+[
+ {
+  "name": "a1",
+  "ok": true,
+  "file": "a1.html",
+  "bytes": 93158
+ },
+ {
+  "name": "a2",
+  "ok": true,
+  "file": "a2.html",
+  "bytes": 99792
+ },
+ {
+  "name": "a3",
+  "ok": true,
+  "file": "a3.html",
+  "bytes": 100944
+ },
+ {
+  "name": "a4",
+  "ok": true,
+  "file": "a4.html",
+  "bytes": 17402
+ },
+ {
+  "name": "n1",
+  "ok": true,
+  "file": "n1.jpg",
+  "src": "https://cdnn1.img.sputnik.tj/img/07e7/0b/07/1060353234_0:21:1083:630_2072x0_60_0_0_22098f6fc862601cf0024b00d72c433c.jpg",
+  "bytes": 307343
+ },
+ {
+  "name": "n2",
+  "ok": true,
+  "file": "n2.jpg",
+  "src": "https://cdnn1.img.sputnik.tj/img/07ea/0b/01/1081725338_0:0:2560:1441_2072x0_60_0_0_330d1d87a3ec0f21696049369c77376f.jpg",
+  "bytes": 192298
+ },
+ {
+  "name": "n2b",
+  "ok": true,
+  "file": "n2b.jpg",
+  "src": "https://avesta.tj/wp-content/uploads/2026/11/photo_2026-11-01_21-21-44.jpg",
+  "bytes": 719588
+ },
+ {
+  "name": "n3",
+  "ok": true,
+  "file": "n3.jpg",
+  "src": "https://cdnn1.img.sputnik.tj/img/07ea/0b/01/1081719302_6:0:1073:600_2072x0_60_0_0_82aa0ffe8719b5cdccbdf987d7b5dfa9.jpg",
+  "bytes": 130580
+ },
+ {
+  "name": "n4",
+  "ok": true,
+  "file": "n4.jpg",
+  "src": "https://cdn4.telesco.pe/file/HvXFpGHgWrzA6Cpl7dSSdCSKbKZvK1ZUFGOq__c_GuEjIJXM3JQ6PTQk7ltGANWbmCYr0LWpdapssTRgZ719Qj8bhWkPpFCBXVfTsW1y6XCzoSMJqVyOBcIk0_IBUdm3h2N9XQrsmw7EyDWqYsDFqbKBYFIvgku9ejsBYVdAdTwhWq1O3oujf6i5-K2v7KnyLSerPDn8dP65dtHdi6lJ7PF4vejnVRDoitkGmtMyN4ieKQpCu9Ap1kEhfZFsEiGQ7x3Xa0MxisWpY8w2KvuqKpjLJyzO54FBe_Th_cDqjH-PeX7T_6AWFV9A0wMb3-Fy1FVL_p2SaWa3FINSVn9nQQ.jpg",
+  "bytes": 16129
+ }
+]
