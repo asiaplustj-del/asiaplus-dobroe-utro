@@ -1,0 +1,9 @@
+page a1 https://sputnik.tj/20261101/tojikiston-istehsol-sement-ziyod-narkh-garon-shudaast-1081720590.html
+page a2 https://tj.sputniknews.ru/20261101/predpriyatiya-sotsobekty-rahmon-sogd-1081725153.html
+page a3 https://sputnik.tj/20261101/rais-shuro-amniyat-eron-lahn-vashington-mukolama-tehron-taghyir-1081722612.html
+page a4 https://t.me/asiaplustj/55206?embed=1
+og n1 https://sputnik.tj/20261101/tojikiston-istehsol-sement-ziyod-narkh-garon-shudaast-1081720590.html
+og n2 https://tj.sputniknews.ru/20261101/predpriyatiya-sotsobekty-rahmon-sogd-1081725153.html
+og n2b https://avesta.tj/2026/11/01/v-bustone-i-hudzhande-otkryli-dva-predpriyatiya-i-novoe-zdanie-ndpt/
+og n3 https://sputnik.tj/20261101/rais-shuro-amniyat-eron-lahn-vashington-mukolama-tehron-taghyir-1081722612.html
+og n4 https://t.me/asiaplustj/55206
