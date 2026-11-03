@@ -1,0 +1,11 @@
+og n1 https://www.ozodi.org/a/ahvoli-dili-iqtisodi-tojikiston/33888973.html
+page n1page https://www.ozodi.org/a/ahvoli-dili-iqtisodi-tojikiston/33888973.html
+og n2 https://asiaplus.news/tg/2026/11/02/dodgoh-dar-ima-oghozi-lotereyai-green-card-baroi-soli-2027-ro-dubora-bozdosht/
+og n3 https://asiaplus.news/2026/11/02/v-dushanbe-vozle-shkol-planiruyut-ustanovit-umnye-svetofory/
+og n4 https://tj.sputniknews.ru/20261102/201-rvb-khatlon-avtodoroga-opolzen-1081753472.html
+page n4page https://tj.sputniknews.ru/20261102/201-rvb-khatlon-avtodoroga-opolzen-1081753472.html
+img n4b https://cdnn1.img.sputnik.tj/img/07ea/0b/02/1081750805_0:0:3072:1728_600x0_80_0_0_bbe6f4d062062afeefe1ea43c03ac6ff.jpg
+og n5 https://t.me/asiaplustj/55235
+img n5b https://cdn4.telesco.pe/file/flNgPjpx4gsJ0gaQCE0Cx1OHSZ4OyddBcqytYqB_JQ1WwkIbx1N-Aa86DhpUexq1mxWvfoONGYH_-CbAGN5_DPhvlsVftmgue3-x4ENR4nXlCRykZR-EYxcmf0bmoN3hK_6oaPiBUML-HlSDXsYW8V0efW7WSGcT_yUz3Zyory7UHJV9QwOUd411X3ht82c6pNhcuylM6neN0X-61FIeRtGBoOSxwSZ6BAcJj3VihJqZIPevRIYBLMKNSF-8S7p3cjLDbZFHnvysNjolaZScbUDhKXrr9zbhwZW9qmtvWjlollU3poh4v-sRgYT3a1_BPCwxoVZNZ_1Yo1ybPnTUDg.jpg
+og n6 https://www.ozodi.org/a/tramp-az-zarba-ba-eron-guft-ammo-muzokirotro-ham-muhim-shumurd/33889014.html
+og n7 https://asiaplus.news/tg/2026/10/31/tojikistoniyon-az-moddahoi-kimiyovy-dar-ordi-ghanisozishuda-va-hamchunin-az-boloravii-narhho-haros-dorand/
