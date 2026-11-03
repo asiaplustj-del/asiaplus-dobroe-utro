@@ -1,0 +1,77 @@
+[
+ {
+  "name": "n1",
+  "ok": true,
+  "file": "n1.jpg",
+  "src": "https://gdb.rferl.org/5a336c5b-89c3-48e8-7796-08ddc3797fd2_cx11_cy21_cw79_w1200_h630.jpg",
+  "bytes": 116561
+ },
+ {
+  "name": "n1page",
+  "ok": true,
+  "file": "n1page.html",
+  "bytes": 128520
+ },
+ {
+  "name": "n2",
+  "ok": true,
+  "file": "n2.jpg",
+  "src": "https://asiaplus.news/wp-content/uploads/2026/11/grinkart.jpg",
+  "bytes": 144369
+ },
+ {
+  "name": "n3",
+  "ok": true,
+  "file": "n3.jpg",
+  "src": "https://asiaplus.news/wp-content/uploads/2026/11/photo_2026-11-02_13-03-21.jpg",
+  "bytes": 245775
+ },
+ {
+  "name": "n4",
+  "ok": true,
+  "file": "n4.jpg",
+  "src": "https://cdnn1.img.sputnik.tj/img/07ea/0b/02/1081750805_0:0:3072:1728_2072x0_60_0_0_d5b29deb81826398e9aa24c0aba04f12.jpg",
+  "bytes": 180017
+ },
+ {
+  "name": "n4page",
+  "ok": true,
+  "file": "n4page.html",
+  "bytes": 96710
+ },
+ {
+  "name": "n4b",
+  "ok": true,
+  "file": "n4b.jpg",
+  "src": "https://cdnn1.img.sputnik.tj/img/07ea/0b/02/1081750805_0:0:3072:1728_600x0_80_0_0_bbe6f4d062062afeefe1ea43c03ac6ff.jpg",
+  "bytes": 35683
+ },
+ {
+  "name": "n5",
+  "ok": true,
+  "file": "n5.jpg",
+  "src": "https://cdn4.telesco.pe/file/mbmxNQ6_gX66lZWciVGonb0NT4v5kFuuKcXX_deVQ3bIIrjYk01KOJ879YngvCdtLGBuOFLU7vGkdPW4SC9zQ3Fqle3-Ikfc6URGyGZjeLuNBHG4OkyGuoQfKfHhjEYBTUBHqf5PbBx3YJg0CGKOadBNjyb2ucTWVsVHtX7xeb2VupC3WWmw6cwFjpSoC5FaLbiKFp2fnoNsQAx4E925rVvJMfxl_acV4cLcewwXpxyKroii2q6sFQhI2Ch24uATKNJUZiWm1VNJcmlH9Tgy3GPy-GObwh9Bq0z3IrmcmzkgANXOBcsjz4AUskNg1EotlM9QezjOXi_VtHtEyDBxYg.jpg",
+  "bytes": 39983
+ },
+ {
+  "name": "n5b",
+  "ok": true,
+  "file": "n5b.jpg",
+  "src": "https://cdn4.telesco.pe/file/flNgPjpx4gsJ0gaQCE0Cx1OHSZ4OyddBcqytYqB_JQ1WwkIbx1N-Aa86DhpUexq1mxWvfoONGYH_-CbAGN5_DPhvlsVftmgue3-x4ENR4nXlCRykZR-EYxcmf0bmoN3hK_6oaPiBUML-HlSDXsYW8V0efW7WSGcT_yUz3Zyory7UHJV9QwOUd411X3ht82c6pNhcuylM6neN0X-61FIeRtGBoOSxwSZ6BAcJj3VihJqZIPevRIYBLMKNSF-8S7p3cjLDbZFHnvysNjolaZScbUDhKXrr9zbhwZW9qmtvWjlollU3poh4v-sRgYT3a1_BPCwxoVZNZ_1Yo1ybPnTUDg.jpg",
+  "bytes": 186849
+ },
+ {
+  "name": "n6",
+  "ok": true,
+  "file": "n6.jpg",
+  "src": "https://gdb.rferl.org/7E4AAE9A-8FFD-4228-881D-0FFB21F29EC8.jpg",
+  "bytes": 129175
+ },
+ {
+  "name": "n7",
+  "ok": true,
+  "file": "n7.jpg",
+  "src": "https://asiaplus.news/wp-content/uploads/2026/10/glavnaya.-sgenerirovannoe-izobrazhenie.jpg",
+  "bytes": 142028
+ }
+]
