@@ -1,0 +1,85 @@
+[
+ {
+  "name": "n1a",
+  "ok": true,
+  "file": "n1a.jpg",
+  "src": "https://gdb.rferl.org/3773BEA1-B00D-499F-B610-9ED821A34E84.jpg",
+  "bytes": 189477
+ },
+ {
+  "name": "n1p",
+  "ok": true,
+  "file": "n1p.html",
+  "bytes": 16722
+ },
+ {
+  "name": "n2a",
+  "ok": true,
+  "file": "n2a.jpg",
+  "src": "https://asiaplus.news/wp-content/uploads/2024/08/3603291_1000.jpg",
+  "bytes": 258409
+ },
+ {
+  "name": "n2b",
+  "ok": true,
+  "file": "n2b.jpg",
+  "src": "https://gdb.rferl.org/034d0000-0aff-0242-1b90-08dadda75a92_w1200_h630.jpg",
+  "bytes": 155726
+ },
+ {
+  "name": "n2c",
+  "ok": true,
+  "file": "n2c.png",
+  "src": "https://gdb.currenttime.tv/d83b8ccc-4f2a-4b9b-95c2-4610686364bf_w1200_h630.png",
+  "bytes": 1131837
+ },
+ {
+  "name": "n3",
+  "ok": true,
+  "file": "n3.jpg",
+  "src": "https://asiaplus.news/wp-content/uploads/2026/11/umnyj-gorod1.jpg",
+  "bytes": 178204
+ },
+ {
+  "name": "n3b",
+  "ok": true,
+  "file": "n3b.jpg",
+  "src": "https://asiaplus.news/wp-content/uploads/2026/11/umnyj-gorod1.jpg",
+  "bytes": 178204
+ },
+ {
+  "name": "n4",
+  "ok": true,
+  "file": "n4.png",
+  "src": "https://gdb.rferl.org/fd27f560-c7a9-4de1-49c3-08df13a884cb_cx0_cy5_cw58_w800_h450.png",
+  "bytes": 499604
+ },
+ {
+  "name": "n4b",
+  "ok": true,
+  "file": "n4b.jpg",
+  "src": "https://gdb.rferl.org/FC2E6824-80DB-463A-BFBC-C15D57DED23C.jpg",
+  "bytes": 116826
+ },
+ {
+  "name": "n5",
+  "ok": true,
+  "file": "n5.jpg",
+  "src": "https://cdn4.telesco.pe/file/Tt8HBQyzWMUnT4Me6GY8caDRW46WsPXWxdCIlaW0Wy6yU41EHr0my80kfDGnmIo_ZWVH50-VD_krYTmdAPSdX-TZ1MKKf7_1BAaJ90Ea2gXOrJ_9tlm0KQBG6wUqao0JkbfkP9sb8AjFIYby0pW3bqk92qHWDG6yqZr9wZkrldHFRz_PUPgP6VxgT-gIw8r8H0a4r8JTBe64n3Nf8vn9jBMym1Qkd7U8fpP26SAIPTmFiZaXTSQC_WXjm5krWF61LCgWZAcJ3ruxmlnZ8zrw-h-Axhd28V1MChv6Geh8jK-zgimw2VYwBYyEmBSxi8NXijfTAIj-ymHTeW7jfkHfng.jpg",
+  "bytes": 57574
+ },
+ {
+  "name": "n6",
+  "ok": true,
+  "file": "n6.png",
+  "src": "https://gdb.rferl.org/001b53f7-7a19-45b2-eb92-08df13afe2a0_w800_h450.png",
+  "bytes": 442968
+ },
+ {
+  "name": "n6b",
+  "ok": true,
+  "file": "n6b.jpg",
+  "src": "https://gdb.rferl.org/7EB35DE5-6A81-476E-B3E0-41857B23C70C.jpg",
+  "bytes": 116078
+ }
+]
