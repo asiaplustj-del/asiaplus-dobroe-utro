@@ -1,0 +1,30 @@
+[
+ {
+  "name": "w1",
+  "ok": true,
+  "file": "w1.webp",
+  "src": "https://travelto.ru/travelto/file/by-id/10262643",
+  "bytes": 391992
+ },
+ {
+  "name": "w2",
+  "ok": true,
+  "file": "w2.jpg",
+  "src": "https://asiaplus.news/wp-content/uploads/2018/01/1023884790-1.jpg",
+  "bytes": 173301
+ },
+ {
+  "name": "w3",
+  "ok": true,
+  "file": "w3.webp",
+  "src": "https://www.kupibilet.ru/kland-storage/images/1200x630/50x50//cities/tj/dushanbe/3c0e1c3a-d869-4b7b-b098-e7871b47ba8b.webp",
+  "bytes": 116880
+ },
+ {
+  "name": "w4",
+  "ok": true,
+  "file": "w4.webp",
+  "src": "https://travelto.ru/travelto/file/by-id/10246258",
+  "bytes": 324832
+ }
+]
