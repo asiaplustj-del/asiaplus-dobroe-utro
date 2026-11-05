@@ -1,0 +1,86 @@
+[
+ {
+  "name": "n1",
+  "ok": true,
+  "file": "n1.jpg",
+  "src": "https://asiaplus.news/wp-content/uploads/2026/11/photo_2026-11-04_10-27-24.jpg",
+  "bytes": 243936
+ },
+ {
+  "name": "n1b",
+  "ok": true,
+  "file": "n1b.jpg",
+  "src": "https://asiaplus.news/wp-content/uploads/2026/11/shvei-i-svarshhiki1.jpg",
+  "bytes": 276684
+ },
+ {
+  "name": "n2",
+  "ok": true,
+  "file": "n2.jpg",
+  "src": "https://asiaplus.news/wp-content/uploads/2026/11/pasport-grazhdanina-rt.jpg",
+  "bytes": 139822
+ },
+ {
+  "name": "n3",
+  "ok": true,
+  "file": "n3.jpg",
+  "src": "https://asiaplus.news/wp-content/uploads/2026/11/photo_2026-11-04_12-54-46-3.jpg",
+  "bytes": 135609
+ },
+ {
+  "name": "n3b",
+  "ok": true,
+  "file": "n3b.jpg",
+  "src": "https://cdn4.telesco.pe/file/XPcmU2QOKq9_KU02M7E42FUHo_grn5p7VU4IKFESxVt2iR27gx8r1uKbXsfjtI3RwzD2REg9BSz270GSRwGLF5sgEpGXE4z0AUrZGxdE37BpKgLuSMOdm9-jV0hRn0b5K5jTNYTBRTpP9a0gRwz94Gi-jbHrDWbr66x08GZvUQLkKolvSld6oXX0sZ8ssZZeVduoAZitagq5V1_28fpq98IVz4KXqK_nHpKGT_SB7B7CamIupKXqVVmW9-8exWyAvVsarwXoibrzUw7c47DsqI9dyO1xxjaKfoGes6XRAaTqWyXYBhCIBlts36sLM9FF4BWuhcUSFpqU_qsHyqnnAw.jpg",
+  "bytes": 97886
+ },
+ {
+  "name": "n4",
+  "ok": true,
+  "file": "n4.jpg",
+  "src": "https://asiaplus.news/wp-content/uploads/2026/11/vybory-v-ssha.jpg",
+  "bytes": 150938
+ },
+ {
+  "name": "n5",
+  "ok": true,
+  "file": "n5.jpg",
+  "src": "https://khovar.tj/wp-content/uploads/2026/11/IMG_8240.jpeg",
+  "bytes": 61468
+ },
+ {
+  "name": "n5b",
+  "ok": true,
+  "file": "n5b.jpg",
+  "src": "https://cdn4.telesco.pe/file/p7LQj0q195ZQrFAJljTwuvtMWvs_XQpqeWMM-VWYfRVR0d7gFTRpWH7eb6wUTdHdoBx4tSER5EZtPZWdYXk9DHUKH_W_zOXAGSiRj9Hwhz8mb3BqDgAuJkjyZnTak4Ghna2lLNQkk3vO6mBGBfvcvN6WfsYMQbsvkfYFaMVUbi3zkON3lQxgvIhVJ_y4H_Z9rh4FbLMUxQggqiTHtug4ILAuXMmmFl23SRcycns7J4a-M5LUsIpdxBDbEgv_jBHjj98PLyx05gRC9r_VhFJOlWBLioRtb1GemgU_I75RArw4kggK_-J1HeKk_MM_vLmmvQv6yUgGVSU896fU53MVFg.jpg",
+  "bytes": 65881
+ },
+ {
+  "name": "n6",
+  "ok": true,
+  "file": "n6.png",
+  "src": "https://sambo.sport/upload/resize_cache/iblock/5b7/750_100000_1/e13rpolybuvazk360pwf48z4fdpch4ys.png",
+  "bytes": 825302
+ },
+ {
+  "name": "n6b",
+  "ok": true,
+  "file": "n6b.jpg",
+  "src": "https://avesta.tj/wp-content/uploads/2019/10/12-9.jpg",
+  "bytes": 85834
+ },
+ {
+  "name": "n6c",
+  "ok": true,
+  "file": "n6c.jpg",
+  "src": "https://avesta.tj/wp-content/uploads/2021/11/01-11.jpg",
+  "bytes": 99715
+ },
+ {
+  "name": "n6d",
+  "ok": true,
+  "file": "n6d.jpg",
+  "src": "https://avesta.tj/wp-content/uploads/2021/11/23-1.jpg",
+  "bytes": 30262
+ }
+]
