@@ -60,7 +60,7 @@
 
 ## 5. Рендер
 - Набор: `khabar/kit/` (index.html, render.py, logo.svg, fonts/). Скопируй в рабочую папку, туда же `img/`.
-- Фон из фото (`.bg` в index.html): `blur(34px) brightness(.47)` — фото должно чуть проглядываться (решение пользователя 31.10.2026, на ~20% чётче прежнего blur 46px/.42). Сильнее не размывать.
+- Фон из фото (`.bg` в index.html): `blur(31px) brightness(.47)` — фото должно чуть проглядываться (решение пользователя 05.11.2026: ещё на 10% меньше блюра, чем прежние 34px; до этого 31.10.2026 — 34px вместо 46px). Сильнее не размывать.
 - Шрифт SF Pro и музыка — в закрытом наборе (в публичный репозиторий их не класть!): Artifact read
   url https://claude.ai/artifact/KUoKz3ih32GVd1Diji362B, paths ["kit/fonts/SF-Pro-Display-Medium.otf",
   "kit/fonts/SF-Pro-Display-Semibold.otf","kit/fonts/SF-Pro-Display-Bold.otf","kit/music.mp3"], out_dir — во временную
