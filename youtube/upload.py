@@ -5,7 +5,8 @@
   "video": "videos/2026-11-07.mp4",
   "title": "...", "description": "...", "tags": ["..."],
   "privacy": "public" | "unlisted" | "private",
-  "categoryId": "25"
+  "categoryId": "25",
+  "publishAt": "2026-11-07T07:00:00+05:00"   (необязательно: отложенная публикация)
 }
 Результат: youtube/published/<id>.json  {"ok": true, "id": "...", "url": "...", "privacy": "..."}
                                     или {"ok": false, "error": "..."}
@@ -65,14 +66,25 @@ for p in pending:
             },
             "status": {"privacyStatus": r.get("privacy", "public"), "selfDeclaredMadeForKids": False},
         }
+        # Отложенная публикация: "publishAt": "2026-11-07T07:00:00+05:00".
+        # YouTube требует privacy=private; в указанное время ролик сам станет публичным.
+        # Если время уже прошло (или до него < 2 мин) — публикуем сразу.
+        pa = r.get("publishAt")
+        if pa:
+            t = datetime.datetime.fromisoformat(pa)
+            now = datetime.datetime.now(datetime.timezone.utc)
+            if t - now > datetime.timedelta(minutes=2):
+                body["status"]["privacyStatus"] = "private"
+                body["status"]["publishAt"] = t.astimezone(datetime.timezone.utc).strftime("%Y-%m-%dT%H:%M:%S.000Z")
         media = MediaFileUpload(str(video), mimetype="video/mp4", chunksize=8 * 1024 * 1024, resumable=True)
         req = yt.videos().insert(part="snippet,status", body=body, media_body=media, notifySubscribers=True)
         resp = None
         while resp is None:
             _, resp = req.next_chunk()
         vid = resp["id"]
+        st = resp.get("status", {})
         write(rid, {"ok": True, "id": vid, "url": f"https://youtube.com/shorts/{vid}",
-                    "privacy": resp.get("status", {}).get("privacyStatus")})
+                    "privacy": st.get("privacyStatus"), "publishAt": st.get("publishAt")})
     except Exception as e:
         failed = True
         write(rid, {"ok": False, "error": f"{type(e).__name__}: {e}"[:2000]})
