@@ -1,0 +1,15 @@
+# Ленты «Хабарҳои шаб». Каждое утро копируется в khabar/requests/<D>.txt.
+# prezident.tj не читается (страница собирается скриптом) — новости президента дублирует khovar.tj.
+# Канал t.me/SputnikTj закрыл веб-превью — Sputnik берём из RSS.
+page asiaplus-ru-rss https://asiaplus.news/feed/
+page asiaplus-tg-rss https://asiaplus.news/tg/feed/
+page tg-asiaplus https://t.me/s/asiaplus
+page tg-asiaplustj https://t.me/s/asiaplustj
+page khovar-rss https://khovar.tj/feed/
+page sputnik-tj-rss https://sputnik.tj/export/rss2/archive/index.xml
+page sputnik-ru-rss https://tj.sputniknews.ru/export/rss2/archive/index.xml
+page avesta-rss https://avesta.tj/feed/
+page migration-rss https://migration.tj/feed/
+page ozodi-rss https://www.ozodi.org/api/
+page tg-radioozodi https://t.me/s/radioozodi
+page dushanbe https://dushanbe.tj/
