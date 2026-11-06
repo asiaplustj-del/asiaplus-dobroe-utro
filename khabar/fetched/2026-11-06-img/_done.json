@@ -1,0 +1,58 @@
+[
+ {
+  "name": "n1",
+  "ok": true,
+  "file": "n1.jpg",
+  "src": "https://khovar.tj/wp-content/uploads/2026/11/3-4.jpg",
+  "bytes": 63749
+ },
+ {
+  "name": "n2",
+  "ok": true,
+  "file": "n2.jpg",
+  "src": "https://khovar.tj/wp-content/uploads/2026/11/photo_2026-11-05_17-07-53.jpg",
+  "bytes": 70505
+ },
+ {
+  "name": "n3",
+  "ok": true,
+  "file": "n3.jpg",
+  "src": "https://asiaplus.news/wp-content/uploads/2026/11/img_0003-1536x1024.jpg",
+  "bytes": 436994
+ },
+ {
+  "name": "n4",
+  "ok": true,
+  "file": "n4.jpg",
+  "src": "https://asiaplus.news/wp-content/uploads/2026/11/photo_2026-11-05_12-40-13.jpg",
+  "bytes": 280504
+ },
+ {
+  "name": "n5",
+  "ok": true,
+  "file": "n5.jpg",
+  "src": "https://gdb.rferl.org/01CBFCD1-5A7E-41CE-BC2C-2E1D196066AD.jpg",
+  "bytes": 157917
+ },
+ {
+  "name": "n6",
+  "ok": true,
+  "file": "n6.jpg",
+  "src": "https://gdb.rferl.org/553C4523-22B5-4633-82C7-1016DFE667BB.jpg",
+  "bytes": 144117
+ },
+ {
+  "name": "n5b",
+  "ok": true,
+  "file": "n5b.jpg",
+  "src": "https://gdb.rferl.org/0c8543ec-7d67-4cca-0037-08de3c642a38_cx0_cy24_cw89_w800_h450.jpg",
+  "bytes": 117326
+ },
+ {
+  "name": "n6b",
+  "ok": true,
+  "file": "n6b.jpg",
+  "src": "https://gdb.rferl.org/4E5E8F99-0354-413A-8882-14A845D9A397_w800_h450.jpg",
+  "bytes": 63432
+ }
+]
