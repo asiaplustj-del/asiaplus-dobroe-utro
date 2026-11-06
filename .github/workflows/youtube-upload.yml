@@ -1,0 +1,32 @@
+name: youtube-upload
+# «Доброе утро»: загружает ролик на YouTube по заявке youtube/requests/<id>.json
+# и записывает результат в youtube/published/<id>.json.
+# Ключ доступа хранится в секрете репозитория YOUTUBE_TOKEN (scope youtube.upload).
+on:
+  push:
+    paths: ["youtube/requests/*.json"]
+  workflow_dispatch:
+permissions:
+  contents: write
+concurrency: { group: youtube-upload, cancel-in-progress: false }
+jobs:
+  upload:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: { python-version: "3.12" }
+      - run: pip install -q google-api-python-client google-auth
+      - run: python3 youtube/upload.py
+        env:
+          YOUTUBE_TOKEN: ${{ secrets.YOUTUBE_TOKEN }}
+      - name: commit
+        if: always()
+        run: |
+          git config user.name "asiaplustj-del"
+          git config user.email "jadidasiaplus@gmail.com"
+          git add youtube/published
+          git diff --cached --quiet && exit 0
+          git commit -m "youtube: published"
+          for i in 1 2 3; do git pull --rebase -q && git push && break; sleep 3; done
