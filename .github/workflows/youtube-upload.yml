@@ -14,7 +14,9 @@ jobs:
     runs-on: ubuntu-latest
     timeout-minutes: 15
     steps:
+      # свежий main, а не коммит-триггер: иначе заявка, уже обработанная прошлым запуском, загрузится второй раз (дубль 07.11.2026)
       - uses: actions/checkout@v4
+        with: { ref: main }
       - uses: actions/setup-python@v5
         with: { python-version: "3.12" }
       - run: pip install -q google-api-python-client google-auth
