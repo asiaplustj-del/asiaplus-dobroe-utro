@@ -1,0 +1,7 @@
+page a1 https://www.ozodi.org/a/dahho-hazor-muhojirro-majburi-az-rusiya-berun-kardaand/33892392.html
+page a2 https://www.ozodi.org/a/qirghiziston-az-rusiya-khostaast-javoni-qirghizro-bargardonad-va-ba-jang-nabarad/33892443.html
+page a3 https://sputnik.tj/20261106/oila-afsar-shahid-begmatov-sohib-khona-1081886528.html
+page a4 https://sputnik.tj/20261106/hisor-navrason-sohib-bino-nav-maktabi-musiqi-1081881627.html
+page a5 https://www.ozodi.org/a/tarhi-ikhroji-dahho-afghonistoniro-az-amriko-bozdoshtaand/33892395.html
+page a6 https://tj.sputniknews.ru/20261106/zelenskiy-zayavlenie-situatsii-kiev-1081887793.html
+page a7 https://t.me/asiaplustj/55370
