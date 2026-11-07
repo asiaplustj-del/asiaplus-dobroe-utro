@@ -1,0 +1,65 @@
+[
+ {
+  "name": "n1",
+  "ok": true,
+  "file": "n1.jpg",
+  "src": "https://gdb.rferl.org/BE8C3768-23CD-418C-97F7-87CE09B44A95.jpg",
+  "bytes": 153492
+ },
+ {
+  "name": "n2",
+  "ok": true,
+  "file": "n2.jpg",
+  "src": "https://gdb.rferl.org/5351290A-5B91-40E7-9498-962F640B4CBA.jpg",
+  "bytes": 112485
+ },
+ {
+  "name": "n3",
+  "ok": true,
+  "file": "n3.jpg",
+  "src": "https://cdnn1.img.sputnik.tj/img/07ea/01/10/1074583516_0:0:1500:844_2072x0_60_0_0_6101c0e62401e52d5d28ae30eeb9e008.jpg",
+  "bytes": 125400
+ },
+ {
+  "name": "n4",
+  "ok": true,
+  "file": "n4.jpg",
+  "src": "https://cdnn1.img.sputnik.tj/img/07ea/0b/06/1081882278_0:107:2048:1259_2072x0_60_0_0_0283d38f5014d506aca06c88e683e883.jpg",
+  "bytes": 255088
+ },
+ {
+  "name": "n5",
+  "ok": true,
+  "file": "n5.jpg",
+  "src": "https://gdb.rferl.org/619E552D-F987-43E8-998C-2D5E99B29F04.jpg",
+  "bytes": 186911
+ },
+ {
+  "name": "n6",
+  "ok": true,
+  "file": "n6.jpg",
+  "src": "https://cdnn1.img.sputnik.tj/img/07ea/0b/06/1081887942_0:34:1280:755_2072x0_60_0_0_652f6c957691161685621c102dd1505b.jpg",
+  "bytes": 52522
+ },
+ {
+  "name": "n1b",
+  "ok": true,
+  "file": "n1b.jpg",
+  "src": "https://gdb.rferl.org/a5828a45-efde-4efd-0800-08dd82022d88_cx0_cy7_cw0_w800_h450.jpg",
+  "bytes": 72195
+ },
+ {
+  "name": "n2b",
+  "ok": true,
+  "file": "n2b.jpg",
+  "src": "https://gdb.rferl.org/e3adbadb-1c83-4cf9-4f46-08df13aec0bb_w800_h450.jpg",
+  "bytes": 78308
+ },
+ {
+  "name": "n5b",
+  "ok": true,
+  "file": "n5b.jpg",
+  "src": "https://gdb.rferl.org/a8c89b1d-01e7-4110-8f4a-08ddfa9117a6_cx0_cy6_cw0_w800_h450.jpg",
+  "bytes": 108045
+ }
+]
