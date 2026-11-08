@@ -1,0 +1,82 @@
+[
+ {
+  "name": "n1a",
+  "ok": true,
+  "file": "n1a.jpg",
+  "src": "https://cdn4.telesco.pe/file/G5AiT-U-A3yvMCS5rGrQswMsiMzAVM7Wyz3p9WnFSTFTgypAmTKPLhFLPpkkkuC5OZ_vR8oOGjXIolJaTn9qofIW-QmT9c-aw55ww1WS39doAdk1SGROM2bOcV5ag4rZ32TRX7fVX8w4aIt9zitqu9oT5Vh-VT7QmSyIvOaIw0FREW6UbfP0u47vmqKOsx-zz-cQ5JIPYTbqfPwXaM_ZgqN5V7NRqlORgegvB-8pKBIPHhDQUAdMglHtbNrJaO6XROUQ2O7rdMfz8zhEL9EbtTvJF5fn-8H3f6NQklkkdp7ITUYboPexMUwHr5E2XcB5NTd4RKPMjkqPtlDLflnqmA.jpg",
+  "bytes": 59163
+ },
+ {
+  "name": "n3a",
+  "ok": true,
+  "file": "n3a.jpg",
+  "src": "https://cdn4.telesco.pe/file/ILwyw41ebPqVn0x70wAWapBvT2OPusF5XGNxIZFM51dsk7ZAMbNurhxcY2haSkE5dfHEdvdVd9otccqbFGsVRC7D0akkdAOt-4bxbE4EAZCW7HIVlLDbXRIWMJXPWHzqhI6D-AGucIiFaQIVGu1yIJc0A9IEOmxV6H4v9BydWQSiYpS_COET0teCpArUgdWgbIUsm3bMT5FJ3tXqvz2cVZyaec4SPYxoNluSg4WgSVprpcFNC8W5BqQ2HpO3DK9ZBWjbgjU3s0vf90l2dcfE6fiMXa2Uu3Xe7DZ17nfZyOpiCLTrrRuiUdqch3xdn5n2m_dudwRD4LYlHmEki8LiLA.jpg",
+  "bytes": 113676
+ },
+ {
+  "name": "n2a",
+  "ok": true,
+  "file": "n2a.jpg",
+  "src": "https://khovar.tj/rus/wp-content/uploads/2026/11/An-omi-safari-rasmii-Prezidenti-um-urii-To-ikiston-Emomal-Ra-mon-dar-um-urii-azo-iston.jpg",
+  "bytes": 95290
+ },
+ {
+  "name": "n2b",
+  "ok": true,
+  "file": "n2b.jpg",
+  "src": "https://khovar.tj/rus/wp-content/uploads/2026/11/Saroni-davlat-oi-To-ikiston-va-azo-iston-dar-iftito-i-binoi-navi-saforati-um-urii-To-ikiston-dar-sha-ri-Ostonai-ishtirok-namudand.jpg",
+  "bytes": 95973
+ },
+ {
+  "name": "n4a",
+  "ok": true,
+  "file": "n4a.jpg",
+  "src": "https://img6.eadaily.com/r650x400/o/d0f/e4514b3d2957bbc032665d7f8160a.jpeg",
+  "bytes": 50111
+ },
+ {
+  "name": "n4b",
+  "ok": true,
+  "file": "n4b.png",
+  "src": "https://img.vz.ru/upimg/soc/soc_1473514.png",
+  "bytes": 7836
+ },
+ {
+  "name": "n4c",
+  "ok": true,
+  "file": "n4c.png",
+  "src": "https://img-renderer.rambler.ru/api/generate/media/?clusterId=57376033&projectId=1&format=png",
+  "bytes": 187331
+ },
+ {
+  "name": "n5a",
+  "ok": true,
+  "file": "n5a.jpg",
+  "src": "https://asiaplus.news/wp-content/uploads/2026/11/p.jpg",
+  "bytes": 448578
+ },
+ {
+  "name": "a2",
+  "ok": true,
+  "file": "a2.html",
+  "bytes": 123662
+ },
+ {
+  "name": "a2b",
+  "ok": true,
+  "file": "a2b.html",
+  "bytes": 127842
+ },
+ {
+  "name": "a5",
+  "ok": true,
+  "file": "a5.html",
+  "bytes": 217130
+ },
+ {
+  "name": "a3",
+  "ok": true,
+  "file": "a3.html",
+  "bytes": 89528
+ }
+]
