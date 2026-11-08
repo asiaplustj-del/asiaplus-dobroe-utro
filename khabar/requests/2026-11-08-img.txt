@@ -1,0 +1,12 @@
+img n1a https://cdn4.telesco.pe/file/G5AiT-U-A3yvMCS5rGrQswMsiMzAVM7Wyz3p9WnFSTFTgypAmTKPLhFLPpkkkuC5OZ_vR8oOGjXIolJaTn9qofIW-QmT9c-aw55ww1WS39doAdk1SGROM2bOcV5ag4rZ32TRX7fVX8w4aIt9zitqu9oT5Vh-VT7QmSyIvOaIw0FREW6UbfP0u47vmqKOsx-zz-cQ5JIPYTbqfPwXaM_ZgqN5V7NRqlORgegvB-8pKBIPHhDQUAdMglHtbNrJaO6XROUQ2O7rdMfz8zhEL9EbtTvJF5fn-8H3f6NQklkkdp7ITUYboPexMUwHr5E2XcB5NTd4RKPMjkqPtlDLflnqmA.jpg
+img n3a https://cdn4.telesco.pe/file/ILwyw41ebPqVn0x70wAWapBvT2OPusF5XGNxIZFM51dsk7ZAMbNurhxcY2haSkE5dfHEdvdVd9otccqbFGsVRC7D0akkdAOt-4bxbE4EAZCW7HIVlLDbXRIWMJXPWHzqhI6D-AGucIiFaQIVGu1yIJc0A9IEOmxV6H4v9BydWQSiYpS_COET0teCpArUgdWgbIUsm3bMT5FJ3tXqvz2cVZyaec4SPYxoNluSg4WgSVprpcFNC8W5BqQ2HpO3DK9ZBWjbgjU3s0vf90l2dcfE6fiMXa2Uu3Xe7DZ17nfZyOpiCLTrrRuiUdqch3xdn5n2m_dudwRD4LYlHmEki8LiLA.jpg
+og n2a https://khovar.tj/rus/2026/11/zavershenie-ofitsialnogo-vizita-prezidenta-respubliki-tadzhikistan-emomali-rahmona-v-respublike-kazahstan/
+og n2b https://khovar.tj/rus/2026/11/glavy-gosudarstv-tadzhikistana-i-kazahstana-prinyali-uchastie-v-tseremonii-otkrytiya-novogo-zdaniya-posolstva-respubliki-tadzhikistan-v-gorode-astane/
+og n4a https://eadaily.com/ru/news/2026/11/08/v-yaponii-bolee-20-chelovek-postradali-pri-zemletryasenii
+og n4b https://vz.ru/news/2026/11/8/1473514.html
+og n4c https://news.rambler.ru/incidents/57376033-zemletryasenie-v-yaponii-chto-izvestno/
+og n5a https://asiaplus.news/2026/11/07/hranitelnicza-lesov-dashtidzhuma/
+page a2 https://khovar.tj/rus/2026/11/zavershenie-ofitsialnogo-vizita-prezidenta-respubliki-tadzhikistan-emomali-rahmona-v-respublike-kazahstan/
+page a2b https://khovar.tj/rus/2026/11/glavy-gosudarstv-tadzhikistana-i-kazahstana-prinyali-uchastie-v-tseremonii-otkrytiya-novogo-zdaniya-posolstva-respubliki-tadzhikistan-v-gorode-astane/
+page a5 https://asiaplus.news/2026/11/07/hranitelnicza-lesov-dashtidzhuma/
+page a3 https://t.me/s/asiaplus/108015
