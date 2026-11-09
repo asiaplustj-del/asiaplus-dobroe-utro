@@ -1,0 +1,33 @@
+[
+ {
+  "name": "g1",
+  "ok": false,
+  "url": "https://www.arabnews.com/middle-east/sand-cliff-collapses-onto-tents-in-gaza-killing-5-3010595",
+  "error": "HTTP Error 403: Forbidden"
+ },
+ {
+  "name": "g2",
+  "ok": false,
+  "url": "https://www.newarab.com/news/five-killed-gaza-after-storm-collapses-sand-mound-tents",
+  "error": "HTTP Error 403: Forbidden"
+ },
+ {
+  "name": "g3",
+  "ok": false,
+  "url": "https://english.wafa.ps/Pages/Details/176754",
+  "error": "og:image not found"
+ },
+ {
+  "name": "g4",
+  "ok": false,
+  "url": "http://english.news.cn/20261109/6ec72f0a2c274220aea6f8cf554ff589/c.html",
+  "error": "og:image not found"
+ },
+ {
+  "name": "g5",
+  "ok": true,
+  "file": "g5.jpg",
+  "src": "https://www.middleeasteye.net/sites/default/files/hormuz-oman-houthis-iran.jpg",
+  "bytes": 362101
+ }
+]
