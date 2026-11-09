@@ -1,0 +1,13 @@
+page a2 https://ru.euronews.com/2026/11/08/egypt-train-collision
+page a3 https://tass.ru/mezhdunarodnaya-panorama/28296733
+page a4 https://tass.ru/sport/28296739
+page a5 https://ria.ru/20261109/solntse-2130182286.html
+page a6 https://www.bbc.com/russian/articles/ckvg72z41p00o
+og n1 https://tj.sputniknews.ru/20261108/khujhand-otravleniya-deti-narusheniya-kachestvo-pitaniye-1081933454.html
+og n2 https://ru.euronews.com/2026/11/08/egypt-train-collision
+og n2b https://www.bbc.com/russian/articles/ckvg72z41p00o
+og n3 https://tass.ru/mezhdunarodnaya-panorama/28296733
+og n4 https://tass.ru/sport/28296739
+og n4b https://ria.ru/20261109/laliga-2130183311.html
+og n5 https://ria.ru/20261109/solntse-2130182286.html
+og n5b https://tass.ru/kosmos/28296711
