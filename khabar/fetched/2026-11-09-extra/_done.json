@@ -1,0 +1,74 @@
+[
+ {
+  "name": "ria-rss",
+  "ok": true,
+  "file": "ria-rss.html",
+  "bytes": 62399
+ },
+ {
+  "name": "tass-rss",
+  "ok": true,
+  "file": "tass-rss.html",
+  "bytes": 61974
+ },
+ {
+  "name": "interfax-rss",
+  "ok": true,
+  "file": "interfax-rss.html",
+  "bytes": 21887
+ },
+ {
+  "name": "kun-rss",
+  "ok": true,
+  "file": "kun-rss.html",
+  "bytes": 15553
+ },
+ {
+  "name": "24kg-rss",
+  "ok": true,
+  "file": "24kg-rss.html",
+  "bytes": 43035
+ },
+ {
+  "name": "fergana-rss",
+  "ok": true,
+  "file": "fergana-rss.html",
+  "bytes": 34174
+ },
+ {
+  "name": "euronews-ru-rss",
+  "ok": true,
+  "file": "euronews-ru-rss.html",
+  "bytes": 41196
+ },
+ {
+  "name": "bbc-ru-rss",
+  "ok": true,
+  "file": "bbc-ru-rss.html",
+  "bytes": 41102
+ },
+ {
+  "name": "tg-asiaplus2",
+  "ok": true,
+  "file": "tg-asiaplus2.html",
+  "bytes": 150543
+ },
+ {
+  "name": "tg-asiaplustj2",
+  "ok": true,
+  "file": "tg-asiaplustj2.html",
+  "bytes": 112710
+ },
+ {
+  "name": "tg-ozodi2",
+  "ok": true,
+  "file": "tg-ozodi2.html",
+  "bytes": 112496
+ },
+ {
+  "name": "a1",
+  "ok": true,
+  "file": "a1.html",
+  "bytes": 95016
+ }
+]
