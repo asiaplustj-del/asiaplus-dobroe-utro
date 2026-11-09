@@ -1,0 +1,7 @@
+og n3 https://news.mail.ru/politics/73020279/
+og n3b https://www.bfm.ru/news/623261
+og n3c https://life.ru/p/my-byli-slishkom-zhestoki-tramp-neozhidanno-priznal-peregiby-v-massovoy
+og n5 https://ria.ru/20261108/gaza-2130177926.html
+og n5b https://news.mail.ru/politics/73019950/
+og n5c https://radio1.ru/news/proisshestviya/pyat-chelovek-pogibli-pri-obrushenii-sklona-na-palatki-v-sektore-gaza/
+og n4c https://www.sport-express.net/football/spain/news/atletiko-barselona-schet-2-1-rezultat-matcha-la-ligi-8-noyabrya-2026-2472685/
