@@ -1,0 +1,4 @@
+# «Доброе утро» 2026-11-09: курс НБТ (сегодня, вчера) и прогноз meteo.tj
+page nbt_d https://nbt.tj/ru/kurs/export_xml.php?date=2026-11-09&export=xmlout
+page nbt_p https://nbt.tj/ru/kurs/export_xml.php?date=2026-11-08&export=xmlout
+page meteo https://www.meteo.tj/tj/weather-forecast
