@@ -1,0 +1,51 @@
+[
+ {
+  "name": "n3",
+  "ok": true,
+  "file": "n3.jpg",
+  "src": "https://resizer.mail.ru/p/9dcf262a-2bd7-5600-a1d9-f442506362d6/AQAGBcUIeVD4KnEiQsfFF-ViEG-dcBPgR17U1KBf_uwOLA-LjTXpG4C5LLyNSsf5qsesVQAwnw27vtnBVkp77Qmq4BA.jpg",
+  "bytes": 107223
+ },
+ {
+  "name": "n3b",
+  "ok": true,
+  "file": "n3b.jpg",
+  "src": "https://s.bfm.ru/images/bfm_json_ld.jpg",
+  "bytes": 32907
+ },
+ {
+  "name": "n3c",
+  "ok": true,
+  "file": "n3c.webp",
+  "src": "https://static.life.ru/ip/unsafe/rs:fit:1200:/q:98/sh:0.5/czM6Ly9saWZlLXN0YXRpYy9wdWJsaWNhdGlvbnMvMjAyNi8xMS84LzU0ODczMjg4MDQyMC42MDQucG5n.webp",
+  "bytes": 207756
+ },
+ {
+  "name": "n5",
+  "ok": true,
+  "file": "n5.jpg",
+  "src": "https://cdnn21.imgria.ru/images/sharing/article/2130177926.jpg?20434801811794169627",
+  "bytes": 151048
+ },
+ {
+  "name": "n5b",
+  "ok": true,
+  "file": "n5b.png",
+  "src": "https://news.mail.ru/social_preview/73019950/?time=71a28edfe64b2956d697d407d304bdc9",
+  "bytes": 2431
+ },
+ {
+  "name": "n5c",
+  "ok": true,
+  "file": "n5c.jpg",
+  "src": "https://multi-admin.ru/mediabank_blog/11/395557/907b277e389b62bb3916261543938e26_395557.jpg",
+  "bytes": 211773
+ },
+ {
+  "name": "n4c",
+  "ok": true,
+  "file": "n4c.jpg",
+  "src": "https://ss.sport-express.net/userfiles/materials/224/2241463/1180x665.jpg",
+  "bytes": 273696
+ }
+]
