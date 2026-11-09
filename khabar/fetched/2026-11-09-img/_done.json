@@ -1,0 +1,85 @@
+[
+ {
+  "name": "a2",
+  "ok": true,
+  "file": "a2.html",
+  "bytes": 319759
+ },
+ {
+  "name": "a3",
+  "ok": true,
+  "file": "a3.html",
+  "bytes": 1799
+ },
+ {
+  "name": "a4",
+  "ok": true,
+  "file": "a4.html",
+  "bytes": 1780
+ },
+ {
+  "name": "a5",
+  "ok": true,
+  "file": "a5.html",
+  "bytes": 182363
+ },
+ {
+  "name": "a6",
+  "ok": true,
+  "file": "a6.html",
+  "bytes": 362725
+ },
+ {
+  "name": "n1",
+  "ok": true,
+  "file": "n1.jpg",
+  "src": "https://cdnn1.img.sputnik.tj/img/07ea/0a/01/1080873204_0:257:2730:1793_2072x0_60_0_0_2344524af9aecb93ed1a4dc14297b0dd.jpg",
+  "bytes": 179038
+ },
+ {
+  "name": "n2",
+  "ok": true,
+  "file": "n2.jpg",
+  "src": "https://images.euronews.com/articles/stories/09/98/46/87/1200x675_cmsv2_52ff1a40-6443-565e-803b-c7f98a0a526b-9984687.jpg",
+  "bytes": 138888
+ },
+ {
+  "name": "n2b",
+  "ok": true,
+  "file": "n2b.jpg",
+  "src": "https://ichef.bbci.co.uk/news/1200/branded_russian/690e/live/a3988730-db8d-11f1-b441-2b33b063138f.jpg",
+  "bytes": 117155
+ },
+ {
+  "name": "n3",
+  "ok": false,
+  "url": "https://tass.ru/mezhdunarodnaya-panorama/28296733",
+  "error": "og:image not found"
+ },
+ {
+  "name": "n4",
+  "ok": false,
+  "url": "https://tass.ru/sport/28296739",
+  "error": "og:image not found"
+ },
+ {
+  "name": "n4b",
+  "ok": true,
+  "file": "n4b.jpg",
+  "src": "https://cdnn21.imgria.ru/images/sharing/article/2130183311.jpg?20815588671794177806",
+  "bytes": 94854
+ },
+ {
+  "name": "n5",
+  "ok": true,
+  "file": "n5.jpg",
+  "src": "https://cdnn21.imgria.ru/images/sharing/article/2130182286.jpg?14740966881794178652",
+  "bytes": 91899
+ },
+ {
+  "name": "n5b",
+  "ok": false,
+  "url": "https://tass.ru/kosmos/28296711",
+  "error": "og:image not found"
+ }
+]
