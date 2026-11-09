@@ -1,0 +1,12 @@
+page ria-rss https://ria.ru/export/rss2/archive/index.xml
+page tass-rss https://tass.ru/rss/v2.xml
+page interfax-rss https://www.interfax.ru/rss.asp
+page kun-rss https://kun.uz/ru/news/rss
+page 24kg-rss https://24.kg/rss/
+page fergana-rss https://fergana.agency/news/rss/
+page euronews-ru-rss https://ru.euronews.com/rss
+page bbc-ru-rss https://feeds.bbci.co.uk/russian/rss.xml
+page tg-asiaplus2 https://t.me/s/asiaplus
+page tg-asiaplustj2 https://t.me/s/asiaplustj
+page tg-ozodi2 https://t.me/s/radioozodi
+page a1 https://tj.sputniknews.ru/20261108/khujhand-otravleniya-deti-narusheniya-kachestvo-pitaniye-1081933454.html
