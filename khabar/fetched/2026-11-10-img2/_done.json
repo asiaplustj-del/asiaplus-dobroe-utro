@@ -1,0 +1,57 @@
+[
+ {
+  "name": "m1",
+  "ok": true,
+  "file": "m1.webp",
+  "src": "https://aif-s3.aif.ru/images/048/551/8515b87884f425825953e1eff3ceaf40.webp",
+  "bytes": 55100
+ },
+ {
+  "name": "m2",
+  "ok": true,
+  "file": "m2.png",
+  "src": "https://resizer.mail.ru/p/0a34492b-cacf-522f-9f4e-b1b17b0f3085/AQAzctJ-cP6Ujj-Id1TdlGy7Fd0ImdLxBhR2TUXmCsnnr80zLDPn-CjYw5asH7rg5UGF-K3sw_67x6ZZejg05O6sEi0.png",
+  "bytes": 514586
+ },
+ {
+  "name": "m3",
+  "ok": true,
+  "file": "m3.jpg",
+  "src": "https://newsbash.ru/uploads/posts/2026-11/5040c304e2_taksi.jpg",
+  "bytes": 76896
+ },
+ {
+  "name": "m4",
+  "ok": true,
+  "file": "m4.png",
+  "src": "https://www.klerk.ru/yindex.php/og?id=717645&entity=news",
+  "bytes": 139835
+ },
+ {
+  "name": "e1",
+  "ok": true,
+  "file": "e1.jpg",
+  "src": "https://asiaplus.news/wp-content/uploads/2026/11/photo_2026-11-09_10-40-45.jpg",
+  "bytes": 129788
+ },
+ {
+  "name": "e2",
+  "ok": true,
+  "file": "e2.jpg",
+  "src": "https://asiaplus.news/wp-content/uploads/2026/11/tpp.jpg",
+  "bytes": 213577
+ },
+ {
+  "name": "r1",
+  "ok": true,
+  "file": "r1.jpg",
+  "src": "https://asiaplus.news/wp-content/uploads/2026/11/kadr-filma-_taksi_.jpg",
+  "bytes": 168818
+ },
+ {
+  "name": "a4",
+  "ok": true,
+  "file": "a4.html",
+  "bytes": 247139
+ }
+]
