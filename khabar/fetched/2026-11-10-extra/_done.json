@@ -1,0 +1,76 @@
+[
+ {
+  "name": "a1",
+  "ok": true,
+  "file": "a1.html",
+  "bytes": 96715
+ },
+ {
+  "name": "a2",
+  "ok": true,
+  "file": "a2.html",
+  "bytes": 125162
+ },
+ {
+  "name": "a3",
+  "ok": true,
+  "file": "a3.html",
+  "bytes": 247138
+ },
+ {
+  "name": "n1",
+  "ok": true,
+  "file": "n1.jpg",
+  "src": "https://cdnn1.img.sputnik.tj/img/07e8/04/09/1062405087_0:1255:2048:2407_2072x0_60_0_0_9c0326a558f7196e874f6059af8df6af.jpg",
+  "bytes": 205044
+ },
+ {
+  "name": "n2",
+  "ok": true,
+  "file": "n2.jpg",
+  "src": "https://gdb.rferl.org/36132509-C296-4706-8963-AF2D99400662.jpg",
+  "bytes": 89448
+ },
+ {
+  "name": "n3",
+  "ok": true,
+  "file": "n3.jpg",
+  "src": "https://gdb.rferl.org/D0856E5C-C113-46FE-8B00-E8B0B9CCABDF.jpg",
+  "bytes": 112584
+ },
+ {
+  "name": "n4",
+  "ok": true,
+  "file": "n4.jpg",
+  "src": "https://asiaplus.news/wp-content/uploads/2026/11/kadr-filma-_taksi_.jpg",
+  "bytes": 168818
+ },
+ {
+  "name": "t1",
+  "ok": true,
+  "file": "t1.jpg",
+  "src": "https://cdn4.telesco.pe/file/Ab9eC1hT0G5GjIzhrqt5_JVVLXfZ_6RCtz5QPOodQ7aofxKyd0azRCRXOD--oU-OmFF14RKbTSWiHKWK-B43Y_bdzTc2mxMmYQ_6wErZaGuQW7SROb7FUqTKhkv469JXAlpb1doVSZDZu45JqfsW2E1amEBefSIcDbsag059xZRm3dFanx2DudD22M6s0sBnURquvAVQXf_2Iigvk44g03lkqsGjjgeCbiLIGJpZHOc5MFpPgCbW05PYeiYLPOpJ6mjndSHTE0QjgrAvRM7SqVSNwRnf0TPqAE22XDYp6kkuLAW4zWyhAAXr9iJuNHsKnI_MCL8I7ZfwrU-L0smJ-A.jpg",
+  "bytes": 150812
+ },
+ {
+  "name": "t2",
+  "ok": true,
+  "file": "t2.jpg",
+  "src": "https://cdn4.telesco.pe/file/rxM8E9W22dhXZOxcRDiE709ZNAPtd7p9pfbJ2kfi4vgZLfLowVYdY5bR4RM_I1KQloTvisHojiMV_c2FTTrUaIIxSOQgFTscVkLkfx3X2Oa32lgY9jVGK4oE0p_theRNyKQzKFEsLFsmkF47lotIzcPtUpj-hIi_OpVa2OY--CGRTx4nidBLDNGm_jKY-Nq5OWCaotHuStM2W5mT57baQa_hbT0ZDotm_L_sWScwSCtZf90gPhCGj9pL5KFlbVU9hAk-dD3oa7ysBT-_wxGA_suZmnKWTcq7PHz0G7bn1g3cc0_k3LsE10W_Za8iIFJ3borPiAByV1Mqf71w-K7EwA.jpg",
+  "bytes": 104072
+ },
+ {
+  "name": "t3",
+  "ok": true,
+  "file": "t3.jpg",
+  "src": "https://cdn4.telesco.pe/file/k9PA01FsziLojP8dgSBsa5ttMPxflzsZf1xHpPPQBKgi83grVTPpKgCE4r_sk8WF0QQfD61FflUgh7tRR2u5QbE3YFh7pRqHJXSRNMsadr-XCea8mwXQFkKTUv4j1Xs5qu4i4mK2jcZrSqUfyIrEIBK5bac-YXRWlKnhw6eKnvAGMeRkLIPTmC7GJWmK1GrZRVIaCubzVwM1cwQa1j2oYixZaWHc__yCt9oeqAkepWm7TjAnt-izVOqQOTaTlm1jlXb0F0SjxmHMnd8flfS_DiYdAVtRc5uG7ZOwYKeEEk77bp3s3iBfRoeOK_OV0rR9_APJLOSgzHU6417HRMsvfA.jpg",
+  "bytes": 137103
+ },
+ {
+  "name": "t4",
+  "ok": true,
+  "file": "t4.jpg",
+  "src": "https://cdn4.telesco.pe/file/Z_leUegimvo5J1GmaC9M_q8M_40PW3RamaItTS41yecp4Z55ChmAdUluzX7UPZQyeTtK35tCFdKnWwdVTQFy_Kn5yFcFNfYgN6jVDyjX79wIbBg07LDzvw30As1CIEdb0YinOvw_WuMG_uDVUXq8n2PeX5YkMw-JhlUQYNhFjug46xBKKoQb10mSJsjaEPJkNc2lk_5QwDGhQm7_hZYyWnIDZGsVzV1qJB9GGO8qqUIKix7MUqlF-yuNg--K1Ecz21NLtA_HurYBD35pkKHIs_qHIj4AaQWP1v9YNVDgZvNVc43D4vDcAZ5ULutdbLNvCewKFIXmTqTSrstJwS_-UQ.jpg",
+  "bytes": 66023
+ }
+]
