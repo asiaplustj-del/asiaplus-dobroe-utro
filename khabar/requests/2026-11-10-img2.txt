@@ -1,0 +1,8 @@
+og m1 https://kazan.aif.ru/society/bez-taksi-v-rossii-migrantam-zapretyat-rabotat-v-taksi-spisok-regionov
+og m2 https://finance.mail.ru/article/smi-mintrud-obnulit-kvotu-na-rabotu-migrantov-v-taksi-regionov-69236283/
+og m3 https://newsbash.ru/rossija-mir/58063-v-vosmi-regionah-s-2027-goda-ogranichat-rabotu-migrantov-v-taksi.html
+og m4 https://www.klerk.ru/buh/news/717645/
+og e1 https://asiaplus.news/2026/11/09/emomali-rahmon-obsudil-s-es-investiczii-v-energetiku-i-promyshlennost-tadzhikistana/
+og e2 https://asiaplus.news/2026/11/09/tadzhikistan-predlozhil-germanii-sozdat-sovmestnyj-delovoj-sovet/
+og r1 https://asiaplus.news/2026/11/08/brat-po-doroge-eshhyo-odnogo-vozmyom-kakie-prava-est-u-passazhira-taksi-v-tadzhikistane/
+page a4 https://www.ozodi.org/a/bozdidi-yak-namoyandai-balandpoyai-ittihodi-avrupo-az-tojikiston/33893956.html
