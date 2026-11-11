@@ -1,0 +1,10 @@
+og n1 https://asiaplus.news/tg/2026/11/10/idomai-shikor-i-taksihoi-10-somony-maqomot-besh-az-100-ronandaro-jarima-kardaand/
+og n2 https://khovar.tj/2026/11/prezidenti-um-urii-to-ikiston-emomal-ra-mon-bo-safari-kor-voridi-sha-ri-moskvai-federatsiyai-rusiya-shudand-3/
+img n2b https://gdb.rferl.org/0da106b4-2c1e-4f95-9cf4-6969a057420e_cx0_cy4_cw0_w800_h450.jpg
+img n3 https://cdn4.telesco.pe/file/DINKccDO6UxiemPO3oTIQRkAhpp6XytzeLmKeEf4D22DAULH8N41OMV7m9hNqEXTtSgd2ThnS7tvkMcWhu4SYW4czhuRGusbcrqOSDy8FJbmmjU43c-gvEDnqPBqKvOLsWSLghjw-3rVlX0rkNfahhWY2An6jGpfeHS4jWZ4ni6dkNREkykgPd2ZZkHOwn9ZNs5cMpJxQVPv1KGpeiOeywQHMuIHMK-jJvUmn3dg8o3d9SeebwzBNCQhIpRr1PNKmaSx8-brdtknYKs85Jxq8SnxjwEOAsgMDIzLizSATTiZdLfKSBOr5Mueq4TrAnzVKqwoThQF02dKBQXlsfvGFg.jpg
+img n3b https://cdnn1.img.sputnik.tj/img/07ea/0b/0a/1081989594_0:0:3072:1728_600x0_80_0_0_4e87883374f89d29b5650259c693913f.jpg
+og n4 https://asiaplus.news/2026/11/10/kogda-stalinabad-stal-dushanbe-istoriya-v-fotografiyah/
+og n5 https://khovar.tj/2026/11/dastai-muntahabi-to-ikiston-omodag-ba-musobi-ai-king-s-sup-2026-ro-o-oz-kard/
+page a4 https://asiaplus.news/2026/11/10/kogda-stalinabad-stal-dushanbe-istoriya-v-fotografiyah/
+page a1 https://asiaplus.news/tg/2026/11/10/idomai-shikor-i-taksihoi-10-somony-maqomot-besh-az-100-ronandaro-jarima-kardaand/
+page tgd https://t.me/s/asiaplustj/55467
