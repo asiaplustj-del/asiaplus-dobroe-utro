@@ -1,0 +1,23 @@
+[
+ {
+  "name": "n4",
+  "ok": true,
+  "file": "n4.jpg",
+  "src": "https://asiaplus.news/wp-content/uploads/2026/11/toplivo.jpg",
+  "bytes": 222629
+ },
+ {
+  "name": "n4b",
+  "ok": true,
+  "file": "n4b.jpg",
+  "src": "https://asiaplus.news/wp-content/uploads/2026/11/photo_2026-11-11_10-19-40.jpg",
+  "bytes": 204163
+ },
+ {
+  "name": "n4c",
+  "ok": true,
+  "file": "n4c.webp",
+  "src": "https://informburo.kz/storage/photos/232/main/rjsiqfHrIohC6y40NInQMdBQaUA4oY0NX55apDcx.webp",
+  "bytes": 65418
+ }
+]
