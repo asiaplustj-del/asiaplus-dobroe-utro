@@ -1,0 +1,13 @@
+page a1 https://www.ozodi.org/a/duzdii-hujjathoi-harbi-va-amniyatii-tojikiston-dar-yak-hamlai-rakhnagaroni-interneti/33895371.html
+page a2 https://www.ozodi.org/a/tojikiston-soli-oyanda-spad-ro-rahbari-mekunad/33895500.html
+page a3 https://www.ozodi.org/a/charo-khonahoyamonro-chappa-mekunand/33895455.html
+page a4 https://tj.sputniknews.ru/20261111/putin-uchastniki-csto-tajikistan-sodeystvie-1082053942.html
+page a5 https://www.cloudsek.com/blog/off-the-rails-inside-an-exposed-silent-lynx-server
+og n1 https://www.ozodi.org/a/duzdii-hujjathoi-harbi-va-amniyatii-tojikiston-dar-yak-hamlai-rakhnagaroni-interneti/33895371.html
+og c1 https://www.cloudsek.com/blog/off-the-rails-inside-an-exposed-silent-lynx-server
+og n3 https://www.ozodi.org/a/tojikiston-soli-oyanda-spad-ro-rahbari-mekunad/33895500.html
+og n3b https://tj.sputniknews.ru/20261111/putin-uchastniki-csto-tajikistan-sodeystvie-1082053942.html
+og n7 https://www.ozodi.org/a/charo-khonahoyamonro-chappa-mekunand/33895455.html
+img n2 https://cdn4.telesco.pe/file/bYoJ-D1TCKCMoBP7qGK8g8QOIEU-yATy9_klyuK2ihGfrgNzkYsxuWKt3PuGOJWdVDdtd91Da-5aijC-Gib5XR4x7h_IK5IEOT-wkMFb2w1k3ZlgO5gMjZl4CV5dmOyUt3lj9a-fPF1iilwFZPrl13OSOERq8cQCMngUNwsj2X1sYg8k0wrv4GIod_k7P914clWV1tkMU0l2SMykgrnrW5YdwbJ0JVpg1cBn-42eNcl2lDvZfnN6jD5UbMflsix4b1XPbm7bHWzjBepBFVDRxe1hmzV2xyxb5fv9zrgIecarBQZI9dE1JArS5IgbUrB0_o6dwgoK0rDEJEsbmUTwrQ.jpg
+img n6 https://cdn4.telesco.pe/file/mDr6ZfiV6KHOXJDgeAs2wHjXgPMM7LxLlHYBZEGg6ZujaO7whkDlYQQfOWJL1OD2Gyk4Y6REDirtgNDXbNkr13CkmAGvRhJrPqK5aSdmrCi0l6MyqKEVRISB6CdRd1_jQ5Qou1uvOC2_zszhBwh3NzQjI2NlpKuSgXo1MBmY50kdiaVoTWatdqH5WkvZT1HRwULDJEOvXhAy90GQx5sVo3fQdquZmLEwVw1J7bXB3qeidXVhen1psZmaQ5dlidkvbOt6A7K3eByx2I87FcOQwyHCn-MWZGM6J6HNlCqbPDaup82kVdIElgST0QzgSJPW6JJwOo7rUOBNgj-uY3e-qw.jpg
+img n8 https://cdnn1.img.sputnik.tj/img/07ea/0b/0b/1082042859_0:17:1422:817_600x0_80_0_0_24cb85600d34d30797bcfc3deee8d177.jpg
