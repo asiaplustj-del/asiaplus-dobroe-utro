@@ -1,0 +1,9 @@
+og n1 https://sputnik.tj/20261112/piyoz-tojik-bozor-rusiya-sodirot-20-1082081389.html
+img n2 https://cdn4.telesco.pe/file/pOo7PJuBf-z_MdGfmxvPiu4YjWDLDJdCMOPyCrqTpJK8QWkDnHMwvvqblubARrC9eH4Vcomr1m5AZnfu3NA9pPruP6FO3CPdKn3gLYRFInpwVqBNq3eJghF0ueAwrErhw2ctzy9fn467CTrxaMr8HQfqmkdjGueEQSAfEQIQFh8vVdmuuyCdsKDKPNLCfC2_RL05ufRZQHr1Hb6sFAm7Gk-IaGSw0qRJTKnIs89mPvvb3AzFLlv1owau57QuvZhidR6V7s_8jEXGyWmHtGcE3GM3VT-1iglgpcxsOCNfR632wJVMPqtKW94JHC2VuBodG_p4qMuyrZ3qfRYCmA__Wg.jpg
+og n3 https://www.ozodi.org/a/muftii-tojikiston-dar-fehristi-500-musulmoni-bonufuz/33897532.html
+img n3b https://cdn4.telesco.pe/file/cjzK-4j4Qoy2ty9aBowB6GmKi2ox79svH9Sdznpv4KYJUwjoJMS1D6C-BimL1ia_Ifs4r_ORNlT5tmOWpIvlOjBUi5yJs1GPneXiHCWl9mm3OkvBvKNG8suPH3dZOgZHCliDM3PR5BCIisStyAbSduD2MoYtSCnD83V0a2ZkeLUv961XFIulZ4cefgIQXBVWgpD2f3Xe_XcPANxDtOen-XbatHYH9qjReAeGaIWBwDnxuUXtaCLKQS57lSAnr4avzaDmkrNpESIUxqXadIbc0tQno14_CwfYbMt5IFOjHk6i_gTVyZ9Mv-voosWx5HmVaVM4lzlTmrcqXBDfor0FXw.jpg
+og n4 https://www.ozodi.org/a/yak-muhojiri-tojik-dar-britoniyo-dar-qirghiziston-ma-ruf-shud/33897160.html
+og n5 https://www.ozodi.org/a/guftushunidi-firistodahoi-amriko-bo-putin-dar-maskav/33897060.html
+og n6 https://www.ozodi.org/a/tapi-to-daromadgohi-hirot-rasidaast/33897069.html
+page a4 https://www.ozodi.org/a/yak-muhojiri-tojik-dar-britoniyo-dar-qirghiziston-ma-ruf-shud/33897160.html
+page a1 https://sputnik.tj/20261112/piyoz-tojik-bozor-rusiya-sodirot-20-1082081389.html
