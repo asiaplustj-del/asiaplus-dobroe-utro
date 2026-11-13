@@ -1,0 +1,4 @@
+og n2a https://fortune.com/2026/11/09/nvidia-power-built-around-jensen-huang-scandal-testing-formula/
+og n2b https://www.thestandard.com.hk/finance/article/348055/Headhunters-may-be-hunting-for-Nvidias-next-successor-The-Information-reports
+og n2c https://247wallst.com/investing/2026/11/09/does-nvidia-cfo-colette-kress-take-over-if-jensen-huang-leaves/
+page a2 https://www.sec.gov/Archives/edgar/data/0001045810/000104581026000082/nvidiaannouncesceotransiti.htm
