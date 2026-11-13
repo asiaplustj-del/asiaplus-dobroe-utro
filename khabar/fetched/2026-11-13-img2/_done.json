@@ -1,0 +1,29 @@
+[
+ {
+  "name": "n2a",
+  "ok": true,
+  "file": "n2a.jpg",
+  "src": "https://fortune.com/img-assets/wp-content/uploads/2026/11/GettyImages-2299714527-e1794261800694.jpg?resize=1200,600",
+  "bytes": 67851
+ },
+ {
+  "name": "n2b",
+  "ok": true,
+  "file": "n2b.jpg",
+  "src": "https://image.hkstandard.com.hk/f/1200p0/0x0/100/none/c323f823307763eae001580fbb0acc7d/2026-11/AFP_D6YY8G6.jpg",
+  "bytes": 103980
+ },
+ {
+  "name": "n2c",
+  "ok": true,
+  "file": "n2c.jpg",
+  "src": "https://247wallst.com/wp-content/uploads/2024/03/shutterstock_2309474541-scaled.jpg",
+  "bytes": 78650
+ },
+ {
+  "name": "a2",
+  "ok": false,
+  "url": "https://www.sec.gov/Archives/edgar/data/0001045810/000104581026000082/nvidiaannouncesceotransiti.htm",
+  "error": "HTTP Error 403: Forbidden"
+ }
+]
