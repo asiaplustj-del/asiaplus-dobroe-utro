@@ -1,0 +1,44 @@
+[
+ {
+  "name": "p1",
+  "ok": true,
+  "file": "p1.jpg",
+  "src": "https://gdb.rferl.org/6bfb209f-2152-499e-2d1a-08df3eea91f6_w800.jpg",
+  "bytes": 86233
+ },
+ {
+  "name": "p2",
+  "ok": true,
+  "file": "p2.jpg",
+  "src": "https://gdb.rferl.org/4181B1EE-DBDC-4B53-951E-4CF800047797_w800.jpg",
+  "bytes": 65474
+ },
+ {
+  "name": "p3",
+  "ok": true,
+  "file": "p3.jpg",
+  "src": "https://gdb.rferl.org/358DED97-B729-4A51-9742-0A0A037B6499_w800.jpg",
+  "bytes": 62968
+ },
+ {
+  "name": "q1",
+  "ok": true,
+  "file": "q1.jpg",
+  "src": "https://gdb.rferl.org/647b53bf-5a91-46b8-156a-08df407f9918_w800.jpg",
+  "bytes": 60680
+ },
+ {
+  "name": "q2",
+  "ok": true,
+  "file": "q2.jpg",
+  "src": "https://gdb.rferl.org/f5a70e7d-8b9e-4a06-27da-08df3ee80755_w800.jpg",
+  "bytes": 98274
+ },
+ {
+  "name": "q3",
+  "ok": true,
+  "file": "q3.jpg",
+  "src": "https://gdb.rferl.org/8CC90449-552A-48DD-87A0-A35134E61384_w800.jpg",
+  "bytes": 70209
+ }
+]
