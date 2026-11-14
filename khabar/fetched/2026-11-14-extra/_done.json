@@ -1,0 +1,99 @@
+[
+ {
+  "name": "a1",
+  "ok": true,
+  "file": "a1.html",
+  "bytes": 103941
+ },
+ {
+  "name": "a2",
+  "ok": true,
+  "file": "a2.html",
+  "bytes": 113540
+ },
+ {
+  "name": "a3",
+  "ok": true,
+  "file": "a3.html",
+  "bytes": 94693
+ },
+ {
+  "name": "a4",
+  "ok": true,
+  "file": "a4.html",
+  "bytes": 219926
+ },
+ {
+  "name": "a5",
+  "ok": true,
+  "file": "a5.html",
+  "bytes": 100902
+ },
+ {
+  "name": "a6",
+  "ok": true,
+  "file": "a6.html",
+  "bytes": 239250
+ },
+ {
+  "name": "a7",
+  "ok": true,
+  "file": "a7.html",
+  "bytes": 225161
+ },
+ {
+  "name": "a8",
+  "ok": true,
+  "file": "a8.html",
+  "bytes": 237322
+ },
+ {
+  "name": "n1",
+  "ok": true,
+  "file": "n1.jpg",
+  "src": "https://gdb.rferl.org/4181B1EE-DBDC-4B53-951E-4CF800047797.jpg",
+  "bytes": 161644
+ },
+ {
+  "name": "n2",
+  "ok": true,
+  "file": "n2.jpg",
+  "src": "https://gdb.rferl.org/8CC90449-552A-48DD-87A0-A35134E61384.jpg",
+  "bytes": 152388
+ },
+ {
+  "name": "n3",
+  "ok": true,
+  "file": "n3.jpg",
+  "src": "https://cdnn1.img.sputnik.tj/img/07ea/0b/0d/1082142633_0:161:3070:1888_2072x0_60_0_0_e7c54902a476820f0a7b977860a76923.jpg",
+  "bytes": 90225
+ },
+ {
+  "name": "n4",
+  "ok": true,
+  "file": "n4.jpg",
+  "src": "https://asiaplus.news/wp-content/uploads/2026/11/kazahstan-1.jpg",
+  "bytes": 147786
+ },
+ {
+  "name": "n5",
+  "ok": true,
+  "file": "n5.jpg",
+  "src": "https://cdnn1.img.sputnik.tj/img/07ea/0b/0d/1082154897_0:48:3070:1775_2072x0_60_0_0_22e80b02d739a1efac510e4caecfb357.jpg",
+  "bytes": 98367
+ },
+ {
+  "name": "n6",
+  "ok": true,
+  "file": "n6.jpg",
+  "src": "https://asiaplus.news/wp-content/uploads/2026/11/mycollages-2026-11-13_10-22-41.jpg",
+  "bytes": 215490
+ },
+ {
+  "name": "n7",
+  "ok": true,
+  "file": "n7.jpg",
+  "src": "https://khovar.tj/wp-content/uploads/2026/11/SHohin-Ejr.jpg",
+  "bytes": 38989
+ }
+]
