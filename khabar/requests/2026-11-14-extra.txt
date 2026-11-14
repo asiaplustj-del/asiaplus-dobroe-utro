@@ -1,0 +1,15 @@
+page a1 https://www.ozodi.org/a/boroni-dollar/33898267.html
+page a2 https://www.ozodi.org/a/taqsimi-khonahoi-sobiqi-shahrvandoni-tojikiston-dar-qirghiziston/33898174.html
+page a3 https://tj.sputniknews.ru/20261113/aviakompaniya-shohin-airlines-polety-tajikistan-1082157446.html
+page a4 https://asiaplus.news/2026/11/13/bolee-220-zhitelej-tadzhikistana-pereehali-na-pmzh-v-kazahstan-s-nachala-goda/
+page a5 https://sputnik.tj/20261113/zelenskiy-ima-qalamrav-rusiya-khashmgin-1082148104.html
+page a6 https://asiaplus.news/tg/2026/11/13/az-muftii-tojikiston-to-mujtabo-homanay-ky-ba-rujhati-500-musulmoni-bonufuzi-jahon-shomil-shud/
+page a7 https://asiaplus.news/tg/
+page a8 https://asiaplus.news/
+og n1 https://www.ozodi.org/a/boroni-dollar/33898267.html
+og n2 https://www.ozodi.org/a/taqsimi-khonahoi-sobiqi-shahrvandoni-tojikiston-dar-qirghiziston/33898174.html
+og n3 https://tj.sputniknews.ru/20261113/aviakompaniya-shohin-airlines-polety-tajikistan-1082157446.html
+og n4 https://asiaplus.news/2026/11/13/bolee-220-zhitelej-tadzhikistana-pereehali-na-pmzh-v-kazahstan-s-nachala-goda/
+og n5 https://sputnik.tj/20261113/zelenskiy-ima-qalamrav-rusiya-khashmgin-1082148104.html
+og n6 https://asiaplus.news/tg/2026/11/13/az-muftii-tojikiston-to-mujtabo-homanay-ky-ba-rujhati-500-musulmoni-bonufuzi-jahon-shomil-shud/
+og n7 https://khovar.tj/2026/11/shirkati-avopajmoii-shohin-airlines-parvoz-oi-muntazami-dohiliro-ba-chor-sha-ri-to-ikiston-o-oz-menamoyad/
