@@ -1,0 +1,21 @@
+[
+ {
+  "name": "s1",
+  "ok": true,
+  "file": "s1.jpg",
+  "src": "https://asiaplus.news/wp-content/uploads/2026/10/sbornaya3.jpg",
+  "bytes": 158734
+ },
+ {
+  "name": "s2",
+  "ok": false,
+  "url": "https://centralasia.media/art:35636/",
+  "error": "og:image not found"
+ },
+ {
+  "name": "s3",
+  "ok": false,
+  "url": "https://centralasia.media/art:47362",
+  "error": "og:image not found"
+ }
+]
