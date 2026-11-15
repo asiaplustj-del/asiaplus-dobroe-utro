@@ -1,0 +1,29 @@
+[
+ {
+  "name": "w1",
+  "ok": true,
+  "file": "w1.jpg",
+  "src": "https://asiaplus.news/wp-content/uploads/2025/11/Salom14.jpg",
+  "bytes": 158889
+ },
+ {
+  "name": "w2",
+  "ok": true,
+  "file": "w2.webp",
+  "src": "https://travelto.ru/travelto/file/by-id/10262643",
+  "bytes": 391992
+ },
+ {
+  "name": "w3",
+  "ok": false,
+  "url": "https://weproject.media/articles/detail/kakaya-pogoda-v-dushanbe-3-noyabrya/",
+  "error": "HTTP Error 404: Not Found"
+ },
+ {
+  "name": "w4",
+  "ok": true,
+  "file": "w4.jpg",
+  "src": "https://asiaplus.news/wp-content/uploads/2026/11/subh-14.jpg",
+  "bytes": 527204
+ }
+]
