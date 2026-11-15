@@ -1,0 +1,9 @@
+page khovarru https://khovar.tj/rus/
+page khovartj https://khovar.tj/
+page sputniklenta https://tj.sputniknews.ru/news/
+page centralasia https://centralasia.media/
+page avesta https://avesta.tj/
+page meteo https://www.meteo.tj/tj/weather-forecast
+page nbt_d https://nbt.tj/ru/kurs/export_xml.php?date=2026-11-15&export=xmlout
+page nbt_p https://nbt.tj/ru/kurs/export_xml.php?date=2026-11-14&export=xmlout
+page asiaplustg https://asiaplus.news/tg/
