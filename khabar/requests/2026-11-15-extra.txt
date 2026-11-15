@@ -1,0 +1,8 @@
+page a1 https://tj.sputniknews.ru/20261114/tajikistan-zhaloba-vzyatki-onlayn-1082180005.html
+page a2 https://khovar.tj/2026/11/az-nasbi-panel-oi-oftob-to-zahirai-s-zishvor-muassisa-oi-tandurustii-to-ikiston-ba-zimistoni-sol-oi-2026-2027-omoda-meboshand/
+page a3 https://asiaplus.news/2026/11/13/300-shahmatistov-iz-15-stran-boryutsya-za-60-tysyach-v-tadzhikistane/
+og n1 https://tj.sputniknews.ru/20261114/tajikistan-zhaloba-vzyatki-onlayn-1082180005.html
+og n3 https://khovar.tj/2026/11/az-nasbi-panel-oi-oftob-to-zahirai-s-zishvor-muassisa-oi-tandurustii-to-ikiston-ba-zimistoni-sol-oi-2026-2027-omoda-meboshand/
+og n5 https://asiaplus.news/2026/11/13/300-shahmatistov-iz-15-stran-boryutsya-za-60-tysyach-v-tadzhikistane/
+og n2b https://www.currenttime.tv/a/trump-to-meet-putin-and-xi/33898524.html
+img n2 https://cdn4.telesco.pe/file/LayzIwcqTXsU_1kTiQI4_Hn-TR3vZ03GQHnJfbLNs-CWpEgbgyVcN2GW_w1Ait-1_2YU3PhP38ynBEPvxTnsiKEoNeee7vON_4tHmZi2ebMVfXQkzbyZhhj1pv2r0kxFSbtKYb_m459QgugDWFymmonNlCKi91oxAn7R8u0q4wn-XaC0UHjZuXZHBZMXUlFFc3RU1xfoqBw9HBVi9741wSRjalfCuwC9hxCoxI40uXtt5ERF0T3pbLUgMsIHWrKQHyQttWoHpDJQFg_GcS7Yi0pWFbbhI3DKxmyET3nl6OI5Oq4Ux-96y3JO0uZfP373JrblbMPnfccB4BAWuYfN6Q.jpg
