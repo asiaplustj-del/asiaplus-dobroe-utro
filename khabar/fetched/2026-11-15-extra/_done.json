@@ -1,0 +1,55 @@
+[
+ {
+  "name": "a1",
+  "ok": true,
+  "file": "a1.html",
+  "bytes": 94994
+ },
+ {
+  "name": "a2",
+  "ok": true,
+  "file": "a2.html",
+  "bytes": 103170
+ },
+ {
+  "name": "a3",
+  "ok": true,
+  "file": "a3.html",
+  "bytes": 220276
+ },
+ {
+  "name": "n1",
+  "ok": true,
+  "file": "n1.jpg",
+  "src": "https://cdnn1.img.sputnik.tj/img/07e8/09/13/1064394389_0:91:2000:1216_2072x0_60_0_0_313347aa2f634904d5537d15efafdcc2.jpg",
+  "bytes": 143543
+ },
+ {
+  "name": "n3",
+  "ok": true,
+  "file": "n3.jpg",
+  "src": "https://khovar.tj/wp-content/uploads/2026/11/tachhizoti-tibbi.jpg",
+  "bytes": 57338
+ },
+ {
+  "name": "n5",
+  "ok": true,
+  "file": "n5.jpg",
+  "src": "https://asiaplus.news/wp-content/uploads/2026/11/shahmaty.jpg",
+  "bytes": 151953
+ },
+ {
+  "name": "n2b",
+  "ok": true,
+  "file": "n2b.png",
+  "src": "https://gdb.currenttime.tv/8d3d00e6-d6be-4bb9-8a42-a9b27e51e68c_w1200_h630.png",
+  "bytes": 1250113
+ },
+ {
+  "name": "n2",
+  "ok": true,
+  "file": "n2.jpg",
+  "src": "https://cdn4.telesco.pe/file/LayzIwcqTXsU_1kTiQI4_Hn-TR3vZ03GQHnJfbLNs-CWpEgbgyVcN2GW_w1Ait-1_2YU3PhP38ynBEPvxTnsiKEoNeee7vON_4tHmZi2ebMVfXQkzbyZhhj1pv2r0kxFSbtKYb_m459QgugDWFymmonNlCKi91oxAn7R8u0q4wn-XaC0UHjZuXZHBZMXUlFFc3RU1xfoqBw9HBVi9741wSRjalfCuwC9hxCoxI40uXtt5ERF0T3pbLUgMsIHWrKQHyQttWoHpDJQFg_GcS7Yi0pWFbbhI3DKxmyET3nl6OI5Oq4Ux-96y3JO0uZfP373JrblbMPnfccB4BAWuYfN6Q.jpg",
+  "bytes": 65096
+ }
+]
