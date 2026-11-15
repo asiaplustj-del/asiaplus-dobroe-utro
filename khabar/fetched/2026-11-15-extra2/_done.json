@@ -1,0 +1,56 @@
+[
+ {
+  "name": "khovarru",
+  "ok": true,
+  "file": "khovarru.html",
+  "bytes": 211594
+ },
+ {
+  "name": "khovartj",
+  "ok": true,
+  "file": "khovartj.html",
+  "bytes": 190179
+ },
+ {
+  "name": "sputniklenta",
+  "ok": true,
+  "file": "sputniklenta.html",
+  "bytes": 115452
+ },
+ {
+  "name": "centralasia",
+  "ok": true,
+  "file": "centralasia.html",
+  "bytes": 62534
+ },
+ {
+  "name": "avesta",
+  "ok": true,
+  "file": "avesta.html",
+  "bytes": 356393
+ },
+ {
+  "name": "meteo",
+  "ok": true,
+  "file": "meteo.html",
+  "bytes": 185094
+ },
+ {
+  "name": "nbt_d",
+  "ok": true,
+  "file": "nbt_d.html",
+  "bytes": 5692
+ },
+ {
+  "name": "nbt_p",
+  "ok": true,
+  "file": "nbt_p.html",
+  "bytes": 5692
+ },
+ {
+  "name": "asiaplustg",
+  "ok": true,
+  "file": "asiaplustg.html",
+  "bytes": 225694
+ }
+]
