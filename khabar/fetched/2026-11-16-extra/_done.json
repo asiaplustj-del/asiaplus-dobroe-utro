@@ -1,0 +1,62 @@
+[
+ {
+  "name": "x-asiaplus",
+  "ok": true,
+  "file": "x-asiaplus.html",
+  "bytes": 124542
+ },
+ {
+  "name": "x-asiaplustj",
+  "ok": true,
+  "file": "x-asiaplustj.html",
+  "bytes": 157269
+ },
+ {
+  "name": "x-sputnik",
+  "ok": true,
+  "file": "x-sputnik.html",
+  "bytes": 149411
+ },
+ {
+  "name": "x-khovar",
+  "ok": true,
+  "file": "x-khovar.html",
+  "bytes": 212015
+ },
+ {
+  "name": "x-avesta",
+  "ok": true,
+  "file": "x-avesta.html",
+  "bytes": 300550
+ },
+ {
+  "name": "x-trend",
+  "ok": true,
+  "file": "x-trend.html",
+  "bytes": 163694
+ },
+ {
+  "name": "x-camedia",
+  "ok": true,
+  "file": "x-camedia.html",
+  "bytes": 52890
+ },
+ {
+  "name": "x-ritm",
+  "ok": true,
+  "file": "x-ritm.html",
+  "bytes": 68269
+ },
+ {
+  "name": "x-ozodi",
+  "ok": true,
+  "file": "x-ozodi.html",
+  "bytes": 137716
+ },
+ {
+  "name": "x-news",
+  "ok": true,
+  "file": "x-news.html",
+  "bytes": 235099
+ }
+]
