@@ -1,0 +1,10 @@
+page x-asiaplus https://asiaplus.tj/news
+page x-asiaplustj https://asiaplustj.info/tj/news
+page x-sputnik https://tj.sputniknews.ru/
+page x-khovar https://khovar.tj/rus/
+page x-avesta https://avesta.tj/news/
+page x-trend https://www.trend.az/casia/tajikistan/
+page x-camedia https://centralasia.media/
+page x-ritm https://www.ritmeurasia.ru/news--2026-11-16--obemy-gruzovyh-i-passazhirskih-perevozok-v-tadzhikistane-zametno-vyrosli-91657
+page x-ozodi https://www.ozodi.org/
+page x-news https://news.tj/
