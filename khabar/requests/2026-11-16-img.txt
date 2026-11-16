@@ -1,0 +1,6 @@
+img n1 https://cdn4.telesco.pe/file/K-c1hqTt5PqDA-FNV0Tuo7x3wpVThkbkhRkIeCxbko0nJ2_vCnX_Pyoalg5XAd8ZFLVZA1kz1Uli9UzLh-2cD0Te8kY3H8KBMlBXloTT65X_IzjHFGi_ZkziRWNbnHH-7oc51uajxFV5Lk6Mhn_wu953GJjmCkIRPau2fRVeg67iAxsVxixs37_PsU-EwS1ROJAOif-98t4AIQQZTkmM6SCFrzg2ou-3wz4x0G0V6XPMhQ9thJa8nVtPzbqTHv92RXOagnzZdqwH1mlRMvbo-s1c6D8OBV8NRFOCh0ZqlDviPpongyxyRSg5D62j5HqbRGR5VpqOoM7AYersbtrKEA.jpg
+img n2 https://cdn4.telesco.pe/file/riy0zMEDMCgv9xFtoLoGu12rX_wX9skocBtlX8rY9qfBbIcaK8ijGnWbYZvco67SRG44ZbhFuI3GkkfSeaxm6L68kloxLilseL34Laq0Q7lCiH7GahfyyRblwiTDub_bZ8PBTckeWw3xPe9rc-ufkijociivwNTaYHFC4cI7toWfNYM5Q8u-c2KWSPiJB5Fp_HieciS_sTxUsmcSIMeUsWmbzJpMJuV-uXavMjZXCUwN1TKlr46hw7Mv2mlEQCH9Sf5iBmdVGdDjuEYKWLxZHQRt-Ov7-FrIT11a2I2T3XmekudZOBP3I0Q7hZ_1g0eHOzK6K8SU0FJ6ySfR4PBS3w.jpg
+img n3 https://www.ritmeurasia.ru/upl/news_image/orig/fu/b2/m4/bf/fub2m4bfgul3.jpg
+img n4 https://resizer.mail.ru/p/ce1aaa79-1bd4-5069-ae92-f3892304078f/AQAGjQEO0EOMVKxy94EWN8SuzF3bkeQjUVj1lDKzFX2JagUgXykZiSyBdi7A0kwxQl4mo6HVdG7RjMxQkpVgtximWms.jpg
+og n5 https://profile.ru/news/society/glavnye-novosti-v-zarubezhnyh-smi-16-noyabrya-2026-goda-1924114/
+og n5b https://iz.ru/2202370/2026-11-16/sily-pvo-sbili-15-napravliavshikhsia-k-moskve-bespilotnikov
