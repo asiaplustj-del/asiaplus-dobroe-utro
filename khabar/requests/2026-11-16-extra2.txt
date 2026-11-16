@@ -1,0 +1,4 @@
+page y-ap https://asiaplus.news/news/
+page y-aptg https://asiaplus.news/tg/news/
+page y-sptj https://sputnik.tj/
+page y-m24 https://www.m24.ru/news/16112026/964691
