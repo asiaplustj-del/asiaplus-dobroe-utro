@@ -1,0 +1,43 @@
+[
+ {
+  "name": "n1",
+  "ok": true,
+  "file": "n1.jpg",
+  "src": "https://cdn4.telesco.pe/file/K-c1hqTt5PqDA-FNV0Tuo7x3wpVThkbkhRkIeCxbko0nJ2_vCnX_Pyoalg5XAd8ZFLVZA1kz1Uli9UzLh-2cD0Te8kY3H8KBMlBXloTT65X_IzjHFGi_ZkziRWNbnHH-7oc51uajxFV5Lk6Mhn_wu953GJjmCkIRPau2fRVeg67iAxsVxixs37_PsU-EwS1ROJAOif-98t4AIQQZTkmM6SCFrzg2ou-3wz4x0G0V6XPMhQ9thJa8nVtPzbqTHv92RXOagnzZdqwH1mlRMvbo-s1c6D8OBV8NRFOCh0ZqlDviPpongyxyRSg5D62j5HqbRGR5VpqOoM7AYersbtrKEA.jpg",
+  "bytes": 193849
+ },
+ {
+  "name": "n2",
+  "ok": true,
+  "file": "n2.jpg",
+  "src": "https://cdn4.telesco.pe/file/riy0zMEDMCgv9xFtoLoGu12rX_wX9skocBtlX8rY9qfBbIcaK8ijGnWbYZvco67SRG44ZbhFuI3GkkfSeaxm6L68kloxLilseL34Laq0Q7lCiH7GahfyyRblwiTDub_bZ8PBTckeWw3xPe9rc-ufkijociivwNTaYHFC4cI7toWfNYM5Q8u-c2KWSPiJB5Fp_HieciS_sTxUsmcSIMeUsWmbzJpMJuV-uXavMjZXCUwN1TKlr46hw7Mv2mlEQCH9Sf5iBmdVGdDjuEYKWLxZHQRt-Ov7-FrIT11a2I2T3XmekudZOBP3I0Q7hZ_1g0eHOzK6K8SU0FJ6ySfR4PBS3w.jpg",
+  "bytes": 66099
+ },
+ {
+  "name": "n3",
+  "ok": true,
+  "file": "n3.jpg",
+  "src": "https://www.ritmeurasia.ru/upl/news_image/orig/fu/b2/m4/bf/fub2m4bfgul3.jpg",
+  "bytes": 83681
+ },
+ {
+  "name": "n4",
+  "ok": true,
+  "file": "n4.jpg",
+  "src": "https://resizer.mail.ru/p/ce1aaa79-1bd4-5069-ae92-f3892304078f/AQAGjQEO0EOMVKxy94EWN8SuzF3bkeQjUVj1lDKzFX2JagUgXykZiSyBdi7A0kwxQl4mo6HVdG7RjMxQkpVgtximWms.jpg",
+  "bytes": 66696
+ },
+ {
+  "name": "n5",
+  "ok": true,
+  "file": "n5.jpg",
+  "src": "https://cdn.profile.ru/wp-content/uploads/2026/01/zaglushka.jpg",
+  "bytes": 106266
+ },
+ {
+  "name": "n5b",
+  "ok": false,
+  "url": "https://iz.ru/2202370/2026-11-16/sily-pvo-sbili-15-napravliavshikhsia-k-moskve-bespilotnikov",
+  "error": "HTTP Error 403: Forbidden"
+ }
+]
