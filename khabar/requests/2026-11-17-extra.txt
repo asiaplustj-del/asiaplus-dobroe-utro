@@ -1,0 +1,13 @@
+page a2 https://sputnik.tj/20261116/iiao-kishvar-qazoqiston-mahdudiyat-voridot-tukhm-1082217018.html
+page a4 https://www.ozodi.org/a/estoniya-az-mohi-dekabr-guzargohhoro-bo-rusiya-mebandad/33899740.html
+page a5 https://www.ozodi.org/a/tanqidi-ruzi-prezident-sadama-bo-margi-kudak-akhbori-ozodi-16-noyabri-2026/33899636.html
+page a6 https://www.ozodi.org/a/idomai-hamlahoi-rusiya-ba-ukraina/33899737.html
+page a7 https://www.ozodi.org/a/chat-jipiti-dar-tojikiston-joygir-meshavad/33899722.html
+page a8 https://khovar.tj/2026/11/panda-cup-2026-dastai-muntahabi-avononi-to-ikiston-u-20-bo-dastai-chin-musov-boz-kard/
+og n1 https://asiaplus.news/tg/2026/11/16/jazoi-489-kormandi-shabakahoi-taqsimoti-barq-baroi-izofanavisy/
+og n2 https://sputnik.tj/20261116/iiao-kishvar-qazoqiston-mahdudiyat-voridot-tukhm-1082217018.html
+og n3 https://asiaplus.news/2026/11/16/futbolnaya-sbornaya-tadzhikistan-obygral-oman-i-vyshel-v-final-turnira-kings-cup-2026/
+og n4 https://www.ozodi.org/a/estoniya-az-mohi-dekabr-guzargohhoro-bo-rusiya-mebandad/33899740.html
+og n6 https://www.ozodi.org/a/idomai-hamlahoi-rusiya-ba-ukraina/33899737.html
+img n3b https://cdn4.telesco.pe/file/YYNw4v0xjuEAPeKdg6aBR_pt1VZgblsgUD88M_IVAZndSZUrSGSM1S3X-ENHG-SLziqlBCueJavLe5YHm7K4aGL1_JB6A7qwY5ujQhycwQiD90NXQv8K3epKIOaOKcTfyTVGQKDsVZufo10cv_D3E8qTv-9BI3A5mQUcWNLsD1Vl48X77POB2X6RM0PPOII4PCVJxuvCmSAkM_oQRXBIBWwo0dhZIen6QCVnLQMR1s2dhjwNE0iA-cap_UDrQvITbVgzKuCGJmIxIv__f0VZS3oYPGAJCHhdRzs7Sh1f_rpWXTLbNVAIwSOcOYP17-vTWjLE_7WE_M9Hv1cy6wfwlQ
+img n1b https://cdn4.telesco.pe/file/aib-w5jT_tIxgn6c05hScPLqPPKfx8OH3eM8Q670IkllN8TYB0TtBUDRTY8UjBI-02mIm7RW_ksT23xNa_aJbcygIHye4N_8V38dGuoe5TTKt-yFnsX3SfRWDg2jDL21XerVcJ8sfBnrsEdRtEZ7QVeRBELAIFiVrv3ULRfJxOQBBYI5_KLsMQKmrBSwm5WqN0go4PL8Uwr6QI-EbOIk4oM1R5zTanBRlf8QHo9ZnDAOnx-6EP-h779M9Z0kQVLLTsejX-VkdmWuPISlyIIA0CAjs9A6s9i6ufWAvE42x0bBU7ker2RB4z2Ms9r5i6SDwfNybY02kmK6l3MGTbhRVw
