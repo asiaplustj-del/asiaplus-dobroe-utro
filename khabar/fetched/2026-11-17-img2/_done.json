@@ -1,0 +1,30 @@
+[
+ {
+  "name": "e1",
+  "ok": true,
+  "file": "e1.jpg",
+  "src": "https://gdb.rferl.org/01000000-0a00-0242-7daa-08dbf28879a6_cx0_cy13_cw0_w1080_r1.jpg",
+  "bytes": 126824
+ },
+ {
+  "name": "u1",
+  "ok": true,
+  "file": "u1.jpg",
+  "src": "https://gdb.rferl.org/83ca40b2-ef02-4c95-2890-08df3ee80755_w1080_r1.jpg",
+  "bytes": 201596
+ },
+ {
+  "name": "u2",
+  "ok": true,
+  "file": "u2.jpg",
+  "src": "https://gdb.rferl.org/23ED0F56-26B4-4B6D-8A3C-C25C49857D12_w1200_r1.jpg",
+  "bytes": 184384
+ },
+ {
+  "name": "e2",
+  "ok": true,
+  "file": "e2.jpg",
+  "src": "https://gdb.rferl.org/2FD0D290-1E7A-4B2E-A91A-1FE6E4F58364_w1200_r1.jpg",
+  "bytes": 158432
+ }
+]
