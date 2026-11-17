@@ -1,0 +1,87 @@
+[
+ {
+  "name": "a2",
+  "ok": true,
+  "file": "a2.html",
+  "bytes": 90261
+ },
+ {
+  "name": "a4",
+  "ok": true,
+  "file": "a4.html",
+  "bytes": 290006
+ },
+ {
+  "name": "a5",
+  "ok": true,
+  "file": "a5.html",
+  "bytes": 176298
+ },
+ {
+  "name": "a6",
+  "ok": true,
+  "file": "a6.html",
+  "bytes": 288721
+ },
+ {
+  "name": "a7",
+  "ok": true,
+  "file": "a7.html",
+  "bytes": 175101
+ },
+ {
+  "name": "a8",
+  "ok": true,
+  "file": "a8.html",
+  "bytes": 93833
+ },
+ {
+  "name": "n1",
+  "ok": true,
+  "file": "n1.jpg",
+  "src": "https://asiaplus.news/wp-content/uploads/2026/11/barq-1.jpg",
+  "bytes": 179742
+ },
+ {
+  "name": "n2",
+  "ok": true,
+  "file": "n2.jpg",
+  "src": "https://cdnn1.img.sputnik.tj/img/07ea/0b/10/1082218472_0:160:3072:1888_2072x0_60_0_0_1e15ba579f973c6ecb482c5459b4300c.jpg",
+  "bytes": 154264
+ },
+ {
+  "name": "n3",
+  "ok": true,
+  "file": "n3.jpg",
+  "src": "https://asiaplus.news/wp-content/uploads/2026/11/futbol-glav.jpg",
+  "bytes": 181484
+ },
+ {
+  "name": "n4",
+  "ok": true,
+  "file": "n4.jpg",
+  "src": "https://gdb.rferl.org/2FD0D290-1E7A-4B2E-A91A-1FE6E4F58364.jpg",
+  "bytes": 153964
+ },
+ {
+  "name": "n6",
+  "ok": true,
+  "file": "n6.jpg",
+  "src": "https://gdb.rferl.org/23ED0F56-26B4-4B6D-8A3C-C25C49857D12.jpg",
+  "bytes": 189447
+ },
+ {
+  "name": "n3b",
+  "ok": true,
+  "file": "n3b.jpg",
+  "src": "https://cdn4.telesco.pe/file/YYNw4v0xjuEAPeKdg6aBR_pt1VZgblsgUD88M_IVAZndSZUrSGSM1S3X-ENHG-SLziqlBCueJavLe5YHm7K4aGL1_JB6A7qwY5ujQhycwQiD90NXQv8K3epKIOaOKcTfyTVGQKDsVZufo10cv_D3E8qTv-9BI3A5mQUcWNLsD1Vl48X77POB2X6RM0PPOII4PCVJxuvCmSAkM_oQRXBIBWwo0dhZIen6QCVnLQMR1s2dhjwNE0iA-cap_UDrQvITbVgzKuCGJmIxIv__f0VZS3oYPGAJCHhdRzs7Sh1f_rpWXTLbNVAIwSOcOYP17-vTWjLE_7WE_M9Hv1cy6wfwlQ",
+  "bytes": 12142
+ },
+ {
+  "name": "n1b",
+  "ok": true,
+  "file": "n1b.jpg",
+  "src": "https://cdn4.telesco.pe/file/aib-w5jT_tIxgn6c05hScPLqPPKfx8OH3eM8Q670IkllN8TYB0TtBUDRTY8UjBI-02mIm7RW_ksT23xNa_aJbcygIHye4N_8V38dGuoe5TTKt-yFnsX3SfRWDg2jDL21XerVcJ8sfBnrsEdRtEZ7QVeRBELAIFiVrv3ULRfJxOQBBYI5_KLsMQKmrBSwm5WqN0go4PL8Uwr6QI-EbOIk4oM1R5zTanBRlf8QHo9ZnDAOnx-6EP-h779M9Z0kQVLLTsejX-VkdmWuPISlyIIA0CAjs9A6s9i6ufWAvE42x0bBU7ker2RB4z2Ms9r5i6SDwfNybY02kmK6l3MGTbhRVw",
+  "bytes": 11091
+ }
+]
