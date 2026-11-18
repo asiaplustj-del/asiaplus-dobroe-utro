@@ -1,0 +1,76 @@
+[
+ {
+  "name": "a4",
+  "ok": true,
+  "file": "a4.html",
+  "bytes": 89965
+ },
+ {
+  "name": "a5",
+  "ok": true,
+  "file": "a5.html",
+  "bytes": 92871
+ },
+ {
+  "name": "n4",
+  "ok": true,
+  "file": "n4.jpg",
+  "src": "https://cdnn1.img.sputnik.tj/img/07e9/03/1a/1066723018_0:151:3106:1898_2072x0_60_0_0_8d1f72dbef19938951c85ef76102fe4b.jpg",
+  "bytes": 99360
+ },
+ {
+  "name": "n5",
+  "ok": true,
+  "file": "n5.jpg",
+  "src": "https://cdnn1.img.sputnik.tj/img/07e4/0a/13/1032116244_213:0:1400:667_2072x0_60_0_0_d523505274a7ba58b7c641fd747dd984.jpg",
+  "bytes": 120209
+ },
+ {
+  "name": "n2",
+  "ok": true,
+  "file": "n2.jpg",
+  "src": "https://cdn4.telesco.pe/file/SoUB2_e7PyJH_U_iba7s4jPvb6sQymyOCUWwAqb7vjoWDToGl4_OSHBbXbJ9O8YrCau8Prg_Zi7HzWP4hf8J_AN--1tYCqpE5vSKQlgo-jNlRc_ABRMDqiKOZ3Ch68Qif3Z1MMygnH9pj8jFV6WSEinrukkO_UXX3JAFe9FeSYsrS3Jns07jU7dLTYPE03O0dNRusGzS-kqxBGMX7BpkckhZqFzOBx6ykME7QEj2fVQ1CWL_kt6mA5NeqbHp8QQHAKH-fGpHqFeiTT8yjoi_djbtS-RXv8lDqZUkvRDk3iiKjBTA9Esav-BwFyQUgZQAD2DU0FDgxwi_5gP4emRUzA.jpg",
+  "bytes": 90950
+ },
+ {
+  "name": "n6",
+  "ok": true,
+  "file": "n6.jpg",
+  "src": "https://cdn4.telesco.pe/file/K4euuL3udQAP5HoUqEmZgej2QQzeYPxtYZdfywOS8gHOnl3FF-u8sHtb7XVuss1CDQDm3RO1cdcIWohwdrgIU5i2YIxg82zd1RKfvGGWxoKzokzYyJATDAm8zqS6G9l0_uDuWjjSnKONoHBQcBPEIF822Ofo2R4dB8XaROUiwu7r7nn8LyYEV12yxvaKsyNFhXl6Uz4_wZwZ00Uw0pqXpehOS7DHcZcbivq7Zd3GTPrNYWXlsEstyNrAeqQwAIh3seJ0cA-YmNPD8H_w4bvUxOQsShu9j-pAtOSn7gIoMT33caaPjHUVv3El8op3kP-t37aU2tf142lsHqtXJTPyaw.jpg",
+  "bytes": 107225
+ },
+ {
+  "name": "n7",
+  "ok": true,
+  "file": "n7.jpg",
+  "src": "https://cdn4.telesco.pe/file/BmknEzvenC78KtNJi5xP5RKT0NHbwqmC6PbuJ1U2gvRoPNSG652EED_F1qCwLG8hztJ7oABCVv7Uh5QhvU35URthYyVLjMvLogEKuQHHmu5-QG1FCPSkdvCyMuRUei-iUScRQf_fzL_n7pClZpKdKHQRtzHhb7pf9JawP7ROfED_7nmrrcThS7roliyIddfLkQQ-81rbijH1Klg_SW5p_qEyy2As4QkUsPhBmZUMQ-NKUZ3xIuLy7BIZzaVil9F_LC-KTDNR2FzMjxxVoHcd96KJ3POHVOK7RFh-QY0OrEHLUoUF1VMRedGTLnB7bsu4FfB6m9Ez3X-Udwyc6-UZOw.jpg",
+  "bytes": 86238
+ },
+ {
+  "name": "n1a",
+  "ok": true,
+  "file": "n1a.png",
+  "src": "https://ru.themoscowtimes.com/static/share-card.a6fb479b.png",
+  "bytes": 25076
+ },
+ {
+  "name": "n1b",
+  "ok": true,
+  "file": "n1b.webp",
+  "src": "https://gocdn.daryo.uz/large/2026/08/20/1787252084166481196_1787230740541293543_photo_2026-08-20_18-01-52.webp",
+  "bytes": 27398
+ },
+ {
+  "name": "n1c",
+  "ok": true,
+  "file": "n1c.png",
+  "src": "https://ru.themoscowtimes.com/static/share-card.a6fb479b.png",
+  "bytes": 25076
+ },
+ {
+  "name": "a8",
+  "ok": true,
+  "file": "a8.html",
+  "bytes": 358977
+ }
+]
