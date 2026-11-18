@@ -1,0 +1,44 @@
+[
+ {
+  "name": "n1d",
+  "ok": true,
+  "file": "n1d.jpg",
+  "src": "https://echofm.online/app/uploads/2026/08/images-6.jpg",
+  "bytes": 23326
+ },
+ {
+  "name": "n1e",
+  "ok": true,
+  "file": "n1e.png",
+  "src": "https://asiaplus.news/wp-content/uploads/2026/03/logo-ap-1536x531.png",
+  "bytes": 40588
+ },
+ {
+  "name": "n1f",
+  "ok": true,
+  "file": "n1f.jpg",
+  "src": "https://storage.kun.uz/source/12/SmXWxYEwn-lZWpx7t4tl5xYLbDywxvrJ.jpg",
+  "bytes": 149468
+ },
+ {
+  "name": "n2a",
+  "ok": true,
+  "file": "n2a.jpg",
+  "src": "https://www.omanobserver.om/omanobserver/uploads/images/2026/11/14/thumbs/600x600/3578716.jpg",
+  "bytes": 209955
+ },
+ {
+  "name": "n2b",
+  "ok": true,
+  "file": "n2b.webp",
+  "src": "https://zamin.uz/uploads/posts/2026-11/28ed377c77_image.webp",
+  "bytes": 128776
+ },
+ {
+  "name": "n2c",
+  "ok": true,
+  "file": "n2c.jpg",
+  "src": "https://avesta.tj/wp-content/uploads/2026/11/kings-cup2026-tajikistan-oman-e1794804093467.jpg",
+  "bytes": 249998
+ }
+]
