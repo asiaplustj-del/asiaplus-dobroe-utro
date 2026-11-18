@@ -1,0 +1,11 @@
+page a4 https://sputnik.tj/20261117/tojikiston-ama-shahodatnoma-ronandagi-hamdigar-1082272667.html
+page a5 https://tj.sputniknews.ru/20261117/tajikistan-razmer-pokazatel-raschet-1082281529.html
+og n4 https://sputnik.tj/20261117/tojikiston-ama-shahodatnoma-ronandagi-hamdigar-1082272667.html
+og n5 https://tj.sputniknews.ru/20261117/tajikistan-razmer-pokazatel-raschet-1082281529.html
+img n2 https://cdn4.telesco.pe/file/SoUB2_e7PyJH_U_iba7s4jPvb6sQymyOCUWwAqb7vjoWDToGl4_OSHBbXbJ9O8YrCau8Prg_Zi7HzWP4hf8J_AN--1tYCqpE5vSKQlgo-jNlRc_ABRMDqiKOZ3Ch68Qif3Z1MMygnH9pj8jFV6WSEinrukkO_UXX3JAFe9FeSYsrS3Jns07jU7dLTYPE03O0dNRusGzS-kqxBGMX7BpkckhZqFzOBx6ykME7QEj2fVQ1CWL_kt6mA5NeqbHp8QQHAKH-fGpHqFeiTT8yjoi_djbtS-RXv8lDqZUkvRDk3iiKjBTA9Esav-BwFyQUgZQAD2DU0FDgxwi_5gP4emRUzA.jpg
+img n6 https://cdn4.telesco.pe/file/K4euuL3udQAP5HoUqEmZgej2QQzeYPxtYZdfywOS8gHOnl3FF-u8sHtb7XVuss1CDQDm3RO1cdcIWohwdrgIU5i2YIxg82zd1RKfvGGWxoKzokzYyJATDAm8zqS6G9l0_uDuWjjSnKONoHBQcBPEIF822Ofo2R4dB8XaROUiwu7r7nn8LyYEV12yxvaKsyNFhXl6Uz4_wZwZ00Uw0pqXpehOS7DHcZcbivq7Zd3GTPrNYWXlsEstyNrAeqQwAIh3seJ0cA-YmNPD8H_w4bvUxOQsShu9j-pAtOSn7gIoMT33caaPjHUVv3El8op3kP-t37aU2tf142lsHqtXJTPyaw.jpg
+img n7 https://cdn4.telesco.pe/file/BmknEzvenC78KtNJi5xP5RKT0NHbwqmC6PbuJ1U2gvRoPNSG652EED_F1qCwLG8hztJ7oABCVv7Uh5QhvU35URthYyVLjMvLogEKuQHHmu5-QG1FCPSkdvCyMuRUei-iUScRQf_fzL_n7pClZpKdKHQRtzHhb7pf9JawP7ROfED_7nmrrcThS7roliyIddfLkQQ-81rbijH1Klg_SW5p_qEyy2As4QkUsPhBmZUMQ-NKUZ3xIuLy7BIZzaVil9F_LC-KTDNR2FzMjxxVoHcd96KJ3POHVOK7RFh-QY0OrEHLUoUF1VMRedGTLnB7bsu4FfB6m9Ez3X-Udwyc6-UZOw.jpg
+og n1a https://ru.themoscowtimes.com/2026/10/09/tadzhikistan-uvelichil-import-nefteproduktov-iz-irana-v-4-raza-v-yanv-sen-2625gg-tamozhennaya-sluzhba-a208255
+og n1b https://daryo.uz/2026/08/21/tajikistan-seeks-255mn-tons-of-oil-and-fuel-from-iran-amid-supply-diversification/
+og n1c https://ru.themoscowtimes.com/2025/04/24/tadzhikistan-povysit-aktsizy-na-otdelnye-vidy-motornogo-topliva-s-1-maya-a161959
+page a8 https://avesta.tj/
