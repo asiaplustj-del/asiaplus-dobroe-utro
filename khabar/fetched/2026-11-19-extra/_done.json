@@ -1,0 +1,106 @@
+[
+ {
+  "name": "a1",
+  "ok": true,
+  "file": "a1.html",
+  "bytes": 80279
+ },
+ {
+  "name": "a2",
+  "ok": true,
+  "file": "a2.html",
+  "bytes": 88849
+ },
+ {
+  "name": "a3",
+  "ok": true,
+  "file": "a3.html",
+  "bytes": 276515
+ },
+ {
+  "name": "a4",
+  "ok": true,
+  "file": "a4.html",
+  "bytes": 275521
+ },
+ {
+  "name": "a5",
+  "ok": true,
+  "file": "a5.html",
+  "bytes": 300838
+ },
+ {
+  "name": "a6",
+  "ok": true,
+  "file": "a6.html",
+  "bytes": 216636
+ },
+ {
+  "name": "a7",
+  "ok": true,
+  "file": "a7.html",
+  "bytes": 93073
+ },
+ {
+  "name": "a8",
+  "ok": true,
+  "file": "a8.html",
+  "bytes": 90790
+ },
+ {
+  "name": "n1",
+  "ok": true,
+  "file": "n1.jpg",
+  "src": "https://cdnn1.img.sputnik.tj/img/07ea/0b/12/1082303081_0:0:1920:1080_2072x0_60_0_0_db911e6cb1b23a914f583d7a872134b6.jpg",
+  "bytes": 90056
+ },
+ {
+  "name": "n2",
+  "ok": true,
+  "file": "n2.jpg",
+  "src": "https://gdb.rferl.org/d5d6aee8-50f6-41c4-ad01-08dd4a814ce6_w800_h450.jpg",
+  "bytes": 84615
+ },
+ {
+  "name": "n3",
+  "ok": true,
+  "file": "n3.jpg",
+  "src": "https://gdb.rferl.org/ef098bcb-7a47-4a9f-cc51-08de3c914337_cx0_cy10_cw0_w800_h450.jpg",
+  "bytes": 81050
+ },
+ {
+  "name": "n4",
+  "ok": true,
+  "file": "n4.jpg",
+  "src": "https://gdb.rferl.org/930C7AC0-B0BD-4EA5-AAC6-1C3C51B26225_w800_h450.jpg",
+  "bytes": 58257
+ },
+ {
+  "name": "n5",
+  "ok": true,
+  "file": "n5.jpg",
+  "src": "https://avesta.tj/wp-content/uploads/2026/11/mmexport1795048906581.jpg",
+  "bytes": 90414
+ },
+ {
+  "name": "n6",
+  "ok": true,
+  "file": "n6.jpg",
+  "src": "https://asiaplus.news/wp-content/uploads/2026/11/abdusalom-rahimzoda.jpg",
+  "bytes": 141121
+ },
+ {
+  "name": "n7",
+  "ok": true,
+  "file": "n7.jpg",
+  "src": "https://cdnn1.img.sputnik.tj/img/07ea/0b/12/1082289870_0:0:3104:1747_600x0_80_0_0_134a9881e75100a349d3df8b318ded92.jpg",
+  "bytes": 20271
+ },
+ {
+  "name": "n8",
+  "ok": true,
+  "file": "n8.jpg",
+  "src": "https://cdnn1.img.sputnik.tj/img/07e7/0c/16/1061025914_0:3:3073:1732_2072x0_60_0_0_76ef21e702d007c4fe9d7c4fec143bff.jpg",
+  "bytes": 469688
+ }
+]
