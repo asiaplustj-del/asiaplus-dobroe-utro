@@ -1,0 +1,16 @@
+page a1 https://tj.sputniknews.ru/20261118/video-rossotrudnichestvo-kvota-2027-2028-god-1082312871.html
+page a2 https://www.ozodi.org/a/tahdidi-55-sol-zindon-ba-yak-shahrvandi-tojikiston-dar-amriko/33901128.html
+page a3 https://www.ozodi.org/a/tahqiqi-nav-dar-borai-vaz-i-zanoni-obistan-dar-tojikiston/33901260.html
+page a4 https://www.ozodi.org/a/ft-rusiya-az-sodirkunanda-ba-voridkunandai-suzishvori-tabdil-meyobad/33901242.html
+page a5 https://avesta.tj/2026/11/19/lidery-kitaya-i-ssha-zayavili-o-namerenii-razvivat-dvustoronnie-otnosheniya/
+page a6 https://asiaplus.news/2026/11/18/umer-narodnyj-artist-tadzhikistana-abdusalom-rahimzoda/
+page a7 https://sputnik.tj/20261118/putin-iiao-hinduston-sozishnoma-tijorat-1082315586.html
+page a8 https://sputnik.tj/20261118/bghafurov-osh-behtarin-nohiya-pukhta-meshavad-1082311188.html
+og n1 https://tj.sputniknews.ru/20261118/video-rossotrudnichestvo-kvota-2027-2028-god-1082312871.html
+img n2 https://gdb.rferl.org/d5d6aee8-50f6-41c4-ad01-08dd4a814ce6_w800_h450.jpg
+img n3 https://gdb.rferl.org/ef098bcb-7a47-4a9f-cc51-08de3c914337_cx0_cy10_cw0_w800_h450.jpg
+img n4 https://gdb.rferl.org/930C7AC0-B0BD-4EA5-AAC6-1C3C51B26225_w800_h450.jpg
+og n5 https://avesta.tj/2026/11/19/lidery-kitaya-i-ssha-zayavili-o-namerenii-razvivat-dvustoronnie-otnosheniya/
+img n6 https://asiaplus.news/wp-content/uploads/2026/11/abdusalom-rahimzoda.jpg
+img n7 https://cdnn1.img.sputnik.tj/img/07ea/0b/12/1082289870_0:0:3104:1747_600x0_80_0_0_134a9881e75100a349d3df8b318ded92.jpg
+og n8 https://sputnik.tj/20261118/bghafurov-osh-behtarin-nohiya-pukhta-meshavad-1082311188.html
