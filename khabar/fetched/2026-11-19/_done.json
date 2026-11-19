@@ -1,0 +1,74 @@
+[
+ {
+  "name": "asiaplus-ru-rss",
+  "ok": true,
+  "file": "asiaplus-ru-rss.html",
+  "bytes": 371856
+ },
+ {
+  "name": "asiaplus-tg-rss",
+  "ok": true,
+  "file": "asiaplus-tg-rss.html",
+  "bytes": 442883
+ },
+ {
+  "name": "tg-asiaplus",
+  "ok": true,
+  "file": "tg-asiaplus.html",
+  "bytes": 121936
+ },
+ {
+  "name": "tg-asiaplustj",
+  "ok": true,
+  "file": "tg-asiaplustj.html",
+  "bytes": 89432
+ },
+ {
+  "name": "khovar-rss",
+  "ok": true,
+  "file": "khovar-rss.html",
+  "bytes": 50281
+ },
+ {
+  "name": "sputnik-tj-rss",
+  "ok": true,
+  "file": "sputnik-tj-rss.html",
+  "bytes": 122871
+ },
+ {
+  "name": "sputnik-ru-rss",
+  "ok": true,
+  "file": "sputnik-ru-rss.html",
+  "bytes": 124601
+ },
+ {
+  "name": "avesta-rss",
+  "ok": true,
+  "file": "avesta-rss.html",
+  "bytes": 68504
+ },
+ {
+  "name": "migration-rss",
+  "ok": true,
+  "file": "migration-rss.html",
+  "bytes": 42495
+ },
+ {
+  "name": "ozodi-rss",
+  "ok": true,
+  "file": "ozodi-rss.html",
+  "bytes": 26557
+ },
+ {
+  "name": "tg-radioozodi",
+  "ok": true,
+  "file": "tg-radioozodi.html",
+  "bytes": 128698
+ },
+ {
+  "name": "dushanbe",
+  "ok": true,
+  "file": "dushanbe.html",
+  "bytes": 54983
+ }
+]
