@@ -137,4 +137,8 @@ fc = (f"[1:a]silenceremove=start_periods=1:start_threshold=-50dB:start_silence=0
 subprocess.run(["ffmpeg", "-y", "-loglevel", "error", "-i", str(silent), "-i", str(mus), "-i", str(mus), "-i", str(sfx),
                 "-filter_complex", fc, "-map", "0:v", "-map", "[a]", "-c:v", "copy", "-c:a", "aac", "-b:a", "192k",
                 "-t", f"{TOTAL:.3f}", "-movflags", "+faststart", str(out)], check=True)
+# обложка для YouTube: кадр с полностью собранной главной новостью (2,5 с)
+thumb = out.with_suffix(".jpg")
+subprocess.run(["ffmpeg", "-y", "-loglevel", "error", "-ss", "2.5", "-i", str(out), "-frames:v", "1", "-q:v", "2", str(thumb)], check=True)
+print(json.dumps({"thumb": str(thumb), "thumb_kb": thumb.stat().st_size // 1024}))
 print(json.dumps({"total": round(TOTAL, 2), "news_end": round(o1, 2), "weather_start": round(o2, 2)}))

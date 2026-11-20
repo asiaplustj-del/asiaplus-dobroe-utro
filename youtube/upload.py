@@ -6,18 +6,22 @@
   "title": "...", "description": "...", "tags": ["..."],
   "privacy": "public" | "unlisted" | "private",
   "categoryId": "25",
-  "publishAt": "2026-11-07T07:00:00+05:00"   (необязательно: отложенная публикация)
+  "publishAt": "2026-11-07T07:00:00+05:00",  (необязательно: отложенная публикация)
+  "thumbnail": "subh/videos/2026-11-21.jpg"   (необязательно: своя обложка, JPEG/PNG до 2 МБ)
 }
+Обложку YouTube принимает только после обработки ролика — пробуем каждые 20 с до 8 мин.
+Ошибка обложки ролик не отменяет: в результате поле "thumbnail": "ok" или текст ошибки.
 Результат: youtube/published/<id>.json  {"ok": true, "id": "...", "url": "...", "privacy": "..."}
                                     или {"ok": false, "error": "..."}
 Заявка, для которой уже есть результат, повторно не загружается.
 """
-import json, os, pathlib, sys, datetime
+import json, os, pathlib, sys, datetime, time
 
 from google.oauth2.credentials import Credentials
 from google.auth.transport.requests import Request
 from googleapiclient.discovery import build
 from googleapiclient.http import MediaFileUpload
+from googleapiclient.errors import HttpError
 
 ROOT = pathlib.Path(__file__).resolve().parent.parent
 REQ = ROOT / "youtube" / "requests"
@@ -47,6 +51,23 @@ creds = Credentials.from_authorized_user_info(json.loads(token), SCOPES)
 if not creds.valid:
     creds.refresh(Request())
 yt = build("youtube", "v3", credentials=creds, cache_discovery=False)
+
+def set_thumb(vid, img, wait=480, step=20):
+    if not img.exists():
+        return f"нет файла {img.name}"
+    mime = "image/png" if img.suffix.lower() == ".png" else "image/jpeg"
+    t0, last = time.time(), ""
+    while time.time() - t0 < wait:
+        try:
+            yt.thumbnails().set(videoId=vid, media_body=MediaFileUpload(str(img), mimetype=mime)).execute()
+            return "ok"
+        except HttpError as e:
+            last = f"{e.resp.status}: {e}"[:500]
+        except Exception as e:
+            last = f"{type(e).__name__}: {e}"[:500]
+        time.sleep(step)
+    return "таймаут: " + last
+
 
 failed = False
 for p in pending:
@@ -83,8 +104,11 @@ for p in pending:
             _, resp = req.next_chunk()
         vid = resp["id"]
         st = resp.get("status", {})
-        write(rid, {"ok": True, "id": vid, "url": f"https://youtube.com/shorts/{vid}",
-                    "privacy": st.get("privacyStatus"), "publishAt": st.get("publishAt")})
+        res = {"ok": True, "id": vid, "url": f"https://youtube.com/shorts/{vid}",
+               "privacy": st.get("privacyStatus"), "publishAt": st.get("publishAt")}
+        if r.get("thumbnail"):
+            res["thumbnail"] = set_thumb(vid, ROOT / r["thumbnail"])
+        write(rid, res)
     except Exception as e:
         failed = True
         write(rid, {"ok": False, "error": f"{type(e).__name__}: {e}"[:2000]})
