@@ -1,0 +1,87 @@
+[
+ {
+  "name": "n1",
+  "ok": false,
+  "url": "https://khovar.tj/2026/11/prezidenti-federatsiyai-rusiya-vladimir-putin-bo-safari-kor-ba-to-ikiston-tashrif-ovard/",
+  "error": "<urlopen error timed out>"
+ },
+ {
+  "name": "n1b",
+  "ok": true,
+  "file": "n1b.jpg",
+  "src": "https://cdnn1.img.sputnik.tj/img/07ea/0a/09/1081075955_0:166:3020:1865_2072x0_60_0_0_b1b14612e29f2cb99b9f93a388a58bde.jpg",
+  "bytes": 158293
+ },
+ {
+  "name": "n2",
+  "ok": true,
+  "file": "n2.jpg",
+  "src": "https://asiaplus.news/wp-content/uploads/2026/01/deti-migrantov1.jpg",
+  "bytes": 90535
+ },
+ {
+  "name": "n3",
+  "ok": true,
+  "file": "n3.jpg",
+  "src": "https://cdn4.telesco.pe/file/s66qdK_daV0lIoyzUaqvzLq0oGbMUsxhbO9Pwh1AGiow1djTol0QL7RDNqJvvxRSeg_SsvDP0KxgnP5Vznm4bF3kY-K1muiIPkY-adn1SjRefeZswB68aRxyC_JuT4kBAN2RZKwoAOk5W6CrLxhj1c53ZbJRP3X7I1xViWKS1u_aeOnBj2sOFdueHB8DzstqXZTnk_0X1NwpljPXg9YszDMNrVeyhDe81iDdTRbpYeFuGfQ-H30E4gmay__sM0Uf99GL__MbyW8Por74_dqZ2TYjAJY5meyQiqhuNXglB0czNuK1B4UPDsfnE4g3WwJMbOL8D1PoTTxGjkTQJ2HYRw.jpg",
+  "bytes": 153729
+ },
+ {
+  "name": "n4",
+  "ok": true,
+  "file": "n4.jpg",
+  "src": "https://cdn4.telesco.pe/file/A5pg98USiv01Ar4Hrfbubpem9He1lWTrIMQ6CuoYJX744gJUvmlcB1oACpgTqEEMgnDCqzbuE8f3lJehO8sTRHqwJdRWtN2Rq2ZV9AF610ppi22DP18E6_sfB5GuzNPpn7TA_2cJQtCW6SxTpAIdhd6OlVHJbWg2ZDYPufFbJfC5lrQaoyt_0GJolYhnFGwOReOuy6fW5i4M6MChfrdQY1dIdHf--VSlOZQ9ML--Oi7bnNTBsNYmBLKPLtcJ8MM1SKMrtksDdr_Jyfk25Q9q1whThLPH7vWNC3TbYAWG9qb_v3kdumoWEYpAHBbIaq_RiLVwCc8FxjfOZDPIBJaLfw.jpg",
+  "bytes": 149248
+ },
+ {
+  "name": "n5",
+  "ok": true,
+  "file": "n5.jpg",
+  "src": "https://avesta.tj/wp-content/uploads/2026/11/mmexport1795096974168.jpg",
+  "bytes": 126348
+ },
+ {
+  "name": "n5b",
+  "ok": true,
+  "file": "n5b.jpg",
+  "src": "https://cdnn1.img.sputnik.tj/img/07ea/0b/13/1082351162_0:127:3190:1921_2072x0_60_0_0_386e286627eae0c78486ac25062fffdc.jpg",
+  "bytes": 111795
+ },
+ {
+  "name": "n6",
+  "ok": true,
+  "file": "n6.jpg",
+  "src": "https://asiaplus.news/wp-content/uploads/2026/11/photo_2026-10-15_11-34-53-1.jpg",
+  "bytes": 305344
+ },
+ {
+  "name": "n7",
+  "ok": false,
+  "url": "https://khovar.tj/2026/11/dar-to-ikiston-a-mi-ma-mui-ma-suloti-dohil-18-4-milliard-somon-ziyod-gardid/",
+  "error": "<urlopen error timed out>"
+ },
+ {
+  "name": "a1",
+  "ok": false,
+  "url": "https://khovar.tj/2026/11/prezidenti-federatsiyai-rusiya-vladimir-putin-bo-safari-kor-ba-to-ikiston-tashrif-ovard/",
+  "error": "<urlopen error timed out>"
+ },
+ {
+  "name": "a5",
+  "ok": true,
+  "file": "a5.html",
+  "bytes": 298239
+ },
+ {
+  "name": "a7",
+  "ok": false,
+  "url": "https://khovar.tj/2026/11/dar-to-ikiston-a-mi-ma-mui-ma-suloti-dohil-18-4-milliard-somon-ziyod-gardid/",
+  "error": "<urlopen error timed out>"
+ },
+ {
+  "name": "a6",
+  "ok": true,
+  "file": "a6.html",
+  "bytes": 253968
+ }
+]
