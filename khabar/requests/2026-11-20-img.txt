@@ -1,0 +1,13 @@
+og n1 https://khovar.tj/2026/11/prezidenti-federatsiyai-rusiya-vladimir-putin-bo-safari-kor-ba-to-ikiston-tashrif-ovard/
+og n1b https://sputnik.tj/20261119/tijorat-afghoniston-putin-hadaf-safar-tojikiston-1082366735.html
+og n2 https://asiaplus.news/tg/2026/11/19/az-soli-2027-muhojironi-doroi-patent-dar-rusiya-baroi-farzandonashon-mablaghi-ilovagy-pardoht-mekunand/
+img n3 https://cdn4.telesco.pe/file/s66qdK_daV0lIoyzUaqvzLq0oGbMUsxhbO9Pwh1AGiow1djTol0QL7RDNqJvvxRSeg_SsvDP0KxgnP5Vznm4bF3kY-K1muiIPkY-adn1SjRefeZswB68aRxyC_JuT4kBAN2RZKwoAOk5W6CrLxhj1c53ZbJRP3X7I1xViWKS1u_aeOnBj2sOFdueHB8DzstqXZTnk_0X1NwpljPXg9YszDMNrVeyhDe81iDdTRbpYeFuGfQ-H30E4gmay__sM0Uf99GL__MbyW8Por74_dqZ2TYjAJY5meyQiqhuNXglB0czNuK1B4UPDsfnE4g3WwJMbOL8D1PoTTxGjkTQJ2HYRw.jpg
+img n4 https://cdn4.telesco.pe/file/A5pg98USiv01Ar4Hrfbubpem9He1lWTrIMQ6CuoYJX744gJUvmlcB1oACpgTqEEMgnDCqzbuE8f3lJehO8sTRHqwJdRWtN2Rq2ZV9AF610ppi22DP18E6_sfB5GuzNPpn7TA_2cJQtCW6SxTpAIdhd6OlVHJbWg2ZDYPufFbJfC5lrQaoyt_0GJolYhnFGwOReOuy6fW5i4M6MChfrdQY1dIdHf--VSlOZQ9ML--Oi7bnNTBsNYmBLKPLtcJ8MM1SKMrtksDdr_Jyfk25Q9q1whThLPH7vWNC3TbYAWG9qb_v3kdumoWEYpAHBbIaq_RiLVwCc8FxjfOZDPIBJaLfw.jpg
+og n5 https://avesta.tj/2026/11/19/vpervye-v-istorii-sostoyalas-tryohstoronnyaya-vstrecha-liderov-kitaya-rossii-i-ssha/
+og n5b https://sputnik.tj/20261119/muloqot-tarikhi-nuqot-asosi-muloqot-putin-tramp-jinpin-1082345848.html
+og n6 https://asiaplus.news/2026/11/19/v-dashtidzhume-zasyhayut-vekovye-lesa-i-ischezayut-rodniki/
+og n7 https://khovar.tj/2026/11/dar-to-ikiston-a-mi-ma-mui-ma-suloti-dohil-18-4-milliard-somon-ziyod-gardid/
+page a1 https://khovar.tj/2026/11/prezidenti-federatsiyai-rusiya-vladimir-putin-bo-safari-kor-ba-to-ikiston-tashrif-ovard/
+page a5 https://avesta.tj/2026/11/19/vpervye-v-istorii-sostoyalas-tryohstoronnyaya-vstrecha-liderov-kitaya-rossii-i-ssha/
+page a7 https://khovar.tj/2026/11/dar-to-ikiston-a-mi-ma-mui-ma-suloti-dohil-18-4-milliard-somon-ziyod-gardid/
+page a6 https://asiaplus.news/2026/11/19/v-dashtidzhume-zasyhayut-vekovye-lesa-i-ischezayut-rodniki/
