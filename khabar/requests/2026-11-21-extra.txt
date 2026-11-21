@@ -1,0 +1,14 @@
+page a1 https://tj.sputniknews.ru/20261120/tajikistan-alternativnaya-sluzhba-stoimost-1082415858.html
+page a2 https://khovar.tj/2026/11/safari-korii-prezidenti-federatsiyai-rusiya-dar-um-urii-to-ikiston-ba-an-om-rasid/
+page a3 https://asiaplus.news/2026/11/20/starlink-snova-nachal-podklyuchat-novyh-abonentov-v-tadzhikistane/
+page a4 https://www.ozodi.org/a/nuh-kushta-va-dahho-zakhmi-dar-ukraina/33902656.html
+page a5 https://www.ozodi.org/a/sarnavishti-khonahoi-janjoli-dar-jayhun/33902726.html
+page a6 https://t.me/asiaplustj/55828
+og n1 https://khovar.tj/2026/11/safari-korii-prezidenti-federatsiyai-rusiya-dar-um-urii-to-ikiston-ba-an-om-rasid/
+og n2 https://asiaplus.news/2026/11/20/starlink-snova-nachal-podklyuchat-novyh-abonentov-v-tadzhikistane/
+og n3 https://tj.sputniknews.ru/20261120/tajikistan-alternativnaya-sluzhba-stoimost-1082415858.html
+og n5 https://www.ozodi.org/a/nuh-kushta-va-dahho-zakhmi-dar-ukraina/33902656.html
+og n7 https://www.ozodi.org/a/sarnavishti-khonahoi-janjoli-dar-jayhun/33902726.html
+img t1 https://cdn4.telesco.pe/file/HdqDErOIuv1E5BNcD1DfuevToSSRfhP4STqTCnNcmqRk1Bd-Oxn7cBjmcHU77VhvrnxzK0vuzA_1FrSSTEIft1tSXxmoMxJJeZyjpc7D5NZ2PSYhQKs2mqAvvpcQAMRiD6ArQagO0R7Hc1VZOlExBRvnSuHZlfP43EZbkxivZvLWZlYWWyNhSz_np0TgN6mxop-ihNu8X9fYNHPbg30HrmqZMXfXi_oct-JTLNhPcWywUZvVFDK4bQ1d96s--12LDfkkDzBbwHmPPtSGqjz1xOb9YGmySCrmtfaVAWztKfE3FOjtzGTnDFCR8bVbw5u5Wol0_qqIbU72iQac7gbbGw.jpg
+img n4 https://cdn4.telesco.pe/file/I5gKBya-4Df-dSQPOxp1McStuE8qEe3a8B_Ac1Tpub_9B1oU4Qu5robKdgN8Mgh0uu0UaJCGD_dK8RCWhEi-EWMQq7MupMo8L8wLXAlKyeJJCIqb65txTLkqCV1NDI8vzmUJ04yayjJ1SzK1zSVdCUfXMMIo9kTp97kaoetVQ9EGr0NAaLG5Dul7c-Ewl6j4n3yLhdHeKet6pKLNV8_m9K_xmnmtx3YObnLzvnCaYn9UU-7CnmFg4O5caCeBiWbeTLeIEHNlqv5tXsBr7-nkJVFerDP1TKKGw-DkSSKFwSL7gFebu7SePiDJ0N9m4JI4eXR4TGNuVOMv4LCQ-OlgBQ
+img n6 https://cdn4.telesco.pe/file/EKQSbnLFKFFfqcFC4jgng4Elc5hp91-2LVvlWd4WzPn4ice4YqhmoTZ4zhLRNAwFDygS0CI3Whv8-0uvpOupmkjPzN1SZeW6wi5k2Fu0v0I3uTgL9bYFqiFBIin2XHJNiaeOJsMjmWiOVt1f2Dt4jurUG_K3Sg03QIXfVyZE8JhtLopECK28HoLYKVHmiwnmaAVhzm7uoPIXIfCZbaasIzF1Jo-cG-oK2avtUoUYxVKivKDs_IuL6VgQ8hWc-NK7vb9xaaFjuZPNkuHgTSzKKufBxtBv4FrgdfGJ83tew5knHkyl8Mo-TVEMchajEGF2NNq5fzrgVjhvaa8tUEzeCQ.jpg
