@@ -9,7 +9,8 @@
   "publishAt": "2026-11-07T07:00:00+05:00",  (необязательно: отложенная публикация)
   "thumbnail": "subh/videos/2026-11-21.jpg"   (необязательно: своя обложка, JPEG/PNG до 2 МБ)
 }
-Обложку YouTube принимает только после обработки ролика — пробуем каждые 20 с до 8 мин.
+Обложку ставим после обработки ролика и дважды (иначе YouTube перебивает её автокадром).
+Только обложка для уже загруженного ролика: {"videoId": "...", "thumbnail": "путь"}.
 Ошибка обложки ролик не отменяет: в результате поле "thumbnail": "ok" или текст ошибки.
 Результат: youtube/published/<id>.json  {"ok": true, "id": "...", "url": "...", "privacy": "..."}
                                     или {"ok": false, "error": "..."}
@@ -52,21 +53,46 @@ if not creds.valid:
     creds.refresh(Request())
 yt = build("youtube", "v3", credentials=creds, cache_discovery=False)
 
-def set_thumb(vid, img, wait=480, step=20):
+def processed(vid):
+    """True/False — статус обработки; None — узнать нельзя (не хватает прав ключа)."""
+    try:
+        it = yt.videos().list(part="processingDetails", id=vid).execute().get("items", [])
+        if not it:
+            return None
+        return it[0].get("processingDetails", {}).get("processingStatus") == "succeeded"
+    except Exception:
+        return None
+
+
+def set_once(vid, img):
+    mime = "image/png" if img.suffix.lower() == ".png" else "image/jpeg"
+    yt.thumbnails().set(videoId=vid, media_body=MediaFileUpload(str(img), mimetype=mime)).execute()
+
+
+def set_thumb(vid, img, fresh=True):
+    """Обложку, поставленную до окончания обработки, YouTube перебивает автокадром (21.11.2026).
+    Поэтому: ждём статус succeeded (если ключ позволяет) или 4 мин, ставим, и через 4 мин ставим ещё раз."""
     if not img.exists():
         return f"нет файла {img.name}"
-    mime = "image/png" if img.suffix.lower() == ".png" else "image/jpeg"
-    t0, last = time.time(), ""
-    while time.time() - t0 < wait:
-        try:
-            yt.thumbnails().set(videoId=vid, media_body=MediaFileUpload(str(img), mimetype=mime)).execute()
-            return "ok"
-        except HttpError as e:
-            last = f"{e.resp.status}: {e}"[:500]
-        except Exception as e:
-            last = f"{type(e).__name__}: {e}"[:500]
-        time.sleep(step)
-    return "таймаут: " + last
+    if fresh:
+        t0 = time.time()
+        while time.time() - t0 < 420:
+            st = processed(vid)
+            if st is True:
+                break
+            if st is None and time.time() - t0 >= 240:
+                break
+            time.sleep(20)
+    errs, ok = [], 0
+    for attempt in range(2 if fresh else 1):
+        for _ in range(6):
+            try:
+                set_once(vid, img); ok += 1; break
+            except Exception as e:
+                errs.append(f"{type(e).__name__}: {e}"[:300]); time.sleep(20)
+        if fresh and attempt == 0:
+            time.sleep(240)
+    return "ok" if ok else "; ".join(errs[-2:])
 
 
 failed = False
@@ -74,6 +100,11 @@ for p in pending:
     rid = p.stem
     try:
         r = json.loads(p.read_text(encoding="utf-8"))
+        if r.get("videoId"):            # только обложка для уже загруженного ролика
+            res = set_thumb(r["videoId"], ROOT / r["thumbnail"], fresh=False)
+            write(rid, {"ok": res == "ok", "id": r["videoId"], "thumbnail": res})
+            failed = failed or res != "ok"
+            continue
         video = ROOT / r["video"]
         if not video.exists():
             raise FileNotFoundError(f"нет файла {r['video']}")
