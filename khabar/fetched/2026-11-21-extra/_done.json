@@ -1,0 +1,94 @@
+[
+ {
+  "name": "a1",
+  "ok": true,
+  "file": "a1.html",
+  "bytes": 94153
+ },
+ {
+  "name": "a2",
+  "ok": true,
+  "file": "a2.html",
+  "bytes": 98160
+ },
+ {
+  "name": "a3",
+  "ok": true,
+  "file": "a3.html",
+  "bytes": 227267
+ },
+ {
+  "name": "a4",
+  "ok": true,
+  "file": "a4.html",
+  "bytes": 234527
+ },
+ {
+  "name": "a5",
+  "ok": true,
+  "file": "a5.html",
+  "bytes": 235311
+ },
+ {
+  "name": "a6",
+  "ok": true,
+  "file": "a6.html",
+  "bytes": 21359
+ },
+ {
+  "name": "n1",
+  "ok": true,
+  "file": "n1.jpg",
+  "src": "https://khovar.tj/wp-content/uploads/2026/11/Safari-korii-Prezidenti-Federatsiyai-Rusiya-dar-um-urii-To-ikiston-ba-an-om-rasid.jpg",
+  "bytes": 95008
+ },
+ {
+  "name": "n2",
+  "ok": true,
+  "file": "n2.jpg",
+  "src": "https://asiaplus.news/wp-content/uploads/2026/11/starlink.jpg",
+  "bytes": 290535
+ },
+ {
+  "name": "n3",
+  "ok": true,
+  "file": "n3.jpg",
+  "src": "https://cdnn1.img.sputnik.tj/img/07e5/0a/12/1042936071_0:46:2862:1656_2072x0_60_0_0_565b7ebd9d990f818c86894f8bf05325.jpg",
+  "bytes": 201785
+ },
+ {
+  "name": "n5",
+  "ok": true,
+  "file": "n5.jpg",
+  "src": "https://gdb.rferl.org/50445C29-67A5-4BA1-AB6F-A75056D5AEAE.jpg",
+  "bytes": 167109
+ },
+ {
+  "name": "n7",
+  "ok": true,
+  "file": "n7.jpg",
+  "src": "https://gdb.rferl.org/160E43DF-1049-4A80-957B-74AA08E1F1F6.jpg",
+  "bytes": 112621
+ },
+ {
+  "name": "t1",
+  "ok": true,
+  "file": "t1.jpg",
+  "src": "https://cdn4.telesco.pe/file/HdqDErOIuv1E5BNcD1DfuevToSSRfhP4STqTCnNcmqRk1Bd-Oxn7cBjmcHU77VhvrnxzK0vuzA_1FrSSTEIft1tSXxmoMxJJeZyjpc7D5NZ2PSYhQKs2mqAvvpcQAMRiD6ArQagO0R7Hc1VZOlExBRvnSuHZlfP43EZbkxivZvLWZlYWWyNhSz_np0TgN6mxop-ihNu8X9fYNHPbg30HrmqZMXfXi_oct-JTLNhPcWywUZvVFDK4bQ1d96s--12LDfkkDzBbwHmPPtSGqjz1xOb9YGmySCrmtfaVAWztKfE3FOjtzGTnDFCR8bVbw5u5Wol0_qqIbU72iQac7gbbGw.jpg",
+  "bytes": 1740
+ },
+ {
+  "name": "n4",
+  "ok": true,
+  "file": "n4.jpg",
+  "src": "https://cdn4.telesco.pe/file/I5gKBya-4Df-dSQPOxp1McStuE8qEe3a8B_Ac1Tpub_9B1oU4Qu5robKdgN8Mgh0uu0UaJCGD_dK8RCWhEi-EWMQq7MupMo8L8wLXAlKyeJJCIqb65txTLkqCV1NDI8vzmUJ04yayjJ1SzK1zSVdCUfXMMIo9kTp97kaoetVQ9EGr0NAaLG5Dul7c-Ewl6j4n3yLhdHeKet6pKLNV8_m9K_xmnmtx3YObnLzvnCaYn9UU-7CnmFg4O5caCeBiWbeTLeIEHNlqv5tXsBr7-nkJVFerDP1TKKGw-DkSSKFwSL7gFebu7SePiDJ0N9m4JI4eXR4TGNuVOMv4LCQ-OlgBQ",
+  "bytes": 12632
+ },
+ {
+  "name": "n6",
+  "ok": true,
+  "file": "n6.jpg",
+  "src": "https://cdn4.telesco.pe/file/EKQSbnLFKFFfqcFC4jgng4Elc5hp91-2LVvlWd4WzPn4ice4YqhmoTZ4zhLRNAwFDygS0CI3Whv8-0uvpOupmkjPzN1SZeW6wi5k2Fu0v0I3uTgL9bYFqiFBIin2XHJNiaeOJsMjmWiOVt1f2Dt4jurUG_K3Sg03QIXfVyZE8JhtLopECK28HoLYKVHmiwnmaAVhzm7uoPIXIfCZbaasIzF1Jo-cG-oK2avtUoUYxVKivKDs_IuL6VgQ8hWc-NK7vb9xaaFjuZPNkuHgTSzKKufBxtBv4FrgdfGJ83tew5knHkyl8Mo-TVEMchajEGF2NNq5fzrgVjhvaa8tUEzeCQ.jpg",
+  "bytes": 1802
+ }
+]
