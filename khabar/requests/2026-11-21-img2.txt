@@ -1,0 +1,6 @@
+img n6 https://www.the-afc.com/image/2026_FIFA_U17_World_Cup/Matches/Group_Stage/MD1/Group_F/Cuba-v-Tajikistan-(2).jpg
+img n6b https://www.sports.kz/upload/2026-11/500_6b0063e87a894.jpg
+og n4a https://avesta.tj/2025/01/29/novyj-glava-sluzhby-svyazi-tadzhikistana-poobeshhal-snizit-tseny-na-internet-i-uluchshit-kachestvo-svyazi
+og n4b https://asiaplus.news/en/2026/03/04/telecommunication-operators-in-tajikistan-earned-half-a-billion-dollars-in-2025/
+og n4c https://daryo.uz/en/2026/01/29/tajikistan-targets-full-4g-coverage-by-2027-5g-rollout-by-2030-as-mobile-internet-issues-persist/
+og n4d https://www.weproject.media/articles/detail/v-tadzhikistane-ustanovili-bolee-sta-bazovykh-stantsiy-5g/
