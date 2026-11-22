@@ -1,0 +1,50 @@
+[
+ {
+  "name": "ozodi-home",
+  "ok": true,
+  "file": "ozodi-home.html",
+  "bytes": 134967
+ },
+ {
+  "name": "khovar-home",
+  "ok": true,
+  "file": "khovar-home.html",
+  "bytes": 191252
+ },
+ {
+  "name": "sputnik-home",
+  "ok": true,
+  "file": "sputnik-home.html",
+  "bytes": 145143
+ },
+ {
+  "name": "avesta-news",
+  "ok": true,
+  "file": "avesta-news.html",
+  "bytes": 302816
+ },
+ {
+  "name": "tg-ozodi2",
+  "ok": true,
+  "file": "tg-ozodi2.html",
+  "bytes": 9561
+ },
+ {
+  "name": "tg-khovar2",
+  "ok": true,
+  "file": "tg-khovar2.html",
+  "bytes": 26873
+ },
+ {
+  "name": "tg-avesta2",
+  "ok": true,
+  "file": "tg-avesta2.html",
+  "bytes": 10800
+ },
+ {
+  "name": "tg-tojnews",
+  "ok": true,
+  "file": "tg-tojnews.html",
+  "bytes": 9589
+ }
+]
