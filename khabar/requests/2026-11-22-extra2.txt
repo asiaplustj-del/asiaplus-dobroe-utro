@@ -1,0 +1,8 @@
+page ozodi-home https://www.ozodi.org/
+page khovar-home https://khovar.tj/
+page sputnik-home https://sputnik.tj/
+page avesta-news https://avesta.tj/news/
+page tg-ozodi2 https://t.me/s/ozodi
+page tg-khovar2 https://t.me/s/khovar_tj
+page tg-avesta2 https://t.me/s/avesta_tj
+page tg-tojnews https://t.me/s/tojnews
