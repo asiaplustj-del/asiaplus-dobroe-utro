@@ -1,0 +1,23 @@
+[
+ {
+  "name": "p5",
+  "ok": true,
+  "file": "p5.jpg",
+  "src": "https://cdnn21.imgria.ru/images/07ea/03/02/2077808009_0:102:3072:1830_1280x0_80_0_0_55865ccedd4fab7f0b2e3b17f1a472e6.jpg",
+  "bytes": 94446
+ },
+ {
+  "name": "p6",
+  "ok": true,
+  "file": "p6.jpg",
+  "src": "https://cdnn21.imgria.ru/images/104041/27/1040412704_0:23:2080:1193_1280x0_80_0_0_ef11b700c6854e680276bbef3ce87e23.jpg",
+  "bytes": 132473
+ },
+ {
+  "name": "p9",
+  "ok": true,
+  "file": "p9.jpg",
+  "src": "https://cdnn21.imgria.ru/images/62159/67/621596781_0:288:3072:2016_1280x0_80_0_0_ca50af755d702e2145e4c49e43ccf758.jpg",
+  "bytes": 102339
+ }
+]
