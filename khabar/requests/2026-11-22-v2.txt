@@ -1,0 +1,10 @@
+page b1 https://fergana.agency/news/151130/
+og m1 https://fergana.agency/news/151130/
+page b3 https://www.azattyqasia.org/a/v-rossii-s-2027-goda-smogut-annulirovat-patenty-migrantov-iz-za-otsutstviya-dannyh-o-dohodah/33900597.html
+og m3 https://www.azattyqasia.org/a/v-rossii-s-2027-goda-smogut-annulirovat-patenty-migrantov-iz-za-otsutstviya-dannyh-o-dohodah/33900597.html
+page b4 https://asiaplus.news/2026/11/19/inflyacziya-v-tadzhikistane-za-10-mesyaczev-toplivo-podorozhalo-pochti-na-50/
+og m4 https://asiaplus.news/2026/11/19/inflyacziya-v-tadzhikistane-za-10-mesyaczev-toplivo-podorozhalo-pochti-na-50/
+page b6 https://asiaplus.news/2026/11/21/sbornaya-tadzhikistana-u-17-obygrala-kubu-na-starte-chempionata-mira/
+og m6 https://asiaplus.news/2026/11/21/sbornaya-tadzhikistana-u-17-obygrala-kubu-na-starte-chempionata-mira/
+page b7 https://sputnik.tj/20261121/qoidahoi-nav-budu-bosh-rusiya-muhojironi-tojik-1082436982.html
+og m7 https://sputnik.tj/20261121/qoidahoi-nav-budu-bosh-rusiya-muhojironi-tojik-1082436982.html
