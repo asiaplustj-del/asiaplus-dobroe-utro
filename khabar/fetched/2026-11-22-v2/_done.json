@@ -1,0 +1,67 @@
+[
+ {
+  "name": "b1",
+  "ok": true,
+  "file": "b1.html",
+  "bytes": 49705
+ },
+ {
+  "name": "m1",
+  "ok": true,
+  "file": "m1.jpg",
+  "src": "https://fergana.agency/siteapi/media/images/74445f79-0a60-43d6-a0bf-6738ff5b6cdf.jpeg",
+  "bytes": 406315
+ },
+ {
+  "name": "b3",
+  "ok": true,
+  "file": "b3.html",
+  "bytes": 87431
+ },
+ {
+  "name": "m3",
+  "ok": true,
+  "file": "m3.jpg",
+  "src": "https://gdb.rferl.org/36555b07-c7e2-47d8-fe1b-08de3c642a37_w1200_h630.jpg",
+  "bytes": 203743
+ },
+ {
+  "name": "b4",
+  "ok": true,
+  "file": "b4.html",
+  "bytes": 240346
+ },
+ {
+  "name": "m4",
+  "ok": true,
+  "file": "m4.jpg",
+  "src": "https://asiaplus.news/wp-content/uploads/2026/11/inflyacziya.jpg",
+  "bytes": 207794
+ },
+ {
+  "name": "b6",
+  "ok": true,
+  "file": "b6.html",
+  "bytes": 229580
+ },
+ {
+  "name": "m6",
+  "ok": true,
+  "file": "m6.jpg",
+  "src": "https://asiaplus.news/wp-content/uploads/2026/11/fwcu17-2026-md1-tajikistan-cuba.jpg",
+  "bytes": 1023417
+ },
+ {
+  "name": "b7",
+  "ok": true,
+  "file": "b7.html",
+  "bytes": 91483
+ },
+ {
+  "name": "m7",
+  "ok": true,
+  "file": "m7.jpg",
+  "src": "https://cdnn1.img.sputnik.tj/img/07ea/0a/16/1081424000_0:217:2933:1868_2072x0_60_0_0_7362e46b0f640b5c799af46272742e48.jpg",
+  "bytes": 214066
+ }
+]
