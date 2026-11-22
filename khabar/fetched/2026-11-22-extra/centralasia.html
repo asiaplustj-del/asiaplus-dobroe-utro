@@ -1,0 +1,527 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>CentralAsia.media — новости Центральной Азии</title>
+    <meta name="description" content="Новости Казахстана, Кыргызстана, Таджикистана, Туркменистана, Узбекистана и Монголии.">
+    <link rel="icon" type="image/png" href="/img/ca-icon.png">
+    <link rel="alternate" type="application/rss+xml" href="/rss/" title="CentralAsia.media">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Golos+Text:wght@400;500;600;700&amp;family=Open+Sans:ital,wght@0,400;0,600;0,700;1,400&amp;family=Source+Serif+4:opsz,wght@8..60,600;8..60,700&amp;display=swap">
+    <link rel="stylesheet" href="/static/ca.css?v=1792238647">
+        <script src="//cdn-1.aki.kg/js/jquery-1.11.2.min.js"></script>
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-ZMW4L3KL6T"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+        gtag('js', new Date());
+        gtag('config', 'G-ZMW4L3KL6T');
+    </script>
+    <script>
+        (function(m, e, t, r, i, k, a) {
+            m[i] = m[i] || function() {
+                (m[i].a = m[i].a || []).push(arguments)
+            };
+            m[i].l = 1 * new Date();
+            k = e.createElement(t), a = e.getElementsByTagName(t)[0], k.async = 1, k.src = r, a.parentNode.insertBefore(k, a)
+        })(window, document, "script", "https://mc.yandex.ru/metrika/tag.js", "ym");
+        ym(8143930, "init", {
+            clickmap: true,
+            trackLinks: true,
+            accurateTrackBounce: true
+        });
+    </script>
+    <script async src='//online.akipress.org/cv2/?getjs&v1_3'></script>
+        <link rel='stylesheet' href='/uiall-css/aki_cast/2/css.css?1'>
+        <script type='text/javascript' src='/uiall-css/aki_cast/2/js.js?11'></script>
+        <link rel='stylesheet' type='text/css' href='/uiall-css/aki_gallery/aki_gallery.css?1'>
+        <script src='/uiall-css/aki_gallery/aki_gallery.js?13'></script>
+        </head>
+
+<body>
+    <div class="site">
+        <div class="netbar"><script type="text/javascript">
+    $(function() {
+        const $menu = $('.l');
+        $(document).mouseup(e => {
+            if (!$menu.is(e.target) && $menu.has(e.target).length === 0) { // if the target of the click isn't the container nor a descendant of the container
+                 $menu.find(".openCloseElem").each(function () {
+                    document.getElementById(this.id).classList.add('nav-hide');
+                });
+            }
+        });
+	$(".openCloseElemBtn").click(function () { 
+		var elem = $(this).next().attr("id");
+            	var menuElem = document.getElementById(elem);
+          	if(menuElem.className.indexOf('nav-hide') > 0) {
+			$menu.find(".openCloseElem").each(function () {
+                    		document.getElementById(this.id).classList.add('nav-hide');
+                	});
+-               	menuElem.classList.remove('nav-hide');
+		} else {            
+            		menuElem.classList.add('nav-hide');
+          	}
+        });
+        /*$menu.mouseenter(function () {
+            var elem = $(this).find(".openCloseElem").attr("id");
+            var menuElem = document.getElementById(elem);
+            menuElem.classList.remove('nav-hide');
+        });
+        $('.l').mouseleave(function () {
+            var elem = $(this).find(".openCloseElem").attr("id");
+            var menuElem = document.getElementById(elem);
+            menuElem.classList.add('nav-hide');
+        });*/
+        var searchFieldWidth = 180;
+        $(".crosstop-search input[type=text]").focusin(function () {
+            if($(window).width() < 740) {
+                $(".crosstop-search").animate({
+                    "width": "100%",
+                    "margin-left": 0
+                });
+                $(".cl").css({display: "none"});
+            }
+        });
+        $(".crosstop-search input[type=text]").focusout(function (){
+            if($(window).width() < 740) {
+                $(".crosstop-search").animate({
+                    "width": searchFieldWidth + "px",
+                    "margin-left": "38px"
+                });
+                $(".cl").css({display: "block"});
+            }       
+    		});
+    });
+</script>
+<style>
+	.crosstop ul, .crosstop ul li {
+		padding: 0;
+		margin: 0;
+		list-style: none;
+	}
+	.crosstop ul a {
+		color: #000;
+		text-decoration: none;
+	}
+	.crosstop-fixed {
+		height: 38px;
+	}
+    .crosstop {
+        margin: 0 auto;
+        width: 100%;
+        position: fixed;
+        z-index: 11;
+        height: 38px;
+        line-height: 38px;
+        background-color: #fff;
+        border-bottom: 1px solid #e6e6e6;
+        font-family: opensans;
+        font-size: 13px;
+        top:0;
+        box-shadow: 0 0 4px rgba(0,0,0,0.8);
+    }
+    .crosstopBody {
+        max-width:1240px; 
+        margin:0 auto;
+        position: relative;
+    }
+    .crosstop ul.menuRight {
+        display: flex;
+        justify-content: flex-end;
+        float: right;
+    }
+    .crosstop .iconInHeader .user {
+        background-image: url("/uiall-img/whoiswho/userFilled.svg");
+        height: 18px;
+        position: absolute;
+        top: 10px;
+        width: 18px;
+        background-repeat: no-repeat;
+        background-size: contain;
+        cursor: pointer;
+        right: 25px;
+    }
+    .crosstop .iconInHeader:hover .user {
+        background-image:url("/uiall-img/whoiswho/user.svg");
+    }
+    .crosstop ul.menuRight > li {
+        border-bottom: medium none transparent;
+        color: #333;
+        font-size: 1em;
+        height: auto;
+        letter-spacing: 0.3px;
+        padding: 0 10px;
+        line-height: 38px;
+        display: inline;
+    }
+    .crosstop ul.menuRight > li a:hover {
+        border-bottom: 2px solid #333;
+    }
+    #crosstop-enter-form, #crosstopUserInfo {
+        position: absolute;
+        width: 250px;
+        right: 0;
+        background-color: #fff;
+        border: 1px solid #e6e6e6;
+        border-top-width: 0;
+        overflow: hidden;
+        padding: 0;
+        top: 38px;
+        z-index: 99;
+        line-height:1.5;
+    }
+    #crosstop-enter-form > div{
+        padding:10px;
+        overflow:hidden;
+    }
+    #crosstop-enter-form input[type="text"], #crosstop-enter-form input[type="password"] {
+        width: 100%;
+        border: 1px solid #CCC;
+        box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        -webkit-box-sizing: border-box;
+        -ms-box-sizing: border-box;
+        padding: 5px 10px;
+        margin:5px 0;
+        border-radius: 4px;
+        -moz-border-radius: 4px;
+        -webkit-border-radius: 4px;
+        -khtml-border-radius: 4px;
+    }
+    #crosstop-enter-form input[type="submit"]{
+        background: #d32323;
+        color: white;
+        float: left;
+        padding: 10px 15px;
+        border: none;
+    }
+    #crosstop-enter-form input[type="submit"]:hover{
+        background: #FC7573;
+    }
+    #crosstop-enter-form > div > div{
+        float:right;
+    }
+    #crosstop-enter-form > div > div > div > a{
+        font-size: 11px!important;
+        line-height: 1.5;
+    }
+    .crosstop-search {
+        float: left;
+        margin: 6px 0 6px 0;   
+        width: 250px;
+	line-height: 1;
+    }
+    .crosstop-search form {
+        -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        box-sizing: border-box;
+        margin: 0;
+        background: transparent;
+        position: relative;
+        line-height: 16px;
+        color: #000;
+        display: inline-block;
+        width:100%;
+    }
+    .crosstop-search input[type="text"] {
+        font-family: inherit;
+        font-size: 1em;
+        line-height: 18px;
+        display: inline-block;
+        padding: 3px 0 3px 6px;
+        border: 1px solid #ddd;
+        border-radius: 6px;
+        width: 100%;
+        background-color: #fff;
+    }
+    .crosstop-search button {
+        display: inline-block;
+        position: absolute;
+        top: 1px;
+        right: 0;
+        vertical-align: middle;
+        overflow: visible;
+        background: transparent;
+        border: 0 none;
+        margin: 0;
+        padding: 0;
+        cursor: pointer;
+        outline: 0;
+        -webkit-appearance: button;
+    }
+    .crosstop .nav svg { width:24px; height:24px; }
+    .crosstop .nav button, .crosstop .iconInHeader {
+        position: absolute;
+        z-index: 1;
+        overflow: visible;
+        background: transparent;
+        border: 0 none;
+        padding: 0;
+        cursor: pointer;
+        outline: 0;
+        -webkit-appearance: button;
+        height: 38px;
+        width: 50px;
+        margin: 0 0 0 -15px;
+        line-height: 1;
+    }
+    .crosstop .nav .sr-only {
+        position: absolute;
+        width: 1px;
+        height: 1px;
+        margin: -1px;
+        overflow: hidden;
+        padding: 0;
+        border: 0 none;
+        clip: rect(0px,0px,0px,0px);
+    }
+    .crosstop .nav .projects-nav {
+        width: 500px;
+        max-width: 100%;
+        max-height: 100%;
+        position: absolute;
+        top: 38px;
+        left: 0;
+        z-index: 1;
+    }
+    .crosstop .nav ul.menu-row {
+        margin: 0;
+        padding: 14px 10px 4px;
+        border: 1px solid rgba(97,97,97,0.2);
+        overflow: hidden;
+        background-color:#fff;
+    }
+    .crosstop .nav ul.menu-row:first-child {
+        border-bottom: 1px solid #e6e6e6;
+        border-top: none;
+    }
+    .crosstop .nav ul.menu-row:last-child {
+        padding-top: 8px;
+        padding-bottom: 10px;
+        border-top: none;
+    }
+    .crosstop .nav ul.menu-row li {
+        float: left;
+        width: 50%;
+    }
+    .crosstop .nav ul.menu-row a, #crosstopUserInfo ul li {
+        color: #616161;
+        display: block;
+        padding: 4px 0;
+        margin: 0 8px;
+        line-height: 22px;
+    }
+    .crosstop .nav ul.menu-row a:hover {
+        color: #333;
+    }
+    .crosstop .nav-hide {
+        display: none;
+    }
+    .crosstop .av {
+        width: auto;
+        height: 36px;
+        border-radius: 50%;
+        margin: 2px;
+        cursor: pointer;
+    }
+    #crosstopUserInfo {
+        width: auto;
+        padding: 10px;
+    }
+    .crosstop .bold {
+        font-weight: bold;
+    }
+    .crosstop .age {
+    	color: #666!important;
+    }
+@font-face {font-family:"opensans";font-weight: normal;src: url(/uiall-font/fonts/wfo-OpenSans-Regular.woff);font-display: swap;}
+@font-face {font-family:"opensans";font-weight: bold;src: url(/uiall-font/fonts/wfo-OpenSans-Bold.woff);font-display: swap;}
+@font-face {font-family:"opensans";font-style:italic;src: url(/uiall-font/fonts/wfo-OpenSans-Italic.woff);font-display: swap;}
+    @media (max-width: 1500px) {
+        .crosstopBody { width: 100%; }
+        .crosstopBody > div { margin: 0 10px; }
+         
+    }
+    @media (max-width: 1040px) {
+        .hideLink { display: none!important; }
+    }
+    @media (max-width: 740px) {
+        .crosstop-search { width: 130px; }
+    }
+
+</style>
+<div class='crosstop-fixed'><div class='crosstop'>
+<div class='crosstopBody'>
+<div>
+
+
+
+<ul class='menuRight'>
+	<li class='cl age'>16+</li>
+	<li class='hideLink'><a href='//subscribe.akipress.org/?place=crosstop'>Подписка</a></li>
+	<li class='hideLink'><a href='//reklama.akipress.org/'>Реклама</a></li>
+	<li class='hideLink'><a href='//presscenter.akipress.org/?place=crosstop'>Пресс-центр</a></li>
+   
+	<li class='hideLink'><a href='/about/?place=crosstop'>Об издании</a></li>
+	<li class='hideLink'><a href='/contacts/?place=crosstop'>Контакты</a></li>
+	 <li class='l cl'>
+		<button class='iconInHeader openCloseElemBtn'><span class='user'></span></button> 
+		<div id='crosstopAuth' class='openCloseElem nav-hide'>            
+			<form id='crosstop-enter-form' method='POST' action='/yellow.aki/regauth1.php'>
+				<input type='hidden' name='_import_redirect' value='centralasia.media/'>
+				<div>
+					<input type='text' name='_am' placeholder='Email' value=''>
+				 	<input type='password' name='_ap' placeholder='Пароль' value=''>
+					<p style='margin: 5px 0;'><input type='checkbox' name='_ar' >Чужой компьютер</p>
+					<input type='submit' class='crosstop-auth' value='войти'> 
+					<div>
+						<div><a href='account/#forg'>Забыл пароль?</a></div>
+						<div><a href='account/#reg'>Регистрация</a></div>
+					</div>
+					<div style='clear: both'></div>
+				</div>				
+			</form>
+		</div>						
+	</li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+</div>
+                    <div class="ad ad--top"><ins data-revive-zoneid="234" data-revive-id="64c128dda166fb7995676143ecac3c66"></ins></div>
+                                <header class="wrap">
+            <div class="mast">
+                <a class="mast__logo" href="/"><img src="/static/logo.svg" alt="CentralAsia.media" width="399" height="40"></a>
+                <div class="mast__side">
+                    <div class="today"><b>Воскресенье</b>, <time datetime="2026-11-22">22 ноября 2026</time></div>
+                                        <div class="social"><a href="https://x.com/Centrasia" aria-label="X"><svg class="ico ico--fill" viewBox="0 0 24 24" aria-hidden="true"><path d="M17.8 3h3.1l-6.8 7.8 8 10.2h-6.3l-4.9-6.4L5.3 21H2.2l7.3-8.3L1.8 3h6.4l4.4 5.9zM16.7 19.2h1.7L7.4 4.7H5.6z"></path></svg></a><a href="https://www.facebook.com/centralasian" aria-label="Facebook"><svg class="ico ico--fill" viewBox="0 0 24 24" aria-hidden="true"><path d="M13.5 21v-7.7h2.6l.4-3h-3V8.4c0-.9.3-1.5 1.5-1.5h1.6V4.2a21 21 0 0 0-2.3-.1c-2.3 0-3.9 1.4-3.9 4v2.2H7.8v3h2.6V21z"></path></svg></a><a href="https://t.me/centralasiamedia" aria-label="Telegram"><svg class="ico ico--fill" viewBox="0 0 24 24" aria-hidden="true"><path d="M20.7 4.2 2.9 11c-1.2.5-1.2 1.2-.2 1.5l4.6 1.4 1.7 5.4c.2.6.4.8.9.8.4 0 .6-.2.9-.4l2.2-2.1 4.6 3.4c.8.5 1.4.2 1.6-.8l3-14.1c.3-1.3-.5-1.8-1.5-1.3zM8.6 13.6l9.1-5.7c.4-.3.8-.1.5.2l-7.6 6.9-.3 3.3z"></path></svg></a><a href="/rss/" aria-label="RSS"><svg class="ico ico--fill" viewBox="0 0 24 24" aria-hidden="true"><circle cx="5.5" cy="18.5" r="2.2"></circle><path d="M3.3 10.2v3a7.5 7.5 0 0 1 7.5 7.5h3A10.5 10.5 0 0 0 3.3 10.2zm0-6v3a13.5 13.5 0 0 1 13.5 13.5h3A16.5 16.5 0 0 0 3.3 4.2z"></path></svg></a></div>
+                    <form class="search" action="/search/"><label class="vh" for="q-top">Поиск новостей</label><input id="q-top" name="query" type="search" placeholder="Поиск новостей"><button type="submit" aria-label="Найти"><svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><circle cx="10.5" cy="10.5" r="6.5"></circle><path d="M15.5 15.5 21 21"></path></svg></button></form>
+                </div>
+            </div>
+            <nav class="nav" aria-label="Страны">
+                <ul>
+                    <li><a href="/"  aria-current="page">Главная</a></li>
+                    <li><a href="/country:5/" >Азия и мир</a></li>
+                    <li><a href="/country:1/" >Казахстан</a></li>
+                    <li><a href="/country:4/" >Кыргызстан</a></li>
+                    <li><a href="/country:7/" >Монголия</a></li>
+                    <li><a href="/country:2/" >Таджикистан</a></li>
+                    <li><a href="/country:6/" >Туркменистан</a></li>
+                    <li><a href="/country:3/" >Узбекистан</a></li>
+                                    </ul>
+            </nav>
+            <nav class="rubrics" aria-label="Рубрики">
+                <a href="/category:3/" >Политика</a>
+                <a href="/category:2/" >Общество</a>
+                <a href="/category:1/" >Экономика</a>
+                <a href="/category:6/" >Происшествия</a>
+                <a href="/category:8/" >Спорт</a>
+                <a href="/category:16/" >Жизнь в Центральной Азии</a>
+                <a href="/category:11/" >Погода</a>
+                <a href="/category:4/" >Новости компаний</a>
+                <a href="/category:12/" >Анализ и комментарии</a>
+                            </nav>
+        </header>
+        <div class="mhead">
+            <div class="mhead__bar">
+                <button type="button" aria-label="Меню" data-menu-open=""><svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><path d="M4 7h16M4 12h16M4 17h16"></path></svg></button>
+                <a class="mhead__logo" href="/"><img src="/static/logo.svg" alt="CentralAsia.media" width="220" height="22"></a>
+                <a class="mhead__user" href="https://akipress.org/?place=cans-user" aria-label="Вход"><svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="8.5" r="3.8"></circle><path d="M4.5 20a7.5 7.5 0 0 1 15 0"></path></svg></a>
+            </div>
+            <nav class="mnav" aria-label="Страны">
+                <ul class="scroller">
+                    <li><a href="/"  aria-current="page">Главная</a></li>
+                    <li><a href="/country:5/" >Азия и мир</a></li>
+                    <li><a href="/country:1/" >Казахстан</a></li>
+                    <li><a href="/country:4/" >Кыргызстан</a></li>
+                    <li><a href="/country:7/" >Монголия</a></li>
+                    <li><a href="/country:2/" >Таджикистан</a></li>
+                    <li><a href="/country:6/" >Туркменистан</a></li>
+                    <li><a href="/country:3/" >Узбекистан</a></li>
+                                    </ul>
+            </nav>
+            <nav class="mrub" aria-label="Рубрики">
+                <ul class="scroller">
+                    <li><a href="/category:3/" >Политика</a></li>
+                    <li><a href="/category:2/" >Общество</a></li>
+                    <li><a href="/category:1/" >Экономика</a></li>
+                    <li><a href="/category:6/" >Происшествия</a></li>
+                    <li><a href="/category:8/" >Спорт</a></li>
+                    <li><a href="/category:16/" >Жизнь в Центральной Азии</a></li>
+                    <li><a href="/category:11/" >Погода</a></li>
+                    <li><a href="/category:4/" >Новости компаний</a></li>
+                    <li><a href="/category:12/" >Анализ и комментарии</a></li>
+                                    </ul>
+            </nav>
+        </div>
+        <div class="drawer">
+            <div class="drawer__shade"></div>
+            <div class="drawer__panel" role="dialog" aria-label="Меню">
+                <div class="drawer__top"><button type="button" aria-label="Закрыть меню"><svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><path d="M6 6l12 12M18 6 6 18"></path></svg></button><img src="/static/logo.svg" alt="CentralAsia.media" style="height:20px;width:auto"><span style="width:48px"></span></div>
+                <form class="search" action="/search/"><label class="vh" for="q-dr">Поиск</label><input id="q-dr" name="query" type="search" placeholder="Поиск новостей"><button type="submit" aria-label="Найти"><svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><circle cx="10.5" cy="10.5" r="6.5"></circle><path d="M15.5 15.5 21 21"></path></svg></button></form>
+                <div>
+                    <div class="bh">Архив</div><div class="cal"><div class="cal__head"><div class="cal__nav"><a href="/arhivdate:20251101/" aria-label="Предыдущий год"><svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><path d="m12 6-6 6 6 6M18 6l-6 6 6 6"></path></svg></a><a href="/arhivdate:20261001/" aria-label="Предыдущий месяц"><svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><path d="m15 6-6 6 6 6"></path></svg></a></div><b>ноябрь 2026</b><div class="cal__nav"></div></div><table><thead><tr><th scope="col">пн</th><th scope="col">вт</th><th scope="col">ср</th><th scope="col">чт</th><th scope="col">пт</th><th scope="col">сб</th><th scope="col">вс</th></tr></thead><tbody><tr><td><span class="is-out"></span></td><td><span class="is-out"></span></td><td><span class="is-out"></span></td><td><span class="is-out"></span></td><td><span class="is-out"></span></td><td><span class="is-out"></span></td><td><a href="/arhivdate:20261101/">1</a></td></tr><tr><td><a href="/arhivdate:20261102/">2</a></td><td><a href="/arhivdate:20261103/">3</a></td><td><a href="/arhivdate:20261104/">4</a></td><td><a href="/arhivdate:20261105/">5</a></td><td><a href="/arhivdate:20261106/">6</a></td><td><a href="/arhivdate:20261107/">7</a></td><td><a href="/arhivdate:20261108/">8</a></td></tr><tr><td><a href="/arhivdate:20261109/">9</a></td><td><a href="/arhivdate:20261110/">10</a></td><td><a href="/arhivdate:20261111/">11</a></td><td><a href="/arhivdate:20261112/">12</a></td><td><a href="/arhivdate:20261113/">13</a></td><td><a href="/arhivdate:20261114/">14</a></td><td><a href="/arhivdate:20261115/">15</a></td></tr><tr><td><a href="/arhivdate:20261116/">16</a></td><td><a href="/arhivdate:20261117/">17</a></td><td><a href="/arhivdate:20261118/">18</a></td><td><a href="/arhivdate:20261119/">19</a></td><td><a href="/arhivdate:20261120/">20</a></td><td><a href="/arhivdate:20261121/">21</a></td><td><a href="/arhivdate:20261122/" class="is-today">22</a></td></tr><tr><td><span>23</span></td><td><span>24</span></td><td><span>25</span></td><td><span>26</span></td><td><span>27</span></td><td><span>28</span></td><td><span>29</span></td></tr><tr><td><span>30</span></td><td><span class="is-out"></span></td><td><span class="is-out"></span></td><td><span class="is-out"></span></td><td><span class="is-out"></span></td><td><span class="is-out"></span></td><td><span class="is-out"></span></td></tr></tbody></table></div>                </div>
+                <div>
+                    <div class="bh">Мы в соцсетях</div>
+                    <div class="social"><a href="https://x.com/Centrasia" aria-label="X"><svg class="ico ico--fill" viewBox="0 0 24 24" aria-hidden="true"><path d="M17.8 3h3.1l-6.8 7.8 8 10.2h-6.3l-4.9-6.4L5.3 21H2.2l7.3-8.3L1.8 3h6.4l4.4 5.9zM16.7 19.2h1.7L7.4 4.7H5.6z"></path></svg></a><a href="https://www.facebook.com/centralasian" aria-label="Facebook"><svg class="ico ico--fill" viewBox="0 0 24 24" aria-hidden="true"><path d="M13.5 21v-7.7h2.6l.4-3h-3V8.4c0-.9.3-1.5 1.5-1.5h1.6V4.2a21 21 0 0 0-2.3-.1c-2.3 0-3.9 1.4-3.9 4v2.2H7.8v3h2.6V21z"></path></svg></a><a href="https://t.me/centralasiamedia" aria-label="Telegram"><svg class="ico ico--fill" viewBox="0 0 24 24" aria-hidden="true"><path d="M20.7 4.2 2.9 11c-1.2.5-1.2 1.2-.2 1.5l4.6 1.4 1.7 5.4c.2.6.4.8.9.8.4 0 .6-.2.9-.4l2.2-2.1 4.6 3.4c.8.5 1.4.2 1.6-.8l3-14.1c.3-1.3-.5-1.8-1.5-1.3zM8.6 13.6l9.1-5.7c.4-.3.8-.1.5.2l-7.6 6.9-.3 3.3z"></path></svg></a><a href="/rss/" aria-label="RSS"><svg class="ico ico--fill" viewBox="0 0 24 24" aria-hidden="true"><circle cx="5.5" cy="18.5" r="2.2"></circle><path d="M3.3 10.2v3a7.5 7.5 0 0 1 7.5 7.5h3A10.5 10.5 0 0 0 3.3 10.2zm0-6v3a13.5 13.5 0 0 1 13.5 13.5h3A16.5 16.5 0 0 0 3.3 4.2z"></path></svg></a></div>
+                </div>
+                <nav class="drawer__links"><a href="/about/">О нас</a><a href="/contacts/">Контакты</a><a href="https://reklama.akipress.org/">Реклама</a><a href="/rss/">RSS</a></nav>
+            </div>
+        </div>
+        <div class="layout wrap"><main class="main"><section class="tops" aria-label="Главные новости"><article class="top is-on"><a class="top__img ph" href="/news:2571316/" aria-label="Фото"><img src="//cdn-1.aki.kg/cdn-st-0/qiV/L/E/4587413.b75b6ca6c30e8841c9d57f33fe35b23d.500.jpg" alt="" loading="eager"></a><h2 class="top__title"><span class="cc">UZ:</span><a href="/news:2571316/">В Узбекистане застройщиков обяжут использовать местные стройматериалы в госстройках</a></h2><time>вчера, 14:19</time></article><article class="top"><a class="top__img ph ph--2" href="/news:2571283/" aria-label="Фото"><img src="//cdn-1.aki.kg/cdn-st-0/qiV/L/D/4587359.4d17e433e3517b332272ecdaed89d785.500.jpg" alt="" loading="lazy"></a><h2 class="top__title"><span class="cc">CA:</span><a href="/news:2571283/">В 25 странах Европы прошли молодежные протесты</a></h2><time>вчера, 13:30</time></article><article class="top"><a class="top__img ph ph--3" href="/news:2571277/" aria-label="Фото"><img src="//cdn-1.aki.kg/cdn-st-0/qdN/M/2019858.5caa975577a50fd8d06653bedf8ffa9a.500.jpg" alt="" loading="lazy"></a><h2 class="top__title"><span class="cc">TJ:</span><a href="/news:2571277/">Starlink возобновил подключение новых абонентов в Таджикистане</a></h2><time>вчера, 13:03</time></article></section><div class="dots" aria-hidden="true"><i class="is-on"></i><i></i><i></i></div><section class="day"><h2 class="bh">Сегодня<span>воскресенье, 22 ноября</span></h2><ul class="feed"><li class="row"><a class="row__th ph" href="/news:2571371/" tabindex="-1" aria-hidden="true"><img src="//cdn-1.aki.kg/cdn-st-0/qiV/L/H/4587487.246e46c712d252f0fd10118b0eaa8a33.250.jpg" alt="" loading="lazy"></a><div class="row__b"><div class="row__m"><time datetime="2026-11-22T03:51:42+06:00">03:51</time><span class="views" title="Просмотры"><svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><path d="M2 12s3.6-6.5 10-6.5S22 12 22 12s-3.6 6.5-10 6.5S2 12 2 12z"></path><circle cx="12" cy="12" r="2.8"></circle></svg>603</span></div><a class="row__t" href="/news:2571371/">Космический аппарат долетел до Меркурия — после восьми лет путешествия в космосе он выйдет на орбиту этой загадочной планеты</a></div></li></ul></section><section class="day"><h2 class="bh">Вчера<span>суббота, 21 ноября</span><a class="more" href="/arhivdate:20261121/">Все новости дня</a></h2><ul class="feed"><li class="row"><a class="row__th ph" href="/art:57937/" tabindex="-1" aria-hidden="true"><img src="//cdn-1.aki.kg/cdn-st-0/qiV/L/I/09bca7e223bf112c21cbd73bc9bf7015.250.jpg" alt="" loading="lazy"></a><div class="row__b"><div class="row__m"><time datetime="2026-11-21T21:22:17+06:00">21:22</time><span class="views" title="Просмотры"><svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><path d="M2 12s3.6-6.5 10-6.5S22 12 22 12s-3.6 6.5-10 6.5S2 12 2 12z"></path><circle cx="12" cy="12" r="2.8"></circle></svg>467</span></div><a class="row__t" href="/art:57937/">В Астане стартовал финал Евразийской лиги Кубка мира FEI</a></div></li><li class="row"><a class="row__th ph" href="/art:57913/" tabindex="-1" aria-hidden="true"><img src="//cdn-1.aki.kg/cdn-st-0/qiV/L/I/56f25b9102577de3a0fb8b6b1f244c54.250.jpg" alt="" loading="lazy"></a><div class="row__b"><div class="row__m"><time datetime="2026-11-21T21:09:00+06:00">21:09</time><span class="views" title="Просмотры"><svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><path d="M2 12s3.6-6.5 10-6.5S22 12 22 12s-3.6 6.5-10 6.5S2 12 2 12z"></path><circle cx="12" cy="12" r="2.8"></circle></svg>479</span></div><a class="row__t" href="/art:57913/">В Актюбинской области впервые имплантировали нейростимулятор пациенту с эпилепсией</a></div></li><li class="row"><a class="row__th ph" href="/art:57905/" tabindex="-1" aria-hidden="true"><img src="//cdn-1.aki.kg/cdn-st-0/qiV/L/I/333111e6f413cb8c2950e76b6ab37302.250.jpg" alt="" loading="lazy"></a><div class="row__b"><div class="row__m"><time datetime="2026-11-21T18:36:09+06:00">18:36</time><span class="views" title="Просмотры"><svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><path d="M2 12s3.6-6.5 10-6.5S22 12 22 12s-3.6 6.5-10 6.5S2 12 2 12z"></path><circle cx="12" cy="12" r="2.8"></circle></svg>624</span></div><a class="row__t" href="/art:57905/">Парламент Монголии освободил президента Хүрэлсүха Ухнаа от должности</a></div></li><li class="row"><a class="row__th ph" href="/art:57901/" tabindex="-1" aria-hidden="true"><img src="//cdn-1.aki.kg/cdn-st-0/qiV/L/I/16283cfd0080c32126a26443296411a1.250.jpg" alt="" loading="lazy"></a><div class="row__b"><div class="row__m"><time datetime="2026-11-21T18:31:26+06:00">18:31</time><span class="views" title="Просмотры"><svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><path d="M2 12s3.6-6.5 10-6.5S22 12 22 12s-3.6 6.5-10 6.5S2 12 2 12z"></path><circle cx="12" cy="12" r="2.8"></circle></svg>588</span></div><a class="row__t" href="/art:57901/">Сборная Узбекистана завоевала медаль на молодежном чемпионате мира по дзюдо</a></div></li><li class="row"><a class="row__th ph" href="/art:57897/" tabindex="-1" aria-hidden="true"><img src="//cdn-1.aki.kg/cdn-st-0/qiV/L/I/55a615c539d44bfbcc9aab8ca49e0fe5.250.jpg" alt="" loading="lazy"></a><div class="row__b"><div class="row__m"><time datetime="2026-11-21T18:28:03+06:00">18:28</time><span class="views" title="Просмотры"><svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><path d="M2 12s3.6-6.5 10-6.5S22 12 22 12s-3.6 6.5-10 6.5S2 12 2 12z"></path><circle cx="12" cy="12" r="2.8"></circle></svg>553</span></div><a class="row__t" href="/art:57897/">Миршохид Тиллабоев избран вице-президентом World Boxing</a></div></li><li class="row"><a class="row__th ph" href="/news:2570663/" tabindex="-1" aria-hidden="true"><img src="//cdn-1.aki.kg/cdn-st-0/qiV/K/9/2192179.7abacef2cef583afe6e33a5d65b82c01.250.jpg" alt="" loading="lazy"></a><div class="row__b"><div class="row__m"><time datetime="2026-11-21T18:14:07+06:00">18:14</time><span class="views" title="Просмотры"><svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><path d="M2 12s3.6-6.5 10-6.5S22 12 22 12s-3.6 6.5-10 6.5S2 12 2 12z"></path><circle cx="12" cy="12" r="2.8"></circle></svg>12720</span></div><a class="row__t" href="/news:2570663/"><svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><path d="M3 8.5A1.5 1.5 0 0 1 4.5 7h2.8l1.5-2h6.4l1.5 2h2.8A1.5 1.5 0 0 1 21 8.5v9a1.5 1.5 0 0 1-1.5 1.5h-15A1.5 1.5 0 0 1 3 17.5z"></path><circle cx="12" cy="13" r="3.5"></circle></svg>Тигры возвращаются в Центральную Азию: появятся ли они в Кыргызстане?</a></div></li><li class="row"><a class="row__th ph" href="/art:57865/" tabindex="-1" aria-hidden="true"><img src="//cdn-1.aki.kg/cdn-st-0/qiV/L/E/a94c130ff3abeb92e3acc99d80595c74.250.jpg" alt="" loading="lazy"></a><div class="row__b"><div class="row__m"><time datetime="2026-11-21T18:01:01+06:00">18:01</time><span class="views" title="Просмотры"><svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><path d="M2 12s3.6-6.5 10-6.5S22 12 22 12s-3.6 6.5-10 6.5S2 12 2 12z"></path><circle cx="12" cy="12" r="2.8"></circle></svg>540</span></div><a class="row__t" href="/art:57865/">Меджлису Туркменистана предоставили статус наблюдателя в МПА СНГ</a></div></li><li class="row"><a class="row__th ph" href="/art:57861/" tabindex="-1" aria-hidden="true"><img src="//cdn-1.aki.kg/cdn-st-0/qiV/L/E/1ce4273870a516926ff273c079bc18ac.250.jpg" alt="" loading="lazy"></a><div class="row__b"><div class="row__m"><time datetime="2026-11-21T17:56:22+06:00">17:56</time><span class="views" title="Просмотры"><svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><path d="M2 12s3.6-6.5 10-6.5S22 12 22 12s-3.6 6.5-10 6.5S2 12 2 12z"></path><circle cx="12" cy="12" r="2.8"></circle></svg>521</span></div><a class="row__t" href="/art:57861/">ЮНИСЕФ сообщил о пилотных группах поддержки родителей</a></div></li><li class="row"><a class="row__th ph" href="/news:2571367/" tabindex="-1" aria-hidden="true"><img src="//cdn-1.aki.kg/cdn-st-0/qiI/L/F/3901589.20535cffa4b6ee635856c76d5bb47bb3.250.jpg" alt="" loading="lazy"></a><div class="row__b"><div class="row__m"><time datetime="2026-11-21T17:51:29+06:00">17:51</time><span class="views" title="Просмотры"><svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><path d="M2 12s3.6-6.5 10-6.5S22 12 22 12s-3.6 6.5-10 6.5S2 12 2 12z"></path><circle cx="12" cy="12" r="2.8"></circle></svg>642</span></div><a class="row__t" href="/news:2571367/">Биткоин упал до минимума за два года</a></div></li><li class="row"><a class="row__th ph" href="/news:2571363/" tabindex="-1" aria-hidden="true"><img src="//cdn-1.aki.kg/cdn-st-0/qiV/L/H/4587484.8ac1007ccb1bc74f6274e69b9212be14.250.jpg" alt="" loading="lazy"></a><div class="row__b"><div class="row__m"><time datetime="2026-11-21T17:45:36+06:00">17:45</time><span class="views" title="Просмотры"><svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><path d="M2 12s3.6-6.5 10-6.5S22 12 22 12s-3.6 6.5-10 6.5S2 12 2 12z"></path><circle cx="12" cy="12" r="2.8"></circle></svg>650</span></div><a class="row__t" href="/news:2571363/">В Белом доме США сменили главу управления по кибербезопасности после масштабных сбоев</a></div></li><li class="row"><a class="row__th ph" href="/news:2571320/" tabindex="-1" aria-hidden="true"><img src="//cdn-1.aki.kg/cdn-st-0/qgW/A/3345267.5b89a53c1b5e0fc8c71b829eb0a3ae04.250.jpg" alt="" loading="lazy"></a><div class="row__b"><div class="row__m"><time datetime="2026-11-21T14:34:34+06:00">14:34</time><span class="views" title="Просмотры"><svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><path d="M2 12s3.6-6.5 10-6.5S22 12 22 12s-3.6 6.5-10 6.5S2 12 2 12z"></path><circle cx="12" cy="12" r="2.8"></circle></svg>711</span></div><a class="row__t" href="/news:2571320/">В Астане увеличили число коек из-за роста заболеваемости ОРВИ и гриппом</a></div></li><li class="row"><a class="row__th ph" href="/news:2571316/" tabindex="-1" aria-hidden="true"><img src="//cdn-1.aki.kg/cdn-st-0/qiV/L/E/4587413.b75b6ca6c30e8841c9d57f33fe35b23d.250.jpg" alt="" loading="lazy"></a><div class="row__b"><div class="row__m"><time datetime="2026-11-21T14:19:49+06:00">14:19</time><span class="views" title="Просмотры"><svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><path d="M2 12s3.6-6.5 10-6.5S22 12 22 12s-3.6 6.5-10 6.5S2 12 2 12z"></path><circle cx="12" cy="12" r="2.8"></circle></svg>1279</span></div><a class="row__t" href="/news:2571316/">В Узбекистане застройщиков обяжут использовать местные стройматериалы в госстройках</a></div></li><li class="row"><a class="row__th ph" href="/news:2571265/" tabindex="-1" aria-hidden="true"><img src="//cdn-1.aki.kg/cdn-st-0/qiV/L/D/4587363.e97a36c4e9b0a103dac331f82feb3114.250.jpg" alt="" loading="lazy"></a><div class="row__b"><div class="row__m"><time datetime="2026-11-21T13:31:36+06:00">13:31</time><span class="views" title="Просмотры"><svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><path d="M2 12s3.6-6.5 10-6.5S22 12 22 12s-3.6 6.5-10 6.5S2 12 2 12z"></path><circle cx="12" cy="12" r="2.8"></circle></svg>1953</span></div><a class="row__t" href="/news:2571265/">$3,79 млрд за первый день: GTA VI установила рекорд в истории видеоигр</a></div></li><li class="row"><a class="row__th ph" href="/news:2571283/" tabindex="-1" aria-hidden="true"><img src="//cdn-1.aki.kg/cdn-st-0/qiV/L/D/4587359.4d17e433e3517b332272ecdaed89d785.250.jpg" alt="" loading="lazy"></a><div class="row__b"><div class="row__m"><time datetime="2026-11-21T13:30:11+06:00">13:30</time><span class="views" title="Просмотры"><svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><path d="M2 12s3.6-6.5 10-6.5S22 12 22 12s-3.6 6.5-10 6.5S2 12 2 12z"></path><circle cx="12" cy="12" r="2.8"></circle></svg>2213</span></div><a class="row__t" href="/news:2571283/">В 25 странах Европы прошли молодежные протесты</a></div></li><li class="row"><a class="row__th ph" href="/news:2571277/" tabindex="-1" aria-hidden="true"><img src="//cdn-1.aki.kg/cdn-st-0/qdN/M/2019858.5caa975577a50fd8d06653bedf8ffa9a.250.jpg" alt="" loading="lazy"></a><div class="row__b"><div class="row__m"><time datetime="2026-11-21T13:03:11+06:00">13:03</time><span class="views" title="Просмотры"><svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><path d="M2 12s3.6-6.5 10-6.5S22 12 22 12s-3.6 6.5-10 6.5S2 12 2 12z"></path><circle cx="12" cy="12" r="2.8"></circle></svg>862</span></div><a class="row__t" href="/news:2571277/">Starlink возобновил подключение новых абонентов в Таджикистане</a></div></li><li class="row"><a class="row__th ph" href="/news:2571244/" tabindex="-1" aria-hidden="true"><img src="//cdn-1.aki.kg/cdn-st-0/qgK/J/3186100.8c2dd909483cac425946c1e5f4c61eb3.250.jpg" alt="" loading="lazy"></a><div class="row__b"><div class="row__m"><time datetime="2026-11-21T12:16:28+06:00">12:16</time><span class="views" title="Просмотры"><svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><path d="M2 12s3.6-6.5 10-6.5S22 12 22 12s-3.6 6.5-10 6.5S2 12 2 12z"></path><circle cx="12" cy="12" r="2.8"></circle></svg>2423</span></div><a class="row__t" href="/news:2571244/">В администрации Трампа хотят, чтобы Россия и Украина заключили мирное соглашение к началу января, - Financial Times</a></div></li><li class="row"><a class="row__th ph" href="/news:2571239/" tabindex="-1" aria-hidden="true"><img src="//cdn-1.aki.kg/cdn-st-0/qiV/L/C/4587144.c3862c4dfd227e0c1e780394166dc19d.250.jpg" alt="" loading="lazy"></a><div class="row__b"><div class="row__m"><time datetime="2026-11-21T12:01:25+06:00">12:01</time><span class="views" title="Просмотры"><svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><path d="M2 12s3.6-6.5 10-6.5S22 12 22 12s-3.6 6.5-10 6.5S2 12 2 12z"></path><circle cx="12" cy="12" r="2.8"></circle></svg>4899</span></div><a class="row__t" href="/news:2571239/">Путин и Рахмон обсудили трудовую миграцию и работу 201-й российской базы в Таджикистане</a></div></li><li class="row"><a class="row__th ph" href="/news:2571231/" tabindex="-1" aria-hidden="true"><img src="//cdn-1.aki.kg/cdn-st-0/qiV/L/B/4587136.a3550b9885d1916f0ce6581aabab9fd8.250.jpg" alt="" loading="lazy"></a><div class="row__b"><div class="row__m"><time datetime="2026-11-21T11:56:53+06:00">11:56</time><span class="views" title="Просмотры"><svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><path d="M2 12s3.6-6.5 10-6.5S22 12 22 12s-3.6 6.5-10 6.5S2 12 2 12z"></path><circle cx="12" cy="12" r="2.8"></circle></svg>1016</span></div><a class="row__t" href="/news:2571231/">Казахстан впервые вошел в топ-20 рейтинга ООН по электронному правительству</a></div></li><li class="row"><a class="row__th ph" href="/news:2571211/" tabindex="-1" aria-hidden="true"><img src="//cdn-1.aki.kg/cdn-st-0/qiV/L/A/4586953.016a76b9ee5208a3cde6dfa8cb0d5c49.250.jpg" alt="" loading="lazy"></a><div class="row__b"><div class="row__m"><time datetime="2026-11-21T10:19:42+06:00">10:19</time><span class="views" title="Просмотры"><svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><path d="M2 12s3.6-6.5 10-6.5S22 12 22 12s-3.6 6.5-10 6.5S2 12 2 12z"></path><circle cx="12" cy="12" r="2.8"></circle></svg>2658</span></div><a class="row__t" href="/news:2571211/">Клуб «Osceola Magic» выступил с официальным заявлением</a></div></li><li class="row"><a class="row__th ph" href="/news:2571208/" tabindex="-1" aria-hidden="true"><img src="//cdn-1.aki.kg/cdn-st-0/qiV/L/A/4586952.63bd316840ae0f17374b98c9ce4fe092.250.jpg" alt="" loading="lazy"></a><div class="row__b"><div class="row__m"><time datetime="2026-11-21T10:13:07+06:00">10:13</time><span class="views" title="Просмотры"><svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><path d="M2 12s3.6-6.5 10-6.5S22 12 22 12s-3.6 6.5-10 6.5S2 12 2 12z"></path><circle cx="12" cy="12" r="2.8"></circle></svg>5733</span></div><a class="row__t" href="/news:2571208/">Россия нанесла удар по Кривому Рогу, есть погибшие и пострадавшие</a></div></li><li class="row"><a class="row__th ph" href="/art:57733/" tabindex="-1" aria-hidden="true"><img src="//cdn-1.aki.kg/cdn-st-0/qiV/K/M/b8946475a35aa810923b97b0b2262017.250.jpg" alt="" loading="lazy"></a><div class="row__b"><div class="row__m"><time datetime="2026-11-21T04:04:40+06:00">04:04</time><span class="views" title="Просмотры"><svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><path d="M2 12s3.6-6.5 10-6.5S22 12 22 12s-3.6 6.5-10 6.5S2 12 2 12z"></path><circle cx="12" cy="12" r="2.8"></circle></svg>853</span></div><a class="row__t" href="/art:57733/">Изменения в правилах открыли возможность повторной приватизации жилья</a></div></li><li class="row"><a class="row__th ph" href="/art:57697/" tabindex="-1" aria-hidden="true"><img src="//cdn-1.aki.kg/cdn-st-0/qiV/K/M/21da423584b9012ed68e2007676caf3d.250.jpg" alt="" loading="lazy"></a><div class="row__b"><div class="row__m"><time datetime="2026-11-21T03:47:06+06:00">03:47</time><span class="views" title="Просмотры"><svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><path d="M2 12s3.6-6.5 10-6.5S22 12 22 12s-3.6 6.5-10 6.5S2 12 2 12z"></path><circle cx="12" cy="12" r="2.8"></circle></svg>850</span></div><a class="row__t" href="/art:57697/">Акикат Исатай завоевал бронзу чемпионата мира по тогызкумалаку</a></div></li><li class="row"><a class="row__th ph" href="/art:57689/" tabindex="-1" aria-hidden="true"><img src="//cdn-1.aki.kg/cdn-st-0/qiV/K/M/c1a71b2768a076040273e94bf915f341.250.jpg" alt="" loading="lazy"></a><div class="row__b"><div class="row__m"><time datetime="2026-11-21T03:41:29+06:00">03:41</time><span class="views" title="Просмотры"><svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><path d="M2 12s3.6-6.5 10-6.5S22 12 22 12s-3.6 6.5-10 6.5S2 12 2 12z"></path><circle cx="12" cy="12" r="2.8"></circle></svg>831</span></div><a class="row__t" href="/art:57689/">В Шымкенте запустили пилот по приостановлению статуса кандаса</a></div></li><li class="row"><a class="row__th ph" href="/art:57685/" tabindex="-1" aria-hidden="true"><img src="//cdn-1.aki.kg/cdn-st-0/qiV/K/M/a4aa6720754d5aff0a572d04838cc3de.250.jpg" alt="" loading="lazy"></a><div class="row__b"><div class="row__m"><time datetime="2026-11-21T03:35:33+06:00">03:35</time><span class="views" title="Просмотры"><svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><path d="M2 12s3.6-6.5 10-6.5S22 12 22 12s-3.6 6.5-10 6.5S2 12 2 12z"></path><circle cx="12" cy="12" r="2.8"></circle></svg>847</span></div><a class="row__t" href="/art:57685/">В селе Бактыбай ввели в эксплуатацию культурно-спортивный центр</a></div></li><li class="row"><a class="row__th ph" href="/art:57677/" tabindex="-1" aria-hidden="true"><img src="//cdn-1.aki.kg/cdn-st-0/qiV/K/M/15e0c399c3f21b2e8b5eeddb5838efcb.250.jpg" alt="" loading="lazy"></a><div class="row__b"><div class="row__m"><time datetime="2026-11-21T03:25:24+06:00">03:25</time><span class="views" title="Просмотры"><svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><path d="M2 12s3.6-6.5 10-6.5S22 12 22 12s-3.6 6.5-10 6.5S2 12 2 12z"></path><circle cx="12" cy="12" r="2.8"></circle></svg>796</span></div><a class="row__t" href="/art:57677/">В Шиелийском районе разрабатывают проект газопровода с АГРС</a></div></li><li class="row"><a class="row__th ph" href="/art:57665/" tabindex="-1" aria-hidden="true"><img src="//cdn-1.aki.kg/cdn-st-0/qiV/K/M/d073a52203d86724216951ac4076e71b.250.jpg" alt="" loading="lazy"></a><div class="row__b"><div class="row__m"><time datetime="2026-11-21T03:23:01+06:00">03:23</time><span class="views" title="Просмотры"><svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><path d="M2 12s3.6-6.5 10-6.5S22 12 22 12s-3.6 6.5-10 6.5S2 12 2 12z"></path><circle cx="12" cy="12" r="2.8"></circle></svg>760</span></div><a class="row__t" href="/art:57665/">Школа Туркестанской области завоевала 361 медаль в 2026 году</a></div></li><li class="row"><a class="row__th ph" href="/art:57661/" tabindex="-1" aria-hidden="true"><img src="//cdn-1.aki.kg/cdn-st-0/qiV/K/M/b0d044d82dee62804c4bad42d6fcbd8e.250.jpg" alt="" loading="lazy"></a><div class="row__b"><div class="row__m"><time datetime="2026-11-21T03:18:21+06:00">03:18</time><span class="views" title="Просмотры"><svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><path d="M2 12s3.6-6.5 10-6.5S22 12 22 12s-3.6 6.5-10 6.5S2 12 2 12z"></path><circle cx="12" cy="12" r="2.8"></circle></svg>765</span></div><a class="row__t" href="/art:57661/">Актер из области Ұлытау получил приз театрального фестиваля</a></div></li><li class="row"><a class="row__th ph" href="/art:57657/" tabindex="-1" aria-hidden="true"><img src="//cdn-1.aki.kg/cdn-st-0/qiV/K/M/9712926ddac24d02e01d0a50bbe8635a.250.jpg" alt="" loading="lazy"></a><div class="row__b"><div class="row__m"><time datetime="2026-11-21T03:12:29+06:00">03:12</time><span class="views" title="Просмотры"><svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><path d="M2 12s3.6-6.5 10-6.5S22 12 22 12s-3.6 6.5-10 6.5S2 12 2 12z"></path><circle cx="12" cy="12" r="2.8"></circle></svg>803</span></div><a class="row__t" href="/art:57657/">Военнослужащие Национальной гвардии приступили к охране порядка в Жезказгане</a></div></li><li class="row"><a class="row__th ph" href="/art:57641/" tabindex="-1" aria-hidden="true"><img src="//cdn-1.aki.kg/cdn-st-0/qiV/K/M/fb1578d49ea94207726b5a10524f5d0d.250.jpg" alt="" loading="lazy"></a><div class="row__b"><div class="row__m"><time datetime="2026-11-21T03:04:20+06:00">03:04</time><span class="views" title="Просмотры"><svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><path d="M2 12s3.6-6.5 10-6.5S22 12 22 12s-3.6 6.5-10 6.5S2 12 2 12z"></path><circle cx="12" cy="12" r="2.8"></circle></svg>770</span></div><a class="row__t" href="/art:57641/">Национальные библиотеки Астаны и Алматы продлили работу до полуночи</a></div></li><li class="row"><a class="row__th ph" href="/art:57629/" tabindex="-1" aria-hidden="true"><img src="//cdn-1.aki.kg/cdn-st-0/qiV/K/M/1a9c99e2987e84675109f128dac3777e.250.jpg" alt="" loading="lazy"></a><div class="row__b"><div class="row__m"><time datetime="2026-11-21T02:49:21+06:00">02:49</time><span class="views" title="Просмотры"><svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><path d="M2 12s3.6-6.5 10-6.5S22 12 22 12s-3.6 6.5-10 6.5S2 12 2 12z"></path><circle cx="12" cy="12" r="2.8"></circle></svg>782</span></div><a class="row__t" href="/art:57629/">В дошкольных организациях создано 234 тыс. новых мест</a></div></li><li class="row"><a class="row__th ph" href="/art:57625/" tabindex="-1" aria-hidden="true"><img src="//cdn-1.aki.kg/cdn-st-0/qiV/K/M/07c51abb921f8c544614792505ae049a.250.jpg" alt="" loading="lazy"></a><div class="row__b"><div class="row__m"><time datetime="2026-11-21T02:47:37+06:00">02:47</time><span class="views" title="Просмотры"><svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><path d="M2 12s3.6-6.5 10-6.5S22 12 22 12s-3.6 6.5-10 6.5S2 12 2 12z"></path><circle cx="12" cy="12" r="2.8"></circle></svg>741</span></div><a class="row__t" href="/art:57625/">В Казахстане строится 101 школа на 59,3 тыс. мест</a></div></li><li class="row"><a class="row__th ph" href="/art:57621/" tabindex="-1" aria-hidden="true"><img src="//cdn-1.aki.kg/cdn-st-0/qiV/K/M/24d31075ce9aa9af17e03553b70b9042.250.jpg" alt="" loading="lazy"></a><div class="row__b"><div class="row__m"><time datetime="2026-11-21T02:45:30+06:00">02:45</time><span class="views" title="Просмотры"><svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><path d="M2 12s3.6-6.5 10-6.5S22 12 22 12s-3.6 6.5-10 6.5S2 12 2 12z"></path><circle cx="12" cy="12" r="2.8"></circle></svg>779</span></div><a class="row__t" href="/art:57621/">В Казахстане за семь лет построили 1 342 школы</a></div></li><li class="row"><a class="row__th ph" href="/art:57617/" tabindex="-1" aria-hidden="true"><img src="//cdn-1.aki.kg/cdn-st-0/qiV/K/M/f99a12eb53efc667f02b2b3da1b78505.250.jpg" alt="" loading="lazy"></a><div class="row__b"><div class="row__m"><time datetime="2026-11-21T02:43:26+06:00">02:43</time><span class="views" title="Просмотры"><svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><path d="M2 12s3.6-6.5 10-6.5S22 12 22 12s-3.6 6.5-10 6.5S2 12 2 12z"></path><circle cx="12" cy="12" r="2.8"></circle></svg>682</span></div><a class="row__t" href="/art:57617/">Алматинский колледж внедряет платформу AUTO.AI для автомехаников</a></div></li><li class="row"><a class="row__th ph" href="/art:57589/" tabindex="-1" aria-hidden="true"><img src="//cdn-1.aki.kg/cdn-st-0/qiV/K/M/fa026fb973c5491420eb53af3ccf141c.250.jpg" alt="" loading="lazy"></a><div class="row__b"><div class="row__m"><time datetime="2026-11-21T02:22:06+06:00">02:22</time><span class="views" title="Просмотры"><svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><path d="M2 12s3.6-6.5 10-6.5S22 12 22 12s-3.6 6.5-10 6.5S2 12 2 12z"></path><circle cx="12" cy="12" r="2.8"></circle></svg>681</span></div><a class="row__t" href="/art:57589/">В Дмитриевке к природному газу подключили 57 домовладений</a></div></li><li class="row"><a class="row__th ph" href="/art:57585/" tabindex="-1" aria-hidden="true"><img src="//cdn-1.aki.kg/cdn-st-0/qiV/K/M/4a1516b37caa59e80c2da93af71fab33.250.jpg" alt="" loading="lazy"></a><div class="row__b"><div class="row__m"><time datetime="2026-11-21T02:16:22+06:00">02:16</time><span class="views" title="Просмотры"><svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><path d="M2 12s3.6-6.5 10-6.5S22 12 22 12s-3.6 6.5-10 6.5S2 12 2 12z"></path><circle cx="12" cy="12" r="2.8"></circle></svg>691</span></div><a class="row__t" href="/art:57585/">В Южной Корее выявили первый с 2016 года случай холеры</a></div></li><li class="row"><a class="row__th ph" href="/art:57553/" tabindex="-1" aria-hidden="true"><img src="//cdn-1.aki.kg/cdn-st-0/qiV/K/M/6ad10a7c87784c7a90e69df047b935f1.250.jpg" alt="" loading="lazy"></a><div class="row__b"><div class="row__m"><time datetime="2026-11-21T01:51:08+06:00">01:51</time><span class="views" title="Просмотры"><svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><path d="M2 12s3.6-6.5 10-6.5S22 12 22 12s-3.6 6.5-10 6.5S2 12 2 12z"></path><circle cx="12" cy="12" r="2.8"></circle></svg>674</span></div><a class="row__t" href="/art:57553/">Казахстан и Австрия подписали протокол межправительственной комиссии</a></div></li><li class="row"><a class="row__th ph" href="/art:57873/" tabindex="-1" aria-hidden="true"><img src="//cdn-1.aki.kg/cdn-st-0/qiV/L/E/7209e1e534c50b9ff59cf2829466f25d.250.jpg" alt="" loading="lazy"></a><div class="row__b"><div class="row__m"><time datetime="2026-11-21T00:43:26+06:00">00:43</time><span class="views" title="Просмотры"><svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><path d="M2 12s3.6-6.5 10-6.5S22 12 22 12s-3.6 6.5-10 6.5S2 12 2 12z"></path><circle cx="12" cy="12" r="2.8"></circle></svg>407</span></div><a class="row__t" href="/art:57873/">Меджлис Туркменистана получил статус наблюдателя при МПА СНГ</a></div></li><li class="row row--np"><div class="row__b"><div class="row__m"><time datetime="2026-11-21T00:39:54+06:00">00:39</time><span class="views" title="Просмотры"><svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><path d="M2 12s3.6-6.5 10-6.5S22 12 22 12s-3.6 6.5-10 6.5S2 12 2 12z"></path><circle cx="12" cy="12" r="2.8"></circle></svg>355</span></div><a class="row__t" href="/art:57941/">Генассамблея ООН приняла резолюцию о сотрудничестве с СНГ</a></div></li><li class="row"><a class="row__th ph" href="/art:57877/" tabindex="-1" aria-hidden="true"><img src="//cdn-1.aki.kg/cdn-st-0/qiV/L/E/b0b4b65e37600f9a16ce423a992ba830.250.jpg" alt="" loading="lazy"></a><div class="row__b"><div class="row__m"><time datetime="2026-11-21T00:36:21+06:00">00:36</time><span class="views" title="Просмотры"><svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><path d="M2 12s3.6-6.5 10-6.5S22 12 22 12s-3.6 6.5-10 6.5S2 12 2 12z"></path><circle cx="12" cy="12" r="2.8"></circle></svg>431</span></div><a class="row__t" href="/art:57877/">Казахстан занял пятое место на выборах в Совет ИКАО</a></div></li><li class="row row--np"><div class="row__b"><div class="row__m"><time datetime="2026-11-21T00:12:58+06:00">00:12</time><span class="views" title="Просмотры"><svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><path d="M2 12s3.6-6.5 10-6.5S22 12 22 12s-3.6 6.5-10 6.5S2 12 2 12z"></path><circle cx="12" cy="12" r="2.8"></circle></svg>381</span></div><a class="row__t" href="/art:57945/">Президент Туркменистана одобрил стратегию по сохранению биоразнообразия</a></div></li></ul></section></main><aside class="side">
+<form class="search" action="/search/"><label class="vh" for="q-side">Поиск</label><input id="q-side" name="query" type="search" placeholder="Поиск"><button type="submit" aria-label="Найти"><svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><circle cx="10.5" cy="10.5" r="6.5"></circle><path d="M15.5 15.5 21 21"></path></svg></button></form>
+<section class="most"><h2 class="bh">Самое читаемое<span>за 4 дня</span></h2><ol>
+<li><div><a href="/news:2570239/">Таджикистан предложил Кыргызстану и Узбекистану совместно восстановить экосистемы Ферганской долины</a> <span class="views">(52835)</span></div></li>
+<li><div><a href="/news:2570696/">Владимир Путин прибыл в Таджикистан с рабочим визитом</a> <span class="views">(13679)</span></div></li>
+<li><div><a href="/news:2570160/">Украина снова атаковала Крымский мост</a> <span class="views">(10067)</span></div></li>
+<li><div><a href="/news:2570271/">В Шэньчжэне началась встреча Путина и Трампа</a> <span class="views">(7985)</span></div></li>
+<li><div><a href="/news:2570468/">В Шэньчжэне начался первый в истории трехсторонний саммит лидеров США, Китая и России</a> <span class="views">(7401)</span></div></li>
+<li><div><a href="/news:2570628/">Президент Монголии освобожден от занимаемой должности</a> <span class="views">(7337)</span></div></li>
+</ol></section>
+<section class="pov"><h2 class="bh">Важное за неделю</h2>
+<article><span class="ph"><img src="//cdn-1.aki.kg/cdn-st-0/qiV/I/F/2b0e20c55dfb186f2cafaf3b2c360b2f.250.jpg" alt="" loading="lazy" style="width:100%;height:100%;object-fit:cover"></span><div><a href="/art:55481/">Казахстан принял Закон «О науке и технологической политике»</a></div></article>
+<article><span class="ph"><img src="//cdn-1.aki.kg/cdn-st-0/qiV/G/I/7572fe53e9802d4cf65e757f6aba768f.250.jpg" alt="" loading="lazy" style="width:100%;height:100%;object-fit:cover"></span><div><a href="/art:54157/">Алихан Маулет завоевал серебро первенства мира по прыжкам на батуте</a></div></article>
+<article><span class="ph"><img src="//cdn-1.aki.kg/cdn-st-0/qiT/5/6/b16a3a8c12f43d3de4ce59bb965cad17.250.jpg" alt="" loading="lazy" style="width:100%;height:100%;object-fit:cover"></span><div><a href="/art:56185/">Узбекистан и Оман приняли соглашение о стратегическом партнерстве</a></div></article>
+<article><span class="ph ph--none"><img src="/static/logo.svg" alt=""></span><div><a href="/art:56977/">Меджлис Туркменистана получил статус наблюдателя при МПА СНГ</a></div></article>
+<article><span class="ph"><img src="//cdn-1.aki.kg/cdn-st-0/qiV/H/K/563c472555fa5835e6067a1eb0da330a.250.jpg" alt="" loading="lazy" style="width:100%;height:100%;object-fit:cover"></span><div><a href="/art:55145/">Узбекистан и Оман подписали Соглашение о стратегическом партнерстве после переговоров в Маскате</a></div></article>
+</section>
+<section class="rates"><h2 class="bh">Курсы валют<span>нацбанков, 22.11</span></h2><table><caption>За 1 единицу валюты в национальной валюте страны.</caption><thead><tr><th scope="col"><span class="vh">Страна</span></th><th scope="col">EUR</th><th scope="col">USD</th><th scope="col">CNY</th><th scope="col">RUB</th></tr></thead><tbody><tr><td><span class="cn"><abbr title="Кыргызстан">KG</abbr></span></td><td>95.90</td><td>87.45</td><td>13.10</td><td>1.07</td></tr><tr><td><span class="cn"><abbr title="Казахстан">KZ</abbr></span></td><td>463.05</td><td>466.22</td><td>64.06</td><td>7.61</td></tr><tr><td><span class="cn"><abbr title="Таджикистан">TJ</abbr></span></td><td>10.16</td><td>10.21</td><td>1.41</td><td>0.16</td></tr><tr><td><span class="cn"><abbr title="Узбекистан">UZ</abbr></span></td><td>3286.53</td><td>2888.39</td><td>446.81</td><td>42.81</td></tr><tr><td><span class="cn"><abbr title="Туркменистан">TM</abbr></span></td><td>4.17</td><td>3.50</td><td>0.53</td><td>0.06</td></tr></tbody></table></section><section class="calb"><h2 class="bh">Архив</h2><div class="cal"><div class="cal__head"><div class="cal__nav"><a href="/arhivdate:20251101/" aria-label="Предыдущий год"><svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><path d="m12 6-6 6 6 6M18 6l-6 6 6 6"></path></svg></a><a href="/arhivdate:20261001/" aria-label="Предыдущий месяц"><svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><path d="m15 6-6 6 6 6"></path></svg></a></div><b>ноябрь 2026</b><div class="cal__nav"></div></div><table><thead><tr><th scope="col">пн</th><th scope="col">вт</th><th scope="col">ср</th><th scope="col">чт</th><th scope="col">пт</th><th scope="col">сб</th><th scope="col">вс</th></tr></thead><tbody><tr><td><span class="is-out"></span></td><td><span class="is-out"></span></td><td><span class="is-out"></span></td><td><span class="is-out"></span></td><td><span class="is-out"></span></td><td><span class="is-out"></span></td><td><a href="/arhivdate:20261101/">1</a></td></tr><tr><td><a href="/arhivdate:20261102/">2</a></td><td><a href="/arhivdate:20261103/">3</a></td><td><a href="/arhivdate:20261104/">4</a></td><td><a href="/arhivdate:20261105/">5</a></td><td><a href="/arhivdate:20261106/">6</a></td><td><a href="/arhivdate:20261107/">7</a></td><td><a href="/arhivdate:20261108/">8</a></td></tr><tr><td><a href="/arhivdate:20261109/">9</a></td><td><a href="/arhivdate:20261110/">10</a></td><td><a href="/arhivdate:20261111/">11</a></td><td><a href="/arhivdate:20261112/">12</a></td><td><a href="/arhivdate:20261113/">13</a></td><td><a href="/arhivdate:20261114/">14</a></td><td><a href="/arhivdate:20261115/">15</a></td></tr><tr><td><a href="/arhivdate:20261116/">16</a></td><td><a href="/arhivdate:20261117/">17</a></td><td><a href="/arhivdate:20261118/">18</a></td><td><a href="/arhivdate:20261119/">19</a></td><td><a href="/arhivdate:20261120/">20</a></td><td><a href="/arhivdate:20261121/">21</a></td><td><a href="/arhivdate:20261122/" class="is-today">22</a></td></tr><tr><td><span>23</span></td><td><span>24</span></td><td><span>25</span></td><td><span>26</span></td><td><span>27</span></td><td><span>28</span></td><td><span>29</span></td></tr><tr><td><span>30</span></td><td><span class="is-out"></span></td><td><span class="is-out"></span></td><td><span class="is-out"></span></td><td><span class="is-out"></span></td><td><span class="is-out"></span></td><td><span class="is-out"></span></td></tr></tbody></table></div></section>
+</aside>
+</div><footer class="foot">
+<div class="wrap">
+<div class="foot__in">
+<div>
+<a class="foot__logo" href="/"><img src="/static/logo.svg" alt="CentralAsia.media" width="300" height="30"></a>
+<p><b>© CentralAsia 2007–2026.</b> Все права защищены и охраняются законом. Любое использование материалов сайта допустимо при условии наличия активной гиперссылки на CentralAsia, за исключением материалов, опубликованных на ленте новостей — Кыргызстан, а также касающихся КР.</p>
+<p>Редакция вправе отредактировать присланный материал, не меняя его сути, и вправе не публиковать его без объяснения причин. <a href="https://akipress.org/dolbor/rules/" target="_blank">Правила публикации материалов</a></p>
+<p>Редакция не несет ответственности за достоверность информации в рекламных объявлениях и может не разделять мнения авторов рубрики «Анализ и комментарии».</p>
+</div>
+<div>
+<h2>Страны</h2>
+<div class="foot__countries"><a href="/country:5/">Азия и мир</a><a href="/country:1/">Казахстан</a><a href="/country:4/">Кыргызстан</a><a href="/country:7/">Монголия</a><a href="/country:2/">Таджикистан</a><a href="/country:6/">Туркменистан</a><a href="/country:3/">Узбекистан</a></div>
+<h2 style="margin-top:22px">Издание</h2>
+<div class="foot__links"><a href="/about/">О нас</a><a href="/contacts/">Контакты</a><a href="https://reklama.akipress.org/">Реклама</a><a href="/rss/">RSS</a></div>
+</div>
+<div>
+<h2>Редакция</h2>
+<p>Кыргызстан, Бишкек,<br>проспект Чынгыза Айтматова, 299/5</p>
+<p><a href="tel:+996554202945">+996 554 202 945</a></p>
+<div class="social" style="margin-top:12px;gap:8px"><a href="https://x.com/Centrasia" aria-label="X"><svg class="ico ico--fill" viewBox="0 0 24 24" aria-hidden="true"><path d="M17.8 3h3.1l-6.8 7.8 8 10.2h-6.3l-4.9-6.4L5.3 21H2.2l7.3-8.3L1.8 3h6.4l4.4 5.9zM16.7 19.2h1.7L7.4 4.7H5.6z"></path></svg></a><a href="https://www.facebook.com/centralasian" aria-label="Facebook"><svg class="ico ico--fill" viewBox="0 0 24 24" aria-hidden="true"><path d="M13.5 21v-7.7h2.6l.4-3h-3V8.4c0-.9.3-1.5 1.5-1.5h1.6V4.2a21 21 0 0 0-2.3-.1c-2.3 0-3.9 1.4-3.9 4v2.2H7.8v3h2.6V21z"></path></svg></a><a href="https://t.me/centralasiamedia" aria-label="Telegram"><svg class="ico ico--fill" viewBox="0 0 24 24" aria-hidden="true"><path d="M20.7 4.2 2.9 11c-1.2.5-1.2 1.2-.2 1.5l4.6 1.4 1.7 5.4c.2.6.4.8.9.8.4 0 .6-.2.9-.4l2.2-2.1 4.6 3.4c.8.5 1.4.2 1.6-.8l3-14.1c.3-1.3-.5-1.8-1.5-1.3zM8.6 13.6l9.1-5.7c.4-.3.8-.1.5.2l-7.6 6.9-.3 3.3z"></path></svg></a><a href="/rss/" aria-label="RSS"><svg class="ico ico--fill" viewBox="0 0 24 24" aria-hidden="true"><circle cx="5.5" cy="18.5" r="2.2"></circle><path d="M3.3 10.2v3a7.5 7.5 0 0 1 7.5 7.5h3A10.5 10.5 0 0 0 3.3 10.2zm0-6v3a13.5 13.5 0 0 1 13.5 13.5h3A16.5 16.5 0 0 0 3.3 4.2z"></path></svg></a></div>
+</div>
+</div>
+<div class="foot__bottom"><span>CentralAsia.media — служба новостей о Центральной Азии. Сеть АКИpress.</span><span>16+</span></div>
+</div>
+<div class="counters" aria-hidden="true"><noscript><div><img src="https://mc.yandex.ru/watch/8143930" style="position:absolute;left:-9999px" alt=""></div></noscript></div>
+</footer>
+</div>
+<script src="/static/ca.js?v=1792050770" defer></script>
+<script async src="//aaa5.akipress.org/www/delivery/asyncjs.php"></script>
+</body>
+</html>

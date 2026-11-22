@@ -1,0 +1,74 @@
+[
+ {
+  "name": "fergana-rss",
+  "ok": false,
+  "url": "https://fergana.news/news.rss",
+  "error": "HTTP Error 404: Not Found"
+ },
+ {
+  "name": "centralasia",
+  "ok": true,
+  "file": "centralasia.html",
+  "bytes": 66430
+ },
+ {
+  "name": "tass-rss",
+  "ok": true,
+  "file": "tass-rss.html",
+  "bytes": 62361
+ },
+ {
+  "name": "ria-rss",
+  "ok": true,
+  "file": "ria-rss.html",
+  "bytes": 59840
+ },
+ {
+  "name": "tg-khovar",
+  "ok": true,
+  "file": "tg-khovar.html",
+  "bytes": 9604
+ },
+ {
+  "name": "tg-avesta",
+  "ok": true,
+  "file": "tg-avesta.html",
+  "bytes": 9603
+ },
+ {
+  "name": "tg-sputniktj",
+  "ok": true,
+  "file": "tg-sputniktj.html",
+  "bytes": 33332
+ },
+ {
+  "name": "asiaplus-home",
+  "ok": true,
+  "file": "asiaplus-home.html",
+  "bytes": 240802
+ },
+ {
+  "name": "azattyq-tj",
+  "ok": true,
+  "file": "azattyq-tj.html",
+  "bytes": 72619
+ },
+ {
+  "name": "tg-migrant",
+  "ok": true,
+  "file": "tg-migrant.html",
+  "bytes": 25545
+ },
+ {
+  "name": "kun-rss",
+  "ok": true,
+  "file": "kun-rss.html",
+  "bytes": 12722
+ },
+ {
+  "name": "sports-rss",
+  "ok": false,
+  "url": "https://www.sports.ru/rss/main.xml",
+  "error": "HTTP Error 404: Not Found"
+ }
+]
