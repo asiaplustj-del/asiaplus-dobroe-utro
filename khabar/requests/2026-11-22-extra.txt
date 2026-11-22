@@ -1,0 +1,13 @@
+# доп. ленты: в основных за ночь почти ничего
+page fergana-rss https://fergana.news/news.rss
+page centralasia https://centralasia.media/
+page tass-rss https://tass.ru/rss/v2.xml
+page ria-rss https://ria.ru/export/rss2/archive/index.xml
+page tg-khovar https://t.me/s/khovartj
+page tg-avesta https://t.me/s/avestatj
+page tg-sputniktj https://t.me/s/sputniktajikistan
+page asiaplus-home https://asiaplus.news/
+page azattyq-tj https://www.azattyqasia.org/tajikistan
+page tg-migrant https://t.me/s/migrant_tj
+page kun-rss https://kun.uz/news/rss
+page sports-rss https://www.sports.ru/rss/main.xml
