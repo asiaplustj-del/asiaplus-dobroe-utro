@@ -1,0 +1,1195 @@
+
+<!DOCTYPE html>
+<html lang="ru" dir="ltr" class="no-js">
+<head>
+        <link rel="stylesheet" href="/Content/responsive/RFE/ru-KZ/RFE-ru-KZ.css?&amp;av=0.0.0.0&amp;cb=395">
+<script src="https://tags.azattyq.org/rferl-pangea/prod/utag.sync.js"></script><script type='text/javascript' src='https://www.youtube.com/iframe_api' async></script>            <link rel="manifest" href="/manifest.json">
+    <script type="text/javascript">
+        //a general 'js' detection, must be on top level in <head>, due to CSS performance
+        document.documentElement.className = "js";
+        var cacheBuster = "395";
+        var appBaseUrl = "/";
+        var imgEnhancerBreakpoints = [0, 144, 256, 408, 650, 1023, 1597];
+        var isLoggingEnabled = false;
+        var isPreviewPage = false;
+        var isLivePreviewPage = false;
+        var isForPdf = false;
+
+                var vjsLocalization = {
+                        "Play Video": "play",
+                        "Play": "play",
+                        "Pause": "pause",
+                        "Current Time": "",
+                        "Duration": "",
+                        "Remaining Time": "",
+                        "Mute": "volume",
+                        "Unmute": "volume",
+                        "LIVE": "Live",
+                        "Quality": "source switch"
+                };
+            
+        if (!isPreviewPage) {
+            window.RFE = window.RFE || {};
+            window.RFE.cacheEnabledByParam = window.location.href.indexOf('nocache=1') === -1;
+
+            const url = new URL(window.location.href);
+            const params = new URLSearchParams(url.search);
+
+            // Remove the 'nocache' parameter
+            params.delete('nocache');
+
+            // Update the URL without the 'nocache' parameter
+            url.search = params.toString();
+            window.history.replaceState(null, '', url.toString());
+        } else if (!isForPdf) {
+            window.addEventListener('load', function() {
+                const links = window.document.links;
+                for (let i = 0; i < links.length; i++) {
+                    links[i].href = '#';
+                    links[i].target = '_self';
+                }
+             })
+        }
+
+        // Iframe & Embed detection
+        var embedProperties = {};
+
+        try {
+            // Reliable way to check if we are in an iframe.
+            var isIframe = window.self !== window.top;
+            embedProperties.is_iframe = isIframe;
+
+            if (!isIframe) {
+                embedProperties.embed_context = "main";
+            } else {
+                // We are in an iframe. Let's try to access the parent.
+                // This access will only fail with strict cross-origin (without document.domain).
+                var parentLocation = window.top.location;
+
+                // The access succeeded. Now we explicitly compare the hostname.
+                if (window.location.hostname === parentLocation.hostname) {
+                    embedProperties.embed_context = "embed_self";
+                } else {
+                    // Hostname is different (e.g. different subdomain with document.domain)
+                    embedProperties.embed_context = "embed_cross";
+                }
+
+                // Since the access works, we can safely get the details.
+                embedProperties.url_parent = parentLocation.href;
+                embedProperties.title_parent = window.top.document.title;
+            }
+        } catch (err) {
+            // We are in an iframe, and an error occurred, probably due to cross-origin restrictions.
+            embedProperties.is_iframe = true;
+            embedProperties.embed_context = "embed_cross";
+
+            // We cannot access the properties of window.top.
+            // `document.referrer` can sometimes provide the URL of the parent page.
+            // It is not 100% reliable, but it is the best we can do in this situation.
+            embedProperties.url_parent = document.referrer || null;
+            embedProperties.title_parent = null; // We can't get to the title in a cross-origin scenario.
+        }
+
+var pwaEnabled = true;        var swCacheDisabled;
+    </script>
+    <meta charset="utf-8" />
+
+                <title>Новости Таджикистана на Азаттык Азия - Радио Азаттык</title>
+            <meta name="description" content="Актуальные статьи, новости и мультимедийный контент о событиях в Таджикистане. Объективный взгляд на политику, общество и ключевые проблемы страны — без цензуры и искажения фактов.&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;" />
+            <meta name="keywords" content="новости Таджикистана, Душанбе последние новости, политическая ситуация в Таджикистане, социальные вопросы Таджикистан, таджикская оппозиция, экономика Таджикистана, миграция из Таджикистана, свобода слова в Таджикистане, конфликты и безопасность Таджикистан, права человека Таджикистан" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+
+<meta name="robots" content="max-image-preview:large"><meta name="yandex-verification" content="b4983b94636388c5" />
+
+        <link href="https://www.azattyqasia.org/tajikistan" rel="canonical" />
+
+        <meta name="apple-mobile-web-app-title" content="Радио «Свободная Европа»/Радио «Свобода»" />
+        <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+            <meta name="apple-itunes-app" content="app-id=475986784" />
+<meta content="article" property="og:type"></meta>
+<meta content="Новости Таджикистана на Азаттык Азия" property="og:title"></meta>
+<meta content="Актуальные статьи, новости и мультимедийный контент о событиях в Таджикистане. Объективный взгляд на политику, общество и ключевые проблемы страны — без цензуры и искажения фактов.&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;" property="og:description"></meta>
+<meta content="https://gdb.rferl.org/8def9414-63d9-458c-9c80-61c014c53630_w1200_r1.jpg" property="og:image"></meta>
+<meta content="1200" property="og:image:width"></meta>
+<meta content="675" property="og:image:height"></meta>
+<meta content="https://www.azattyqasia.org/tajikistan" property="og:url"></meta>
+<meta content="Радио Азаттык" property="og:site_name"></meta>
+                <meta name="twitter:card" content="summary" />
+                    <meta name="twitter:site" content="@Radio_Azattyk" />
+    <script src="/Scripts/responsive/infographics.bundle.min.js?&amp;av=0.0.0.0&amp;cb=395"></script>
+        <script src="/Scripts/responsive/dollardom.min.js?&amp;av=0.0.0.0&amp;cb=395"></script>
+        <script src="/Scripts/responsive/modules/commons.js?&amp;av=0.0.0.0&amp;cb=395"></script>
+        <script src="/Scripts/responsive/modules/app_code.js?&amp;av=0.0.0.0&amp;cb=395"></script>
+
+        <link rel="icon" type="image/svg+xml" href="/Content/responsive/RFE/img/webApp/favicon.svg" />
+        <link rel="alternate icon" href="/Content/responsive/RFE/img/webApp/favicon.ico" />
+            <link rel="mask-icon" color="#ea6903" href="/Content/responsive/RFE/img/webApp/favicon_safari.svg" />
+        <link rel="apple-touch-icon" sizes="152x152" href="/Content/responsive/RFE/img/webApp/ico-152x152.png" />
+        <link rel="apple-touch-icon" sizes="144x144" href="/Content/responsive/RFE/img/webApp/ico-144x144.png" />
+        <link rel="apple-touch-icon" sizes="114x114" href="/Content/responsive/RFE/img/webApp/ico-114x114.png" />
+        <link rel="apple-touch-icon" sizes="72x72" href="/Content/responsive/RFE/img/webApp/ico-72x72.png" />
+        <link rel="apple-touch-icon-precomposed" href="/Content/responsive/RFE/img/webApp/ico-57x57.png" />
+        <link rel="icon" sizes="192x192" href="/Content/responsive/RFE/img/webApp/ico-192x192.png" />
+        <link rel="icon" sizes="128x128" href="/Content/responsive/RFE/img/webApp/ico-128x128.png" />
+        <meta name="msapplication-TileColor" content="#ffffff" />
+        <meta name="msapplication-TileImage" content="/Content/responsive/RFE/img/webApp/ico-144x144.png" />
+                <link rel="preload" href="/Content/responsive/fonts/Skolar-Lt_Cyrl_v2.4.woff" type="font/woff" as="font" crossorigin="anonymous" />
+    <link rel="alternate" type="application/rss+xml" title="RFE/RL - Top Stories [RSS]" href="/api/" />
+    <link rel="sitemap" type="application/rss+xml" href="/sitemap.xml" />
+    
+    
+
+
+
+        <script type="text/javascript">
+            var analyticsData = Object.assign(embedProperties, {url:"https://www.azattyqasia.org/tajikistan",property_id:"418",page_title:"таджикистан",page_type:"section index",content_type:"index",subcontent_type:"section index",last_modified:"2026-11-23 01:06:28Z",pub_datetime:"2025-05-26 11:43:49Z",pub_year:"2025",pub_month:"05",pub_day:"26",pub_hour:"11",pub_weekday:"monday",section:"таджикистан",english_section:"tajikistan-rus",domain:"www.azattyqasia.org",language:"russian",language_service:"rferl kazakh",platform:"web",copied:"no",copied_article:"not set",copied_title:"not set",runs_js:"yes",cms_release:"8.50.0.0.395",enviro_type:"prod",slug:"tajikistan-rus",entity:"rfe",short_language_service:"kaz",platform_short:"w",page_name:"таджикистан"});
+            // Push Analytics data as GTM message (without "event" attribute and before GTM initialization)
+            window.dataLayer = window.dataLayer || [];
+            window.dataLayer.push(analyticsData);
+        </script>
+        <script type="text/javascript" data-cookiecategory="analytics">
+
+            var gtmEventObject = {event: 'page_meta_ready'};window.dataLayer = window.dataLayer || [];window.dataLayer.push(gtmEventObject);
+            var renderGtm = "true";
+            if (renderGtm === "true") {
+                (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src='//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);})(window,document,'script','dataLayer','GTM-WXZBPZ');
+            }
+        </script>
+</head>
+<body class=" nav-no-loaded cc_theme pg-section top-area-hlighted nojs-images ">
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-WXZBPZ" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>        <script type="text/javascript" data-cookiecategory="analytics">
+
+            var gtmEventObject = {event: 'page_meta_ready'};window.dataLayer = window.dataLayer || [];window.dataLayer.push(gtmEventObject);
+
+            var renderGtm = "true";
+            if (renderGtm === "true") {
+                (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src='//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);})(window,document,'script','dataLayer','GTM-WXZBPZ');
+            }
+
+        </script>
+        <!--Analytics tag js version start-->
+            <script type="text/javascript" data-cookiecategory="analytics">
+                var utag_data = Object.assign({}, analyticsData, {pub_year:"2025",pub_month:"05",pub_day:"26",pub_hour:"11",pub_weekday:"monday"});
+if(typeof(TealiumTagFrom)==='function' && typeof(TealiumTagSearchKeyword)==='function') {
+var utag_from=TealiumTagFrom();var utag_searchKeyword=TealiumTagSearchKeyword();
+if(utag_searchKeyword!=null && utag_searchKeyword!=='' && utag_data["search_keyword"]==null) utag_data["search_keyword"]=utag_searchKeyword;if(utag_from!=null && utag_from!=='') utag_data["from"]=TealiumTagFrom();}
+                if(window.top!== window.self&&utag_data.page_type==="snippet"){utag_data.page_type = 'iframe';}
+                try{if(window.top!==window.self&&window.self.location.hostname===window.top.location.hostname){utag_data.platform = 'self-embed';utag_data.platform_short = 'se';}}catch(e){if(window.top!==window.self&&window.self.location.search.includes("platformType=self-embed")){utag_data.platform = 'cross-promo';utag_data.platform_short = 'cp';}}
+                (function(a,b,c,d){    a="https://tags.azattyq.org/rferl-pangea/prod/utag.js";    b=document;c="script";d=b.createElement(c);d.src=a;d.type="text/java"+c;d.async=true;    a=b.getElementsByTagName(c)[0];a.parentNode.insertBefore(d,a);    })();
+            </script>
+            <!--Analytics tag js version end-->
+<!-- Analytics tag management NoScript -->
+<noscript>
+<img style="position: absolute; border: none;" src="https://ssc.azattyq.org/b/ss/bbgprod,bbgentityrferl/1/G.4--NS/1207334946?pageName=rfe%3akaz%3aw%3asection%20index%3a%d0%a2%d0%b0%d0%b4%d0%b6%d0%b8%d0%ba%d0%b8%d1%81%d1%82%d0%b0%d0%bd&amp;c6=%d0%a2%d0%b0%d0%b4%d0%b6%d0%b8%d0%ba%d0%b8%d1%81%d1%82%d0%b0%d0%bd&amp;v36=8.50.0.0.395&amp;v6=D=c6&amp;g=https%3a%2f%2fwww.azattyqasia.org%2ftajikistan&amp;c1=D=g&amp;v1=D=g&amp;events=event1&amp;c16=rferl%20kazakh&amp;v16=D=c16&amp;c5=tajikistan-rus&amp;v5=D=c5&amp;ch=%d0%a2%d0%b0%d0%b4%d0%b6%d0%b8%d0%ba%d0%b8%d1%81%d1%82%d0%b0%d0%bd&amp;c15=russian&amp;v15=D=c15&amp;c4=index&amp;v4=D=c4&amp;v20=no&amp;c17=web&amp;v17=D=c17&amp;mcorgid=518abc7455e462b97f000101%40adobeorg&amp;server=www.azattyqasia.org&amp;pageType=D=c4&amp;ns=bbg&amp;v29=D=server&amp;v25=rfe&amp;v30=418&amp;v105=D=User-Agent " alt="analytics" width="1" height="1" /></noscript>
+<!-- End of Analytics tag management NoScript -->
+
+
+        <!--*** Accessibility links - For ScreenReaders only ***-->
+        <nav class="sr-only" aria-label="Доступность ссылок">
+            <ul>
+                <li><a href="#content" data-disable-smooth-scroll="1">Вернуться к основному содержанию</a></li>
+                <li><a href="#navigation" data-disable-smooth-scroll="1">Вернутся к главной навигации</a></li>
+                <li><a href="#txtHeaderSearch" data-disable-smooth-scroll="1">Вернутся к поиску</a></li>
+            </ul>
+        </nav>
+
+
+
+
+
+<div dir="ltr">
+    <div id="page">
+            <aside>
+                
+<div class="ctc-message pos-fix">
+    <div class="ctc-message__inner">Ссылка была скопирована</div>
+</div>
+            </aside>
+
+
+<div class="hdr-20 hdr-20--big">
+    <div class="hdr-20__inner">
+        <div class="hdr-20__max pos-rel">
+            <div class="hdr-20__side hdr-20__side--primary d-flex">
+                <label data-for="main-menu-ctrl" data-switcher-trigger="true" data-switch-target="main-menu-ctrl" class="burger hdr-trigger pos-rel trans-trigger" data-trans-evt="click" data-trans-id="menu">
+                    <span class="ico ico-close hdr-trigger__ico hdr-trigger__ico--close burger__ico burger__ico--close"></span>
+                    <span class="ico ico-menu hdr-trigger__ico hdr-trigger__ico--open burger__ico burger__ico--open"></span>
+                        <span class="burger__label">Быстрые ссылки</span>
+                </label>
+                <div class="menu-pnl pos-fix trans-target" data-switch-target="main-menu-ctrl" data-trans-id="menu">
+                    <div class="menu-pnl__inner">
+                        <nav class="main-nav menu-pnl__item menu-pnl__item--first">
+                            <ul class="main-nav__list accordeon" data-analytics-tales="false" data-promo-name="link" data-location-name="nav,secnav">
+                                
+
+        <li class="main-nav__item accordeon__item" data-switch-target="menu-item-598">
+            <label class="main-nav__item-name main-nav__item-name--label accordeon__control-label" data-switcher-trigger="true" data-for="menu-item-598">
+                Центральная Азия
+                <span class="ico ico-chevron-down main-nav__chev"></span>
+            </label>
+            <div class="main-nav__sub-list">
+                
+    <a class="main-nav__item-name main-nav__item-name--link main-nav__item-name--sub" href="/p/6951.html" title="Казахстан" data-item-name="kazakhstan-rus" >Казахстан</a>
+
+    <a class="main-nav__item-name main-nav__item-name--link main-nav__item-name--sub" href="/kyrgyzstan" title="Кыргызстан" data-item-name="Kyrgyzstan-rus" >Кыргызстан</a>
+
+    <a class="main-nav__item-name main-nav__item-name--link main-nav__item-name--sub" href="/uzbekistan" title="Узбекистан" data-item-name="uzbekistan-rus" >Узбекистан</a>
+
+    <a class="main-nav__item-name main-nav__item-name--link main-nav__item-name--sub" href="/tajikistan" title="Таджикистан" data-item-name="tajikistan-rus" >Таджикистан</a>
+
+            </div>
+        </li>
+
+        <li class="main-nav__item">
+            <a class="main-nav__item-name main-nav__item-name--link" href="/z/360" title="Новости" data-item-name="news-azattyq" >Новости</a>
+        </li>
+
+        <li class="main-nav__item">
+            <a class="main-nav__item-name main-nav__item-name--link" href="/z/22747" title="Война в Украине" data-item-name="war-in-ukraine" >Война в Украине</a>
+        </li>
+
+        <li class="main-nav__item accordeon__item" data-switch-target="menu-item-4683">
+            <label class="main-nav__item-name main-nav__item-name--label accordeon__control-label" data-switcher-trigger="true" data-for="menu-item-4683">
+                На других языках
+                <span class="ico ico-chevron-down main-nav__chev"></span>
+            </label>
+            <div class="main-nav__sub-list">
+                
+    <a class="main-nav__item-name main-nav__item-name--link main-nav__item-name--sub" href="https://www.azattyq.org/" title="Қазақша"  target="_blank" rel="noopener">Қазақша</a>
+
+    <a class="main-nav__item-name main-nav__item-name--link main-nav__item-name--sub" href="https://www.azattyk.org/" title="Кыргызча"  target="_blank" rel="noopener">Кыргызча</a>
+
+    <a class="main-nav__item-name main-nav__item-name--link main-nav__item-name--sub" href="https://www.ozodlik.org/" title="Ўзбекча"  target="_blank" rel="noopener">Ўзбекча</a>
+
+    <a class="main-nav__item-name main-nav__item-name--link main-nav__item-name--sub" href="https://www.ozodi.org/" title="Тоҷикӣ"  target="_blank" rel="noopener">Тоҷикӣ</a>
+
+    <a class="main-nav__item-name main-nav__item-name--link main-nav__item-name--sub" href="https://www.azathabar.com/" title="Türkmençe"  target="_blank" rel="noopener">Türkmençe</a>
+
+            </div>
+        </li>
+
+
+
+                            </ul>
+                        </nav>
+                        
+
+
+
+
+                        
+                            <div class="menu-pnl__item menu-pnl__item--social">
+                                    <p class="menu-pnl__sub-head">Подпишитесь на нас в соцсетях</p>
+
+            <a href="https://www.facebook.com/AzattyqAsia" title="Follow us on Facebook" data-analytics-text="follow_on_facebook" class="btn btn--rounded btn--social-inverted menu-pnl__btn js-social-btn btn-facebook"  target="_blank" rel="noopener">
+                <span class="ico ico-facebook-alt ico--rounded"></span>
+            </a>
+
+            <a href="https://www.youtube.com/@azattyqasia" title="Follow us on Youtube" data-analytics-text="follow_on_youtube" class="btn btn--rounded btn--social-inverted menu-pnl__btn js-social-btn btn-youtube"  target="_blank" rel="noopener">
+                <span class="ico ico-youtube ico--rounded"></span>
+            </a>
+
+            <a href="https://www.instagram.com/currenttimeasia/" title="Follow us on Instagram" data-analytics-text="follow_on_instagram" class="btn btn--rounded btn--social-inverted menu-pnl__btn js-social-btn btn-instagram"  target="_blank" rel="noopener">
+                <span class="ico ico-instagram ico--rounded"></span>
+            </a>
+
+            <a href="http://t.me/azattyqasia" title="Follow us on Telegram" data-analytics-text="follow_on_telegram" class="btn btn--rounded btn--social-inverted menu-pnl__btn js-social-btn btn-telegram"  target="_blank" rel="noopener">
+                <span class="ico ico-telegram ico--rounded"></span>
+            </a>
+
+                            </div>
+                            <div class="menu-pnl__item">
+                                <a href="/navigation/allsites" class="menu-pnl__item-link">
+                                    <span class="ico ico-languages "></span>
+                                    Все сайты РСЕ/РС
+                                </a>
+                            </div>
+                    </div>
+                </div>
+                <label data-for="top-search-ctrl" data-switcher-trigger="true" data-switch-target="top-search-ctrl" class="top-srch-trigger hdr-trigger">
+                    <span class="ico ico-close hdr-trigger__ico hdr-trigger__ico--close top-srch-trigger__ico top-srch-trigger__ico--close"></span>
+                    <span class="ico ico-search hdr-trigger__ico hdr-trigger__ico--open top-srch-trigger__ico top-srch-trigger__ico--open"></span>
+                </label>
+                <div class="srch-top srch-top--in-header" data-switch-target="top-search-ctrl">
+                    <div class="container">
+                        
+<form action="/s" class="srch-top__form srch-top__form--in-header" id="form-topSearchHeader" method="get" role="search">    <label for="txtHeaderSearch" class="sr-only">Искать</label>
+    <input type="text" id="txtHeaderSearch" name="k" placeholder="Поиск" accesskey="s" value="" class="srch-top__input analyticstag-event" onkeydown="if (event.keyCode === 13) { FireAnalyticsTagEventOnSearch('search', $dom.get('#txtHeaderSearch')[0].value) }" />
+    <button title="Искать" type="submit" class="btn btn--top-srch analyticstag-event" onclick="FireAnalyticsTagEventOnSearch('search', $dom.get('#txtHeaderSearch')[0].value) ">
+        <span class="ico ico-search"></span>
+    </button>
+</form>
+                    </div>
+                </div>
+                <a href="/" class="main-logo-link">
+                    <img src="/Content/responsive/RFE/ru-KZ/img/logo-compact.svg?cb=395" class="main-logo main-logo--comp" alt="site logo">
+                        <img src="/Content/responsive/RFE/ru-KZ/img/logo.svg?cb=395" class="main-logo main-logo--big" alt="site logo">
+                </a>
+            </div>
+            <div class="hdr-20__side hdr-20__side--secondary d-flex">
+                
+
+    <a href="/multimedia" title="Мультимедиа" class="hdr-20__secondary-item" data-item-name="video">
+        
+    <span class="ico ico-video hdr-20__secondary-icon"></span>
+
+    </a>
+
+    <a href="/s" title="Искать" class="hdr-20__secondary-item hdr-20__secondary-item--search" data-item-name="search">
+        
+    <span class="ico ico-search hdr-20__secondary-icon hdr-20__secondary-icon--search"></span>
+
+    </a>
+
+
+
+                
+                <div class="srch-bottom">
+                    
+<form action="/s" class="srch-bottom__form d-flex" id="form-bottomSearch" method="get" role="search">    <label for="txtSearch" class="sr-only">Искать</label>
+    <input type="search" id="txtSearch" name="k" placeholder="Поиск" accesskey="s" value="" class="srch-bottom__input analyticstag-event" onkeydown="if (event.keyCode === 13) { FireAnalyticsTagEventOnSearch('search', $dom.get('#txtSearch')[0].value) }" />
+    <button title="Искать" type="submit" class="btn btn--bottom-srch analyticstag-event" onclick="FireAnalyticsTagEventOnSearch('search', $dom.get('#txtSearch')[0].value) ">
+        <span class="ico ico-search"></span>
+    </button>
+</form>
+                </div>
+            </div>
+            <img src="/Content/responsive/RFE/ru-KZ/img/logo-print.gif?cb=395" class="logo-print" loading="lazy" alt="site logo">
+            <img src="/Content/responsive/RFE/ru-KZ/img/logo-print_color.png?cb=395" class="logo-print logo-print--color" loading="lazy" alt="site logo">
+        </div>
+    </div>
+</div>
+    <script>
+        if (document.body.className.indexOf('pg-home') > -1) {
+            var nav2In = document.querySelector('.hdr-20__inner');
+            var nav2Sec = document.querySelector('.hdr-20__side--secondary');
+            var secStyle = window.getComputedStyle(nav2Sec);
+            if (nav2In && window.pageYOffset < 150 && secStyle['position'] !== 'fixed') {
+                nav2In.classList.add('hdr-20__inner--big')
+            }
+        }
+    </script>
+
+
+
+<div class="c-hlights c-hlights--breaking c-hlights--no-item" data-hlight-display="mobile,desktop">
+    <div class="c-hlights__wrap container p-0">
+        <div class="c-hlights__nav">
+            <a role="button" href="#" title="Предыдущий">
+                <span class="ico ico-chevron-backward m-0"></span>
+                <span class="sr-only">Предыдущий</span>
+            </a>
+            <a role="button" href="#" title="Следующий">
+                <span class="ico ico-chevron-forward m-0"></span>
+                <span class="sr-only">Следующий</span>
+            </a>
+        </div>
+        <span class="c-hlights__label">
+            <span class="">Срочные новости:</span>
+            <span class="switcher-trigger">
+                <label data-for="more-less-1" data-switcher-trigger="true" class="switcher-trigger__label switcher-trigger__label--more p-b-0" title="Показать больше">
+                    <span class="ico ico-chevron-down"></span>
+                </label>
+                <label data-for="more-less-1" data-switcher-trigger="true" class="switcher-trigger__label switcher-trigger__label--less p-b-0" title="Сократить текст">
+                    <span class="ico ico-chevron-up"></span>
+                </label>
+            </span>
+        </span>
+        <ul class="c-hlights__items switcher-target" data-switch-target="more-less-1">
+            
+        </ul>
+    </div>
+</div>
+
+
+
+    <div class="sub-nav container">
+        <div class="sub-nav__inner">
+            
+<a class="sub-nav__link" href="/p/6951.html" title="Казахстан" >Казахстан</a>
+<a class="sub-nav__link" href="/kyrgyzstan" title="Кыргызстан" >Кыргызстан</a>
+<a class="sub-nav__link" href="/tajikistan" title="Таджикистан" >Таджикистан</a>
+<a class="sub-nav__link" href="/p/10702.html" title="Туркменистан" >Туркменистан</a>
+<a class="sub-nav__link" href="/uzbekistan" title="Узбекистан" >Узбекистан</a>
+        </div>
+    </div>
+
+        <div id="content">
+            
+
+        <div class="wrap area-pg-title wg-hlight">
+            <div class="container">
+                
+    <h1 class="pg-title">Таджикистан</h1>
+
+            </div>
+        </div>
+
+    <div class="wg-hlight" id="wrowblock-59579_45" >
+        
+    <div class="container" id="wrowblock-59579_46" >
+        
+    <div class="media-block-wrap bob-wrap" id="wrowblock-59579_48" data-area-id=R1_1>
+        
+<h2 class="section-head">
+<a href="/z/23726"><span class="ico ico-chevron-forward pull-right flip"></span>ТАДЖИКИСТАН</a></h2>
+
+    <div class="row">
+        <div class="col-xs-12 col-sm-12 col-md-8 col-lg-8 wg-area-2c">
+            <div class="row">
+                <ul>
+
+    <li class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+        <div class="media-block media-block--io media-block--t-spac">
+                <a href="/a/zachem-putin-priletel-v-dushanbe/33902588.html"  class="img-wrap img-wrap--size-1" title="В повестке — российская военная база и Афганистан. Зачем Путин прибыл в Душанбе?">
+                    <div class="thumb thumb16_9">
+                                <noscript class="nojs-img">
+                                    <img src="https://gdb.rferl.org/72735d18-f9b0-498a-2e9e-08df407f9921_w250_r1.jpg" alt="Vladimir Putin (L), President of Russia with Emomali Rahmon (R), President of Tajikistan during his visit to Tajikistan. Dushanbe, November 20, 2026" />
+                                </noscript>
+                            <img data-src="https://gdb.rferl.org/72735d18-f9b0-498a-2e9e-08df407f9921_w250_r1.jpg" src="" alt="Vladimir Putin (L), President of Russia with Emomali Rahmon (R), President of Tajikistan during his visit to Tajikistan. Dushanbe, November 20, 2026" class="" />
+                    </div>
+
+<span class="ico ico-video ico--media-type"></span>                </a>
+                <div class="media-block__content img-overlay">
+                        <a href="/a/zachem-putin-priletel-v-dushanbe/33902588.html" >
+        <h4 class="media-block__title media-block__title--size-1 media-block__title--io" title="В повестке — российская военная база и Афганистан. Зачем Путин прибыл в Душанбе?">
+            В повестке — российская военная база и Афганистан. Зачем Путин прибыл в Душанбе?
+        </h4>
+                        </a>
+                </div>
+        </div>
+    </li>
+
+                </ul>
+            </div>
+        </div>
+        <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4 wg-area-1c">
+            <div class="row">
+                <ul>
+
+    <li class="col-xs-12 col-sm-6 col-md-12 col-lg-12 fui-bob-grid">
+        <div class="media-block madia-block--fui-bob">
+                <a href="/a/tadzhikistan-obyazalsya-sozdat-dostupnuyu-sredu-dlya-lyudey-s-ogranicheniyami-zdorovya-pochemu-eto-dolgiy-put/33897855.html"  class="img-wrap img-wrap--t-spac img-wrap--size-4 img-wrap--float img-wrap--bob" title="Таджикистан обязался создать доступную среду для людей с ограничениями здоровья. Почему это долгий путь?">
+                    <div class="thumb thumb16_9">
+                                <noscript class="nojs-img">
+                                    <img src="https://gdb.rferl.org/edfb1a92-ea7b-4e59-2cbd-08df3eea91f6_cx0_cy7_cw0_w100_r1.jpg" alt="Пандус с поручнями в Бишкеке. Фото предоставлено Аскаром Турдугуловым" />
+                                </noscript>
+                            <img data-src="https://gdb.rferl.org/edfb1a92-ea7b-4e59-2cbd-08df3eea91f6_cx0_cy7_cw0_w33_r1.jpg" src="" alt="Пандус с поручнями в Бишкеке. Фото предоставлено Аскаром Турдугуловым" class="" />
+                    </div>
+                </a>
+                <div class="media-block__content media-block__content--h media-block__content--h-bob">
+                        <a href="/a/tadzhikistan-obyazalsya-sozdat-dostupnuyu-sredu-dlya-lyudey-s-ogranicheniyami-zdorovya-pochemu-eto-dolgiy-put/33897855.html" >
+        <h4 class="media-block__title media-block__title--size-4" title="Таджикистан обязался создать доступную среду для людей с ограничениями здоровья. Почему это долгий путь?">
+            Таджикистан обязался создать доступную среду для людей с ограничениями здоровья. Почему это долгий путь?
+        </h4>
+                        </a>
+                </div>
+        </div>
+    </li>
+
+
+    <li class="col-xs-12 col-sm-6 col-md-12 col-lg-12 fui-bob-grid">
+        <div class="media-block madia-block--fui-bob">
+                <a href="/a/v-tadzhikistane-zhiteli-mnogokvartirnogo-doma-pytayutsya-ostanovit-ego-snos/33901528.html"  class="img-wrap img-wrap--t-spac img-wrap--size-4 img-wrap--float img-wrap--bob" title="В Таджикистане жители многоквартирного дома пытаются остановить его снос">
+                    <div class="thumb thumb16_9">
+                                <noscript class="nojs-img">
+                                    <img src="https://gdb.rferl.org/59756eeb-2c45-42b5-2ddf-08df407f9921_w100_r1.jpg" alt="Shahritus district, Khatlon region, southern Tajikistan" />
+                                </noscript>
+                            <img data-src="https://gdb.rferl.org/59756eeb-2c45-42b5-2ddf-08df407f9921_w33_r1.jpg" src="" alt="Shahritus district, Khatlon region, southern Tajikistan" class="" />
+                    </div>
+
+<span class="ico ico-video ico--media-type"></span>                </a>
+                <div class="media-block__content media-block__content--h media-block__content--h-bob">
+                        <a href="/a/v-tadzhikistane-zhiteli-mnogokvartirnogo-doma-pytayutsya-ostanovit-ego-snos/33901528.html" >
+        <h4 class="media-block__title media-block__title--size-4" title="В Таджикистане жители многоквартирного дома пытаются остановить его снос">
+            В Таджикистане жители многоквартирного дома пытаются остановить его снос
+        </h4>
+                        </a>
+                </div>
+        </div>
+    </li>
+
+
+    <li class="col-xs-12 col-sm-6 col-md-12 col-lg-12 fui-bob-grid">
+        <div class="media-block madia-block--fui-bob">
+                <a href="/a/ne-lozungi-a-tyazhelaya-borba-20-let-ahrca-ot-andizhana-i-cotton-campaign-do-pomoschi-politzaklyuchennym/33899809.html"  class="img-wrap img-wrap--t-spac img-wrap--size-4 img-wrap--float img-wrap--bob" title="«Не лозунги, а тяжелая борьба». 20 лет AHRCA: от Андижана и Cotton Campaign до помощи политзаключенным">
+                    <div class="thumb thumb16_9">
+                                <noscript class="nojs-img">
+                                    <img src="https://gdb.rferl.org/12c2d7ee-ee27-4587-28d1-08df3ee80755_w100_r1.jpg" alt="Коллаж к 20-летию Ассоциации «Права человека в Центральной Азии»" />
+                                </noscript>
+                            <img data-src="https://gdb.rferl.org/12c2d7ee-ee27-4587-28d1-08df3ee80755_w33_r1.jpg" src="" alt="Коллаж к 20-летию Ассоциации «Права человека в Центральной Азии»" class="" />
+                    </div>
+                </a>
+                <div class="media-block__content media-block__content--h media-block__content--h-bob">
+                        <a href="/a/ne-lozungi-a-tyazhelaya-borba-20-let-ahrca-ot-andizhana-i-cotton-campaign-do-pomoschi-politzaklyuchennym/33899809.html" >
+        <h4 class="media-block__title media-block__title--size-4" title="«Не лозунги, а тяжелая борьба». 20 лет AHRCA: от Андижана и Cotton Campaign до помощи политзаключенным">
+            «Не лозунги, а тяжелая борьба». 20 лет AHRCA: от Андижана и Cotton Campaign до помощи политзаключенным
+        </h4>
+                        </a>
+                </div>
+        </div>
+    </li>
+
+
+    <li class="col-xs-12 col-sm-6 col-md-12 col-lg-12 fui-bob-grid">
+        <div class="media-block madia-block--fui-bob">
+                <a href="/a/kitay-v-tsentralnoy-azii-uchitsya-li-pekin-igrat-po-mestnym-pravilam-ili-iskusnee-prodvigaet-svoi-interesy/33892312.html"  class="img-wrap img-wrap--t-spac img-wrap--size-4 img-wrap--float img-wrap--bob" title="Китай в Центральной Азии: учится ли Пекин играть по местным правилам или искуснее продвигает свои интересы? ">
+                    <div class="thumb thumb16_9">
+                                <noscript class="nojs-img">
+                                    <img src="https://gdb.rferl.org/5e0ce047-1c5d-432c-81cf-08dda7e0bdb7_cx0_cy3_cw0_w100_r1.jpg" alt="Президент Казахстана Касым-Жомарт Токаев (слева) приветствует прибывшего с визитом председателя КНР Си Цзиньпина в аэропорту. Астана, 16 июня 2025 года" />
+                                </noscript>
+                            <img data-src="https://gdb.rferl.org/5e0ce047-1c5d-432c-81cf-08dda7e0bdb7_cx0_cy3_cw0_w33_r1.jpg" src="" alt="Президент Казахстана Касым-Жомарт Токаев (слева) приветствует прибывшего с визитом председателя КНР Си Цзиньпина в аэропорту. Астана, 16 июня 2025 года" class="" />
+                    </div>
+                </a>
+                <div class="media-block__content media-block__content--h media-block__content--h-bob">
+                        <a href="/a/kitay-v-tsentralnoy-azii-uchitsya-li-pekin-igrat-po-mestnym-pravilam-ili-iskusnee-prodvigaet-svoi-interesy/33892312.html" >
+        <h4 class="media-block__title media-block__title--size-4" title="Китай в Центральной Азии: учится ли Пекин играть по местным правилам или искуснее продвигает свои интересы? ">
+            Китай в Центральной Азии: учится ли Пекин играть по местным правилам или искуснее продвигает свои интересы? 
+        </h4>
+                        </a>
+                </div>
+        </div>
+    </li>
+
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    </div>
+
+    </div>
+
+    </div>
+
+    <div class="container" id="wrowblock-59637_73" >
+        
+    <div class="row" id="wrowblock-59637_49" >
+        
+    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 wg-area-4c" id="wrowblock-59637_50" >
+        
+    <div class="media-block-wrap" id="wrowblock-59637_51" data-area-id=R2_1>
+        
+<h2 class="section-head">
+НОВОСТИ</h2>
+
+<div class="row">
+    <ul>
+
+    <li class="col-xs-12 col-sm-6 col-md-3 col-lg-3 mb-grid">
+        <div class="media-block ">
+                <div class="media-block__content">
+                        <a href="/a/putin-pribyl-s-dvuhdnevnym-vizitom-v-tadzhikistan-posle-zaversheniya-sammita-v-kitae/33902344.html" >
+        <h4 class="media-block__title media-block__title--size-4" title="Путин прибыл с двухдневным визитом в Таджикистан после завершения саммита в Китае">
+            Путин прибыл с двухдневным визитом в Таджикистан после завершения саммита в Китае
+        </h4>
+                        </a>
+                </div>
+        </div>
+    </li>
+
+
+    <li class="col-xs-12 col-sm-6 col-md-3 col-lg-3 mb-grid">
+        <div class="media-block ">
+                <div class="media-block__content">
+                        <a href="/a/ne-vse-beremennye-v-tadzhikistane-prohodyat-neobhodimye-obsledovaniya-issledovanie/33901545.html" >
+        <h4 class="media-block__title media-block__title--size-4" title="В Таджикистане сохраняется проблема своевременной постановки на учет по беременности — исследование">
+            В Таджикистане сохраняется проблема своевременной постановки на учет по беременности — исследование
+        </h4>
+                        </a>
+                </div>
+        </div>
+    </li>
+
+
+    <li class="col-xs-12 col-sm-6 col-md-3 col-lg-3 mb-grid">
+        <div class="media-block ">
+                <div class="media-block__content">
+                        <a href="/a/v-ssha-tadzhikistantsa-priznali-vinovnym-v-finansirovanii-islamskogo-gosudarstva/33900880.html" >
+        <h4 class="media-block__title media-block__title--size-4" title="В США таджикистанца признали виновным в финансировании «Исламского государства»">
+            В США таджикистанца признали виновным в финансировании «Исламского государства»
+        </h4>
+                        </a>
+                </div>
+        </div>
+    </li>
+
+
+    <li class="col-xs-12 col-sm-6 col-md-3 col-lg-3 mb-grid">
+        <div class="media-block ">
+                <div class="media-block__content">
+                        <a href="/a/v-rossii-s-2027-goda-smogut-annulirovat-patenty-migrantov-iz-za-otsutstviya-dannyh-o-dohodah/33900597.html" >
+        <h4 class="media-block__title media-block__title--size-4" title="В России с 2027 года смогут аннулировать патенты мигрантов из-за отсутствия данных о доходах">
+            В России с 2027 года смогут аннулировать патенты мигрантов из-за отсутствия данных о доходах
+        </h4>
+                        </a>
+                </div>
+        </div>
+    </li>
+
+
+    <li class="col-xs-12 col-sm-6 col-md-3 col-lg-3 mb-grid">
+        <div class="media-block ">
+                <div class="media-block__content">
+                        <a href="/a/nyt-rossiya-trebuet-ot-nato-otkazatsya-ot-voennoy-deyatelnosti-v-tsentralnoy-azii/33898540.html" >
+        <h4 class="media-block__title media-block__title--size-4" title="NYT: Россия требует от НАТО отказаться от военной деятельности в Центральной Азии">
+            NYT: Россия требует от НАТО отказаться от военной деятельности в Центральной Азии
+        </h4>
+                        </a>
+                </div>
+        </div>
+    </li>
+
+
+    <li class="col-xs-12 col-sm-6 col-md-3 col-lg-3 mb-grid">
+        <div class="media-block ">
+                <div class="media-block__content">
+                        <a href="/a/fsb-priznala-chto-provodit-filtratsiyu-na-granitsah-rossii-v-delah-figuriruyut-tadzhikistantsy-i-uzbekistantsy/33895100.html" >
+        <h4 class="media-block__title media-block__title--size-4" title="ФСБ признала, что проводит фильтрацию на границах России ">
+            ФСБ признала, что проводит фильтрацию на границах России 
+        </h4>
+                        </a>
+                </div>
+        </div>
+    </li>
+
+
+    <li class="col-xs-12 col-sm-6 col-md-3 col-lg-3 mb-grid">
+        <div class="media-block ">
+                <div class="media-block__content">
+                        <a href="/a/v-mvd-rossii-zayavili-o-rezkom-spade-prestupnosti-sredi-migrantov-v-2026-godu/33895076.html" >
+        <h4 class="media-block__title media-block__title--size-4" title="В МВД России заявили о резком спаде преступности среди мигрантов в 2026 году">
+            В МВД России заявили о резком спаде преступности среди мигрантов в 2026 году
+        </h4>
+                        </a>
+                </div>
+        </div>
+    </li>
+
+
+    <li class="col-xs-12 col-sm-6 col-md-3 col-lg-3 mb-grid">
+        <div class="media-block ">
+                <div class="media-block__content">
+                        <a href="/a/supruga-asadullo-boboeva-menya-hotyat-otpravit-v-tadzhikistan/33892320.html" >
+        <h4 class="media-block__title media-block__title--size-4" title="Супруга таджикского оппозиционера Асадулло Бобоева сообщает, что ее могут депортировать из Европы в Душанбе">
+            Супруга таджикского оппозиционера Асадулло Бобоева сообщает, что ее могут депортировать из Европы в Душанбе
+        </h4>
+                        </a>
+                </div>
+        </div>
+    </li>
+
+    </ul>
+</div>
+<a class="link-more" href="/z/360">Все новости</a>
+    </div>
+
+    </div>
+
+    </div>
+
+    </div>
+
+    <div class="container" id="wrowblock-59496_9" >
+        
+    <div class="row" id="wrowblock-59496_10" >
+        
+    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 wg-area-3c" id="wrowblock-59496_11" >
+        
+    <div class="media-block-wrap" id="wrowblock-59496_12" data-area-id=R3_1>
+        
+
+<div class="row">
+    <ul>
+
+    <li class="col-xs-12 col-sm-4 col-md-4 col-lg-4 mb-grid">
+        <div class="media-block ">
+                <a href="/a/tadzhikistanets-obnovil-flag-kyrgyzstana-v-anglii-i-stal-zvezdoy-sotssetey/33897551.html"  class="img-wrap img-wrap--t-spac img-wrap--size-2" title="Таджикистанец обновил флаг Кыргызстана в Англии и стал звездой соцсетей">
+                    <div class="thumb thumb16_9">
+                                <noscript class="nojs-img">
+                                    <img src="https://gdb.rferl.org/7efc8341-0bd1-4a0e-843b-08df3ee82709_cx0_cy91_cw0_w160_r1.png" alt="Abdulhafiz Khafizov, migrant from Tajikistan" />
+                                </noscript>
+                            <img data-src="https://gdb.rferl.org/7efc8341-0bd1-4a0e-843b-08df3ee82709_cx0_cy91_cw0_w100_r1.png" src="" alt="Abdulhafiz Khafizov, migrant from Tajikistan" class="" />
+                    </div>
+
+<span class="ico ico-video ico--media-type"></span>                </a>
+                <div class="media-block__content">
+                        <a href="/a/tadzhikistanets-obnovil-flag-kyrgyzstana-v-anglii-i-stal-zvezdoy-sotssetey/33897551.html" >
+        <h4 class="media-block__title media-block__title--size-2" title="Таджикистанец обновил флаг Кыргызстана в Англии и стал звездой соцсетей">
+            Таджикистанец обновил флаг Кыргызстана в Англии и стал звездой соцсетей
+        </h4>
+                        </a>
+                </div>
+        </div>
+    </li>
+
+
+    <li class="col-xs-12 col-sm-4 col-md-4 col-lg-4 mb-grid">
+        <div class="media-block ">
+                <a href="/a/v-tadzhikistane-chetvertyy-mesyats-ischut-20-letnego-voennosluzhaschego/33895055.html"  class="img-wrap img-wrap--t-spac img-wrap--size-2" title="В Таджикистане четвертый месяц ищут 20-летнего военнослужащего">
+                    <div class="thumb thumb16_9">
+                                <noscript class="nojs-img">
+                                    <img src="https://gdb.rferl.org/b9675c19-4ef4-4fc1-4f2b-08df13aec0bb_w160_r1.jpg" alt="Mirzobobur Miraimov, Tajik soldier, who disappeared four month ago  " />
+                                </noscript>
+                            <img data-src="https://gdb.rferl.org/b9675c19-4ef4-4fc1-4f2b-08df13aec0bb_w100_r1.jpg" src="" alt="Mirzobobur Miraimov, Tajik soldier, who disappeared four month ago  " class="" />
+                    </div>
+
+<span class="ico ico-video ico--media-type"></span>                </a>
+                <div class="media-block__content">
+                        <a href="/a/v-tadzhikistane-chetvertyy-mesyats-ischut-20-letnego-voennosluzhaschego/33895055.html" >
+        <h4 class="media-block__title media-block__title--size-2" title="В Таджикистане четвертый месяц ищут 20-летнего военнослужащего">
+            В Таджикистане четвертый месяц ищут 20-летнего военнослужащего
+        </h4>
+                        </a>
+                </div>
+        </div>
+    </li>
+
+
+    <li class="col-xs-12 col-sm-4 col-md-4 col-lg-4 mb-grid">
+        <div class="media-block ">
+                <a href="/a/muzhya-vliyatelnyh-zhenschin-kak-zyatya-prezidentov-v-tsentralnoy-azii-kontroliruyut-solidnye-aktivy/33890840.html"  class="img-wrap img-wrap--t-spac img-wrap--size-2" title="Мужья влиятельных женщин: как зятья президентов в Центральной Азии контролируют солидные активы">
+                    <div class="thumb thumb16_9">
+                                <noscript class="nojs-img">
+                                    <img src="https://gdb.rferl.org/67d83c5a-5c6e-4847-4f23-08df13aec0bb_w160_r1.jpg" alt="Зятья президентов стран Центральной Азии. Коллаж" />
+                                </noscript>
+                            <img data-src="https://gdb.rferl.org/67d83c5a-5c6e-4847-4f23-08df13aec0bb_w100_r1.jpg" src="" alt="Зятья президентов стран Центральной Азии. Коллаж" class="" />
+                    </div>
+                </a>
+                <div class="media-block__content">
+                        <a href="/a/muzhya-vliyatelnyh-zhenschin-kak-zyatya-prezidentov-v-tsentralnoy-azii-kontroliruyut-solidnye-aktivy/33890840.html" >
+        <h4 class="media-block__title media-block__title--size-2" title="Мужья влиятельных женщин: как зятья президентов в Центральной Азии контролируют солидные активы">
+            Мужья влиятельных женщин: как зятья президентов в Центральной Азии контролируют солидные активы
+        </h4>
+                        </a>
+                </div>
+        </div>
+    </li>
+
+
+    <li class="col-xs-12 col-sm-4 col-md-4 col-lg-4 mb-grid">
+        <div class="media-block ">
+                <a href="/a/vazhno-prisutstvovat-v-zhizni-rebenka-kak-muzhchiny-v-tsentralnoy-azii-pereosmyslivayut-ottsovstvo/33890227.html"  class="img-wrap img-wrap--t-spac img-wrap--size-2" title="«Важно присутствовать в жизни ребенка». Как мужчины в Центральной Азии переосмысливают отцовство">
+                    <div class="thumb thumb16_9">
+                                <noscript class="nojs-img">
+                                    <img src="https://gdb.rferl.org/e4ceca3a-a493-430e-4f10-08df13aec0bb_w160_r1.jpg" alt="Автор иллюстрации — Роман Ким, Азаттык Азия" />
+                                </noscript>
+                            <img data-src="https://gdb.rferl.org/e4ceca3a-a493-430e-4f10-08df13aec0bb_w100_r1.jpg" src="" alt="Автор иллюстрации — Роман Ким, Азаттык Азия" class="" />
+                    </div>
+                </a>
+                <div class="media-block__content">
+                        <a href="/a/vazhno-prisutstvovat-v-zhizni-rebenka-kak-muzhchiny-v-tsentralnoy-azii-pereosmyslivayut-ottsovstvo/33890227.html" >
+        <h4 class="media-block__title media-block__title--size-2" title="«Важно присутствовать в жизни ребенка». Как мужчины в Центральной Азии переосмысливают отцовство">
+            «Важно присутствовать в жизни ребенка». Как мужчины в Центральной Азии переосмысливают отцовство
+        </h4>
+                        </a>
+                </div>
+        </div>
+    </li>
+
+
+    <li class="col-xs-12 col-sm-4 col-md-4 col-lg-4 mb-grid">
+        <div class="media-block ">
+                <a href="/a/v-rossii-tadzhikskim-migrantam-vernuli-bolee-32-5-mln-rubley-nevyplachennoy-zarplaty/33888701.html"  class="img-wrap img-wrap--t-spac img-wrap--size-2" title="Душанбе: Таджикским мигрантам в России вернули более 32,5 млн рублей невыплаченной зарплаты">
+                    <div class="thumb thumb16_9">
+                                <noscript class="nojs-img">
+                                    <img src="https://gdb.rferl.org/F9ADBE32-1148-41F4-A25E-7812987EEA24_w160_r1.jpg" alt="" />
+                                </noscript>
+                            <img data-src="https://gdb.rferl.org/F9ADBE32-1148-41F4-A25E-7812987EEA24_w100_r1.jpg" src="" alt="" class="" />
+                    </div>
+                </a>
+                <div class="media-block__content">
+                        <a href="/a/v-rossii-tadzhikskim-migrantam-vernuli-bolee-32-5-mln-rubley-nevyplachennoy-zarplaty/33888701.html" >
+        <h4 class="media-block__title media-block__title--size-2" title="Душанбе: Таджикским мигрантам в России вернули более 32,5 млн рублей невыплаченной зарплаты">
+            Душанбе: Таджикским мигрантам в России вернули более 32,5 млн рублей невыплаченной зарплаты
+        </h4>
+                        </a>
+                </div>
+        </div>
+    </li>
+
+
+    <li class="col-xs-12 col-sm-4 col-md-4 col-lg-4 mb-grid">
+        <div class="media-block ">
+                <a href="/a/eabr-predupredil-o-roste-defitsita-elektroenergii-v-tsentralnoy-azii/33886578.html"  class="img-wrap img-wrap--t-spac img-wrap--size-2" title="ЕАБР предупредил о росте дефицита электроэнергии в Центральной Азии">
+                    <div class="thumb thumb16_9">
+                                <noscript class="nojs-img">
+                                    <img src="https://gdb.rferl.org/458b16eb-6f94-465f-5837-08de3c91433d_w160_r1.jpg" alt="" />
+                                </noscript>
+                            <img data-src="https://gdb.rferl.org/458b16eb-6f94-465f-5837-08de3c91433d_w100_r1.jpg" src="" alt="" class="" />
+                    </div>
+                </a>
+                <div class="media-block__content">
+                        <a href="/a/eabr-predupredil-o-roste-defitsita-elektroenergii-v-tsentralnoy-azii/33886578.html" >
+        <h4 class="media-block__title media-block__title--size-2" title="ЕАБР предупредил о росте дефицита электроэнергии в Центральной Азии">
+            ЕАБР предупредил о росте дефицита электроэнергии в Центральной Азии
+        </h4>
+                        </a>
+                </div>
+        </div>
+    </li>
+
+
+    <li class="col-xs-12 col-sm-4 col-md-4 col-lg-4 mb-grid">
+        <div class="media-block ">
+                <a href="/a/v-horoge-ne-hvataet-russkoyazychnyh-klassov-dlya-detey-migrantov-vernuvshihsya-iz-rossii/33886516.html"  class="img-wrap img-wrap--t-spac img-wrap--size-2" title="В Хороге не хватает русскоязычных классов для детей мигрантов, вернувшихся из России">
+                    <div class="thumb thumb16_9">
+                                <noscript class="nojs-img">
+                                    <img src="https://gdb.rferl.org/750b3e5e-26d0-4a6b-8cdd-a4d5457f1082_cx7_cy23_cw59_w160_r1.jpg" alt="" />
+                                </noscript>
+                            <img data-src="https://gdb.rferl.org/750b3e5e-26d0-4a6b-8cdd-a4d5457f1082_cx7_cy23_cw59_w100_r1.jpg" src="" alt="" class="" />
+                    </div>
+                </a>
+                <div class="media-block__content">
+                        <a href="/a/v-horoge-ne-hvataet-russkoyazychnyh-klassov-dlya-detey-migrantov-vernuvshihsya-iz-rossii/33886516.html" >
+        <h4 class="media-block__title media-block__title--size-2" title="В Хороге не хватает русскоязычных классов для детей мигрантов, вернувшихся из России">
+            В Хороге не хватает русскоязычных классов для детей мигрантов, вернувшихся из России
+        </h4>
+                        </a>
+                </div>
+        </div>
+    </li>
+
+
+    <li class="col-xs-12 col-sm-4 col-md-4 col-lg-4 mb-grid">
+        <div class="media-block ">
+                <a href="/a/postradavshih-net-vlasti-tadzhikistana-prokommentirovali-intsident-na-rogunskoy-ges/33886021.html"  class="img-wrap img-wrap--t-spac img-wrap--size-2" title="«Пострадавших нет». Власти Таджикистана прокомментировали инцидент на Рогунской ГЭС">
+                    <div class="thumb thumb16_9">
+                                <noscript class="nojs-img">
+                                    <img src="https://gdb.rferl.org/93d69d08-e102-4797-8492-b5e931517126_w160_r1.jpg" alt="Участок Рогунской плотины в процессе строительства, 2024 год" />
+                                </noscript>
+                            <img data-src="https://gdb.rferl.org/93d69d08-e102-4797-8492-b5e931517126_w100_r1.jpg" src="" alt="Участок Рогунской плотины в процессе строительства, 2024 год" class="" />
+                    </div>
+                </a>
+                <div class="media-block__content">
+                        <a href="/a/postradavshih-net-vlasti-tadzhikistana-prokommentirovali-intsident-na-rogunskoy-ges/33886021.html" >
+        <h4 class="media-block__title media-block__title--size-2" title="«Пострадавших нет». Власти Таджикистана прокомментировали инцидент на Рогунской ГЭС">
+            «Пострадавших нет». Власти Таджикистана прокомментировали инцидент на Рогунской ГЭС
+        </h4>
+                        </a>
+                </div>
+        </div>
+    </li>
+
+
+    <li class="col-xs-12 col-sm-4 col-md-4 col-lg-4 mb-grid">
+        <div class="media-block ">
+                <a href="/a/na-rogunskoy-ges-proizoshyol-obval-grunta-postradali-bolee-pyati-rabotnikov/33885440.html"  class="img-wrap img-wrap--t-spac img-wrap--size-2" title="На стройплощадке Рогунской ГЭС произошёл обвал грунта, пострадали более пяти рабочих">
+                    <div class="thumb thumb16_9">
+                                <noscript class="nojs-img">
+                                    <img src="https://gdb.rferl.org/93d69d08-e102-4797-8492-b5e931517126_w160_r1.jpg" alt="Участок Рогунской плотины в процессе строительства, 2024 год" />
+                                </noscript>
+                            <img data-src="https://gdb.rferl.org/93d69d08-e102-4797-8492-b5e931517126_w100_r1.jpg" src="" alt="Участок Рогунской плотины в процессе строительства, 2024 год" class="" />
+                    </div>
+                </a>
+                <div class="media-block__content">
+                        <a href="/a/na-rogunskoy-ges-proizoshyol-obval-grunta-postradali-bolee-pyati-rabotnikov/33885440.html" >
+        <h4 class="media-block__title media-block__title--size-2" title="На стройплощадке Рогунской ГЭС произошёл обвал грунта, пострадали более пяти рабочих">
+            На стройплощадке Рогунской ГЭС произошёл обвал грунта, пострадали более пяти рабочих
+        </h4>
+                        </a>
+                </div>
+        </div>
+    </li>
+
+    </ul>
+</div>
+<a class="link-more" href="/z/23726">Весь архив</a>
+    </div>
+
+    </div>
+
+    </div>
+
+    </div>
+
+    <div class="container" id="wrowblock-59497_9" >
+        
+    <div class="row" id="wrowblock-59497_10" >
+        
+    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 wg-area-3c" id="wrowblock-59497_11" >
+        
+
+    </div>
+
+    </div>
+
+    </div>
+
+    <div class="container" id="wrowblock-59498_13" >
+        
+    <div class="row" id="wrowblock-59498_14" >
+        
+    <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4 wg-area-1c" id="wrowblock-59498_15" >
+        
+
+    </div>
+
+    <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4 wg-area-1c" id="wrowblock-59498_16" >
+        
+
+    </div>
+
+    <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4 wg-area-1c" id="wrowblock-59498_17" >
+        
+
+    </div>
+
+    </div>
+
+    </div>
+
+    <div class="container" id="wrowblock-59499_13" >
+        
+    <div class="row" id="wrowblock-59499_14" >
+        
+    <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4 wg-area-1c" id="wrowblock-59499_15" >
+        
+
+    </div>
+
+    <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4 wg-area-1c" id="wrowblock-59499_16" >
+        
+
+    </div>
+
+    <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4 wg-area-1c" id="wrowblock-59499_17" >
+        
+
+    </div>
+
+    </div>
+
+    </div>
+
+
+
+        </div>
+
+
+
+<footer role="contentinfo">
+    <div id="foot" class="foot">
+        <div class="container">
+                <div class="foot-nav collapsed" id="foot-nav">
+                    <div class="menu">
+                        <ul class="items">
+                                <li class="socials block-socials">
+                                        <span class="handler" id="socials-handler">
+                                            Подпишитесь на нас в соцсетях
+                                        </span>
+                                    <div class="inner">
+                                        <ul class="subitems follow">
+                                                <li>
+            <a href="https://www.youtube.com/@azattyqasia" title="Follow us on Youtube" data-analytics-text="follow_on_youtube" class="btn btn--rounded js-social-btn btn-youtube"  target="_blank" rel="noopener">
+                <span class="ico ico-youtube ico--rounded"></span>
+            </a>
+    </li>
+
+    <li>
+            <a href="https://www.instagram.com/currenttimeasia/" title="Follow us on Instagram" data-analytics-text="follow_on_instagram" class="btn btn--rounded js-social-btn btn-instagram"  target="_blank" rel="noopener">
+                <span class="ico ico-instagram ico--rounded"></span>
+            </a>
+    </li>
+
+    <li>
+            <a href="https://www.facebook.com/AzattyqAsia" title="Follow us on Facebook" data-analytics-text="follow_on_facebook" class="btn btn--rounded js-social-btn btn-facebook"  target="_blank" rel="noopener">
+                <span class="ico ico-facebook-alt ico--rounded"></span>
+            </a>
+    </li>
+
+    <li>
+            <a href="http://t.me/azattyqasia" title="Follow us on Telegram" data-analytics-text="follow_on_telegram" class="btn btn--rounded js-social-btn btn-telegram"  target="_blank" rel="noopener">
+                <span class="ico ico-telegram ico--rounded"></span>
+            </a>
+    </li>
+
+    <li>
+            <a href="https://whatsapp.com/channel/0029VaCqWrHElagsGmKjZD1M" title="Follow us on WhatsApp" data-analytics-text="follow_on_whatsapp" class="btn btn--rounded js-social-btn btn-whatsapp visible-xs-inline-block visible-sm-inline-block"  target="_blank" rel="noopener">
+                <span class="ico ico-whatsapp ico--rounded"></span>
+            </a>
+    </li>
+
+    <li>
+            <a href="https://whatsapp.com/channel/0029VaCqWrHElagsGmKjZD1M" title="Follow us on WhatsApp" data-analytics-text="follow_on_whatsapp_desktop" class="btn btn--rounded js-social-btn btn-whatsapp visible-md-inline-block visible-lg-inline-block"  target="_blank" rel="noopener">
+                <span class="ico ico-whatsapp ico--rounded"></span>
+            </a>
+    </li>
+
+    <li>
+            <a href="https://news.google.com/search?q=%D0%90%D0%B7%D0%B0%D1%82%D1%82%D1%8B%D0%BA%20%D0%90%D0%B7%D0%B8%D1%8F" title="Follow us on Google News" data-analytics-text="follow_on_google_news" class="btn btn--rounded js-social-btn btn-g-news"  target="_blank" rel="noopener">
+                <span class="ico ico-google-news ico--rounded"></span>
+            </a>
+    </li>
+
+    <li>
+            <a href="/rssfeeds" title="RSS" data-analytics-text="follow_on_rss" class="btn btn--rounded js-social-btn btn-rss" >
+                <span class="ico ico-rss ico--rounded"></span>
+            </a>
+    </li>
+
+
+                                        </ul>
+                                    </div>
+                                </li>
+
+    <li class="block-primary collapsed collapsible item">
+            <span class="handler">
+                Выходные данные
+                <span title="close tab" class="ico ico-chevron-up"></span>
+                <span title="open tab" class="ico ico-chevron-down"></span>
+                <span title="add" class="ico ico-plus"></span>
+                <span title="remove" class="ico ico-minus"></span>
+            </span>
+            <div class="inner">
+                <ul class="subitems">
+                    
+    <li class="subitem">
+        <a class="handler" href="/about-us" title="О нас" >О нас</a>
+    </li>
+
+    <li class="subitem">
+        <a class="handler" href="/contact-us" title="Контакты" >Контакты</a>
+    </li>
+
+    <li class="subitem">
+        <a class="handler" href="/p/8614.html" title="Как обойти блокировку?" >Как обойти блокировку?</a>
+    </li>
+
+    <li class="subitem">
+        <a class="handler" href="/p/4470.html" title="Правила пользования" >Правила пользования</a>
+    </li>
+
+                </ul>
+            </div>
+    </li>
+
+    <li class="block-primary collapsed collapsible item">
+            <span class="handler">
+                Основные рубрики
+                <span title="close tab" class="ico ico-chevron-up"></span>
+                <span title="open tab" class="ico ico-chevron-down"></span>
+                <span title="add" class="ico ico-plus"></span>
+                <span title="remove" class="ico ico-minus"></span>
+            </span>
+            <div class="inner">
+                <ul class="subitems">
+                    
+    <li class="subitem">
+        <a class="handler" href="/z/360" title="Новости" >Новости</a>
+    </li>
+
+    <li class="subitem">
+        <a class="handler" href="/p/6585.html" title="Центральная Азия" >Центральная Азия</a>
+    </li>
+
+    <li class="subitem">
+        <a class="handler" href="/z/364" title="Политика" >Политика</a>
+    </li>
+
+    <li class="subitem">
+        <a class="handler" href="/z/367" title="Социум" >Социум</a>
+    </li>
+
+    <li class="subitem">
+        <a class="handler" href="/z/7649" title="Права человека" >Права человека</a>
+    </li>
+
+                </ul>
+            </div>
+    </li>
+
+    <li class="block-secondary collapsed collapsible item">
+            <span class="handler">
+                Страны региона
+                <span title="close tab" class="ico ico-chevron-up"></span>
+                <span title="open tab" class="ico ico-chevron-down"></span>
+                <span title="add" class="ico ico-plus"></span>
+                <span title="remove" class="ico ico-minus"></span>
+            </span>
+            <div class="inner">
+                <ul class="subitems">
+                    
+    <li class="subitem">
+        <a class="handler" href="/z/370" title="Казахстан" >Казахстан</a>
+    </li>
+
+    <li class="subitem">
+        <a class="handler" href="/z/23725" title="Кыргызстан" >Кыргызстан</a>
+    </li>
+
+    <li class="subitem">
+        <a class="handler" href="/z/23726" title="Таджикистан" >Таджикистан</a>
+    </li>
+
+    <li class="subitem">
+        <a class="handler" href="/z/23728" title="Туркменистан" >Туркменистан</a>
+    </li>
+
+    <li class="subitem">
+        <a class="handler" href="/z/23727" title="Узбекистан" >Узбекистан</a>
+    </li>
+
+                </ul>
+            </div>
+    </li>
+                        </ul>
+                    </div>
+                </div>
+            <div class="foot__item foot__item--copyrights">
+                <p class="copyright">Азаттык Азия © 2026 RFE/RL, Inc. | Все права защищены.</p>
+            </div>
+        </div>
+    </div>
+</footer>
+
+    </div>
+</div>
+        <script defer src="/Scripts/responsive/serviceWorkerInstall.js?cb=395"></script>
+    <script type="text/javascript">
+
+        // opera mini - disable ico font
+        if (navigator.userAgent.match(/Opera Mini/i)) {
+            document.getElementsByTagName("body")[0].className += " can-not-ff";
+        }
+
+        // mobile browsers test
+        if (typeof RFE !== 'undefined' && RFE.isMobile) {
+            if (RFE.isMobile.any()) {
+                document.getElementsByTagName("body")[0].className += " is-mobile";
+            }
+            else {
+                document.getElementsByTagName("body")[0].className += " is-not-mobile";
+            }
+        }
+    </script>
+    <script src="/conf.js?x=395" type="text/javascript"></script>
+        <div class="responsive-indicator">
+            <div class="visible-xs-block">XS</div>
+            <div class="visible-sm-block">SM</div>
+            <div class="visible-md-block">MD</div>
+            <div class="visible-lg-block">LG</div>
+        </div>
+        <script type="text/javascript">
+            var bar_data = {
+  "apiId": "10701",
+  "apiType": "2",
+  "isEmbedded": "0",
+  "culture": "ru-KZ",
+  "cookieName": "cmsLoggedIn",
+  "cookieDomain": "www.azattyqasia.org"
+};
+        </script>
+    
+    
+
+
+
+    <div id="scriptLoaderTarget" style="display:none;contain:strict;"></div>
+
+</body>
+</html>
+

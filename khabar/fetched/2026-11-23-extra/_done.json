@@ -1,0 +1,110 @@
+[
+ {
+  "name": "centralasia",
+  "ok": true,
+  "file": "centralasia.html",
+  "bytes": 54876
+ },
+ {
+  "name": "tass-rss",
+  "ok": true,
+  "file": "tass-rss.html",
+  "bytes": 65653
+ },
+ {
+  "name": "ria-rss",
+  "ok": true,
+  "file": "ria-rss.html",
+  "bytes": 60564
+ },
+ {
+  "name": "tg-sputniktj",
+  "ok": true,
+  "file": "tg-sputniktj.html",
+  "bytes": 33330
+ },
+ {
+  "name": "tg-khovar2",
+  "ok": true,
+  "file": "tg-khovar2.html",
+  "bytes": 26870
+ },
+ {
+  "name": "tg-migrant",
+  "ok": true,
+  "file": "tg-migrant.html",
+  "bytes": 25548
+ },
+ {
+  "name": "asiaplus-home",
+  "ok": true,
+  "file": "asiaplus-home.html",
+  "bytes": 237020
+ },
+ {
+  "name": "avesta-news",
+  "ok": true,
+  "file": "avesta-news.html",
+  "bytes": 302186
+ },
+ {
+  "name": "sputnik-home",
+  "ok": true,
+  "file": "sputnik-home.html",
+  "bytes": 142689
+ },
+ {
+  "name": "azattyq-tj",
+  "ok": true,
+  "file": "azattyq-tj.html",
+  "bytes": 72619
+ },
+ {
+  "name": "kun-rss",
+  "ok": true,
+  "file": "kun-rss.html",
+  "bytes": 11531
+ },
+ {
+  "name": "tg-asiaplus",
+  "ok": true,
+  "file": "tg-asiaplus.html",
+  "bytes": 118767
+ },
+ {
+  "name": "tg-asiaplustj",
+  "ok": true,
+  "file": "tg-asiaplustj.html",
+  "bytes": 160036
+ },
+ {
+  "name": "asiaplus-ru-rss",
+  "ok": true,
+  "file": "asiaplus-ru-rss.html",
+  "bytes": 523217
+ },
+ {
+  "name": "asiaplus-tg-rss",
+  "ok": true,
+  "file": "asiaplus-tg-rss.html",
+  "bytes": 483584
+ },
+ {
+  "name": "khovar-rss",
+  "ok": true,
+  "file": "khovar-rss.html",
+  "bytes": 132359
+ },
+ {
+  "name": "sputnik-tj-rss",
+  "ok": true,
+  "file": "sputnik-tj-rss.html",
+  "bytes": 124311
+ },
+ {
+  "name": "sputnik-ru-rss",
+  "ok": true,
+  "file": "sputnik-ru-rss.html",
+  "bytes": 124618
+ }
+]
