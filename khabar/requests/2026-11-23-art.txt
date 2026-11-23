@@ -1,0 +1,17 @@
+# статьи и фото кандидатов 2026-11-23
+page a1 https://sputnik.tj/20261122/avval-sol-shumora-aholi-tojikiston-afzoish-1082454117.html
+page a2 https://kun.uz/news/2026/11/22/ozbekistonlik-tibbiyot-xodimlari-vengriyaga-ishga-yuborilishi-mumkin-61782
+page a3 https://kun.uz/news/2026/11/22/bugun-jahon-shaxmat-toji-uchun-sindorov-dommaraju-bellashuvining-rasmiy-ochilish-marosimi-bolib-otadi-61778
+page a4 https://ria.ru/20261122/tramp-2133292591.html
+page a5 https://tass.ru/sport/28344091
+page a6 https://asiaplus.news/2026/11/22/30-tysyach-tonn-hurmy-kak-vyrashhivayut-osennij-frukt-v-tadzhikistane/
+page a7 https://ria.ru/20261122/alkaras-2133296249.html
+page a8 https://ria.ru/20261122/liverpul-2133294843.html
+og n1 https://sputnik.tj/20261122/avval-sol-shumora-aholi-tojikiston-afzoish-1082454117.html
+og n2 https://kun.uz/news/2026/11/22/ozbekistonlik-tibbiyot-xodimlari-vengriyaga-ishga-yuborilishi-mumkin-61782
+og n3 https://kun.uz/news/2026/11/22/bugun-jahon-shaxmat-toji-uchun-sindorov-dommaraju-bellashuvining-rasmiy-ochilish-marosimi-bolib-otadi-61778
+og n4 https://ria.ru/20261122/tramp-2133292591.html
+og n5 https://ria.ru/20261122/alkaras-2133296249.html
+og n5b https://tass.ru/sport/28344091
+og n6 https://asiaplus.news/2026/11/22/30-tysyach-tonn-hurmy-kak-vyrashhivayut-osennij-frukt-v-tadzhikistane/
+og n8 https://ria.ru/20261122/liverpul-2133294843.html
