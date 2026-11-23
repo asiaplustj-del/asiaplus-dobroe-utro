@@ -1,0 +1,19 @@
+# доп. ленты: в основных за ночь почти ничего (воскресенье)
+page centralasia https://centralasia.media/
+page tass-rss https://tass.ru/rss/v2.xml
+page ria-rss https://ria.ru/export/rss2/archive/index.xml
+page tg-sputniktj https://t.me/s/sputniktajikistan
+page tg-khovar2 https://t.me/s/khovar_tj
+page tg-migrant https://t.me/s/migrant_tj
+page asiaplus-home https://asiaplus.news/
+page avesta-news https://avesta.tj/news/
+page sputnik-home https://sputnik.tj/
+page azattyq-tj https://www.azattyqasia.org/tajikistan
+page kun-rss https://kun.uz/news/rss
+page tg-asiaplus https://t.me/s/asiaplus
+page tg-asiaplustj https://t.me/s/asiaplustj
+page asiaplus-ru-rss https://asiaplus.news/feed/
+page asiaplus-tg-rss https://asiaplus.news/tg/feed/
+page khovar-rss https://khovar.tj/feed/
+page sputnik-tj-rss https://sputnik.tj/export/rss2/archive/index.xml
+page sputnik-ru-rss https://tj.sputniknews.ru/export/rss2/archive/index.xml
