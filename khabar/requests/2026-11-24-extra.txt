@@ -1,0 +1,12 @@
+page a1 https://www.ozodi.org/a/digar-az-ronandagoni-taksi-dar-dushanbe-100-somoni-namegirand/33904320.html
+page a2 https://asiaplus.news/2026/11/23/v-dushanbe-podeshevelo-dizelnoe-toplivo-no-v-deficzite-ai-92/
+page a3 https://asiaplus.news/2026/11/23/v-tadzhikistane-snizilas-rozhdaemost-i-vyrosla-smertnost/
+page a4 https://sputnik.tj/20261123/sughd-qarib-64-hazor-joy-nav-kor-tasis-1082484889.html
+page a5 https://www.ozodi.org/a/zelenskiy-hamla-ba-kishtihoi-rusiya-dar-libiyaro-tasdiq-kard/33904295.html
+og n1 https://www.ozodi.org/a/digar-az-ronandagoni-taksi-dar-dushanbe-100-somoni-namegirand/33904320.html
+img n1b https://cdn4.telesco.pe/file/WZafssRsw0kL4O9x16cRFOOlDoM72K1Crtn7fio8hSGSJBAJ-bHu_1f77UCo9h57tc59bd23Na26wPM994BZTL9tdBaBX-K1eXRObsYK1ON7gbT-GETSLLa5CWS0CRT6vEpKn5vNYpIr6qPuxF-w6PGady3v5BPu2WzJxLcB4qDlLTRvVSPGdHWz1zUo_JrR3sJGSA97FohWdogbgcj9_gEcI4ionlzDXhppnuwGWWWKxqA7GL1O-nvuuGHKlFV0n8o0l9Ws5pbXLBx1oSe7PCN4DKkms9WYRcheKcG5XD-FQpG06Li0uiAp4UwvxcRwartJ001O2FhRp1vBZRhC_g.jpg
+og n2 https://asiaplus.news/2026/11/23/v-dushanbe-podeshevelo-dizelnoe-toplivo-no-v-deficzite-ai-92/
+og n3 https://asiaplus.news/2026/11/23/v-tadzhikistane-snizilas-rozhdaemost-i-vyrosla-smertnost/
+og n4 https://sputnik.tj/20261123/sughd-qarib-64-hazor-joy-nav-kor-tasis-1082484889.html
+img n5 https://cdn4.telesco.pe/file/ab01bzoRe-E5EKgx0GaN_gGp0_-rey2vlhm4PzZ2CVBn-55pe1nHMBa8RaqbY8iHIrPZxMyM8322yWLsR-vJhuuQUSAKyC2ag-Imqpczlp8p7duCHYT-v1WRiu-eAx9t-zWiIyiHFMhr9KVuTYAUzfzxwijl91SXsQGnHXuBWelfF4gCOL-YB3Z3g_XK9yQWaesZ4kUiAiwOF8sdzHD4lFIj41Necd1G06aCeDswEXsD9GoAdWwdsNY6RePrneSdCBqNwW7QRbhZvgtgh_hGZDh7Zgf5vJTco7SxUECpzT3F_cSLpFN1tFwxy7n7aUL2twItD-Q9un56_uC8bgPxbw.jpg
+og n6 https://www.ozodi.org/a/zelenskiy-hamla-ba-kishtihoi-rusiya-dar-libiyaro-tasdiq-kard/33904295.html
