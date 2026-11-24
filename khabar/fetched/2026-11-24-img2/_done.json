@@ -1,0 +1,30 @@
+[
+ {
+  "name": "z1",
+  "ok": true,
+  "file": "z1.jpg",
+  "src": "https://gdb.rferl.org/9fb44a81-24f9-4bed-9148-abd6bac90dd3_w1200_r1.jpg",
+  "bytes": 202368
+ },
+ {
+  "name": "nv",
+  "ok": true,
+  "file": "nv.jpg",
+  "src": "https://cdn4.telesco.pe/file/GI_s25nDNEp13xeTgBiDCgtrvzrit-ptFe5TiYp_ctZpAseFJuVWtXE_R3YHYFJudDhjAobUBbvtz4QUX9PIjNHNmsh4CkGAnJ4CaHE-Rg7kug4hAJWIT6ODUVsZcZTRNfMmXgZuyentbNDyjD-smivoknOwlf4NvxCXhggkYy7zxrfa9I1IVbiVO9OOsGeux2stwTDywP9K_4yIa-c4c2Ve_LMxDM3TGarLZp527sjmrNy9ckEwa0HaHVoDbnWWydzopp9lmpo6J1HomBnGEFN4bCBTNLNGHiEItqDg0hKSct9zAlb23Um2fm1npLqAffJhd5i5aOZ75VB0L6S6TA.jpg",
+  "bytes": 69723
+ },
+ {
+  "name": "u1",
+  "ok": true,
+  "file": "u1.jpg",
+  "src": "https://cdn4.telesco.pe/file/lyVAPYcFc9ws8DY_2MKqm6X5JO_aSLWnSdpGLdFYGP1ACvaapvRp_3is9Gvbc0KqYiacflz34pjxANbmJftiJUV0iTcdMwwLRb95zjCcGJYpySDJnjWCgQOxUNxk2vtcIcNoAyxmLZUu7rrja2erOlrLAmnK3-4Q0r5ckWLdor8GYSkFXi6Lr-FwrlV04jPQBppHnjNYEnXSf_qmtr7KBSj-VKVPhwW4ylgYMcWGh17997S50-y67EStQ79Atza2dvhlkhBAXSAX16Glb1HXhCtHyvVs_vV7rAuUHPwy_d_RAeAg-44SgeRvHpKzppN1RlP83vcVseX0swKq49AY6A.jpg",
+  "bytes": 92501
+ },
+ {
+  "name": "u2",
+  "ok": true,
+  "file": "u2.jpg",
+  "src": "https://asiaplus.news/wp-content/uploads/2026/11/fwcu17-2026-md1-tajikistan-cuba.jpg",
+  "bytes": 1023417
+ }
+]
