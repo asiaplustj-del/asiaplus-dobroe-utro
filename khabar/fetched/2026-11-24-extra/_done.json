@@ -1,0 +1,81 @@
+[
+ {
+  "name": "a1",
+  "ok": true,
+  "file": "a1.html",
+  "bytes": 88768
+ },
+ {
+  "name": "a2",
+  "ok": true,
+  "file": "a2.html",
+  "bytes": 251831
+ },
+ {
+  "name": "a3",
+  "ok": true,
+  "file": "a3.html",
+  "bytes": 232037
+ },
+ {
+  "name": "a4",
+  "ok": true,
+  "file": "a4.html",
+  "bytes": 89396
+ },
+ {
+  "name": "a5",
+  "ok": true,
+  "file": "a5.html",
+  "bytes": 235071
+ },
+ {
+  "name": "n1",
+  "ok": true,
+  "file": "n1.jpg",
+  "src": "https://gdb.rferl.org/9EC7B7EB-C7C5-4E71-A43B-D8B60988B2BE.jpg",
+  "bytes": 184250
+ },
+ {
+  "name": "n1b",
+  "ok": true,
+  "file": "n1b.jpg",
+  "src": "https://cdn4.telesco.pe/file/WZafssRsw0kL4O9x16cRFOOlDoM72K1Crtn7fio8hSGSJBAJ-bHu_1f77UCo9h57tc59bd23Na26wPM994BZTL9tdBaBX-K1eXRObsYK1ON7gbT-GETSLLa5CWS0CRT6vEpKn5vNYpIr6qPuxF-w6PGady3v5BPu2WzJxLcB4qDlLTRvVSPGdHWz1zUo_JrR3sJGSA97FohWdogbgcj9_gEcI4ionlzDXhppnuwGWWWKxqA7GL1O-nvuuGHKlFV0n8o0l9Ws5pbXLBx1oSe7PCN4DKkms9WYRcheKcG5XD-FQpG06Li0uiAp4UwvxcRwartJ001O2FhRp1vBZRhC_g.jpg",
+  "bytes": 90048
+ },
+ {
+  "name": "n2",
+  "ok": true,
+  "file": "n2.jpg",
+  "src": "https://asiaplus.news/wp-content/uploads/2026/11/soro-ojl2.jpg",
+  "bytes": 197478
+ },
+ {
+  "name": "n3",
+  "ok": true,
+  "file": "n3.png",
+  "src": "https://asiaplus.news/wp-content/uploads/2026/11/75871d99-e55a-4d48-9f31-8a5f209f5dc0.png",
+  "bytes": 2375370
+ },
+ {
+  "name": "n4",
+  "ok": true,
+  "file": "n4.jpg",
+  "src": "https://cdnn1.img.sputnik.tj/img/07e8/0b/12/1065153945_0:133:1280:853_2072x0_60_0_0_4acddd033e20bb7ad128ec75fc136f28.jpg",
+  "bytes": 203981
+ },
+ {
+  "name": "n5",
+  "ok": true,
+  "file": "n5.jpg",
+  "src": "https://cdn4.telesco.pe/file/ab01bzoRe-E5EKgx0GaN_gGp0_-rey2vlhm4PzZ2CVBn-55pe1nHMBa8RaqbY8iHIrPZxMyM8322yWLsR-vJhuuQUSAKyC2ag-Imqpczlp8p7duCHYT-v1WRiu-eAx9t-zWiIyiHFMhr9KVuTYAUzfzxwijl91SXsQGnHXuBWelfF4gCOL-YB3Z3g_XK9yQWaesZ4kUiAiwOF8sdzHD4lFIj41Necd1G06aCeDswEXsD9GoAdWwdsNY6RePrneSdCBqNwW7QRbhZvgtgh_hGZDh7Zgf5vJTco7SxUECpzT3F_cSLpFN1tFwxy7n7aUL2twItD-Q9un56_uC8bgPxbw.jpg",
+  "bytes": 94362
+ },
+ {
+  "name": "n6",
+  "ok": true,
+  "file": "n6.jpg",
+  "src": "https://gdb.rferl.org/3A5CDD46-0F90-449E-98E7-5F5F1582AC6A.jpg",
+  "bytes": 149688
+ }
+]
