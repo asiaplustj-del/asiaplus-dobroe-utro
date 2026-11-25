@@ -1,0 +1,64 @@
+[
+ {
+  "name": "n1",
+  "ok": true,
+  "file": "n1.jpg",
+  "src": "https://www.pnp.ru/upload/entities/2026/11/24/18/article/detailPicture/7b/f1/45/91/7b7e0a3248f06fa02b5ba96a957ffb2b.jpg",
+  "bytes": 21154
+ },
+ {
+  "name": "n1b",
+  "ok": true,
+  "file": "n1b.jpg",
+  "src": "https://sharing.vedomosti.ru/1795532509/vedomosti.ru/society/news/2026/11/24/1414840-vidvorennih-migrantov.jpg",
+  "bytes": 58312
+ },
+ {
+  "name": "n2",
+  "ok": true,
+  "file": "n2.webp",
+  "src": "https://aif-s3.aif.ru/images/048/766/6b4d8ccd9e6421dce513f80c0e925018.webp",
+  "bytes": 47932
+ },
+ {
+  "name": "n2b",
+  "ok": true,
+  "file": "n2b.jpg",
+  "src": "https://www.ritmeurasia.ru/upl/news_image/orig/7i/0r/mp/nx/7i0rmpnxux01.jpg",
+  "bytes": 93902
+ },
+ {
+  "name": "n2c",
+  "ok": true,
+  "file": "n2c.jpg",
+  "src": "https://avesta.tj/wp-content/uploads/2026/11/photo_2026-11-24_09-07-50.jpg",
+  "bytes": 199816
+ },
+ {
+  "name": "n3",
+  "ok": true,
+  "file": "n3.jpg",
+  "src": "https://www.trend.az/media/2026/10/06/tajikistan_industry_55.jpg",
+  "bytes": 138045
+ },
+ {
+  "name": "n4",
+  "ok": false,
+  "url": "https://www.championat.com/football/news-6712884-real-madrid-psv-rezultat-matcha-24-noyabrya-2026-schyot-5-1-5-j-tur-obschego-etapa-ligi-chempionov-uefa.html",
+  "error": "The read operation timed out"
+ },
+ {
+  "name": "n5",
+  "ok": true,
+  "file": "n5.jpg",
+  "src": "https://khovar.tj/wp-content/uploads/2026/11/922781621_1911564216475482_354273812367648051_n.jpg",
+  "bytes": 133597
+ },
+ {
+  "name": "n6",
+  "ok": true,
+  "file": "n6.jpg",
+  "src": "https://gdb.rferl.org/8DF4DA17-921F-4537-9994-40BEAF5445F6.jpg",
+  "bytes": 86496
+ }
+]
