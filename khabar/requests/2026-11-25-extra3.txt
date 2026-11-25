@@ -1,0 +1,6 @@
+page c-aif https://aif.ru/politics/mid-rf-poprivetstvoval-reshenie-tadzhikistana-vyyti-iz-rimskogo-statuta-mus
+page c-ritm https://www.ritmeurasia.ru/news--2026-11-24--tadzhikistan-uvedomil-oon-o-vyhode-iz-mus-91849
+page c-sbs https://news.sbs.co.kr/english/article.do?news_id=N1008861969
+page c-reuters https://www.devdiscourse.com/article/international/4011704-reuters-world-news-summary
+page c-trend https://www.trend.az/casia/tajikistan/4250374.html
+page c-usnews https://www.usnews.com/news/world
