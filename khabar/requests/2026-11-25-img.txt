@@ -1,0 +1,9 @@
+og n1 https://www.pnp.ru/economics/v-ramkakh-operacii-nelegal-iz-rf-vydvorili-bolee-34-tysyach-inostrancev.html
+og n1b https://vedomosti.ru/society/news/2026/11/24/1414840-vidvorennih-migrantov
+og n2 https://aif.ru/politics/mid-rf-poprivetstvoval-reshenie-tadzhikistana-vyyti-iz-rimskogo-statuta-mus
+og n2b https://www.ritmeurasia.ru/news--2026-11-24--tadzhikistan-uvedomil-oon-o-vyhode-iz-mus-91849
+og n2c https://avesta.tj/2026/11/24/tadzhikistan-uvedomil-oon-o-vyhode-iz-mezhdunarodnogo-ugolovnogo-suda/
+og n3 https://www.trend.az/casia/tajikistan/4250374.html
+og n4 https://www.championat.com/football/news-6712884-real-madrid-psv-rezultat-matcha-24-noyabrya-2026-schyot-5-1-5-j-tur-obschego-etapa-ligi-chempionov-uefa.html
+og n5 https://khovar.tj/2026/11/ajati-donishkadai-k-iyu-metallurgii-to-ikiston-bo-parchami-davlatii-500-metra-dar-ro-pajmoii-idona-ishtirok-namudand/
+og n6 https://www.ozodi.org/a/parasturo-dar-eron-74-shalloq-zadand/33904874.html
