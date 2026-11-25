@@ -1,0 +1,50 @@
+[
+ {
+  "name": "d-vedom",
+  "ok": true,
+  "file": "d-vedom.html",
+  "bytes": 220949
+ },
+ {
+  "name": "d-izbrak",
+  "ok": true,
+  "file": "d-izbrak.html",
+  "bytes": 174477
+ },
+ {
+  "name": "d-interfax",
+  "ok": true,
+  "file": "d-interfax.html",
+  "bytes": 67968
+ },
+ {
+  "name": "d-izfns",
+  "ok": false,
+  "url": "https://iz.ru/2207744/2026-11-24/gosduma-razreshila-tcb-peredavat-v-fns-dannye-o-perevodakh-grazhdan",
+  "error": "HTTP Error 403: Forbidden"
+ },
+ {
+  "name": "d-real",
+  "ok": true,
+  "file": "d-real.html",
+  "bytes": 251316
+ },
+ {
+  "name": "d-city",
+  "ok": true,
+  "file": "d-city.html",
+  "bytes": 251212
+ },
+ {
+  "name": "d-meta",
+  "ok": true,
+  "file": "d-meta.html",
+  "bytes": 517042
+ },
+ {
+  "name": "d-pnp",
+  "ok": true,
+  "file": "d-pnp.html",
+  "bytes": 61594
+ }
+]

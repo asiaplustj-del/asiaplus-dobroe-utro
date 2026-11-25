@@ -1,0 +1,38 @@
+[
+ {
+  "name": "c-aif",
+  "ok": true,
+  "file": "c-aif.html",
+  "bytes": 156753
+ },
+ {
+  "name": "c-ritm",
+  "ok": true,
+  "file": "c-ritm.html",
+  "bytes": 68718
+ },
+ {
+  "name": "c-sbs",
+  "ok": true,
+  "file": "c-sbs.html",
+  "bytes": 83754
+ },
+ {
+  "name": "c-reuters",
+  "ok": true,
+  "file": "c-reuters.html",
+  "bytes": 99287
+ },
+ {
+  "name": "c-trend",
+  "ok": true,
+  "file": "c-trend.html",
+  "bytes": 162610
+ },
+ {
+  "name": "c-usnews",
+  "ok": false,
+  "url": "https://www.usnews.com/news/world",
+  "error": "The read operation timed out"
+ }
+]
