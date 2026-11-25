@@ -1,0 +1,8 @@
+page d-vedom https://vedomosti.ru/society/news/2026/11/24/1414840-vidvorennih-migrantov
+page d-izbrak https://iz.ru/2207135/2026-11-24/v-rossii-2-tys-migrantov-lishilis-dokumentov-iz-za-fiktivnykh-brakov
+page d-interfax https://www.interfax.ru/russia/1105678
+page d-izfns https://iz.ru/2207744/2026-11-24/gosduma-razreshila-tcb-peredavat-v-fns-dannye-o-perevodakh-grazhdan
+page d-real https://www.championat.com/football/news-6712884-real-madrid-psv-rezultat-matcha-24-noyabrya-2026-schyot-5-1-5-j-tur-obschego-etapa-ligi-chempionov-uefa.html
+page d-city https://www.championat.com/football/news-6712896-manchester-siti-napoli-rezultat-matcha-24-noyabrya-2026-schyot-2-2-5-j-tur-obschego-etapa-ligi-chempionov-uefa.html
+page d-meta https://metaratings.ru/news/kak-sygrali-v-lige-chempionov-itogi-za-24-noyabrya-2026-goda-rezultaty-matchei-674325/
+page d-pnp https://www.pnp.ru/economics/v-ramkakh-operacii-nelegal-iz-rf-vydvorili-bolee-34-tysyach-inostrancev.html
