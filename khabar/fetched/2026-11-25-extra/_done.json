@@ -1,0 +1,68 @@
+[
+ {
+  "name": "home-ap",
+  "ok": true,
+  "file": "home-ap.html",
+  "bytes": 244982
+ },
+ {
+  "name": "home-aptg",
+  "ok": true,
+  "file": "home-aptg.html",
+  "bytes": 235713
+ },
+ {
+  "name": "home-khovar",
+  "ok": true,
+  "file": "home-khovar.html",
+  "bytes": 191040
+ },
+ {
+  "name": "home-avesta",
+  "ok": true,
+  "file": "home-avesta.html",
+  "bytes": 357075
+ },
+ {
+  "name": "home-sputnik",
+  "ok": true,
+  "file": "home-sputnik.html",
+  "bytes": 147837
+ },
+ {
+  "name": "a-ozdig",
+  "ok": true,
+  "file": "a-ozdig.html",
+  "bytes": 174820
+ },
+ {
+  "name": "a-iran",
+  "ok": true,
+  "file": "a-iran.html",
+  "bytes": 93966
+ },
+ {
+  "name": "a-flag500",
+  "ok": true,
+  "file": "a-flag500.html",
+  "bytes": 95413
+ },
+ {
+  "name": "a-taxioz",
+  "ok": true,
+  "file": "a-taxioz.html",
+  "bytes": 103986
+ },
+ {
+  "name": "a-eadaily",
+  "ok": true,
+  "file": "a-eadaily.html",
+  "bytes": 72120
+ },
+ {
+  "name": "a-euronews",
+  "ok": true,
+  "file": "a-euronews.html",
+  "bytes": 331081
+ }
+]
