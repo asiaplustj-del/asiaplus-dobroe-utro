@@ -1,0 +1,10 @@
+page b-vyhlop https://asiaplus.news/2026/11/24/vyhlopy-i-pyl-kak-avtomobili-zagryaznyayut-tadzhikistan/
+page b-deti https://asiaplus.news/2026/11/24/v-tadzhikistane-sozdadut-czifrovuyu-sistemu-dlya-sbora-dannyh-o-nasilii-nad-detmi/
+page b-korea https://asiaplus.news/2026/11/24/tadzhikistan-i-yuzhnaya-koreya-podpisali-memorandum-o-sotrudnichestve-v-borbe-s-ugrozami-primeneniya-oruzhiya-massovo
+page b-u17 https://asiaplus.news/2026/11/24/tadzhikistan-krupno-proigral-horvatii-na-yunosheskom-chm-2026-teper-vsyo-reshit-match-s-senegalom/
+page b-tabarov https://khovar.tj/2026/11/be-r-z-tabarov-dar-ozmuni-be-tarin-om-zgori-maktab-oi-olii-sha-ri-habarovsk-dar-soli-2026-oji-yakumro-so-ib-gardid/
+page b-ekspert https://khovar.tj/2026/11/dar-to-ikiston-tartibi-guzaronidani-ekspertizai-zidditabiz-abul-gardid/
+page b-bokhtar https://asiaplus.news/2026/11/24/v-bohtare-budut-gotovit-analitikov-dannyh-dlya-energetiki/
+page b-ozodi-home https://www.ozodi.org/
+page b-sputru-home https://tj.sputniknews.ru/
+page b-avesta-tj https://avesta.tj/2026/11/24/tadzhikistan-uvedomil-oon-o-vyhode-iz-mezhdunarodnogo-ugolovnogo-suda/
