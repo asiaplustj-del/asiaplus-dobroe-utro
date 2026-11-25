@@ -1,0 +1,11 @@
+page home-ap https://asiaplus.news/
+page home-aptg https://asiaplus.news/tg/
+page home-khovar https://khovar.tj/
+page home-avesta https://avesta.tj/
+page home-sputnik https://sputnik.tj/
+page a-ozdig https://www.ozodi.org/a/pulsitoni-az-ronandagon-man-meshavad-margi-700-hazor-sarbozi-rus-akhbori-ozodi-24-noyabri-2026/33904907.html
+page a-iran https://www.ozodi.org/a/parasturo-dar-eron-74-shalloq-zadand/33904874.html
+page a-flag500 https://khovar.tj/2026/11/ajati-donishkadai-k-iyu-metallurgii-to-ikiston-bo-parchami-davlatii-500-metra-dar-ro-pajmoii-idona-ishtirok-namudand/
+page a-taxioz https://www.ozodi.org/a/digar-az-ronandagoni-taksi-dar-dushanbe-100-somoni-namegirand/33904320.html
+page a-eadaily https://eadaily.com/ru/news/2026/11/24/mezhdunarodnyy-ugolovnyy-sud-teper-tadzhikistanu-ne-ukaz
+page a-euronews https://www.euronews.com/video/2026/11/24/latest-news-bulletin-november-24th-2026-evening
