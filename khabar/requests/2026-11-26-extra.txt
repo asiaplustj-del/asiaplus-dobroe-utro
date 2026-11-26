@@ -1,0 +1,14 @@
+page a1 https://tj.sputniknews.ru/20261126/stoimost-patent-migranty-2027-1082567401.html
+og n1 https://tj.sputniknews.ru/20261126/stoimost-patent-migranty-2027-1082567401.html
+img n2 https://cdn4.telesco.pe/file/GAK5nCeIZ-GGpqONsOLbDSz3IOws04regw0SKEZPUKU2WOGkASEyYVAUDNGwnieWwwuONmA5yajZqs6OdsDr2_55u1fUPp3q3DpHBVauWEpNpJvfp6PUrOa7FZpTeiNF4haLNT1MQtioO60BT-7o1ntopca2OeswurKTrXQ3gLQLqr2QqkkUGA97JSkxuReVh8PgchC3LOWpVlppRrRnfI7Pd__2a6oKMqqJ-GVLpsv9mXFzcm5uBG_CDje4A3EmTjo3IvuI9XLH_jIOHF4dPFAfidcEyOAoBkL8FTzNJqn1HZicTfy-BfPaeTjhMbKZe67wtECD3UL4kLN-HFTxHw.jpg
+page a5 https://khovar.tj/2026/11/dar-hu-and-ro-oi-ma-alla-oi-navbunyod-mumfarsh-va-hiyobon-oi-asos-vase-karda-meshavand/
+og n5 https://khovar.tj/2026/11/dar-hu-and-ro-oi-ma-alla-oi-navbunyod-mumfarsh-va-hiyobon-oi-asos-vase-karda-meshavand/
+page a6 https://www.ozodi.org/a/bozdoshti-duborai-abdusalom-azizov/33905754.html
+og n6 https://www.ozodi.org/a/bozdoshti-duborai-abdusalom-azizov/33905754.html
+page a7 https://sputnik.tj/20261125/khatlon-obod-meshavad-700-hazor-nihol-inshoot-nav-1082574890.html
+og n7 https://sputnik.tj/20261125/khatlon-obod-meshavad-700-hazor-nihol-inshoot-nav-1082574890.html
+page a8 https://www.ozodi.org/a/ikhroji-30-000-muhojir-dar-20-ruz-jam-omadi-mushtariyoni-firebkhurda-dar-nazdi-bonk-akhbori-ozodi-25-noyabri-2026/33905685.html
+page a9 https://sputnik.tj/20261125/putin-kiev-hamlaho-korkhona-korkard-naft-1082562156.html
+og n9 https://sputnik.tj/20261125/putin-kiev-hamlaho-korkhona-korkard-naft-1082562156.html
+page t3 https://t.me/asiaplustj/55970?embed=1
+page t4 https://t.me/asiaplustj/55971?embed=1
