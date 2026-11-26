@@ -1,0 +1,92 @@
+[
+ {
+  "name": "a1",
+  "ok": true,
+  "file": "a1.html",
+  "bytes": 125716
+ },
+ {
+  "name": "n1",
+  "ok": true,
+  "file": "n1.jpg",
+  "src": "https://cdnn1.img.sputnik.tj/img/07e5/01/0e/1032621140_0:348:3022:2048_2072x0_60_0_0_e34ddd8d02970d44c354e06c29dc7170.jpg",
+  "bytes": 385599
+ },
+ {
+  "name": "n2",
+  "ok": true,
+  "file": "n2.jpg",
+  "src": "https://cdn4.telesco.pe/file/GAK5nCeIZ-GGpqONsOLbDSz3IOws04regw0SKEZPUKU2WOGkASEyYVAUDNGwnieWwwuONmA5yajZqs6OdsDr2_55u1fUPp3q3DpHBVauWEpNpJvfp6PUrOa7FZpTeiNF4haLNT1MQtioO60BT-7o1ntopca2OeswurKTrXQ3gLQLqr2QqkkUGA97JSkxuReVh8PgchC3LOWpVlppRrRnfI7Pd__2a6oKMqqJ-GVLpsv9mXFzcm5uBG_CDje4A3EmTjo3IvuI9XLH_jIOHF4dPFAfidcEyOAoBkL8FTzNJqn1HZicTfy-BfPaeTjhMbKZe67wtECD3UL4kLN-HFTxHw.jpg",
+  "bytes": 92015
+ },
+ {
+  "name": "a5",
+  "ok": true,
+  "file": "a5.html",
+  "bytes": 96165
+ },
+ {
+  "name": "n5",
+  "ok": true,
+  "file": "n5.jpg",
+  "src": "https://khovar.tj/wp-content/uploads/2026/11/tamiri-roh-dar-Huchand.jpg",
+  "bytes": 51344
+ },
+ {
+  "name": "a6",
+  "ok": true,
+  "file": "a6.html",
+  "bytes": 241250
+ },
+ {
+  "name": "n6",
+  "ok": true,
+  "file": "n6.jpg",
+  "src": "https://gdb.rferl.org/274F75CB-EF5E-49F1-8DF6-18D89EF747A3.jpg",
+  "bytes": 146865
+ },
+ {
+  "name": "a7",
+  "ok": true,
+  "file": "a7.html",
+  "bytes": 86237
+ },
+ {
+  "name": "n7",
+  "ok": true,
+  "file": "n7.jpg",
+  "src": "https://cdnn1.img.sputnik.tj/img/07ea/06/12/1078395901_0:13:3015:1709_2072x0_60_0_0_bbf3b82109a0d060ee240165c034c508.jpg",
+  "bytes": 97708
+ },
+ {
+  "name": "a8",
+  "ok": true,
+  "file": "a8.html",
+  "bytes": 77477
+ },
+ {
+  "name": "a9",
+  "ok": true,
+  "file": "a9.html",
+  "bytes": 91519
+ },
+ {
+  "name": "n9",
+  "ok": true,
+  "file": "n9.jpg",
+  "src": "https://cdnn1.img.sputnik.tj/img/07ea/0b/19/1082563415_0:111:3129:1871_2072x0_60_0_0_91509e1a54ae7e9e85e70a50fd80577b.jpg",
+  "bytes": 112404
+ },
+ {
+  "name": "t3",
+  "ok": true,
+  "file": "t3.html",
+  "bytes": 16828
+ },
+ {
+  "name": "t4",
+  "ok": true,
+  "file": "t4.html",
+  "bytes": 18257
+ }
+]
