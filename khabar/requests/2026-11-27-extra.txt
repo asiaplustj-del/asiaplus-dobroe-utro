@@ -1,0 +1,14 @@
+page a1 https://asiaplus.news/tg/2026/11/26/az-10-to-15-darsad-ba-joji-100-somonii-hatmy-tafsiloti-purrai-tartibi-navi-kor-baroi-kirokashhoi-dushanbe/
+page a2 https://asiaplus.news/tg/2026/11/26/dar-chand-mintaqai-rusiya-patent-qimat-meshavad-dar-kujo-chy-qadar-garon-meshavad/
+page a3 https://sputnik.tj/20261126/rusiya-ukraina-jasad-sarbozon-kushtashuda-mubodila-1082605804.html
+page a4 https://sputnik.tj/20261126/rusiya-tojikiston-rushd-sanoat-metall-nodir-manfiatdorand-1082607894.html
+page a5 https://smarturl.click/L65wxA
+page a6 https://www.sports.kz/news/tadjikistan-vyishel-v-pley-off-yunosheskogo-chm-2026-po-futbolu
+page a7 https://t.me/radioozodi/16626?embed=1
+og n2 https://asiaplus.news/tg/2026/11/26/az-10-to-15-darsad-ba-joji-100-somonii-hatmy-tafsiloti-purrai-tartibi-navi-kor-baroi-kirokashhoi-dushanbe/
+og n3 https://asiaplus.news/tg/2026/11/26/dar-chand-mintaqai-rusiya-patent-qimat-meshavad-dar-kujo-chy-qadar-garon-meshavad/
+og n4 https://sputnik.tj/20261126/rusiya-ukraina-jasad-sarbozon-kushtashuda-mubodila-1082605804.html
+og n5 https://sputnik.tj/20261126/rusiya-tojikiston-rushd-sanoat-metall-nodir-manfiatdorand-1082607894.html
+og n6 https://smarturl.click/L65wxA
+img n1 https://www.sports.kz/upload/2026-11/6b087725b20f9.jpg
+img n1b https://www.sports.kz/upload/2026-11/500_6b087725b20f9.jpg
