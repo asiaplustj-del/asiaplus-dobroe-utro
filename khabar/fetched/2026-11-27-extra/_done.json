@@ -1,0 +1,93 @@
+[
+ {
+  "name": "a1",
+  "ok": true,
+  "file": "a1.html",
+  "bytes": 225723
+ },
+ {
+  "name": "a2",
+  "ok": true,
+  "file": "a2.html",
+  "bytes": 244353
+ },
+ {
+  "name": "a3",
+  "ok": true,
+  "file": "a3.html",
+  "bytes": 102582
+ },
+ {
+  "name": "a4",
+  "ok": true,
+  "file": "a4.html",
+  "bytes": 95943
+ },
+ {
+  "name": "a5",
+  "ok": true,
+  "file": "a5.html",
+  "bytes": 89427
+ },
+ {
+  "name": "a6",
+  "ok": true,
+  "file": "a6.html",
+  "bytes": 354616
+ },
+ {
+  "name": "a7",
+  "ok": true,
+  "file": "a7.html",
+  "bytes": 16528
+ },
+ {
+  "name": "n2",
+  "ok": true,
+  "file": "n2.jpg",
+  "src": "https://asiaplus.news/wp-content/uploads/2026/07/dzhura-taksi.jpg",
+  "bytes": 166992
+ },
+ {
+  "name": "n3",
+  "ok": true,
+  "file": "n3.jpg",
+  "src": "https://asiaplus.news/wp-content/uploads/2026/11/photo_2026-11-25_16-35-12.jpg",
+  "bytes": 64889
+ },
+ {
+  "name": "n4",
+  "ok": true,
+  "file": "n4.jpg",
+  "src": "https://cdnn1.img.sputnik.tj/img/07ea/05/14/1077678855_0:50:1149:696_2072x0_60_0_0_689bff9952ae6de8893fb77e70d94c9a.jpg",
+  "bytes": 130307
+ },
+ {
+  "name": "n5",
+  "ok": true,
+  "file": "n5.jpg",
+  "src": "https://cdnn1.img.sputnik.tj/img/07ea/0b/1a/1082603177_0:0:3474:1954_2072x0_60_0_0_0a831be5c6a0129bf6bd8f08b9afc573.jpg",
+  "bytes": 321552
+ },
+ {
+  "name": "n6",
+  "ok": true,
+  "file": "n6.jpg",
+  "src": "https://gdb.rferl.org/21EC65B7-405C-4A9F-BC07-13A54E557B84.jpg",
+  "bytes": 136137
+ },
+ {
+  "name": "n1",
+  "ok": true,
+  "file": "n1.jpg",
+  "src": "https://www.sports.kz/upload/2026-11/6b087725b20f9.jpg",
+  "bytes": 110775
+ },
+ {
+  "name": "n1b",
+  "ok": true,
+  "file": "n1b.jpg",
+  "src": "https://www.sports.kz/upload/2026-11/500_6b087725b20f9.jpg",
+  "bytes": 110775
+ }
+]
