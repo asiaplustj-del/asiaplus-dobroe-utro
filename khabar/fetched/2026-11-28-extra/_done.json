@@ -1,0 +1,86 @@
+[
+ {
+  "name": "a1",
+  "ok": true,
+  "file": "a1.html",
+  "bytes": 230511
+ },
+ {
+  "name": "a2",
+  "ok": true,
+  "file": "a2.html",
+  "bytes": 91165
+ },
+ {
+  "name": "a3",
+  "ok": true,
+  "file": "a3.html",
+  "bytes": 106063
+ },
+ {
+  "name": "m-sputniktj",
+  "ok": true,
+  "file": "m-sputniktj.html",
+  "bytes": 143190
+ },
+ {
+  "name": "m-sputnikru",
+  "ok": true,
+  "file": "m-sputnikru.html",
+  "bytes": 153031
+ },
+ {
+  "name": "m-avesta",
+  "ok": true,
+  "file": "m-avesta.html",
+  "bytes": 360735
+ },
+ {
+  "name": "m-khovar",
+  "ok": true,
+  "file": "m-khovar.html",
+  "bytes": 219103
+ },
+ {
+  "name": "m-pressa",
+  "ok": false,
+  "url": "https://pressa.tj/ru/",
+  "error": "HTTP Error 403: Forbidden"
+ },
+ {
+  "name": "m-camedia",
+  "ok": true,
+  "file": "m-camedia.html",
+  "bytes": 79561
+ },
+ {
+  "name": "m-asiaplus",
+  "ok": true,
+  "file": "m-asiaplus.html",
+  "bytes": 245096
+ },
+ {
+  "name": "m-trend",
+  "ok": true,
+  "file": "m-trend.html",
+  "bytes": 165711
+ },
+ {
+  "name": "m-informkz",
+  "ok": true,
+  "file": "m-informkz.html",
+  "bytes": 145172
+ },
+ {
+  "name": "tg-khovar",
+  "ok": true,
+  "file": "tg-khovar.html",
+  "bytes": 26873
+ },
+ {
+  "name": "tg-ozodi2",
+  "ok": true,
+  "file": "tg-ozodi2.html",
+  "bytes": 21679
+ }
+]
