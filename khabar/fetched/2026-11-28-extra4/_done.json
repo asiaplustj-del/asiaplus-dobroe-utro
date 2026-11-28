@@ -1,0 +1,47 @@
+[
+ {
+  "name": "c1",
+  "ok": true,
+  "file": "c1.html",
+  "bytes": 125277
+ },
+ {
+  "name": "c2",
+  "ok": true,
+  "file": "c2.html",
+  "bytes": 328973
+ },
+ {
+  "name": "c3",
+  "ok": true,
+  "file": "c3.html",
+  "bytes": 92356
+ },
+ {
+  "name": "c4",
+  "ok": false,
+  "url": "https://sport.ua/news/928812-chempionat-mira-u-17-zavershen-gruppovoy-raund-opredeleny-pary-pley-off",
+  "error": "HTTP Error 403: Forbidden"
+ },
+ {
+  "name": "p1",
+  "ok": true,
+  "file": "p1.jpg",
+  "src": "https://cdnstatic.rg.ru/uploads/images/2026/11/27/ria_8613875hr_f30.jpg",
+  "bytes": 321283
+ },
+ {
+  "name": "p2",
+  "ok": true,
+  "file": "p2.jpg",
+  "src": "https://images.news.ru/2026/11/24/UwYi1F58ChPLFbsBEC07FS9KtVzt6JgIzVquF6Xo_1200.jpeg",
+  "bytes": 127027
+ },
+ {
+  "name": "p3",
+  "ok": true,
+  "file": "p3.jpg",
+  "src": "https://24kgr2.bemint.pro/assets/1781256245925-89f733d0-d61e-4e35-8a6f-7f7ffd86c6c3-migranty-6jpg-optimized.webp",
+  "bytes": 113848
+ }
+]
