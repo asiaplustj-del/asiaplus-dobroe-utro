@@ -1,0 +1,98 @@
+[
+ {
+  "name": "t27",
+  "ok": true,
+  "file": "t27.html",
+  "bytes": 18253
+ },
+ {
+  "name": "t28",
+  "ok": true,
+  "file": "t28.html",
+  "bytes": 19006
+ },
+ {
+  "name": "t40",
+  "ok": true,
+  "file": "t40.html",
+  "bytes": 18797
+ },
+ {
+  "name": "t41",
+  "ok": true,
+  "file": "t41.html",
+  "bytes": 21116
+ },
+ {
+  "name": "t44",
+  "ok": true,
+  "file": "t44.html",
+  "bytes": 22951
+ },
+ {
+  "name": "t47",
+  "ok": true,
+  "file": "t47.html",
+  "bytes": 17481
+ },
+ {
+  "name": "t48",
+  "ok": true,
+  "file": "t48.html",
+  "bytes": 18643
+ },
+ {
+  "name": "t56",
+  "ok": true,
+  "file": "t56.html",
+  "bytes": 24808
+ },
+ {
+  "name": "n1",
+  "ok": true,
+  "file": "n1.png",
+  "src": "https://asiaplus.news/wp-content/uploads/2026/11/photo-horizontal.png",
+  "bytes": 1901789
+ },
+ {
+  "name": "n1b",
+  "ok": true,
+  "file": "n1b.jpg",
+  "src": "https://asiaplus.news/wp-content/uploads/2026/11/kushtor-1.jpg",
+  "bytes": 184387
+ },
+ {
+  "name": "n2",
+  "ok": true,
+  "file": "n2.jpg",
+  "src": "https://asiaplus.news/wp-content/uploads/2026/11/photo_2026-11-27_14-29-38.jpg",
+  "bytes": 44806
+ },
+ {
+  "name": "n3",
+  "ok": true,
+  "file": "n3.jpg",
+  "src": "https://cdnn1.img.sputnik.tj/img/07ea/0b/11/1082256957_0:74:1422:874_2072x0_60_0_0_f94d2fe24f4e8a61cf0b9593cec3d217.jpg",
+  "bytes": 158526
+ },
+ {
+  "name": "n4",
+  "ok": true,
+  "file": "n4.jpg",
+  "src": "https://cdnn1.img.sputnik.tj/img/07ea/02/0a/1075175359_0:151:2747:1696_2072x0_60_0_0_c8af478710086b9a5e944d2f59ebf464.jpg",
+  "bytes": 188040
+ },
+ {
+  "name": "n4b",
+  "ok": true,
+  "file": "n4b.jpg",
+  "src": "https://avesta.tj/wp-content/uploads/2026/11/927475278_1802466018553664_6438497824532337435_n-e1795753078113.jpg",
+  "bytes": 214311
+ },
+ {
+  "name": "a4",
+  "ok": true,
+  "file": "a4.html",
+  "bytes": 92024
+ }
+]
