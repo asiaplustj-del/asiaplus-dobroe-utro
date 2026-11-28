@@ -1,0 +1,7 @@
+page b1 https://avesta.tj/2026/11/27/v-dvuh-dtp-v-tadzhikistane-pogibli-muzhchina-i-tryohletnyaya-devochka/
+page b2 https://avesta.tj/2026/11/27/tadzhikskij-dzyudoist-ismoilov-pobedil-lidera-rejtinga-v-shvatke-za-bronzu/
+page b3 https://avesta.tj/2026/11/27/snezhnogo-barsa-otlovlennogo-v-rushanskom-rajone-vernuli-v-dikuyu-prirodu/
+page b4 https://sputnik.tj/20261127/tojikiston-kort-pardokht-mekunad-ghayrinaqd-1082610091.html
+page b5 https://avesta.tj/2026/11/27/v-uzbekistane-predlozhili-vvesti-lichnuyu-ohranu-dlya-turistov-i-biznesa/
+page m-avesta2 https://avesta.tj/page/2/
+page m-informkz2 https://www.inform.kz/lenta/
