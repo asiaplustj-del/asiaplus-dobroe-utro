@@ -1,0 +1,8 @@
+page tass-rss https://tass.ru/rss/v2.xml
+page interfax-rss https://www.interfax.ru/rss.asp
+page bbcru-rss https://feeds.bbci.co.uk/russian/rss.xml
+page ria-rss https://ria.ru/export/rss2/archive/index.xml
+page kg24-rss https://24.kg/rss/
+page kunuz-rss https://kun.uz/ru/news/rss
+page champ-rss https://www.championat.com/rss/news/
+page bbcpersian-rss https://feeds.bbci.co.uk/persian/rss.xml
