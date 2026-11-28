@@ -1,0 +1,15 @@
+page t27 https://t.me/asiaplustj/56027?embed=1
+page t28 https://t.me/asiaplustj/56028?embed=1
+page t40 https://t.me/asiaplustj/56040?embed=1
+page t41 https://t.me/asiaplustj/56041?embed=1
+page t44 https://t.me/asiaplustj/56044?embed=1
+page t47 https://t.me/asiaplustj/56047?embed=1
+page t48 https://t.me/asiaplustj/56048?embed=1
+page t56 https://t.me/asiaplustj/56056?embed=1
+og n1 https://asiaplus.news/2026/11/27/konsulstvo-tadzhikistana-trebuet-obektivnogo-rassledovaniya-ubijstva-firuza-husainova-v-rossii/
+og n1b https://asiaplus.news/tg/2026/11/27/taftishoti-hamajoniba-va-voqebinonai-hodisaro-mehohem-yoddoshti-tojikiston-ba-maqomoti-rusiya-dar-robita-ba-kushtori-firuz-husajnov/
+og n2 https://asiaplus.news/tg/2026/11/27/qonuni-bujeti-davlaty-baroi-soli-2027-qabul-shud-baroi-kadom-soha-chy-qadar-mablagh-judo-shudaast/
+og n3 https://tj.sputniknews.ru/20261127/tajikistan-gosdolg-2027-god-1082594446.html
+og n4 https://sputnik.tj/20261127/bozgardoni-kudakoni-tojik-tojikiston-rusia-1082628646.html
+og n4b https://avesta.tj/2026/11/27/shesteryh-detej-ostavshihsya-v-rossii-bez-popecheniya-roditelej-vernuli-v-tadzhikistan/
+page a4 https://sputnik.tj/20261127/bozgardoni-kudakoni-tojik-tojikiston-rusia-1082628646.html
