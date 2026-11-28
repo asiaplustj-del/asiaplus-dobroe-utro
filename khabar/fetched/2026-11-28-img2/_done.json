@@ -1,0 +1,35 @@
+[
+ {
+  "name": "h1",
+  "ok": true,
+  "file": "h1.jpg",
+  "src": "https://24.kz/media/k2/items/cache/a086710c5c2bd27a97806adc30f140cb_XL.jpg?t=20260902_020734",
+  "bytes": 304631
+ },
+ {
+  "name": "h2",
+  "ok": true,
+  "file": "h2.jpg",
+  "src": "https://expert.ru/storage/2026/09/02/7b4aa7b945af7d77abb43f46528644b33b348d41.jpg",
+  "bytes": 769320
+ },
+ {
+  "name": "h3",
+  "ok": true,
+  "file": "h3.jpg",
+  "src": "https://cdn.profile.ru/wp-content/uploads/2026/01/zaglushka.jpg",
+  "bytes": 106266
+ },
+ {
+  "name": "h4",
+  "ok": true,
+  "file": "h4.html",
+  "bytes": 157484
+ },
+ {
+  "name": "k1",
+  "ok": false,
+  "url": "https://www.ozodi.org/a/33906000.html",
+  "error": "HTTP Error 404: Not Found"
+ }
+]
