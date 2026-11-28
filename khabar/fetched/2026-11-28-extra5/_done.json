@@ -1,0 +1,50 @@
+[
+ {
+  "name": "tass-rss",
+  "ok": true,
+  "file": "tass-rss.html",
+  "bytes": 66493
+ },
+ {
+  "name": "interfax-rss",
+  "ok": true,
+  "file": "interfax-rss.html",
+  "bytes": 21856
+ },
+ {
+  "name": "bbcru-rss",
+  "ok": true,
+  "file": "bbcru-rss.html",
+  "bytes": 40985
+ },
+ {
+  "name": "ria-rss",
+  "ok": true,
+  "file": "ria-rss.html",
+  "bytes": 65557
+ },
+ {
+  "name": "kg24-rss",
+  "ok": true,
+  "file": "kg24-rss.html",
+  "bytes": 45957
+ },
+ {
+  "name": "kunuz-rss",
+  "ok": true,
+  "file": "kunuz-rss.html",
+  "bytes": 16547
+ },
+ {
+  "name": "champ-rss",
+  "ok": true,
+  "file": "champ-rss.html",
+  "bytes": 71878
+ },
+ {
+  "name": "bbcpersian-rss",
+  "ok": true,
+  "file": "bbcpersian-rss.html",
+  "bytes": 33195
+ }
+]
