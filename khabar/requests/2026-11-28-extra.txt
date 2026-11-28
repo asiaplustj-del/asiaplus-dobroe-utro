@@ -1,0 +1,14 @@
+page a1 https://asiaplus.news/tg/2026/11/27/qonuni-bujeti-davlaty-baroi-soli-2027-qabul-shud-baroi-kadom-soha-chy-qadar-mablagh-judo-shudaast/
+page a2 https://tj.sputniknews.ru/20261127/tajikistan-gosdolg-2027-god-1082594446.html
+page a3 https://tj.sputniknews.ru/20261127/europa-dialog-russia-1082643489.html
+page m-sputniktj https://sputnik.tj/
+page m-sputnikru https://tj.sputniknews.ru/
+page m-avesta https://avesta.tj/
+page m-khovar https://khovar.tj/rus/
+page m-pressa https://pressa.tj/ru/
+page m-camedia https://centralasia.media/
+page m-asiaplus https://asiaplus.news/
+page m-trend https://www.trend.az/casia/tajikistan/
+page m-informkz https://www.inform.kz/tag/tadzhikistan_t1448
+page tg-khovar https://t.me/s/khovar_tj
+page tg-ozodi2 https://t.me/s/ozoditj
