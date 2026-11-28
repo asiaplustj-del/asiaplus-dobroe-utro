@@ -1,0 +1,44 @@
+[
+ {
+  "name": "b1",
+  "ok": true,
+  "file": "b1.html",
+  "bytes": 297574
+ },
+ {
+  "name": "b2",
+  "ok": true,
+  "file": "b2.html",
+  "bytes": 296819
+ },
+ {
+  "name": "b3",
+  "ok": true,
+  "file": "b3.html",
+  "bytes": 330758
+ },
+ {
+  "name": "b4",
+  "ok": true,
+  "file": "b4.html",
+  "bytes": 94012
+ },
+ {
+  "name": "b5",
+  "ok": true,
+  "file": "b5.html",
+  "bytes": 309930
+ },
+ {
+  "name": "m-avesta2",
+  "ok": true,
+  "file": "m-avesta2.html",
+  "bytes": 360633
+ },
+ {
+  "name": "m-informkz2",
+  "ok": true,
+  "file": "m-informkz2.html",
+  "bytes": 159025
+ }
+]
