@@ -1,0 +1,7 @@
+page c1 https://rg.ru/2026/11/27/mvd-podvelo-itogi-operacii-nelegal-2026-po-protivodejstviiu-nezakonnoj-migracii.html
+page c2 https://24.kg/article/v-2026-godu-iz-rossii-deportirovali-i-vydvorili-bolee-34-tysyach-migrantov
+page c3 https://news.ru/vlast/mvd-raskrylo-masshtaby-deportacij-po-itogam-operacii-nelegal
+page c4 https://sport.ua/news/928812-chempionat-mira-u-17-zavershen-gruppovoy-raund-opredeleny-pary-pley-off
+og p1 https://rg.ru/2026/11/27/mvd-podvelo-itogi-operacii-nelegal-2026-po-protivodejstviiu-nezakonnoj-migracii.html
+og p2 https://news.ru/vlast/mvd-raskrylo-masshtaby-deportacij-po-itogam-operacii-nelegal
+og p3 https://24.kg/article/v-2026-godu-iz-rossii-deportirovali-i-vydvorili-bolee-34-tysyach-migrantov
