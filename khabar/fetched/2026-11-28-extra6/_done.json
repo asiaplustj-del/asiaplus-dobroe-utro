@@ -1,0 +1,74 @@
+[
+ {
+  "name": "d1",
+  "ok": true,
+  "file": "d1.html",
+  "bytes": 62333
+ },
+ {
+  "name": "d2",
+  "ok": true,
+  "file": "d2.html",
+  "bytes": 60620
+ },
+ {
+  "name": "d3",
+  "ok": true,
+  "file": "d3.html",
+  "bytes": 174359
+ },
+ {
+  "name": "d4",
+  "ok": true,
+  "file": "d4.html",
+  "bytes": 250738
+ },
+ {
+  "name": "d5",
+  "ok": true,
+  "file": "d5.html",
+  "bytes": 330214
+ },
+ {
+  "name": "n5",
+  "ok": true,
+  "file": "n5.jpg",
+  "src": "https://cdnn21.imgria.ru/images/sharing/article/2134554809.jpg?21292980121795817057",
+  "bytes": 137912
+ },
+ {
+  "name": "n5b",
+  "ok": true,
+  "file": "n5b.jpg",
+  "src": "https://www.interfax.ru/aspimg/1131971.jpg",
+  "bytes": 30276
+ },
+ {
+  "name": "n5c",
+  "ok": true,
+  "file": "n5c.jpg",
+  "src": "https://www.interfax.ru/aspimg/1131957.jpg",
+  "bytes": 31886
+ },
+ {
+  "name": "n6",
+  "ok": true,
+  "file": "n6.jpg",
+  "src": "https://img.championat.com/news/big/x/q/chelsi-proigral-nottingem-forest-v-13-m-ture-apl-gibbs-uajt-oformil-dubl_1795815835607222777.jpg",
+  "bytes": 185421
+ },
+ {
+  "name": "n6b",
+  "ok": true,
+  "file": "n6b.jpg",
+  "src": "https://img.championat.com/s/1200x630/news/big/x/q/chelsi-proigral-nottingem-forest-v-13-m-ture-apl-gibbs-uajt-oformil-dubl_1795815835607222777.jpg",
+  "bytes": 247226
+ },
+ {
+  "name": "n7",
+  "ok": true,
+  "file": "n7.webp",
+  "src": "https://24kgr2.bemint.pro/assets/1795779682141-13ae1af7-5dfd-4de8-b4be-113d90f0ea57-images-1jpg-optimized.webp",
+  "bytes": 67954
+ }
+]
